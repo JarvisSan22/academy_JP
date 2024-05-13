@@ -1,116 +1,89 @@
 ---
-id: extrusionpro
-title: Extrusion Pro Specifications
-sidebar_label: - Overview
+id: extrusionpro 
+title: Extrusion Pro Specifications 
+sidebar_label: - Overview 
 ---
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
+</style> 
 
+![Extruder Pro](assets/build/extruderpro.jpg) 
 
+# 📓エクストルージョン・プロ情報 
 
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
-</style>
+| Specification    |     | 
+|----------|-------------| 
+| 📓 Type   |     Single Screw   | 
+| 💎 Version   |     1.0   | 
+| 💰 Price new material in NL |  +/- €2000 | 
+| ⚖️ Weight (inc frame) |   110 kg   | 
+| 📦 Dimension   | 1500 x 600 x 1550 mm| 
+| ⚙️ Power (W) | 5 kW| 
+| 🔌 Voltage | 400V| 
+| ⚡️ AMP | 16A| 
+| ♻️ Input Flake Size  | Small  | 
+| 🔩 Screw diameter | 30mm| 
+| 🔩 Length of screw (mm) | 790 mm | 
+| 🔩 Effective screw length | 600 mm | 
+| 🔩 Rated Motor Power | 3 kW | 
+| ⚙️ Motor Type   |    (check the build section for more details)   | 
+| - Rated Motor output Torque |  109 Nm | 
+| - Rated Motor output speed |   263 RPM   | 
+| - Max. Motor and Inverter power   | 3 kW| 
+| - Recommended motor shaft   | 30 mm| 
+| - Heating zones   | 3 | 
+| - Heating power: max.   | 2 kW| 
 
-![Extruder Pro](assets/build/extruderpro.jpg)
+# 3Dモデル 
+<iframe width="500" height="600" src="https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&name=Extruder+Pro+v1&model_id=96617&portal=b2b&noAutoload=true&autoRotate=false&hideMenu=true&topColor=%23FFFFFF&bottomColor=%23ffffff&cameraParams=false&varsettransfer=" frameborder="0" id="EmbeddedView-Iframe-96617" allowfullscreen></iframe> 
 
-# 📓 Extrusion Pro information
-| Specification    |     |
-|----------|-------------|
-| 📓 Type   |     Single Screw   |
-| 💎 Version   |     1.0   |
-| 💰 Price new material in NL |  +/- €2000 |
-| ⚖️ Weight (inc frame) |   110 kg   |
-| 📦 Dimension   | 1500 x 600 x 1550 mm|
-| ⚙️ Power (W) | 5 kW|
-| 🔌 Voltage | 400V|
-| ⚡️ AMP | 16A|
-| ♻️ Input Flake Size  | Small  |
-| 🔩 Screw diameter | 30mm|
-| 🔩 Length of screw (mm) | 790 mm |
-| 🔩 Effective screw length | 600 mm |
-| 🔩 Rated Motor Power | 3 kW |
-| ⚙️ Motor Type   |    (check the build section for more details)   |
-| - Rated Motor output Torque |  109 Nm |
-| - Rated Motor output speed |   263 RPM   |
-| - Max. Motor and Inverter power   | 3 kW|
-| - Recommended motor shaft   | 30 mm|
-| - Heating zones   | 3 |
-| - Heating power: max.   | 2 kW|
+# 🌦 長所と短所 
+### プロ 
+押出機は、プレシャスプラスチックの中で最も速く、最も効率的にプラスチックを溶かすことができます。それは私たちのマシンの家族の中で安全で信頼性の高いマシンです！ 
+エクストルーダープロのスクリューは、複数の種類のプラスチックを扱うことができるように設計されています。そのため、小ロットでさまざまな種類のプラスチックを扱うことができます。また、この機械は、金型、形状、異なるノズルに押し出すことができるように、他の産業機械よりもはるかに多価であるように考案されています... 
+### 欠点 
+このマシンは、プレシャス・プラスチックのマシンの中でも高い加工技術が要求される。また、大型のモーターと専用のスクリューを必要とするため、他のプレシャス・プラスチックの機械に比べて比較的高価な機械となっている。 
+### ノーマル VS プロ 
+押し出し機の小型バージョンと比較して、このマシンは： 
+- スクリューが大きく、高出力が得られる 
+- 最適化されたスクリュー設計は、より良い品質のプラスチックのための均質な溶融をもたらします。 
+- 軸方向とラジアル方向の押し出し力を支える改良されたベアリング設計 
+- 日間フル稼働 
+- 組み立てと整備が容易 
+- 全体的に強化され、テストされたコンポーネント 
+- より安全で簡単な電子ボックス 
+- より大きな断熱ホッパーにより、流動性が向上。 
+# ♻️ 入出力 
+この押出機では、様々な種類のプラスチックが有効である。プラスチックの種類にはそれぞれ性質や挙動（柔軟、硬質、液体など）があります。溶融温度範囲が広い材料が最も扱いやすい。PP、HDPE、LDPE、PSは、温度精度がそれほど要求されないので、PP、HDPE、LDPE、PSから始めることをお勧めします。融解温度の幅が小さいポリマー（PETなど）を試すことはお勧めしませんが、もし試す場合は安全策を講じてください。 
+電子ボックス上のコントローラーで温度を設定できる。ヒーターエレメントは3つのグループ（ノズル、バレル、フィーディング）に分かれています。一般的な経験則として、下表の温度を使用することをお勧めします。  これは、プラスチックが出る直前に完全に溶けていることを確認するためです。 
+### ⚠️ モーターを始動する前に、押出機の温度が上がっていることを確認してください！ 
+<br> 
+| Plastic Type | Feeding Zone (C°) | Barrel Zone (C°) | Nozzle Zone (C°) | 
+|--------------|-------------------|------------------|------------------| 
+| PP           | 190               | 200              | 200              | 
+| PS           | 200               | 210              | 210              | 
+| HDPE         | 190               | 200              | 200              | 
+| LDPE         | 190               | 200              | 200              | 
 
-
-# 🌐 3D Model
-<iframe width="500" height="600" src="https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&name=Extruder+Pro+v1&model_id=96617&portal=b2b&noAutoload=true&autoRotate=false&hideMenu=true&topColor=%23FFFFFF&bottomColor=%23ffffff&cameraParams=false&varsettransfer=" frameborder="0" id="EmbeddedView-Iframe-96617" allowfullscreen></iframe>
-
-
-
-# 🌦 Pros & cons
-
-### Pros
-
-The extruder is one of the fastest and most efficient to melt plastic among Precious Plastic machines. It is a safe and reliable machine amongst our machine’s family!
-
-The Extruder Pro screw is designed to work with multiple types of plastics. Which  will make you capable of working with different kind of plastic in small batches. Also this machine is conceived to be much more polyvalent than other industrial machines, allowing you to extrude into moulds, shapes, different nozzles…
-
-### Cons
-
-This machine requires a higher skill set of machining amongst Precious Plastic machines. It also requires a large motor and a specialized screw that make it a relatively expensive machine compare to other Precious Plastic machines.
-
-### Normal VS Pro
-
-Compared to smaller version of extruder, this machine:
-- Has a larger screw which gives a higher output
-- Optimized screw design brings an homogeneous melt for a better quality plastic
-- An improved bearing design to support axial and radial extrusion forces
-- Is made to run for full days
-- Easier assembly and servicing
-- Overall stronger and tested components
-- A safer and easier to build electronic box
-- Has a larger insulated hopper allowing better fluidity
-
-
-
-# ♻️ Input & output
-
-A variety of plastic types will be effective in this extruder. Each plastic type has its own properties and behaviours (flexible, hard, liquid etc.). Materials with a wide melting temperature range are easiest to work with. We suggest starting with PP, HDPE, LDPE or PS since they require less temperature precision. We do not recommend trying polymers with smaller melting temperature windows (such as PET), but if you decide to do so, please take safety precautions.
-
-You can set the temperature using the controllers on the electronic box. The heating elements are labeled and wired into three groups (nozzle, barrel and feeding). We recommend to use the temperatures from the table below as a general rule of thumb.  This is to help make sure the plastic is fully melted right before it comes out.
-
-### ⚠️ Make sure the extruder is up to temperature before starting the motor!
-<br>
-| Plastic Type | Feeding Zone (C°) | Barrel Zone (C°) | Nozzle Zone (C°) |
-|--------------|-------------------|------------------|------------------|
-| PP           | 190               | 200              | 200              |
-| PS           | 200               | 210              | 210              |
-| HDPE         | 190               | 200              | 200              |
-| LDPE         | 190               | 200              | 200              |
-
-
-Some examples of extrusion times for some moulds:
-
-- Beam Mould (2000  mm x 40 mm x 40 mm): 8 Min
-- Little Lego Brick Mould: 4 Min
-- Big Lego Brick Mould: 6 Min
-- Skateboard Mould: 20 Min
-
-
-
-![Image](assets/build/extruderpro-output.jpg)
-
-
-# 🙌 Useful Links
-
-* [ Buy or sell parts & machines on our bazar](https://bazar.preciousplastic.com)
-* [ Find a local machine shop on our map](https://community.preciousplastic.com/map)
-* [ Visit our how-tos for upgrades and hacks](https://community.preciousplastic.com/how-to)
-* [How-to: make light beams](https://community.preciousplastic.com/how-to/make-a-lamp-with-beams)
-* [How-to: make a T profile](https://community.preciousplastic.com/how-to/make-a-tshape-beam-)
-* [Hack: Quick release nozzle](https://community.preciousplastic.com/how-to/make-a-quick-release-for-the-extrusion-machine)
-* [Hack: Flat nozzle ](https://community.preciousplastic.com/how-to/make-a-flat-nozzle-for-the-extrusion-machine)
-* [Documentation of screw](http://www.mie.uth.gr/ekp_yliko/_Chapter_5a.pdf)
-* [Documentation](http://www.polydynamics.com/Rheology.pdf)
-* [Documentation of hopper cones](http://craig-russell.co.uk/demos/cone_calculator/)
-* [Documentation](http://www.mvt.ovgu.de/mvt_media/Vorlesungen/Lecture_SFPS/Folien_SFPS_4-p-2002.pdf)
-
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+いくつかの金型の押出時間の例： 
+- ビーム金型（2000mm x 40mm x 40mm）：8分 
+- 小さなレゴブロック型4分 
+- 大きなレゴブロックの型6分 
+- スケートボード型：20分 
+![Image](assets/build/extruderpro-output.jpg) 
+# 🙌 役立つリンク 
+* [私たちのバザーで部品やマシンを購入または販売](https://bazar.preciousplastic.com) 
+* [地元の機械工場を地図で探す](https://community.preciousplastic.com/map) 
+* [アップグレードとハックのハウツー](https://community.preciousplastic.com/how-to) 
+* [ハウツー：ライトビームの作り方](https://community.preciousplastic.com/how-to/make-a-lamp-with-beams) 
+* [Tプロフィールの作り方](https://community.preciousplastic.com/how-to/make-a-tshape-beam-) 
+* [ハック：クイックリリースノズル](https://community.preciousplastic.com/how-to/make-a-quick-release-for-the-extrusion-machine) 
+* [ハック：フラットノズル](https://community.preciousplastic.com/how-to/make-a-flat-nozzle-for-the-extrusion-machine) 
+* [ねじのドキュメント](http://www.mie.uth.gr/ekp_yliko/_Chapter_5a.pdf) 
+* [ドキュメント](http://www.polydynamics.com/Rheology.pdf) 
+* [ホッパーコーンのドキュメント](http://craig-russell.co.uk/demos/cone_calculator/) 
+* [ドキュメント](http://www.mvt.ovgu.de/mvt_media/Vorlesungen/Lecture_SFPS/Folien_SFPS_4-p-2002.pdf) 
+**助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。ここでは機械についてオタクな話をします。 

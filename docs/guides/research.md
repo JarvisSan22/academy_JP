@@ -1,64 +1,41 @@
 ---
-id: research
-title: Research module Guide
-sidebar_label: Research
+id: research 
+title: Research module Guide 
+sidebar_label: Research 
 ---
+<img src="../assets/guides/research-intro.png"/></img> 
 
-<img src="../assets/guides/research-intro.png"/>
-
-# What is the research module?
-
-This module in the community platform is made for people to share their research. There are still many things to learn and figure out when working with recycled plastic. Instead of everyone making the same mistakes in their workspace we can learn from each other. It follows a process from A to Z with all the mistakes, failures and pivots in between. It’s messy, rough and uncertain of the output. The difference with our [how-tos](https://community.preciousplastic.com/how-to) is that in how to’s the final result is posted, the things that actually worked out. I’s shows you “how to” do something and research starts with a question,  “Can we..” figure this out?
-
-
-
-# Examples
-There aren’t many examples yet since we are just rolling out the feature. But we took a lot of inspiration from our old forums. This was the part we valued most about it. Figuring stuff out together. Here are a few examples of topics with good content to use as a reference.
-
-Can we...
-[[Wash plastic]](https://davehakkens.nl/community/forums/topic/washing-plastic-v4/)
-[[Find a solution for plastic film]](https://davehakkens.nl/community/forums/topic/find-a-solution-for-foil-waste-v4/)
-[[Sort plastic with robotics]](https://davehakkens.nl/community/forums/topic/sorting-plastic-with-robotics-v4/)
-[[Find the future of plastics]](https://davehakkens.nl/community/forums/topic/experiment-with-future-plastic-alternatives-v4/)
-[[Make single axe shredder]](https://davehakkens.nl/community/forums/topic/v4-shredder-development/)
-[[Extrude tubes and profiles]](https://davehakkens.nl/community/forums/topic/v4-extrusion-tubes-and-profiles/)
-
-> **Note:** This module is currently still in beta. If you have an interesting research let us know in Discord and we can give you access.
-
-# How it works
-
-### 1: 📝 Create research:
-Research topics start with a question: “can we…” do something with ocean plastic, make an extruder run on solar,  recycle facemask etc. The only thing you really need is a question and a commitment to figure it out. Go the the [Research page](https://community.preciousplastic.com/research) and press start research
-
-### 2: 📷 Share updates, chronologically
-Here the exciting part starts. Trying to find an answer and post your updates as you go. This is all very useful for the person after you that wants to dive into the topic. Generally real life test are the most interesting, but you could also share some literature, videos you’ve seen etc. Specially in the first posts when you are just learning about the topic.
-
-- Images are best in landscape
-- Quality doesn't need to be perfect, its about the content
-- Atm we only support Youtube as video embed
-
-
-### 3: 🐛 We keep an eye (beta)
-Like we mentioned this module is still in beta, you will find some bugs along the way and features missing. We will keep a close eye on it and make sure to share your feedback with us in [Discord in our #feedback channel](https://discordapp.com/invite/n5d8Vrr)
-
-### 4: 💫 The next steps.
-Once the module is ready we will release it. This means your research will be used as an example for others. So you are setting the bar :) Meanwhile we continue to improve, things like comments, useful, collaboration etc are planned for later.
-
-
-
-
-# Step by step guide
-
-| Step | Description|
-|-----------|---------|
-|![step1](assets/guides/research-example-1.jpg)| 1: Go the the [Research page](https://community.preciousplastic.com/research) page and click a research|
-| ![step2](assets/guides/research-example-2.jpg) | 2: Explain your research question. No images or video yet. Just some text to get started. |
-| ![step3]![step3](assets/guides/research-example-3.jpg) | 3: Add an update to your question.  |
-| ![step4](assets/guides/research-example-4.jpg) | 4: Posting your updates with images. Says more then 1000 words.     |
-| ![step5](assets/guides/research-example-5.gif) | 5: Continue your research and build a nice journal for others.   |
-
-
-
-
- If you need more guidance. Here is a [rough video](https://drive.google.com/file/d/1roEAdwNSK9HyE_1Jqm29d_cOusyYYHzU/view) that shows one research.
- Thanks for being a pioneer in making this module work for others!
+# 研究モジュールとは何ですか？ 
+コミュニティ・プラットフォームのこのモジュールは、人々が自分の研究を共有するために作られている。再生プラスチックの仕事には、まだまだ学ぶべきこと、解明すべきことがたくさんあります。誰もが自分の作業スペースで同じ失敗をするのではなく、お互いに学び合うことができるのです。それは、AからZまでのプロセスであり、その間にすべての間違い、失敗、ピボットがある。それは厄介で、荒っぽく、アウトプットが不確かなものだ。私たちの[ハウツー](https://community.preciousplastic.com/how-to)との違いは、ハウツーでは最終的な結果、実際にうまくいったことが掲載されることです。I'sは、何かをする「方法」を示すものであり、研究は「私たちは......」という質問から始まる。 
+# 例 
+私たちはこの機能をリリースしたばかりなので、まだ多くの例はありません。しかし、私たちは昔のフォーラムから多くのインスピレーションを得ました。これが、私たちが最も大切にしていた部分です。一緒に何かを考える。以下は、参考になる良い内容のトピックの例です。 
+私たちは... 
+[プラスチックを洗う](https://davehakkens.nl/community/forums/topic/washing-plastic-v4/) 
+[プラスチックフィルムのソリューションを探す](https://davehakkens.nl/community/forums/topic/find-a-solution-for-foil-waste-v4/) 
+[ロボットによるプラスチックの選別](https://davehakkens.nl/community/forums/topic/sorting-plastic-with-robotics-v4/) 
+[プラスチックの未来を探せ](https://davehakkens.nl/community/forums/topic/experiment-with-future-plastic-alternatives-v4/) 
+[一本の斧でシュレッダーを作る](https://davehakkens.nl/community/forums/topic/v4-shredder-development/) 
+[チューブおよびプロファイルの押し出し](https://davehakkens.nl/community/forums/topic/v4-extrusion-tubes-and-profiles/) 
+> このモジュールは現在まだベータ版です。もし面白い研究があればDiscordで教えてください。 
+# その仕組み 
+### 1: 📝調査を作成する： 
+研究テーマは質問から始まる：「海洋プラスチックで何かできないか、太陽電池で押出機を動かせないか、フェイスマスクをリサイクルできないか。本当に必要なのは、質問と、それを解決するという決意だけだ。[研究ページ](https://community.preciousplastic.com/research)にアクセスし、研究を開始する。 
+### 2: 📷アップデートを時系列で共有する 
+ここからがエキサイティングなところだ。答えを見つけようとして、その都度最新情報を投稿する。これはすべて、そのトピックに飛び込みたい後輩にとって非常に有益なことだ。一般的には、実生活でのテストが最も興味深いが、文献や見たビデオなどを共有することもできる。トピックについて学んだばかりの最初の投稿は特に。 
+- 画像は横長がベスト 
+- 品質が完璧である必要はない。 
+- 現在のところ、動画の埋め込みはYoutubeのみサポートしています。 
+### 3: 🐛 我々は目を光らせている（β） 
+私たちが述べたように、このモジュールはまだベータ版です。私たちはそれを注視し、[Discordの#feedbackチャンネル](https://discordapp.com/invite/n5d8Vrr)でフィードバックを共有してください。 
+### 4: 💫 次のステップ。 
+モジュールの準備が整い次第、公開します。つまり、あなたの研究は他の人たちの手本として使われることになるのです。つまり、あなたが基準を設定することになるのです :)その間、私たちは改善を続け、コメント、便利な機能、共同作業などのようなものは、後に予定しています。 
+# ステップバイステップガイド 
+| Step | Description| 
+|-----------|---------| 
+|![step1](assets/guides/research-example-1.jpg)| 1: Go the the [Research page](https://community.preciousplastic.com/research) page and click a research| 
+| ![step2](assets/guides/research-example-2.jpg) | 2: Explain your research question. No images or video yet. Just some text to get started. | 
+| ![step3]![step3](assets/guides/research-example-3.jpg) | 3: Add an update to your question.  | 
+| ![step4](assets/guides/research-example-4.jpg) | 4: Posting your updates with images. Says more then 1000 words.     | 
+| ![step5](assets/guides/research-example-5.gif) | 5: Continue your research and build a nice journal for others.   | 
+より多くのガイダンスが必要なら。ここに、一つの研究を示す[荒いビデオ](https://drive.google.com/file/d/1roEAdwNSK9HyE_1Jqm29d_cOusyYYHzU/view)がある。 
+このモジュールを他の人のために機能させるパイオニアであることに感謝する！ 

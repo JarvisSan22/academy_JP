@@ -1,174 +1,145 @@
 ---
-id: beyondplastic
-title: Beyond Plastic
-sidebar_label: Beyond Plastic
+id: beyondplastic 
+title: Beyond Plastic 
+sidebar_label: Beyond Plastic 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/oyDKboHoAxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/oyDKboHoAxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #798bc5; 
+  --hover: #798bc5; 
+} 
+</style> 
+<div class="videoChapters">（ビデオ・チャプターズ 
+<div class="videoChaptersMain">（ビデオ・チャプターズ・メイン）</div>
 
-<style>
-:root {
-  --highlight: #798bc5;
-  --hover: #798bc5;
-}
-</style>
-<div class="videoChapters">
-<div class="videoChaptersMain">
+# ビヨンド・プラスティック 
+ ### プラスチックに代わる生分解性プラスチックの研究 
 
-# Beyond Plastic
+リサイクル・プラスチックから製品を作ることはとてもクールですが、長期的にはプラスチックと決別する必要があります。そのため、私たちはビヨンド・プラスチックを立ち上げました。このプロジェクトは、プラスチックに代わる生分解性の代替品や、製品を製造するさまざまな方法を研究するものです。 
+このセクションでは、ビヨンド・プラスティック・バイオプレスを紹介する。この強力な熱プレス機を使えば、さまざまな有機素材（生ごみなど）を皿やボウル、コップなどの生分解性製品に変えることができる。私たちは、まず使い捨てプラスチックから脱却したいので、使い捨てのものを作ることにしました。わーい！🎉 
+</div> 
 
-### Researching biodegradable alternatives to plastic 🍊
-
-Making stuff from recycled plastic is pretty cool, but we know we need to break up with plastic in the long run. That’s why we’ve created Beyond Plastic, a project researching biodegradable alternatives to plastic as well as different methods to produce products.
-
-In this section we introduce the Beyond Plastic Bio Press - a strong heat press that allows you to turn a lot of different organic materials (like food waste) into biodegradable products like plates, bowls or cups. We set out to make single-use objects as we want to get rid of single-use plastics first. Woohoo! 🎉
-
-</div>
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+ ### ビデオ・チャプター 
 
-- 00:07 Introduction
-- 00:43 Upsides
-- 02:29 Start experiment
-- 04:13 Downsides
-- 06:56 Finish experiment
-- 09:42 bio vs biodegradable
-- 11:12 Beyond plastic explained
-- 12:57 Grandpa
+- 00:07 はじめに 
+- 00:43 アップサイド 
+- 02:29 実験開始 
+- 04:13 デメリット 
+- 06:56 実験終了 
+- 09:42 バイオと生分解性 
+- 11:12 プラスチックを超えて 
+- 12:57 おじいちゃん 
+</div> 
+</div> 
+<br><br> 
+![Beyond Plastic Bowl](assets/Research/BP_bowl.jpg) 
 
+ ## 始めよう 
+ビヨンドプラスチック・バイオプレスで素晴らしいものを作るには3つの部分がある。第一にヒートプレス本体（もちろん）、第二に型、そして第三に材料です。このテキストではそれぞれについて説明し、すべてダウンロードキットで入手できます。 
+> ヒント：バイオ素材を知ることはプロセスです。最初の（あるいは2回目の）挑戦ではうまくいかないことがよくありますが、これは普通のことです！根気強く、忍耐強く。あなたとあなたの素材がお互いを知れば、すぐに生涯の友ができます！ 
+# ヒートプレス 
+<iframe width="560" height="515" src="https://www.youtube.com/embed/b2aRrWCxaX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+バイオプレスの組み立ては、他のマシンほど複雑ではないが、マシンを組み立てたことがない人にとっては、決して簡単ではない。行き詰まったときに助けてくれる人が周りにいると本当に助かる。だから、必ず友達に聞くか、地図で誰かを見つけてください！ 
 
-</div>
-</div>
-<br><br>
+ ## ♻️ 一般仕様 
 
-![Beyond Plastic Bowl](assets/Research/BP_bowl.jpg)
+| Type                  | Heat Press                                                                                     | 
+| --------------------- | ---------------------------------------------------------------------------------------------- | 
+| Version               | 1                                                                                              | 
+| Material Needed       | A lot of metal, a 20tf hydraulic jack, some cartridge heater, a PID controller and some wiring | 
+| Price in Netherlands  | 280 € (+ not including moulds)                                                                 | 
+| Weight                | 110kg                                                                                          | 
+| Dimensions            | HxWxD): 1300x320x480mm (with fold-out table: 1300x1360x480mm)                                  | 
+| Possible Pressure     | 20tf                                                                                           | 
+| Maximum Pressing Area | Width 240mm; D 400mm (space between legs)                                                      | 
+| Energy used           | 2 x 400W heating elements          
+                                                            | 
+# 必要な機械と技術 
 
-## Let's get started
+| Bio Press                                                                              | Machines needed                                                                                                                                                                         | Skills needed                                                                                                                     | 
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | 
+| <img style="margin-left: 0;" src="../assets/Research/thumb_biopress.jpg" width="100"/> | - Angle grinder <br> - Welding machine <br> - Drill press <br> - Drill bits <br> - Tap set <br> - Allen keys <br> - Electronic assembly kit (crimping tool, screwdriver for electronics | - Cutting/grinding (intermediate) <br> - Welding (intermediate) <br> - Assembling (intermediate)<br> - Electronics (intermediate) | 
 
-There are three parts to making amazing things with the Beyond Plastic Bio Press. First the heat press itself (of course), second the moulds, and third the materials. We’ll go through each one in this text and everything is available in the download kit.
+ ### マシンハックはビデオに含まれていません： 
 
-> Pro-tip: getting to know your bio materials is a process. It often doesn’t work on the first (or second) try - this is normal! Be persistent and patient, as soon as you and your material know each other, you’ll have a friend for life!
+これはバイオプレスの最初のバージョンで、私たちはすでに、バイオプレスでの作業をさらに簡単にするハックをいくつか見つけています： 
+1.まず、金型を入れるためのレールとグライディングシステムを作る。私たちが作った方法は、L型プロファイルを使ったシンプルなフレームと、モールドを囲む木製のボックスです。ダウンロードキットにある設計図をご覧ください！ 
+2.次に、ワークスペースのレイアウトを概説し、とてもシンプルな脱水機を作り、周りのレストランから廃棄されたガラス瓶を再利用してきれいな仕分けシステムを作り、さらに近所から新鮮な食材を集める方法についても時間をかけて考えました。ご興味のある方は、How-To-Useビデオとダウンロードキットの情報をぜひご覧ください！🤙 
 
-# The Heat Press
+# 🎈 金型 
+![Beyond Plastic Mould](assets/Research/BP_mould.jpg) 
+ダウンロードキットには3種類の型があります： 
+1.素材のテストや、独自のビジュアルライブラリーの作成に便利な小型のシートモールド。 
+2.カップ型 
+3.ボウル型 
+カップとボウルの型は作るのが少し複雑ですが、世の中のほとんどの状況に適用できるようにしました。そのため、単純にCNCカットを注文できる金型と、旋盤で作れる金型を開発しました。実際には旋盤で両方作れるかもしれませんが、ボウル型にはかなり大きな旋盤が必要でしょう。アイントホーフェンのPP工房にあるものでは十分な大きさではありません😉」。 
+私たちのダウンロードキットの中に、金型用のすべてのファイルと図面があります。ご自由にお使いください。 
+> より丈夫なものを作りたければ、壁を厚くする。軽いものが欲しければ、壁を薄くする。 
+> 
+金型仕様： 
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/b2aRrWCxaX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+| Type         | Dimensions       | Price Aluminium in the Netherlands | How it's made | 
+| ------------ | ---------------- | ---------------------------------- | ------------- | 
+| Sample Mould | 100 x 200 x 50mm | 41 €                               | CNC-cut       | 
+| Bowl Mould   | Ø 220 x 90 mm    | 116 €                              | CNC-cut       | 
+| Cup Mould    | Ø 100 x 125 mm   | 40 €                               | Lathed        | 
 
-Building the Bio Press is not as complicated as other machines, but if you have never built a machine before it’s definitely not simple. It really helps to have people around you that can help if you get stuck. So make sure to ask your friends or find someone on the map!
+金型に使用される機械： 
+- CNC/旋盤 
+- ドリルプレス 
+- ドリルビット 
+- タップセット 
+- 六角レンチ 
+- 
+# 🍊 材料 
+![Beyond Plastic Materials](assets/Research/BP_material.jpg) 
+すでにプレス機でいくつかの素材をテストしたが、今のところ、セルロースを含むものであれば原理的にはうまくいくはずだと感じている。しかし、大きな製品になると、天然のバインダーを加えると間違いなく強くなります。例えば、デンプン、寒天、キサンタンガム、ゼラチンなどだ。新鮮な材料を使いたくない場合は、工夫しよう。基本的にどんな根菜類やその皮にもデンプンは含まれている。また、古くなったパンやある種の藻類にも結合剤が含まれている！昆虫の死骸も天然の結合剤の原料になる（plasticula.comにその方法が掲載されている）。 
 
-## ♻️ General specifications
+何度も言いますが、素材を知ることは長いプロセスです。最初の数回でうまくいかなくても、イライラしないでください！ 
+以下は、私たちがこれまでにテストした素材である： 
 
-| Type                  | Heat Press                                                                                     |
-| --------------------- | ---------------------------------------------------------------------------------------------- |
-| Version               | 1                                                                                              |
-| Material Needed       | A lot of metal, a 20tf hydraulic jack, some cartridge heater, a PID controller and some wiring |
-| Price in Netherlands  | 280 € (+ not including moulds)                                                                 |
-| Weight                | 110kg                                                                                          |
-| Dimensions            | HxWxD): 1300x320x480mm (with fold-out table: 1300x1360x480mm)                                  |
-| Possible Pressure     | 20tf                                                                                           |
-| Maximum Pressing Area | Width 240mm; D 400mm (space between legs)                                                      |
-| Energy used           | 2 x 400W heating elements                                                                      |
+- 小麦ブラン 
+- 使用済みコーヒー粉 
+- 使用済み茶葉と粉末 
+- ジャガイモの皮 
+- オレンジの皮 
+- 古くなったパン 
+- ジンジャー・ピール 
+- 黒豆 
+- アボカドの種 
+- ゴマ 
+- 松葉 
+- 葉 
+- 笹の葉（縫い合わせる） 
+- 卵の殻（装飾用） 
+- 花（装飾） 
+- タマネギの皮（実験的） 
+- ヘア（実験的） 
+- 
+ ## How it works： 
+より具体的に（化学的に、しかし馬鹿のために） 
+これは、私たちが使っているプロセスの背後にある化学に興味がある人のためのものです。でも、間違っていたら訂正してください！私は化学者ではなくデザイナーであり、これは私がこれまでに理解したことに過ぎない。 
+セルロースを含む素材を密閉された型に入れて加熱・加圧すると、通常は蒸気を発生させるために使われる素材内部の水分子のエネルギーが、セルロース同士の新たな結合を生み出すために使われる。そのため、セルロースを多く含むコーヒーかすのような素材は、他の天然結合剤の助けを借りることなく結合し始め、実際にかなり石のように見えるものができるのだ： 
 
-# 🛠 Required machinery & skills
-
-| Bio Press                                                                              | Machines needed                                                                                                                                                                         | Skills needed                                                                                                                     |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| <img style="margin-left: 0;" src="../assets/Research/thumb_biopress.jpg" width="100"/> | - Angle grinder <br> - Welding machine <br> - Drill press <br> - Drill bits <br> - Tap set <br> - Allen keys <br> - Electronic assembly kit (crimping tool, screwdriver for electronics | - Cutting/grinding (intermediate) <br> - Welding (intermediate) <br> - Assembling (intermediate)<br> - Electronics (intermediate) |
-
-### Machine hacks not included in the video:
-
-This is the first version of the Bio Press and we’ve already figured out some hacks that will make working with it even easier:
-
-1. First is to build a rail and gliding system for your moulds- this makes it much easier to slide the moulds in and align them with their counterpart. The way we built it is a pretty simple frame from some L-profiles with wooden boxes around the moulds. Check out our plans in the download kit!
-
-2. Secondly we outlined a workspace layout and build a pretty simple dehydrator, a neat sorting system from glass jars that we rescued from the waste of the restaurants around us and even spent some time thinking about how to collect fresh material from your neighbourhood. If you are interested, make sure to check out our How-To-Use-Video and the information in the download kit! 🤙
-
-# 🎈 Moulds
-
-![Beyond Plastic Mould](assets/Research/BP_mould.jpg)
-
-In the download kit you can find three different moulds:
-
-1. A small sheet mould, which is useful for testing materials and nice for creating your own visual library
-2. A cup mould
-3. A bowl mould
-
-The cup and bowl moulds are a little more complex to make, but we did try to make them applicable for most situations out there. That’s why we developed one mould that you can simply order to be CNC-cut and another that can be made on a lathe. You might actually be able to make both on the lathe, but for the bowl mould you probably need a pretty big lathe. The one we have at the PP workshop in Eindhoven is not big enough for it 😉
-
-You can find all of the files and drawings for the moulds in our download kit. Feel free to use them, change them and develop them as much as you want.
-
-> Pro-tip: if you want a more durable object, make the walls thicker. If you want a lighter object, make the walls thinner 🤓
-
-Mould Specs:
-
-| Type         | Dimensions       | Price Aluminium in the Netherlands | How it's made |
-| ------------ | ---------------- | ---------------------------------- | ------------- |
-| Sample Mould | 100 x 200 x 50mm | 41 €                               | CNC-cut       |
-| Bowl Mould   | Ø 220 x 90 mm    | 116 €                              | CNC-cut       |
-| Cup Mould    | Ø 100 x 125 mm   | 40 €                               | Lathed        |
-
-Machines used for Moulds:
-
-- CNC / Lathe
-- Drill press
-- Drill bits
-- Tap set
-- Allen keys
-
-# 🍊 Materials
-
-![Beyond Plastic Materials](assets/Research/BP_material.jpg)
-
-We already tested a few materials in the press and so far we feel like anything that has cellulose should work in principle. However, when it comes to the bigger products, they definitely get stronger if you add a natural binder to the mix. These can for example be starch, agar agar, xanthan gum or gelatine. If you don’t want to use fresh materials, be creative: there is starch in basically any root vegetable and it’s peel. You can also find binding agents in stale bread or some kinds of algae! Even dead insects can be a source for natural binders (you can find a way for this at plasticula.com).
-
-We’ll say this again, getting to know materials is a lengthy process. Don’t get frustrated if it doesn’t work on the first few tries!
-
-Here are the materials we have tested so far:
-
-- Wheat Bran
-- Spent Coffee Grounds
-- Spent Tea Leaves and Powders
-- Potato Peels
-- Orange Peels
-- Stale Bread
-- Ginger Peels
-- Black Beans
-- Avocado Seeds
-- Sesame Seeds
-- Pine needles
-- Leaves
-- Bamboo Leaves (stitched together)
-- Eggshells (decorative)
-- Flowers (decorative)
-- Onion Peels (experimental)
-- Hair (experimental)
-
-## How it works:
-
-More specific (chemically, but for dummies)
-
-This is for anyone who is interested in the chemistry behind the process we are using. But please correct me if I’m wrong! I’m not a chemist, but a designer, and this is only what I understood so far.
-
-If you heat and press a material that includes cellulose in a closed mould, the energy of the water molecules inside the material, which would usually go into creating steam, goes into creating new bonds between the cellulose. That’s why a material like coffee grounds, which is high in cellulose, starts binding without the help of any other natural binding agents and we get something that actually looks pretty stone-like:
-
-![Beyond Plastic Materials](assets/Research/BP_sample.jpg)
-
-However for this to work, it’s important to have a closed mould, as the energy might wander off with the steam otherwise and leave you with unbound material. That’s why all of our moulds have a pretty tight fit and a straight part in which the mould is already closed, but leaves space for compression.
-
-For all of the other natural binders mentioned above: all of them bind at a pretty low temperature (eg. starch at 60°C) and usually in combination with water. That’s why they can help your materials to bind, in case your mould doesn’t close properly or anything else that may make binding the cellulose difficult.
-
-> Pro-tip: mix fine grain materials with materials with longer fibers to get a smooth but rigid material!☕️🍵
-
-## What we're thinking about next:
-
-- Biodegradable glazings / coatings
-- Natural colorings and dyes
-- Other applications of materials (eg. for furniture)
-
-# How to make a bowl
-
+![Beyond Plastic Materials](assets/Research/BP_sample.jpg) 
+というのも、そうしないとエネルギーが蒸気に流されてしまい、結合されていない材料が残ってしまう可能性があるからです。そのため、私たちの金型はすべて、かなりタイトにフィットし、直線部分はすでに閉じていますが、圧縮のためのスペースが残されています。 
+上記の他の天然バインダーについて：これらのバインダーはすべて、かなり低い温度（例えばデンプンは60℃）で結合し、通常は水との組み合わせで結合します。そのため、金型がうまく閉じなかったり、セルロースの結合を困難にするようなことがあった場合に、材料の結合を助けることができるのです。 
+> プロからのアドバイス：繊維の長い素材に目の細かい素材を混ぜると、滑らかで硬い素材になります！☕️🍵 
+> 
+ ## 次に考えていること 
+- 生分解性グレーズ／コーティング剤 
+- 天然着色料と染料 
+- その他の素材の用途（家具用など） 
+# ♪ボウルの作り方 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/UD57zOGqAPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<b>Want to share feedback, chat about Beyond Plastic or learn more from the community? Head to the [#beyond plastic](https://discordapp.com/invite/SfTmtKP) channel on Discord. Here we talk about re-inventing alternative materials for plastic.</b>
+<b>フィードバックを共有したり、ビヨンド・プラスティックについておしゃべりしたり、コミュニティからもっと学びたいですか？
+
+Discordの[#beyond plastic](https://discordapp.com/invite/SfTmtKP)チャンネルへどうぞ。
+
+ここでは、プラスチックの代替素材の再発明について話しています</b>。 

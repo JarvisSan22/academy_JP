@@ -1,139 +1,93 @@
 ---
-id: sheetpressrun
-title: Run a Sheetpress
-sidebar_label: - Run it
+id: sheetpressrun 
+title: Run a Sheetpress 
+sidebar_label: - Run it 
 ---
-
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
 </style>
 <div class="videocontainer">
 
-![Sheetpress run](assets/build/sheetpress-run.jpg)
+![Sheetpress run](assets/build/sheetpress-run.jpg) 
 
-</div>
-
-# Run and Maintain the Sheetpress
-
-Hooray! You built yourself a Sheetpress! Let's have some fun and make sheets. Below we explain how to do this, which temperatures to use, how the workflow should be etc., but also the practical things to take in account like maintenance.
-
-# 🏃‍♀️ Make a sheet!
-
-## Run Standalone Sheetpress
-
-1. Plug in the Sheetpress, check that the emergency stop is released and switch on the main power switch.
-
-2. Check the required temperature to melt your type of plastic and set the PID controller to this temperature.
-
-3. Close the pressing plates using the bottle jack and wait for them to heat up.
-
-4. Whilst waiting for the heating plates to warm up, weigh the plastic. See the Datasheet for weights.
-
-5. When the Sheetpress is at the desired temperature, open the pressing plates of the Sheetpress by releasing pressure from the bottle jack.
-
-6. Place the bottom sheet of the mould on the bottom pressing plate and apply a layer of silicone oil. Make sure to remove any remnants of the previous sheet.
-
-7. Place the mould frame in the centre of the sheet and apply a layer of silicone oil to the top of the frame.
-
-8. Load the plastic into the mould.
-
-9. Spread the plastic evenly across the area inside the mould frame with slightly less around a 100mm border offset on the inside of the edges.
-
-10. Oil the top sheet of the mould and place the oiled side face down on the bottom two sections of the mould.
-
-11. Close the pressing plates using the bottle jack until the spring is fully compressed.
-
-12. Whilst waiting for the plastic to melt. 2 mins before the recommended melting time close the pressing plates using the bottle jack until the jacks starts to give strong resistance. See the Datasheet (Appendix A) for melting temperatures and times.
-
-13. When the mould has been in the Sheetpress for the required melting time, switch off the Sheetpress.
-
-14. Alternatively you can take out the mould and either weight it down or clamp it to allow the sheet to cool externally.
-
-## Run The Full Sheetpress System
-
-1. Plug in the Sheetpress, check the emergency stop is released and switch on the main power switch.
-
-2. Check the required temperature to melt your type of plastic and set the PID controller to this temperature.
-
-3. Close the pressing plates using the bottle jack and wait for them to heat up.
-
-4. Whilst waiting for the heating plates to warm up. Place the bottom sheet of the mould on the prep table and apply a layer of silicone oil. Make sure to remove any remnants of the previous sheet.
-
-5. Place the mould frame in the centre of the sheet and apply a layer of silicone oil to the top of the frame.
-
-6. Weigh the plastic and load it into the mould. See the Datasheet (Appendix A) for melting temperatures and times. See the Sheet Colour Examples poster (Appendix B).
-
-7. Spread the plastic evenly across the area inside the mould frame with slightly less around a 100mm border offset on the inside of the edges.
-
-8. Oil the top sheet of the mould and place the oiled side face down on the bottom two sections of the mould.
-
-9. When the Sheetpress is at the required temperature. Open the pressing plates of the Sheetpress by releasing pressure from the bottle jack.
-
-10. Position the prep table next to the open side of the Sheetpress.
-
-11. Use the sliding tool, push the mould from the prep table to the Sheetpress.
-
-12. Close the pressing plates using the bottle jack until the spring is fully compressed.
-
-13. Whilst waiting for the plastic to melt. Prepare the next mould and sheet on the prep table. (Steps 4-8).
-
-14. 2 mins before the recommended melting time. See the Datasheet (Appendix A) for melting temperatures and times. close the pressing plates using the bottle jack until the jacks starts to give strong resistance.
-
-15. When the mould has been in the sheetpres for required melting time. Open the  pressing plates of the Cooling Press by releasing pressure from the bottle jack.
-
-16. Open the pressing plates of the Sheetpress by releasing pressure from the bottle jack.
-
-17. Use the sliding tool, push the mould from the Sheetpress to the Cooling Press.
-
-18. Close the pressing plates of the Cooling Press using the bottle jack.
-
-19. Load and press the next sheet in to the Sheetpress (Steps 10-13). This time stack it on top of the previous sheet.
-
-20. Repeat steps 13-20 until you workcycle is complete. Finished? Switch off and close the Sheetpress.
-
-21. Clean and apply a layer of silicone oil to the mould sheets to protect them for moisture between use.
-
-# ⏳ Maintain
-
-## Weekly
-
-<b>Clean the heating plates</b><br>
-Use a trowel to scrape any remiant material from the heating plates. You may need to use a  high volume alcohol if there is heavy corrosion
-
-<b>Grease rails</b><br>
-Use a wooden spatula to apply a liberal amount of grease to all the rails, we used engine grease.
-
-## Monthly
-
-<b>Inspect and place mould sheets</b><br>
-Inspect your mould sheets, if any of them are damaged beyond repair then they may need replacing.
-
-<b>Grease spring mechanism</b><br>
-Detach the spring mechanism and Use a wooden spatula to apply a liberal amount of grease to the touching faces. We used engine grease.
-
-<b>Inspect and replace plywood sheets</b><br>
-Inspect your plywood sheets, if they are damaged or significantly warped then they may need replacing.
-
-<b>Check website for hacks/updates</b><br>
-The community are continuously developing hacks, modifications and techniques which get shared on the internet, take a look to see what is there that can help or inspire you!
-
-## Yearly
-
-<b>Deep clean heating plates</b><br>
-Use a trowel to scrape any remiant material from the heating plates. You may need to use a  high volume alcohol if there is heavy corrosion. You may also need to use a rotary sander to remove tough burnt on material but be gentle, use a high grit sandpaper (>220) to preserve the flatness of the sheet.
-
-<b>Check oil in jacks</b><br>
-Bleed and replace the oil in the jacks.
+</div> 
 
 
-<b>Check electronics </b><br>
+# シートプレスの運転とメンテナンス 
+万歳！あなたは自分でシートプレスを作りました！さあ、楽しみながらシートを作りましょう。どの温度を使うか、どのようなワークフローにするかなど、どのようにすればいいのか、また、メンテナンスのような実用的なことも含めて、以下に説明します。 
+# 🏃‍♀️ シートを作る！ 
 
-Check the resistance of your elements on each of the three phases is equal to the number of heating elements attached to each phase. If it does not one of your heating elements may be broken, use a thermal camera to check.
-Check all the components inside the enclosure for visual signs of melting/burning and replace anything that appears damaged.
-Re paint worn areas
-Check the body panels and frame for signs of ware, repaint any exposed metal to protect it from corrosion.
+## スタンドアロンSheetpressの実行 
 
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+1.シートプレスのプラグを差し込み、非常停止が解除されていることを確認し、主電源スイッチを入れる。 
+2.使用する種類のプラスチックを溶かすのに必要な温度を確認し、PIDコントローラーをこの温度に設定する。 
+3.ボトルジャッキを使ってプレスプレートを閉じ、加熱されるのを待つ。 
+4.熱板が温まるのを待つ間に、プラスチックの重さを量る。重さについてはデータシートを参照のこと。 
+5.シートプレスが目的の温度になったら、ボトルジャッキの圧力を解放してシートプレスのプレスプレートを開く。 
+6.モールドの底のシートを底のプレスプレートに置き、シリコンオイルを塗る。前のシートの残りを必ず取り除く。 
+7.型枠をシートの中央に置き、その上にシリコンオイルを塗る。 
+8.プラスチックを金型に入れる。 
+9.型枠の内側にプラスチックを均等に広げ、端の内側に100mm程度のオフセットをつける。 
+10.型の上のシートに油を塗り、油を塗った面を下にして型の下の2つの部分に置く。 
+11.スプリングが完全に圧縮されるまで、ボトルジャッキを使って押え板を閉じる。 
+12.プラスチックが溶けるのを待つ。推奨される溶融時間の2分前に、ボトルジャッキを使用して、ジャッキが強い抵抗を与え始めるまでプレスプレートを閉じる。溶融温度と時間についてはデータシート（付録A）を参照のこと。 
+13.金型がシートプレスの中に必要な溶解時間入ったら、 シートプレスのスイッチを切る。 
+14.あるいは、金型を取り出し、重しをするか、クランプで固定し、シートが外部で冷却されるようにすることもできる。 
+
+## シートプレス・システムのフル稼働 
+
+1.シートプレスのプラグを差し込み、非常停止が解除され ていることを確認し、主電源スイッチを入れる。 
+2.使用する種類のプラスチックを溶かすのに必要な温度を確認し、PIDコントローラーをこの温度に設定する。 
+3.ボトルジャッキを使ってプレスプレートを閉じ、加熱されるのを待つ。 
+4.ヒーティングプレートが温まるのを待つ。型の底のシートを準備台に置き、シリコンオイルを塗る。前のシートの残りを必ず取り除く。 
+5.型枠をシートの中央に置き、その上にシリコンオイルを塗る。 
+6.プラスチックの重量を量り、金型に入れる。溶融温度と時間についてはデータシート(付録A)を参照のこと。シートの色例ポスター（付録B）を参照のこと。 
+7.型枠の内側にプラスチックを均等に広げ、端の内側に100mm程度のオフセットをつける。 
+8.型の上のシートに油を塗り、油を塗った面を下にして型の下の2つの部分に置く。 
+9.シートプレスが必要な温度になったらボトルジャッキの圧力を抜いて、シートプレスのプレスプレートを開きます。 
+10.プレパラートテーブルをシートプレスの開いている側の横に置く。 
+11.スライドツールを使い、金型をプレパラートテーブルからシートプレスに押します。 
+12.スプリングが完全に圧縮されるまで、ボトルジャッキを使用して押え板を閉じる。 
+13.プラスチックが溶けるのを待つ間次の型とシートを準備台に用意する。(ステップ4-8）。 
+14.推奨溶解時間の2分前。溶融温度と時間についてはデータシート（付録A）を参照のこと。 ボトル・ジャッキを使用して、ジャッキが強い抵抗を与え始めるまでプレス・プレートを閉じる。 
+15.金型がシートプレスの中に必要な溶融時間入ったら、冷却プレスのプレス板を開く。ボトルジャッキの圧力を開放し、冷却プレスのプレスプレートを開く。 
+16.ボトル・ジャッキの圧力を抜いて、シートプレスのプレス・プレートを開く。 
+17.スライディングツールを使い、金型をシートプレスからクーリ ングプレスへ押し出します。 
+18.ボトルジャッキを使ってクーリングプレスのプレスプレートを閉じる。 
+19.次のシートをシートプレスにセットし、プレスする（ステップ 10-13）。今度は、前のシートの上に重ねる。 
+20.ワークサイクルが完了するまで、ステップ13～20を繰り返します。終了しますか？電源を切り、シートプレスを閉じます。 
+21.モールドシートを洗浄し、シリコーンオイルを塗布して、使用間の湿気を防ぐ。 
+
+# ⏳メインテナンス 
+## ウィークリー 
+<b>ヒータープレートを掃除する</b><br><p>
+ヒーティングプレートに付着している残留物をこてを使って削り取る。腐食がひどい場合は、高容量のアルコールを使用する必要があるかもしれない。 
+<b>グリス・レール</b><br><p>
+木製のヘラを使って、すべてのレールにたっぷりとグリスを塗る。 
+
+# 毎月 
+ 
+モールドシートを点検し、修復不可能なほど破損しているものがあれば、交換が必要かもしれません。 
+<b>グリス・スプリング・メカニズム</b><br><br>
+スプリング機構を取り外し、木べらで接触面にグリースをたっぷり塗る。エンジングリスを使用した。 
+<b>合板シートの点検と交換</b><br><br>
+合板が傷んでいたり、大きくゆがんでいたりしたら、交換が必要かもしれません。 
+<b>ハック/アップデートのためにウェブサイトをチェック</b><br>
+コミュニティはハック、改造、テクニックを開発し続けており、それらはインターネット上で共有されている！ 
+
+## 年間 
+<b>ディープクリーンヒータープレート</b><br><br> 
+こてを使い、ヒーティングプレートに付着した残留物をこすり取る。腐食がひどい場合は、高容量のアルコールを使う必要があるかもしれない。シートの平坦性を保つため、高目のサンドペーパー（220番以上）を使用すること。 
+<b>ジャッキのオイルをチェックする</b><br><p> 
+ジャッキのオイルを抜き取り、交換する。 
+<b>チェック・エレクトロニクス</b><br><br>
+三相の各エレメントの抵抗値が、各相に取り付けられている発熱体の数と等しいか確認してください。そうでない場合は、いずれかの発熱体が壊れている可能性があります。 
+筐体内のすべての部品に溶融/燃焼の兆候がないか目視で確認し、損傷していると思われるものはすべて交換してください。 
+磨耗した部分の再塗装 
+ボディパネルとフレームに摩耗の兆候がないかチェックし、露出した金属は再塗装して腐食から保護する。
+
+
+**助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。ここでは機械についてオタクな話をします。 

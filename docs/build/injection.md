@@ -1,199 +1,164 @@
 ---
-id: injection
-title: Build an Injection Machine
-sidebar_label: Injection
+id: injection 
+title: Build an Injection Machine 
+sidebar_label: Injection 
 ---
 
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/qtZv96ciFIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/qtZv96ciFIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 </div>
-
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
-</style>
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
+</style> 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-# Build an Injection Machine
+# 射出成形機を作る 
+### この機械は何ですか？ 
 
-### What is this machine?
-
-
-
-The injection machine has a quick production output with high precision, while it takes a little bit more effort in the beginning with designing and making a mold, you’ll be amazed at what you can create. Shredded plastic enters the hopper and is heated and pressed through a long barrel into your mold. The output colour is often unpredictable when mixing colours in the barrel, allowing for beautiful (and surprising) patterns that can add to your one-of-a-kind products.
-
-> Pro-tip: Invest in a good mould. Good mould, good output :)
-
-> Pro-tip: A new improved version of the injection machine which can be disassembled and has some additional safety features can be found in the [how-tos](https://community.preciousplastic.com/how-to/injection-machine---designed-for-disassembly). If you are building a new one consider taking a look at this one before ordering parts.
-
-
-</div>
+射出成形機は高精度で短時間の生産が可能だが、金型の設計や製作に手間がかかる。細断されたプラスチックがホッパーに入り、加熱され、長いバレルを通って金型に押し込まれる。樽の中で色を混ぜ合わせると、出力される色は予測できないことが多く、美しい（そして驚くような）模様ができ、世界にひとつだけの製品を作ることができます。 
+> プロからのアドバイス：良い金型に投資しましょう。良い型、良い出力 :) 
+> Pro-tip: A new improved version of the injection machine which can be disassembled and has some additional safety features can be found in the [how-tos](https://community.preciousplastic.com/how-to/injection-machine---designed-for-disassembly). If you are building a new one consider taking a look at this one before ordering parts. 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:07 はじめに 
+- 00:43 ホッパー 
+- 02:01 バレル 
+- 03:58 ノズル 
+- 04:53 フレームワーク 
+- 06:55 エレクトロニクス 
+- 10:30その仕組み 
+</div> 
+</div> 
 
-- 00:07 Introduction
-- 00:43 Hopper
-- 02:01 Barrel
-- 03:58 Nozzle
-- 04:53 Framework
-- 06:55 Electronics
-- 10:30 How it works
+# 技術情報 
+📓 Type | Injection 
+--- | --- 
+💎 Version | 1.0 
+💰 Price new material in NL | +/- €300 
+💰 Price scrap material in NL | +/- €150 
+⚖️ Weight | 23 kg 
+📦 Dimensions | 830 x 700 x 1300 mm 
+⚙️ Barrel volume | 150 cm³ 
+⚙️ Leverage | 3 
+⚙️ Injection pressure | 45 bars 
+⚙️ Max mould size | 360 x 330 mm 
+⏱ Injections p/h | 10 - 30     
+🔌 Voltage | 220V     
+⚡️ AMP | 2.6A 
+| ♻️ Input Flake Size                   | Medium, Small  | 
+![Injection machine](assets/build/injection.jpg) 
 
+# 3Dモデル 
+<iframe width="500" height="500" src="https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&name=Injection+Basic+V2.0&model_id=96645&portal=b2b&noAutoload=true&autoRotate=false&hideMenu=true&topColor=%23dde7ed&bottomColor=%23ffffff&cameraParams=false&varsettransfer=" frameborder="0" id="EmbeddedView-Iframe-96645" allowfullscreen></iframe> 
 
-</div>
-</div>
+# 必要な機械と技術 
+Build Injection  | Machines needed | Skills needed 
+--- | ---| --- 
+<img style="margin-left: 0;" src="../assets/build/thumb-injection.jpg" width="100"/>  | - Drill press <br> - Welding machine (not specific) <br> - Angle grinder | - Welding (intermediate) <br> - Assembling (intermediate) <br> - Electronics (intermediate) 
+# ⚡️ 電子ボックス 
+本機内部の電気部品の説明。詳細と回路図はダウンロードキットにあります。 
+<b>PIDコントローラー：</b>マシンの頭脳で、希望の温度を設定できます。PV（ポイント変数）がSV（設定値）に一致するまで、ヒーターに電力を送ります。これは、熱電対とSSRからの読み取り値を使用して行われます。 
+<b>SSR:</b> ソリッドステートリレーは、（PIDからの）信号に応じて開閉する電子「スイッチ」です。 
+<b>熱電対：</b>基本的には温度計。 
+<b>バンドヒーター：</b>パイプの周囲に取り付ける発熱体。 
+<b>電源スイッチ：</b>メカニカルスイッチ。 
+<b>LED インジケーター:</b> 電源が入ると光る LED (電源スイッチによく付いています)。 
+<b>電源ケーブル：</b>一般的な家庭用電源ケーブル。 
+> プロからのアドバイス：ここに[エレクトロニクスに関する良いフォーラム・トピック](https://davehakkens.nl/community/forums/topic/the-big-electronics-topic/)がある。
+ 
+# 🛠作業中のヒントとコツ 
+- ホッパー・タブ周辺の溶接には注意してください。熱で簡単にバレルが歪み、完璧なスライドが台無しになります。 
+- 断熱バレルカバーを追加すれば、効率が上がり、使用者が誤って熱いバレルに触れる可能性も減る。   
+- 建築の際、レバーは四角い形状のものより円形の形状の方が強度が増します。そのため、曲げる可能性が低くなります。 
+# ♻️ 入出力 
+<b>タイプ：</b> HDPE、LDPE、PP、PS<br> 
+<b>生産量：</b>型によって異なるが、1時間あたり10～30本<br>。 
 
-# 📓 Technical information
-
-📓 Type | Injection
---- | ---
-💎 Version | 1.0
-💰 Price new material in NL | +/- €300
-💰 Price scrap material in NL | +/- €150
-⚖️ Weight | 23 kg
-📦 Dimensions | 830 x 700 x 1300 mm
-⚙️ Barrel volume | 150 cm³
-⚙️ Leverage | 3
-⚙️ Injection pressure | 45 bars
-⚙️ Max mould size | 360 x 330 mm
-⏱ Injections p/h | 10 - 30    
-🔌 Voltage | 220V    
-⚡️ AMP | 2.6A
-| ♻️ Input Flake Size                   | Medium, Small  |
-
-
-![Injection machine](assets/build/injection.jpg)
-
-
-# 🌐 3D Model
-<iframe width="500" height="500" src="https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&name=Injection+Basic+V2.0&model_id=96645&portal=b2b&noAutoload=true&autoRotate=false&hideMenu=true&topColor=%23dde7ed&bottomColor=%23ffffff&cameraParams=false&varsettransfer=" frameborder="0" id="EmbeddedView-Iframe-96645" allowfullscreen></iframe>
-
-
-# 🛠 Required machinery & skills
-Build Injection  | Machines needed | Skills needed
---- | ---| ---
-<img style="margin-left: 0;" src="../assets/build/thumb-injection.jpg" width="100"/>  | - Drill press <br> - Welding machine (not specific) <br> - Angle grinder | - Welding (intermediate) <br> - Assembling (intermediate) <br> - Electronics (intermediate)
-
-
-# ⚡️ Electronic box
-Explanation of the electric components inside this machine. More information and schematics can be found in the download-kit.
-
-* <b>PID Controller:</b> the brains of the machine where you can set your desired temperatures. It will send power to the heaters until PV (point variable) matches the SV (set value). It does this using readings from the thermocouple and the SSR.
-* <b>SSR:</b> the Solid State Relay is an electronic ‘switch’ that opens and closes depending on the signal it receives (from the PID).
-* <b>Thermocouple:</b> basically a thermometer.
-* <b>Band heater:</b> heating element that fits around a pipe.
-* <b>Power switch:</b> mechanical switch.
-* <b>LED indicator:</b> LED that will shine with power (often found with Power switch).
-* <b>Power cable:</b> common household power cable.
-
-> Pro-tip: Here is a [good forum topic about electronics](https://davehakkens.nl/community/forums/topic/the-big-electronics-topic/)
-
-
-# 🛠 Tips & tricks while making
-
-- Take care welding around the hopper tabs. The heat can easily distort the barrel, ruining that perfect slide.
-- Adding an insulated barrel cover will increase efficiency and reduce the chances of the user accidentally touching the barrel when hot.  
-- When building, the lever is stronger as a circular profile when compared to a square profile. Which will reduce the likelihood of bending it.
-
-
-# ♻️ Input & Output
-<b>Type:</b> HDPE, LDPE, PP, PS<br>
-<b>Output:</b> 10-30 injections per hour depending on mould<br>
-
-# ⚙️ Run & maintain
-
-You can create beautiful, consistent products with the injection machine very efficiently, but it takes a little work upfront - making moulds, for example. The more precise the mould, the easier and more streamlined your production will be. Some quick tips:
-
-### Startup
-1. Turn the machine on and set the temperature to 20° more than the desired temperature. Make sure the lever is at its lowest position.
-2. Wait for at least 20 minutes.
-3. Turn the temperature down and fill the barrel with the desired plastic.
-4. Wait another 15 minutes for the plastic to melt - the first batch of plastic is used to rinse the machine and to get rid of plastic from previous sessions.
-5. Press the first batch of plastic out of the machine.
-6. The machine is now ready for production!
-
-
-### Production
-1. The machine is now warm and ready to use with your moulds
-2. Fill the barrel with your chosen plastic.
-3. Press the lever in the barrel.
-4. Pull the lever up every 5 to 10 minutes and add more plastic.
-5. Wait at least 10 minutes.
-6. Now for the mould - unscrew the brass screw at the bottom.
-7. Screw in the mould (be quick or plastic will start to flow out!)
-8. Once the mould is secured to the machine pull the lever down as far as possible, don’t be scared to give it a lot of pressure, it can easily hold 100kg.
-9. Unscrew the mold from the machine.
-10. Pull the lever up.
-11. Screw the brass screw in place.
-12. Fill the machine for a new product.
-13. Let the mould cool.
-14. Open the mould once it is cooled down.
-
-> Pro-tip: Depending on the plastic type, you’ll need one or sometimes two people to pull down the lever.
-Before injecting into the mould, make sure the plastic in the barrel is completely melted in order to fill all areas of the mould. To achieve this, run the machine a few degrees higher than usual to ensure the plastic is fully molten.
-
-### Cooldown
-1. When you turn on the machine, empty the barrel completely - this makes it easier for the next person using the machine.
-2. Leave the machine with the lever all the way down.
-3. Turn the machine off.
-
-### Tips & Tricks while using
-
-1. The hotter the plastic the greater the sink marks on the final product.
-2. Clean the mould from plastic when still warm, it will be harder to clean later.
-3. Use mould release on the mould, it helps with release.
-4. Keep the barrel full with plastic at all times, adding a bit of plastic with each injection.
-5. When you are finished working with the injection machine, empty the plastic from the barrel.
-6. To create an efficient process it is advisable to run the machine for a few hours once it is on - don’t start and stop the machine too often as the process will be very inefficient.
-
-
-# 🔓 Troubleshooting
-* If the plastic is clogging at the end of the barrel and doesn’t come out even when applying higher pressure, raise the temperature of the nozzle heater to fully melt the plastic and release the block.<br>
-The final product might get stuck to the mould making it hard to release, if this happens gently re-heat the mould to soften the plastic and help release.
-
-# 🌦 Pros & cons
-Pros | Cons
---- | ---
-Easy to manufacture     | Process can be tedious|
-Runs on 220V | Only a small amount of waste recycled|
-Relatively cheap ||
-Batch production ||
-
-
-# 🌎 Built by the community
-
+# ⚙️ 走行＆メンテナンス 
+射出成形機を使えば、美しく安定した製品を非常に効率的に作ることができますが、金型を作るなど、前もって少し手間がかかります。金型が精密であればあるほど、生産はより簡単で合理的になります。簡単なヒントをいくつか： 
+### スタートアップ 
+1.本機の電源を入れ、温度を希望の温度より20度高く設定する。レバーが一番低い位置にあることを確認する。 
+2.少なくとも20分間待つ。 
+3.温度を下げ、目的のプラスチックでバレルを満たす。 
+4.プラスチックが溶けるまでさらに15分待つ。最初のプラスチックは、マシンをすすぎ、前のセッションのプラスチックを取り除くために使用される。 
+5.機械からプラスチックの最初のバッチを押し出す。 
+6.これでマシンは生産準備が整った！ 
+### 生産 
+1.マシンが温まり、金型を使用する準備が整いました。 
+2.樽に選んだプラスチックを入れる。 
+3.バレルのレバーを押す。 
+4.5～10分ごとにレバーを引き上げ、プラスチックを追加する。 
+5.少なくとも10分待つ。 
+6.今度は金型だ。底にある真鍮のネジを外す。 
+7.金型をねじ込む（手早くしないとプラスチックが流れ出てきます！）。 
+8.金型が機械に固定されたら、レバーを可能な限り引き下げる。 
+9.金型を機械から外します。 
+10.レバーを引き上げる。 
+11.真鍮ネジを所定の位置にねじ込みます。 
+12.新しい製品を充填する。 
+13.型を冷ます。 
+14.型が冷めたら開ける。 
+> プロからのアドバイス：プラスチックの種類にもよりますが、レバーを引き下げるには1人か、場合によっては2人が必要です。 
+金型に注入する前に、金型の全領域を満たすために、バレル内のプラスチックが完全に溶けていることを確認してください。そのためには、機械を通常より数度高く運転し、プラスチックが完全に溶けていることを確認する。 
+### クールダウン 
+1.マシンの電源を入れたら、バレルを完全に空にしてください。 
+2.レバーを下げきった状態でマシンを離れる。 
+3.マシンの電源を切る。 
+### 使用上のヒント 
+1.プラスチックが高温であればあるほど、最終製品のヒケは大きくなる。 
+2.まだ温かいうちにプラスチックから型を取り除く。 
+3.金型に離型剤を使う。 
+4.注入するたびに少しずつプラスチックを加えながら、常にバレルをプラスチックで満杯にしておく。 
+5.射出機での作業が終わったら、バレルからプラスチックを空にする。 
+6.効率的なプロセスを作るには、一度マシンを起動させたら数時間稼働させることが望ましい。 
+# トラブルシューティング 
+* バレルの先端でプラスチックが詰まり、より高い圧力をかけても出てこない場合は、ノズルヒーターの温度を上げてプラスチックを完全に溶かし、ブロックを解放してください。 
+このような場合は、型を軽く再加熱してプラスチックを柔らかくし、離型しやすくする。 
+# 🌦 長所と短所 
+Pros | Cons 
+--- | --- 
+Easy to manufacture     | Process can be tedious| 
+Runs on 220V | Only a small amount of waste recycled| 
+Relatively cheap || 
+Batch production || 
+# 🌎 コミュニティによって建設された 
 <div class="j-slideshow">
 
-![Community Shredder](assets/Build/community/community-injection4.jpg)
+![Community Shredder](assets/Build/community/community-injection4.jpg) 
 
-![Community Shredder](assets/Build/community/community-injection1.jpg)
+![Community Shredder](assets/Build/community/community-injection1.jpg) 
 
-![Community Shredder](assets/Build/community/community-injection2.jpg)
+![Community Shredder](assets/Build/community/community-injection2.jpg) 
 
-![Community Shredder](assets/Build/community/community-injection3.jpg)
+![Community Shredder](assets/Build/community/community-injection3.jpg) 
 
-![Community Shredder](assets/Build/community/community-injection5.jpg)
+![Community Shredder](assets/Build/community/community-injection5.jpg) 
 
+</div> 
 
-</div>
+# 🙌 役立つリンク 
+- [How-to: Injection Machine - Designed for disassembly](https://community.preciousplastic.com/how-to/injection-machine---designed-for-disassembly)<br> 
+- アップグレード：クイックリリースモールドを作る](https://community.preciousplastic.com/how-to/make-a-quick-release-opening-system-for-injection-moulds)<br> 
+- ハック：[ベンチトップ・インジェクター](https://davehakkens.nl/community/forums/topic/benchtop-smaller-machines/)<br> 
+- ハック：[インジェクションノズルの改良](https://davehakkens.nl/community/forums/topic/injectionextrusion-nozzle-refinement/) 
+- ハウツー：[カラビナ](https://community.preciousplastic.com/how-to/make-a-carabiner-cnc-vs-lasercut)<br> 
+- ハウツー：[クイックリリース](https://community.preciousplastic.com/how-to/make-a-quick-release-for-the-extrusion-machine)<br> 
+- ハウツー：[鋳造アルミ型](https://www.youtube.com/watch?v=5LhHUBz9uL0)<br> 
+- ハウツー：[CNC iPhoneケース型](https://www.youtube.com/watch?v=ZYFoWP-3MYE)<br> 
+- ハウツー：[ジオデシック・ドーム](https://community.preciousplastic.com/how-to/build-a-geodesic-dome)<br> 
+- ハウツー：[プレシャス・プラスチック・モナッシュ・マシン](https://www.preciousplasticmonash.com/download-kit)<br> 
+- ハウツー：[ハンドプレーン](https://community.preciousplastic.com/how-to/make-a-handplane-simple-mould)<br> 
+- ハウツー：[ほうきハンガー](https://community.preciousplastic.com/how-to/make-a-broom-hanger)<br> 
+- 開発：[ピランハクランプの裏話](https://davehakkens.nl/community/forums/topic/the-story-behind-the-piranhaclamp/)<br> 
+  
+**助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。
 
-# 🙌 Useful Links
-- [How-to: Injection Machine - Designed for disassembly](https://community.preciousplastic.com/how-to/injection-machine---designed-for-disassembly)<br>
-- [Upgrade: Make a Quick Release Mould](https://community.preciousplastic.com/how-to/make-a-quick-release-opening-system-for-injection-moulds)<br>
-- [Hack: Benchtop Injector](https://davehakkens.nl/community/forums/topic/benchtop-smaller-machines/)<br>
-- [Hack: Injection Nozzle Refinement](https://davehakkens.nl/community/forums/topic/injectionextrusion-nozzle-refinement/)
-- [How-to: Carabiner](https://community.preciousplastic.com/how-to/make-a-carabiner-cnc-vs-lasercut)<br>
-- [How-to: Quick Release](https://community.preciousplastic.com/how-to/make-a-quick-release-for-the-extrusion-machine)<br>
-- [How-to: Cast Aluminium Moulds](https://www.youtube.com/watch?v=5LhHUBz9uL0)<br>
-- [How-to: CNC iPhone Case Mould](https://www.youtube.com/watch?v=ZYFoWP-3MYE)<br>
-- [How-to: Geodesic Dome](https://community.preciousplastic.com/how-to/build-a-geodesic-dome)<br>
-- [How-to: Precious Plastic Monash Machine](https://www.preciousplasticmonash.com/download-kit)<br>
-- [How-to: Handplane](https://community.preciousplastic.com/how-to/make-a-handplane-simple-mould)<br>
-- [How-to: Broom Hanger](https://community.preciousplastic.com/how-to/make-a-broom-hanger)<br>
-- [Development: The Story Behind the Piranhaclamp](https://davehakkens.nl/community/forums/topic/the-story-behind-the-piranhaclamp/)<br>
+Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。
 
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+ここでは機械についてオタクな話をします。 

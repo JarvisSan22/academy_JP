@@ -1,142 +1,106 @@
 ---
-id: machine-inventory
-title: Machine Inventory
-sidebar_label: Research
+id: machine-inventory 
+title: Machine Inventory 
+sidebar_label: Research 
 ---
-<img src="../assets/guides/v4_machines.jpg" width="2000px"/>
+<img src="../assets/guides/v4_machines.jpg" width="2000px"/></img> 
 
-# Machine Inventory Guide
+# マシン在庫ガイド 
+マシンインベントリはプレシャスプラスチックのマシンを記録し、共有するための場所です。これらのマシンはプレシャスプラスチックチーム、コミュニティ内のマシンショップ/ワークスペース、またはコミュニティのメンバー個人から提供されます。より多くの機械がコミュニティ内で共有され、Precious Plasticチームからより多くの機械の反復版が提供されるために作られました。 
+### マシンインベントリ、ダウンロードキット、ハウツーの違い 
+ダウンロード・キット（アカデミーと同じもの）は、"最終的な "コンテンツとデザインのためのものです。これは、私たちが何かを完全に完成させ、文書化し、人々にそれを再現することを奨励したいと思うときです。 
+マシンの在庫は、より迅速な反復開発のためのものだ。最終的なデザインには多くの段階がある（正直に言うと、最終的なデザインは決して最終的なものではない）。マシン在庫はまさにそのためのものです。コミュニティから最新で最高のものを見つける場所ですが、必ずしもあなたの手をずっと握っているために必要なすべての文書が揃っているわけではありません。プレシャス・プラスチックのマシンを作ったことのあるマシンビルダーに最適です。 
+ハウツーとは、プレシャス・プラスティック・ユニバースで何かをするための完全なステップバイステップのガイドです。それがマシンハックであれ、ユニークな収集システムであれ、新製品であれ、その他であれ。その範囲はマシンだけにとどまらず、提供する必要のある情報量という点では、より高度なものとなります。 
+## ドキュメント 
+完全で明確なドキュメントは、オープンソース・プロジェクトの開発にとって極めて重要です。また、ドキュメントの調和、つまりすべてのドキュメントで同じように見えるようにすることも重要だ。これにより、あるマシンから別のマシンへのジャンプがすぐに理解できるようになる。 
+### マシンの命名 
 
-The machine inventory is a place for documenting and sharing Precious Plastic machines. These machines can come from the Precious Plastic team, machine shops / workspaces in the community, or individual members of the community. It was created for more machines to be shared within the community and more iterative versions of the machines from the Precious Plastic team. 
+プレシャス・プラスティック・ユニバースのマシンの命名には3つのパートがある： 
 
-### Difference between Machine Inventory, Download-kit, and How-to 
+1.機械名 
+2.大きな数字（大きな変化） 
+3.スモールナンバー（小銭） 
+マシンが初めてインベントリーに追加されたとき、それは1.0から始まる。もし "大きな変更 "があれば、2.0 に移動する。もし「小さな変更」、例えばボルトの変更や異なるホッパーのデザインの追加などがあれば、小さな数字だけが変更される(2.1)。 
+✅ **例：シュレッダー・ベーシック 3.2** 
 
-The download kit (which matches with the Academy) is for the place for the “final” content and designs. This is when we feel something is fully worked out and documented, and we want to encourage people to replicate it.
+<img src="../assets/guides/Shredder_Basic 3.2.jpg" width="1500px"/></img> 
 
-The machine inventory is for faster iterative development. There are many steps for a final design (and let’s be honest, final is never final). The machine inventory is for just that. It’s the place to find the latest and greatest from around the community, but not necessarily with all the documentation necessary to hold your hand all the way through. It’s best for machine builders who’ve had previous experience building Precious Plastic machines. 
+機械名 👉 シュレッダー・ベーシック 
+ビッグナンバー👉3（マシンの3回目のイテレーション） 
+小数値 👉 .2（2回目の小反復） 
+私たちはこれをマシンの*モデル*と呼んでいます（以前は*バージョン*と呼んでいました）。この変更は、プロジェクトのバージョン（Precious Plastic version 4）とマシンのモデル（Precious Plasticのバージョンに依存しない）の間の混乱を減らすために行いました。 
+[バザー](https://bazar.preciousplastic.com/)でマシンを販売する場合は、必ずマシンのモデルを明記してください。 
 
-How-tos are full step-by-step guides for how to do something in the Precious Plastic Universe. Whether it's a machine hack, unique collection system, new product or otherwise. The scope is beyond just machines, and has a higher lift in terms of amount of information you need to provide.
+>注意：単純な変換（例：シュレッダー・ベーシック2.0USA変換）でない限り、プレシャス・プラスチックの公式リリースと同じ名前をつけないでください。その代わりに、あなた自身の名前を決めてください。 
+### フォルダー構造： 
+フォルダ構造は、インベントリに追加されたどのマシンでも同じで、このシステムに従うのが理想的です： 
+	マシンの名称 📁 マシンの名称 
+		1. 3D CAD 
+			📁 STEPファイル 
+			プログラムファイル（FreeCAD、Solidworks、Fusion 360、Rhino など） 
+		📁 2.レーザーカットファイル (DXF 形式) 
+		3. 2D ブループリント (PDF) 
+		4. 回路図 
+		📁 5. 部品表 (Libre Calc / Excel ファイル) 
+		📁 6.その他 
+			📁 オプション 
+			📁 画像 
+			ポスター 
+			📁 テンプレート／治具 
+			アップグレード 
+			📁 ... 
+## デザインの原則 
 
+これらは、プレシャス・プラスティック・ユニバース全体のデザインを導く原則である。このリストはすべてを網羅しているわけではありませんが、マシンのデザインにおいてどのようなアイデアを念頭に置くべきかの一般的な考え方を示しています。 
+* オープンソース 
+* 入手しやすい（部品や材料は世界中で入手可能） 
+* シンプル（過度に複雑な部分は避ける） 
+* 複製可能（他の人のために構築プロセスを考えた） 
+* 魅力的／親しみやすい 
+* システマティック（このマシンの宇宙への適合性を念頭に置く） 
+* 耐久性 
+* 機知に富む 
+* カスタマイズ可能 
+* コラボレーション 
+* モジュラー 
+# フィルター 
+### 品質評価 
 
-## Documentation
+レーティングは、図面がどの段階にあるのかを確認するために導入された。また、新しい図面には検証プロセスを経る必要がある。 
+| Quality Rating |  Description           | 
+|---------|------------| 
+| <img src="../assets/guides/quality-1.png" width="50px"/> |   **Unknown** <br> The drawings of this machine are not according to any quality standard.         | 
+| <img src="../assets/guides/quality-2.png" width="50px"/> |  **Good Documentation** <br>  The drawings are uploaded according to our guidelines (above)          | 
+| <img src="../assets/guides/quality-3.png" width="50px"/> |  **Reviewed Drawing** <br>  Same as above + the drawings are also positively reviewed by Precious Plastic.        | 
+| <img src="../assets/guides/quality-4.png" width="50px"/> |  **Tested machine** <br> Same as above + we tested the machine in real life and it works well.    | 
+| <img src="../assets/guides/quality-5.png" width="50px"/> |  **Well Tested > 1 Year** <br>  + We and community members used the machines for a long period of time and it works well.    | 
+### 難易度 
 
-Complete and clear documentation is crucial for the development of open source projects. It’s also important for the way the documentation is harmonized - so that it appears the same across all the documents. This makes jumping from one machine to another immediately understandable.
+難易度レベルとは、マシンを作るために必要な工具の複雑さを示すものです。これによって、どの程度複雑な機械が必要なのかを前もって理解することができます。難易度は5段階に分かれている。 
+| Difficulty level |        Description     | 
+|---------|------------| 
+| <img src="../assets/guides/level_1.png" width="50px"/> | **Level 1** <br>  Only grinder / drill / welding 
+| <img src="../assets/guides/level_2.png" width="50px"/> | **Level 2** <br> Same as above + lasercut / heating element cabling 
+| <img src="../assets/guides/level_3.png" width="50px"/> | **Level 3** <br> Same as above + lathe work / motor cabling 
+| <img src="../assets/guides/level_4.png" width="50px"/> | **Level 4** <br> Same as above + milling / multiple axis lathe work / VFD 
+| <img src="../assets/guides/level_5.png" width="50px"/> | **Level 5** <br> Same as above + steel milling / pneumatic system or hydraulic system and some other complex stuff. Get yourself ready. 
 
+## マシンをインベントリーに追加 
 
-### Naming a Machine 
+あなたのマシンを在庫に加えたいですか？いいね！世界中にあなたのマシンが複製されるのを見るのは、次のレベルの満足感です :) 
 
-There are three parts to naming machines in the Precious Plastic Universe:
+## 投稿ガイドライン 
+* 上記の命名システムに従わなければならない 
+* 少なくとも文書化された3D CADモデルを持っていること。 
+* 文書が保存されている場所への公開リンクを提供しなければならない。 
+## 自分の作品をどこで発表すべきか？ 
+ファイルの保存場所は問いません。あなたにとって最適な方法をお選びください。いくつかのオプションをご紹介します： 
 
-1. Name of the Machine 
-2. Big number (Large Change)
-3. Small number (Small Change) 
-
-
-When a machine is first added to the inventory, it would start at 1.0 . If there is a “big change”, then it would move to 2.0 . If there is a “small change”, for example changing the bolts or adding a different hopper design, then only the small number would change (2.1). 
-
-✅ **Example: Shredder Basic 3.2** 
-
-<img src="../assets/guides/Shredder_Basic 3.2.jpg" width="1500px"/>
-
-Name of machine 👉 Shredder Basic
-
-Big Number 👉 3 (Third iteration of the machine)
-
-Small Number 👉 .2 (Second small iteration) 
-
-We refer to this as the *Model* of the machine (previously referred to as *version*). We made this change to reduce confusion between the version of the project (Precious Plastic version 4) and the model of the machine, which is not dependent on the version of Precious Plastic during which it was developed. 
-
-If you sell your machines on the [Bazar](https://bazar.preciousplastic.com/) make sure to specify what model the machine is.
-
->Note: Please do not name your machines the same as the official Precious Plastic releases, unless it is a simple conversion (example: Shredder Basic 2.0 USA conversion). Instead choose your own name.
-
-### Folder Structure: 
-
-Ideally the folder structure should be the same for any machine added to the inventory and should follow this system:
-
-	📁 Name of Machine
-		📁 1. 3D CAD
-			📁 STEP Files
-			📁 Program Files (FreeCAD, Solidworks, Fusion 360, Rhino, Etc) 
-		📁 2. Lasercut Files (DXF Format)
-		📁 3. 2D Blueprints (PDF) 
-		📁 4. Schematics
-		📁 5. BOM (Libre Calc / Excel File) 
-		📁 6. Other
-			📁 Options   
-			📁 Images 
-			📁 Posters 
-			📁 Templates / Jigs 
-			📁 Upgrades 
-			📁 …
-
-
-
-## Design Principles:
-
-These are the principles that guide design across the Precious Plastic Universe. The list is not exhaustive, but gives a general idea of what ideas to keep in mind for the design of the machines. 
-
-* Open-source 
-* Accessible (parts and materials found globally)
-* Simple (avoiding overly complex parts)
-* Replicable (considered the building process for others) 
-* Appealing / Approachable  
-* Systematic (mindful of the way this machine fits into the universe) 
-* Durable 
-* Resourceful 
-* Customizable
-* Collaborative
-* Modular
-
-# Filters
-
-
-### Quality rating
-
-Rating is introduced to make sure we can see at which stage the drawings are. To make sure the ones that have been running for a while withstand time, score a high rating and new drawings need to go to a verification process.
-
-| Quality Rating |  Description           |
-|---------|------------|
-| <img src="../assets/guides/quality-1.png" width="50px"/> |   **Unknown** <br> The drawings of this machine are not according to any quality standard.         |
-| <img src="../assets/guides/quality-2.png" width="50px"/> |  **Good Documentation** <br>  The drawings are uploaded according to our guidelines (above)          |
-| <img src="../assets/guides/quality-3.png" width="50px"/> |  **Reviewed Drawing** <br>  Same as above + the drawings are also positively reviewed by Precious Plastic.        |
-| <img src="../assets/guides/quality-4.png" width="50px"/> |  **Tested machine** <br> Same as above + we tested the machine in real life and it works well.    |
-| <img src="../assets/guides/quality-5.png" width="50px"/> |  **Well Tested > 1 Year** <br>  + We and community members used the machines for a long period of time and it works well.    |
-
-
-
-### Difficulty level
-
-Difficulty levels are to indicate how complex the tooling is needed to make the machines. This will give a better understanding upfront of the complexity you are getting into. They are divided into 5 different levels.
-
-| Difficulty level |        Description     |
-|---------|------------|
-| <img src="../assets/guides/level_1.png" width="50px"/> | **Level 1** <br>  Only grinder / drill / welding
-| <img src="../assets/guides/level_2.png" width="50px"/> | **Level 2** <br> Same as above + lasercut / heating element cabling
-| <img src="../assets/guides/level_3.png" width="50px"/> | **Level 3** <br> Same as above + lathe work / motor cabling
-| <img src="../assets/guides/level_4.png" width="50px"/> | **Level 4** <br> Same as above + milling / multiple axis lathe work / VFD
-| <img src="../assets/guides/level_5.png" width="50px"/> | **Level 5** <br> Same as above + steel milling / pneumatic system or hydraulic system and some other complex stuff. Get yourself ready.
-
-## Add Your Machine to the Inventory 
-
-Want to add your machine to the inventory? Great! It's next level satisfaction to see your machine replicated around the world :)
-
-## Guidelines for submitting 
-* Must follow the naming system outlined above
-* Must have at least a 3D CAD model documented 
-* Must provide a public link to where your documentation is stored 
-
-## Where should I publish my work? 
-We don't mind where you are storing your files. Do what works best for you. Here are a few options:
-
-* Google Drive
-* [GitHub](https://github.com/)
-* [GitLab](https://gitlab.com/)
-* [Wikifactory](https://wikifactory.com/)
+* グーグルドライブ 
+* [GitHub](https://github.com/) 
+* [GitLab](https://gitlab.com/) 
+* [ウィキファクトリー](https://wikifactory.com/) 
 * [Grabcad](https://grabcad.com/) 
+## 自分のマシンをインベントリーに登録するには？ 
 
-
-## How can I submit my machine to the inventory? 
-
-We’ve created a [form](https://docs.google.com/forms/d/e/1FAIpQLSfTEshXP9IZuq5aoTi3z5l6bNfkBL1kLuVDxpDHQDXIYHehfQ/viewform?usp=sf_link) for you to submit your  machine to the inventory. We'll take a look at the information your submitted and see if it fits within our guidelines. If so, we'll add a thumbnail and link to the machine inventory. 
-
+あなたのマシンをインベントリーに提出するための[フォーム](https://docs.google.com/forms/d/e/1FAIpQLSfTEshXP9IZuq5aoTi3z5l6bNfkBL1kLuVDxpDHQDXIYHehfQ/viewform?usp=sf_link)を作成しました。提出された情報を拝見し、ガイドラインに適合するかどうかを判断します。該当する場合は、マシンのサムネイルとインベントリへのリンクを追加します。 

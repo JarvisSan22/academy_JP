@@ -1,208 +1,188 @@
 ---
-id: basics
-title: The Basics of Plastic
-sidebar_label: The Basics of Plastic
+id: basics 
+title: The Basics of Plastic 
+sidebar_label: The Basics of Plastic 
 ---
+
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/fsqLJNyrVss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/fsqLJNyrVss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
 
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: #29bbe3;
-  --hover: rgb(131, 206, 235);
-}
-</style>
+:root { 
+  --highlight: #ffe084; 
+  --links: #29bbe3; 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
 
-# The Basics of Plastic
+
+# プラスチックの基本 
 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-### Let's start from the beginning.
+### 最初から始めよう。 
+プラスチックとは何か？プラスチックはどこから来て、私たちはどのくらい使い、何がリサイクルされているのでしょうか？プラスチックにはどのような種類があり、どのように見分けるのでしょうか？ここでは、プラスチックの基本について説明し、あなたがこれから扱う素材について素早く理解できるようにします！ 
 
-What is plastic? Where does it come from, how much do we use, and what is recycled? What different types of plastic exist, and how do you recognize them? Here we cover the basics of plastic to get you up to speed quickly with the material you’re going to be working with!
-
-> Pro-tip: look under your plastic product and see if you can recognize what type of plastic it is.
-
-</div>
+> プロからのアドバイス：お手持ちのプラスチック製品の下を見て、それがどんな種類のプラスチックかわかるかどうか試してみてください。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 0:11 イントロダクション 
+- 00:18 プラスチックとは何か？ 
+- 01:15 さまざまなタイプ 
+- 02:45 プラスチックを認識する 
+- 05:18 トランスフォーム・プラスチック 
+</div> 
+</div> 
 
-- 0:11 Introduction
-- 00:18 What is plastic?
-- 01:15 Different types
-- 02:45 Recognize plastics
-- 05:18 Transform plastics
+# プラスチックとは何か？ 
+プラスチックは私たちの身の回りのいたるところにある。 
+![Plastic Pile](assets/plastic/plasticpile.svg) 
+プラスチックという言葉は日々私たちの口に入ってくるが、その本当の意味は何だろうか？この言葉自体は、ギリシャ語で「形づくることができる、成形することができる」を意味するプラスティコスに由来し、プラスチックがフィルム、繊維、プレート、チューブ、ボトルなど様々な形状にキャスト、プレス、押し出し成形されることを可能にする製造時の可鍛性を指している。 
+プラスチックは主に石油から抽出される合成化学物質で、炭化水素（水素と炭素原子の鎖）からできている。ほとんどのプラスチックはポリマーで、モノマーと呼ばれる基本分子が何度も繰り返されてできた長い分子であり、この構造がプラスチックを特に丈夫で長持ちさせる。比較的安価で、製造が容易で、汎用性が高いため、プラスチックはシャンプーボトルから宇宙ロケットまで、膨大な種類の製品に使用され、拡大している。どこにでもあり、大量に生産されるプラスチックは、その強力な結合分子による分解速度の遅さ（最近の研究では500年）により、深刻な環境破壊を引き起こしている。つまり、あなたの両親や祖父母、曾祖父母の代から使われてきたプラスチックは、現在もなお存在し、さらに4世紀にわたって地球を汚染し続けるのだ。 
+ほとんどのプラスチックには、性能を向上させたり製造コストを削減したりするために、添加剤と呼ばれる他の有機化合物や無機化合物が配合されている。添加剤の量は用途やプラスチックの種類によって大きく異なる。 
+だから、世界中どこでも見つけることができるし、私たちが望まない場所にも行き着く。 
+
+![PP Image](assets/plastic/beachplastic.jpg) 
+### 我々は毎年3億トンの新しいプラスチックを生産している。 
+特に、すでにある材料で使えるものがたくさんあるときには。バージン・プラスチックは石油から作られている。石油は貴重な化石燃料であり、私たちが使い果たそうとしているものだ。これはあまりスマートではない。大きな設計ミスだ。そして、実際にリサイクルされるプラスチックは全体の10％にも満たないため、新しく生産されたプラスチックのほとんどは埋め立て地や海に捨てられるか、燃やされてしまう。え？ 
+では、どうすればいいのか？それはリサイクルをすることだ！ 
+> プロからのアドバイス：リサイクルと並んで、新しいプラスチックの使用を最小限に抑えるよう努力すべきである。 
+# プラスチックの種類 
+
+まず、プラスチックには大きく分けて熱可塑性プラスチックと熱硬化性プラスチックの2種類がある。 
+![Thermoplastic - Thermoset](assets/plastic/thermoplasticthermoset.svg) 
+
+### 熱硬化性 
+
+熱硬化性プラスチックは、架橋して不可逆的な結合を作るポリマーを含んでいる。熱硬化性プラスチックはパンのようなもので、一度パンができると、熱を加えようとしても燃えてしまう。これらのプラスチックはいずれもリサイクルできない。熱硬化性プラスチックの例をいくつか挙げよう： 
+
+![Thermoset Examples](assets/plastic/thermosetex.svg) 
+
+### 熱可塑性プラスチック 
+
+熱可塑性プラスチックは、熱すると柔らかくなり、冷えると硬くなるプラスチックポリマーである。熱可塑性プラスチックは何度も冷やしたり熱したりすることができる。熱すると溶けて液体になり、冷えると硬くなる。熱可塑性プラスチックはバターのようなもので、何度でも熱したり冷やしたりできる。熱可塑性プラスチックの例 
+![Thermoset Examples](assets/plastic/thermoplasticex.svg) 
+
+ありがたいことに、世界のプラスチックの80％は熱可塑性プラスチック（🎉）です。熱可塑性プラスチック（ここでは単にプラスチックと呼びます）は、その構造や特性によってさらに細かく分類され、通常、製品のどこかに印刷またはエンボス加工されているはずの名前や番号で見分けることができます。 
+最も一般的なものは以下の通りだ： 
+
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/plastictypesoverview.svg" width="80%"/></img>
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-pet.svg" width="80"/></img> 
+
+### PET (1): ポリエチレンテレフタレート 
+
+PETは非常に丈夫なプラスチックで、その透明な見た目からすぐに見分けがつく。水や炭酸飲料のペットボトルはすべてPETで作られているほか、一部の瓶、くし、バッグ、トートバッグ、カーペット、ロープなどもPETで作られており、より一般的にリサイクルされている。最近では、PETは糸にリサイクルされ、衣服に加工されている。  このプラスチックは加工が少し複雑なので、他のプラスチックから始めることをお勧めする。 
+
+<b>特性:</b>軽量、耐衝撃性、剛性/半剛性<br>
+<b>長所：</b> 強力で硬い、水と酸化物のバリア、良好な電気特性<br>
+<b>短所</b>：高い成形収縮率、熱劣化、有害ガス<br>
+<b>安全性：</b> 中程度<br>
+<b>警告 ⚠️</b> 加工時に有害なガスが発生し、長期間の使用で有害物質が浸透することを示唆する調査結果もある<br>。 
+<b>一般的な用途:</b> ブロー成形ボトル（水ボトル、ソーダ/ジュースボトル）、ラップ、フィルム、電気継手<br> 
+<b>PPマシンで使用するベストな方法：</b>私たちはそれに取り組んでいます！ 
 
 
-</div>
-</div>
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-hdpe.svg" width="80"/></img>
 
-# What is plastic?
+### HDPE (2)：高密度ポリエチレン 
 
-Plastic is everywhere around us.
+HDPEは、食品や飲料の容器のほか、牛乳瓶、モーターオイル、シャンプーボトル、石鹸瓶、洗剤、漂白剤、玩具、ボトルキャップなどによく使われる。この種のプラスチック製品は、分別回収や洗浄が容易であることが多い。HDPEは、プレシャス・プラスチックの機械と非常に相性がよく、まず最初に使うのに最適です！ 
 
-![Plastic Pile](assets/plastic/plasticpile.svg)
+<b>特性：</b>不活性、熱安定性、強靭性、高張力<br>。 
+<b>長所：</b> 安価、高い耐薬品性、電気的特性、ワックス状の感触、良好な摩擦挙動<br>。 
+<b>短所：</b> PPより硬度が低い、燃えやすい、耐紫外線性が低い、成形収縮率が高い<br>
 
-The word plastic is in our mouth day in and day out, but what does it really mean? The word itself is derived from the Greek plastikos meaning “capable of being shaped or moulded” and refers to their malleability during manufacture that allows plastic to be cast, pressed or extruded into a variety of shapes—like films, fibres, plates, tubes, bottles and much more.
+ 
+<b>警告 ⚠️</b> HDPE自体は（燃えていない状態では）使用しても危険ではありませんが、添加物は危険な場合があります。<br>製品にどのような添加物が使用されているかを確認することはできません。 
+<b>一般的な用途：</b>パイプ、玩具、ボウル、木枠、パッキングフィルム<br> 
+<b>PP成形機で使用するベストな方法：</b> HDPEはPPとよく似ていて、溶融温度が低く、成形しやすい。素晴らしい素材です！ 
 
-Plastics are synthetic chemicals extracted mainly from petroleum and made of hydrocarbons (chains of hydrogen and carbon atoms). Most plastics are polymers, long molecules made up of many repetitions of a basic molecule called a monomer and this structure makes plastic particularly durable and long lasting. Due to their relatively low cost, ease of manufacture and versatility, plastics are used in an enormous and expanding range of products, from shampoo bottles to space rockets. The ubiquitousness and sheer volume of plastic production (it’s everywhere!) is causing serious environmental damage regarding its slow decomposition rate (recent studies say 500 years) due to its strong bonding molecules. Think of it this way, all plastics ever used from your parents and grandparents and great grandparents are still around today and will pollute the planet for another four centuries.
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-pvc.svg" width="80"/></img> 
 
-Most plastics contain other organic or inorganic compounds blended in called additives to improve performance or reduce production costs. The amount of additives ranges widely depending on the application and plastic type.
+### PVC（3）：ポリ塩化ビニル 
 
-So, you can find it everywhere in the world, and it ends up in places we definitely don’t want it to be.
+PVCは有毒であり、私たちはPVCで作業することはできません。塩化ビニールは配管パイプによく見られ、熱を加えると塩化物を放出します！ 
 
-![PP Image](assets/plastic/beachplastic.jpg)
+<b>特性：</b> 絶縁性、化学的に不活性<br>。 
+<b>長所：</b> 安価、耐酸性、耐アルカリ性、難燃性、硬くて強い<br><br>。 
+<b>短所：</b>過熱による劣化、0℃以下では脆くなる、強い紫外線で変色する、熱可塑性プラスチックとしては密度が高い、燃やすとHCLやダイオキシンが発生する<br>。 
+<b>安全性：</b> 安全ではありません。 
+<b>警告⚠️</b> 危険な充填剤と、分解または燃焼時にHCLとダイオキシンを放出する。<br> 
+<b>Common uses:</b> Flexible: fake leather, seals, cable covers, tape. Rigid: pipes, building products, bottes, film, soles, heat-shrinking tubes 
+<br> 
+<b>PPマシンでの最善の使用方法：使用しない！</b> 
 
-### We produce 300 million metric tonnes of new plastic every year 🤯
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-ldpe.svg" width="80"/></img> 
 
-Which is not very smart, especially when we have so much already existing material that we can use. Virgin plastic is made from oil, a valuable fossil fuel which we’re running out of, and it’s used to make cheap products which are meant to be discarded after a very short time of usage. This isn’t very smart. A huge design fallacy. And, as less than 10% of plastic is actually recycled, most of all this newly produced plastic ends up in landfills, the ocean, or is burnt. Huh?
+### LDPE (4)：低密度ポリエチレン 
+LDPEは主にラップ、サンドイッチ袋、スクイーズボトル、プラスチック食料品袋に使用されている。  通常、LDPEはラベルが貼られていないことが多く、軽すぎて洗浄が難しい傾向があるため、一般的にはリサイクルされないが、プレシャス・プラスチックの技術を使えばむしろうまくいく。ビニール袋のリサイクル技術として人気があるのは、アイロンをかけてより丈夫な織物にすることだ。 
+<b>特性：</b> 化学的に不活性、柔軟、絶縁<br> 
+<b>長所：</b>安価、耐薬品性および耐加水分解性、高い衝撃強度（低温）、良好な加工性<br>。 
+<b>欠点：</b> 引張強度が低い、剛性が低い、最高温度が低い、焼けやすい、耐紫外線性が低い、成形収縮率が高い<br><br 
+ 
+<b>警告 ⚠️</b> LDPE自体は（燃えていない状態では）使用しても危険ではありませんが、添加物は危険な場合があります。<br>製品にどのような添加物が使用されているかを確認することはできません。 
+<b>一般的な用途:</b> ボウル、蓋、玩具、容器、フィム、スクイズボトル、パイプ、バッグ、シート 
+<br> 
+<b>PPマシンでの最適な使用方法:</b> LDPEは箔であることが多く、シュレッダーにかけるには理想的ではありません。しかし、[鉄](https://www.youtube.com/watch?v=Pp4vmfVlm2k)と一緒に融合させたり、[大理石](https://www.youtube.com/watch?v=LV6Zp9i0mOc)を作るのに使うのは良い。 
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-pp.svg" width="80"/></img> 
+### PP (5): ポリプロピレン 
+PPは、市場で最も一般的に利用されているプラスチックのひとつで、強度が高く、通常は高温に耐えることができます。PPの用途は多岐にわたりますが、タッパー、ヨーグルトの箱、シロップのボトルなど、食べ物や飲み物と接触する製品によく使われています。PPはプレシャス・プラスチックと非常に相性が良い。 
+<b>プロパティ：</b>いくつかのプロパティはこちら<br> 
+<b>長所：</b> PEに似ているが、より強く、詰め物が多く、高温で密度が低いため、機械的、熱的、電気的性能が高く、低コストのエンジニアリング・プラスチック<br>。 
+<b>短所：</b> PEより高コスト、0℃以下では脆い、ガス透過性が高い、燃料への耐性が低い、耐紫外線性が低い、燃え続ける<br><br 
+ 
+<b>警告 ⚠️</b>PP自体は（燃えていない状態では）使用しても危険ではありませんが、添加物は危険な場合があります。製品にどのような添加物が使用されているか見ることはできません。 
+<br> 
+<b>一般的用途：</b> 構造部品、パイプ、玩具、椅子、台所用品、DVDケース、包装、フィルム、織物、カーペット、ロープ、ネット 
+<br> 
+<b>PPマシンでの最適な使用方法：</b>すべての機械で使用できます！私たちはポリプロピレンが大好きです！ 
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-ps.svg" width="80"/></img>
 
-So, how do we solve this? Well, it’s time to get recycling!
+### PS（6）：ポリスチレン 
 
-> Pro-tip: alongside recycling you should try to minimize your use of new plastic.
+PSは発泡スチロールとして最もよく知られているが、それ以外にも多くの製品に使われている。PSはリサイクル可能だが、効率は良くない。リサイクルには多くのエネルギーが必要なため、リサイクル可能な場所は少ない。使い捨てコーヒーカップ、プラスチック製食品箱、プラスチック製カトラリー、梱包用発泡スチロールはPSから作られている。プレシャス・プラスチックは、有毒なプラスチックのひとつだが（そのため、特別な注意が必要だ！）、同時にガラスに匹敵し、磨くことができるため、優れた審美性と触感を提供する。 
+特性: 透明, 光沢, 固い, 硬い 
 
-# Different plastic types
+<b>特性：</b> 透明、光沢、硬い、堅い<br><br>。 
+<b>長所：</b> 安価、成形収縮率が低い、断熱性が高い、低温に強い<br>。 
+<b>短所</b><br> 脆い、耐摩耗性に劣る、耐薬品性に劣る<br>。 
+<b>安全性：</b> 中程度<br>
+<b>警告 ⚠️</b> PSを燃やすとスチレンが放出されることがある（有毒）<br>。 
+<b>一般的な用途: </b> 玩具、CDケース、ライトディフューザー、電気ハウジング、カトラリー 
+<br> 
+<b>PP加工機での最適な使用方法：</b>押出、シート、研磨（ガラス状素材） 
 
-Firstly, there are two major categories of plastic: Thermoplastics and Thermoset.
+<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-other.svg" width="80"/></img> 
 
-![Thermoplastic - Thermoset](assets/plastic/thermoplasticthermoset.svg)
+### ミックス (7) 
 
-### Thermoset
+このコードは、他の6種類のプラスチックでは定義されない他の種類のプラスチックを識別するために使用される。以下のようなプラスチックが含まれる。ABS、アクリル、ポリカーボネートなどはこのカテゴリーに含まれ、リサイクルが困難な場合があるが、プレシャス・プラスティックはこのカテゴリーに含まれる一部のプラスチックに対応することができる。 
 
-Thermoset plastics contain polymers that cross-link together and create an irreversible bond, meaning they can’t be remelted - once they take shape, they will be solidified forever. Think of Thermoset as bread: once bread is made, if you try to heat it, it just burns. None of these plastics can be recycled. Some examples of thermoset plastics are:
+<b>特性:</b>これには多くの異なる種類のプラスチックが含まれているため、特性は大きく異なる可能性があります。ですから、それがどの種類のプラスチックであるかによって異なります。識別できれば再利用できますが、混在している場合はカオスです。 
 
-![Thermoset Examples](assets/plastic/thermosetex.svg)
+<br> 
+<b>長所：</b> この中には、作業するのに良いプラスチックがいくつかある。ABS、PLA、ナイロン。 
+<b>短所：</b> 独自のラベルを持っていないことが多いので、識別が難しい。そのため、混ざり合ってカオスになっている 🌪️<br> 
+<b>安全性:</b> 溶ける温度を見つけるのが難しい。だから簡単に燃えてしまう。だから、それほど安全ではない。 
+<br> 
+<b>警告：</b>ここに含まれるプラスチックの種類（PCなど）の中には、非常に有毒なガスを放出するものがあります。作業したいプラスチックの種類をよく知り、大量に処理する前にその特性をテストしてください。<br 
+<b>一般的な用途：</b>PC（CDおよびDVDなど）、PLA（バイオプラスチック）、ABS（3Dプリント用フィラメント、玩具、電子製品など）、PMMA（アクリルガラス） 
+<br> 
 
-### Thermoplastic
+## ♪ そしていつも忘れないで 
+![Dont' Mix Plastic](assets/plastic/dontmixplastic.svg) 
+異なる種類のプラスチックを混ぜてはならない。品質が極端に低下し、リサイクルが非常に難しくなるからだ。さらに、異なる種類のプラスチックを一緒に溶かすと、油と水のように相分離し、層状に固まる傾向があるため、構造的に弱くなり、製品の品質が低下する。 
+# 融解温度 
+プラスチックにはさまざまな種類があり、それを分けることが重要な理由のひとつは、それぞれの溶ける温度にある。そのため、新しい高品質のアイテムを作るためには、それぞれのプラスチックが何度で溶けるのか、また、それぞれのプラスチックが何度で成形できるのかを知ることが重要なのです。しかしご安心ください！具体的な溶融温度については、<b>CREATE</b>のセクション（<i>デザイン</i>に進んでください）をご覧ください。しかし、プラスチックの種類を覚えておくことは重要なので、作業スペースやアトリエに便利なポスターを作りました。<br> 
+![Melting Temperatures](assets/plastic/melting-temperatures.jpg) 
+<br> 
 
-Thermoplastics is a plastic polymer which becomes soft when heated and hard when cooled. Thermoplastic materials can be cooled and heated several times: when they are heated, they melt to a liquid and when they cool they become hard. Think of Thermoplastics as butter: it can be heated and cooled many times, it just melts and sets again. Examples of thermoplastics:
+<b>フィードバックを共有したり、プラスチックについておしゃべりしたり、コミュニティからもっと学びたいですか？ <br> 
 
-![Thermoset Examples](assets/plastic/thermoplasticex.svg)
+Discordの[#plastic](https://discordapp.com/invite/n5d8Vrr)チャンネルへどうぞ。ここでは、プラスチック、安全性、煙、材料特性について話しています</b>。 
 
-Thankfully, 80% of plastics in the world are thermoplastics (🎉) meaning they can be recycled and transformed. Thermoplastics (which we will just refer to as plastic) are divided into further subcategories depending on their structure and properties, and can be recognized by their name or number that should be usually printed or embossed somewhere on your products.
-
-The most common ones are:
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/plastictypesoverview.svg" width="80%"/>
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-pet.svg" width="80"/>
-
-### PET (1): Polyethylene terephthalate
-
-PET is a very strong plastic that can be easily recognised for its transparent look - all water and soda bottles are made from PET as well as some jars, combs, bags, tote bags, carpets and ropes, and is recycled more commonly. Recently, PET has been recycled into yarns and made into clothes.  This plastic is a bit more complex to work with, we advise to start with other plastics.
-
-<b>Properties:</b> lightweight, impact resistant, rigid/semi-rigid<br>
-<b>Pros:</b> strong and stiff, water and oxide barrier, good electrical properties<br>
-<b>Cons:</b> high mold shrinkage, heat degradation, harmful fumes<br>
-<b>Safety:</b> Medium<br>
-<b>Warning ⚠️</b> harmful fumes during processing, some research suggesting harmful materials seeping through long term use<br>
-<b>Common uses:</b> blow molded bottles (water bottles, soda/juice bottles), wrapping, film, electrical fittings<br>
-<b>Best ways to use with PP machines:</b> we're working on that!
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-hdpe.svg" width="80"/>
-
-### HDPE (2): High-density polyethylene
-HDPE is often used for food and drink containers, as well as milk bottles, motor oil, shampoo bottles, soap bottles, detergents, bleaches, toys and bottle caps. Products of this plastic types are often easier to collect sorted and clean. HDPE works very well with Precious Plastic machines and is great to start with!
-
-<b> Properties:</b> inert, thermally stable, tough and high tensile strength<br>
-<b>Pros:</b> cheap, high chemical resistance, electrical properties, waxy feel, good friction behaviour<br>
-<b>Cons:</b> less stiff than PP, easy to burn, poor UV resistance, high mold shrinkage<br>
-<b>Safety:</b> Good<br>
-<b>Warning ⚠️</b> HDPE itself (when not burning) is not dangerous to use, however additives can be dangerous. It’s not possible to see what kind of additives are used in products.<br>
-<b>Common uses:</b> pipes, toys, bowls, crates, packing film<br>
-<b>Best ways to use with PP machines:</b> HDPE works very similar to PP, low melting temperature and easy to mould. Great material to use!
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-pvc.svg" width="80"/>
-
-### PVC (3): Polyvinyl chloride
-PVC is toxic and we do not work with it. It is most commonly found in plumbing pipes and releases chloride when heated up - we do not recommend using with Precious Plastic machines!
-
-<b> Properties:</b> insulating, chemically inert<br>
-<b>Pros:</b> cheap, acid and alkali resistance, flame retardant, stiff and strong<br>
-<b>Cons:</b> overheating causes degradation, brittle below 0°C, discolour in strong UV light, high density for thermoplastic, HCL and dioxins when burned<br>
-<b>Safety:</b> Not safe - do not use<br>
-<b>Warning ⚠️</b> dangerous fillers and release of HCL and dioxins during degradation or burning.<br>
-<b>Common uses:</b> Flexible: fake leather, seals, cable covers, tape. Rigid: pipes, building products, bottes, film, soles, heat-shrinking tubes
-<br>
-<b>Best ways to use with PP machines: don't use it! </b>
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-ldpe.svg" width="80"/>
-
-### LDPE (4): Low-density polyethylene
-LDPE is largely used for plastic wrap, sandwich bags, squeezable bottles, and plastic grocery bags.  Usually LDPE is not commonly recycled, as it is often not labeled, it’s too light and tends to be more difficult to clean, but works rather well with Precious Plastic techniques. A popular recycling technique for plastic bags is ironing them into a more durable textile.
-
-<b> Properties:</b> chemically inert, flexible, insulating<br>
-<b>Pros:</b> cheap, chemical and hydrolysis resistance, high impact strength (low temp), good processability <br>
-<b>Cons:</b> low tensile strength, low stiffness, low max temp, burns easily, poor UV resistance, high mold shrinkage<br>
-<b>Safety:</b> Good<br>
-<b>Warning ⚠️</b> LDPE itself (when not burning) is not dangerous to use, however additives can be dangerous. It’s not possible to see what kind of additives are used in products.<br>
-<b>Common uses:</b> bowls, lids, toys, containers, fim, squeeze bottles, pipes, bags, sheets
-<br>
-<b>Best ways to use with PP machines:</b> LDPE is often a foil and not ideal to shred. But its good to fuse together with [iron](https://www.youtube.com/watch?v=Pp4vmfVlm2k) or used to create [marble.](https://www.youtube.com/watch?v=LV6Zp9i0mOc)
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-pp.svg" width="80"/>
-
-### PP (5): Polypropylene
-PP is one of the most commonly available plastics on the market, it is strong and can usually withstand higher temperatures. PP has a wide variety of uses but is consistently used for products that get in contact with food and drink - tupperware, yoghurt boxes, syrup bottles etc. PP works very well with Precious Plastic.
-
-<b> Properties:</b> some properties here<br>
-<b>Pros:</b> like PE but stronger, stuffer and higher temp and lower density, mechanical, thermal and electrical performance result in a low cost engineering plastic <br>
-<b>Cons:</b> higher cost than PE, brittle below 0°C, high permeability to gases, poor resistance to fuels, poor UV resistance, keeps burning<br>
-<b>Safety:</b> Good<br>
-<b>Warning ⚠️</b> PP itself (when not burning) is not dangerous to use, however additives can be dangerous. It’s not possible to see what kind of additives are used in products.
-<br>
-<b>Common uses:</b> structural parts, pipes, toys, chairs, kitchenware, DVD cases, packaging, films, textile, carpets, rope, netting
-<br>
-<b>Best ways to use with PP machines: </b>Works well with all machines! We love polypropylene!
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-ps.svg" width="80"/>
-
-### PS (6): Polystyrene
-
-PS is most commonly known as Styrofoam, but also appears in many more products. PS can be recycled, but not efficiently - recycling it takes a lot of energy which means that few places accept it. Disposable coffee cups, plastic food boxes, plastic cutlery and packing foam are made from PS - it works very well with Precious Plastic. It is one of the more toxic plastic types (so special attention please!), but at the same time offers great aesthetic and haptic properties as it is comparable with glass and can be polished.
-Properties: clear, glossy, hard, stiff
-
-<b> Properties:</b> clear, glossy, hard, stiff<br>
-<b>Pros:</b> cheap, low mould shrinkage, good insulator, good on low temp <br>
-<b>Cons:</b> Brittle, poor wear resistance, poor chemical resistance<br>
-<b>Safety:</b> Medium<br>
-<b>Warning ⚠️</b> While burning PS, styrene can be released (toxic)<br>
-<b>Common uses:</b> Toys, CD cases, light diffusers, electric housings, cutlery
-<br>
-<b>Best ways to use with PP machines: </b>extrusion, sheets, polishing (glasslike material)
-
-<img style="margin-left: 0; margin-top: 50px" src="../assets/plastic/type-other.svg" width="80"/>
-
-### MIX (7)
-This code is used to identify other types of plastic that are not defined by the other six plastic types. Plastics such as. ABS, Acrylic or Polycarbonate are included in this category and can be difficult to recycle, however Precious Plastic can work with some of this.
-
-<b> Properties:</b>As this includes a lot of different plastic types, the properties can vary a lot. So, it depends which type of plastic it is. If you can identify then you can reuse it but if it's mixed, it's chaos
- <br>
-<b>Pros:</b> There are some good plastics in here to work with. ABS, PLA, Nylon. <br>
-<b>Cons:</b> Hard to identify since they often don’t have their own label. So it gets mixed and is chaotic 🌪️<br>
-<b>Safety:</b> Hard to find the melting temperature, especially if it's mixed. So you can easily end up burning it. So, not that safe.
-<br>
-<b>Warning:</b>Some of the plastic types included here (like PC) release very toxic fumes. Make sure to inform yourself about the plastic type you want to work with, and test its properties before processing it in masses. <br>
-<b>Common uses:</b>PC (CDs & DVDs…), PLA (bioplastics), ABS (3D-printing filament, toys, electronic products…), PMMA (acrylic glass)
-<br>
-
-## And always remember:
-
-![Dont' Mix Plastic](assets/plastic/dontmixplastic.svg)
-
-Different plastic types should never be mixed together as this will decrease their quality drastically and make it very difficult to recycle them. Moreover, when different types of plastics are melted together they tend to phase-separate, like oil and water, and set in layers resulting in structural weakness and lower quality products.
-
-# Melting temperatures
-
-So, there are different types of plastic and one reason why  it’s so important to separate them is because of their melting temperatures. They all reach a liquid state at a different heat, so in order to make new high quality items it’s important to know at what temperature each plastic melts, as well as at what temperatures different types can be moulded. But don’t worry - we did the tests for you! You can find more about specific melting temperatures in the <b>CREATE</b> section (head to <i>Design</i>). But it’s important to remember the different types of plastic, so we’ve made this handy poster for your workspace or studio. <br>
-
-![Melting Temperatures](assets/plastic/melting-temperatures.jpg)
-<br>
-
-<b>Want to share feedback, chat about plastic or learn more from the community? Head to the [#plastic](https://discordapp.com/invite/n5d8Vrr) channel on Discord. Here we talk about plastic, safety, fumes and material properties.</b>
-
-Ok that's it for the Basics of Plastic, we hope you learnt something! Check out the next chapter with Jerry to get even deeper into some of these topics.
+プラスチックの基礎知識はここまで！次の章では、ジェリーがこれらのトピックをさらに深く掘り下げていきます。 

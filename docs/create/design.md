@@ -1,281 +1,188 @@
 ---
-id: design
-title: Design for Recycled plastic
-sidebar_label: Good design
+id: design 
+title: Design for Recycled plastic 
+sidebar_label: Good design 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/yoidAZlYHLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: rgb(131, 206, 235);
-  --hover: rgb(131, 206, 235);
-}
-</style>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/yoidAZlYHLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #ffe084; 
+  --links: rgb(131, 206, 235); 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-# Designing for Recycled Plastic
+# 再生プラスチックのデザイン 
 
-### Recycled plastic is a valuable and versatile material 
-
-This section is quite juicy, we have been designing products alongside the community for many years now and have learnt some valuable things about the properties of each type of plastic and which are best to use with our machines. The first thing to designing and producing great products is to be safe, be sure to memorise the information in the Safety & Fumes section to make sure you’re not exposing yourself or anyone else to hazardous fumes. 
-
-> Pro-tip: focus on a single technique and master your product(s)!
-
-
-</div>
+### 再生プラスチックは貴重で用途の広い素材である。 
+このセクションは、私たちが長年にわたってコミュニティと一緒に製品を設計してきたことで、各タイプのプラスチックの特性や、私たちのマシンで使用するのに最適なものなど、貴重なことを学んできました。素晴らしい製品を設計・製造するためには、まず安全であることが大切です。自分自身や他の誰かを危険なガスにさらすことのないよう、「安全性とヒューム」のセクションの情報を必ず覚えておいてください。 
+> プロからのアドバイス：一つの技術に集中し、その製品をマスターすること！ 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
-
-- 00:07 Introduction
-- 00:16 Plastic Types
-- 01:05 Compression vs Injection/Extrusion
-- 02:32 Value of Plastic
-- 03:46 Plastic Design Ethics
-- 05:28 Sheetpress
-- 07:18 Injection
-- 09:23 Extrusion
-
-
-</div>
-</div>
-
-
-### Chapters
-
-1. Getting started
-2. Make it circular
-3. Designing for precious plastic machines
-4. Extrusion machine.
-5. Sheetpress
-6. Injection
-7. how-tos
-
-## Getting started
-
-As we’ve covered in the Basics of Plastic, each type of plastic has different properties and will therefore behave in different ways. It’s important to get to know your chosen plastic well - this will take some time and testing (and patience, of course!)
-
-<b>Compression</b> is quite self explanatory, it compresses the shredded plastic or pellets together through heat and pressure often creating a little bit of flow but still showing the pellets initial shape. This can be achieved with a machine like our new Sheetpress, or the older Compression machine.
-
-Products made with the sheetpress or compression machine:
-
-![Sheet Products](assets/create/sheets-products.jpg)
-
-<b>Extrusion</b> “extrudes” the plastic through a hot metal barrel into a singular line of plastic, the plastic will be completely molten and the colours will be uniform.
-
-Products made with the extrusion machine:
-
-![Extrusion Products](assets/create/extrusion-products.jpg)
-
-<b>Injection</b> also melts the plastic in another type of hot metal barrel, but this time into a mould. You can play with colour and texture with injection moulds depending on different types of techniques.
-
-Products made with the injection machine:
-
-![Injection Products](assets/create/injection-products.jpg)
-
-## Some guiding principles: 
-
-Recycling plastic is often a long and energy intense process what makes the material a very valuable resource. Here are some guiding principles you can follow through your design process and use as a check marks to know you are making the most out of this material: 
-
-- Optimize the amount of material you use in your design, use thin but strong walls to make hollow pieces. Plastic can be really strong when formed into the right shape.
-
-- Be mindful of the steps involved in your production process: try to think strategically about the amount of time & energy involved in each step and design an efficient and productive manufacturing line, without compromising quality or sustainability. 
-
-- In each production step there will always be by-products such as plastic dust, offcuts or residual material due to the nature of the process. Make sure to collect and carefully keep these clean and separated so you can reuse them in your own facility or sell/give them to other production facilities to properly handle them. 
-
-- Last but not least try to enhance it’s unique aesthetic qualities: it’s important to produce well designed, well made and beautiful products so people will value them. Pay attention to detail and avoid making more cheap things that will easily be thrown out. 
-
-# Make it circular
-
-### What does being “circular” mean?
-
-Circularity is considering the entire life cycle of a product in the very beginning. It means designing products that are made up of recyclable materials and/or that can be clearly recycled (including disassembly and separation of materials). It means designing out waste and considering all materials to be sourced from or sent to other uses. 
-
-### The linear model of take-make-use-waste
-
-A transition to a circular economy is crucial to our survival on planet earth. Our current linear model means that resources are extracted from the earth, made into a product, and then thrown away, in a take-make-use-waste lifecycle. Let’s see how this works for plastic: 
-
-<b>Take:</b> oil from the earth through harmful extraction and huge amounts of energy
-<br>
-<b>Make:</b> plastic from additional harmful processes, producing toxic fumes and chemicals leaching into waterways, atmosphere and earth.
-<br>
-<b>Use:</b> 50% of the 300 million tonnes produced every year is single use. So this lifespan is anywhere from a few minutes to a few days. 
-<br>
-<b>Waste:</b> used for a few minutes, commonly used plastics last at least 500 years before they start to break down. 
-
-The consequences of this economy are devastating, and so we need to think differently: where are the materials sourced from? what are the byproducts of production? what is the realistic lifespan of this new product? How can it be recycled, disassembled or reused? If you’re interested in this topic, Cradle to Cradle is an excellent book to read. 
-
-So, there’s a lot of material to work with 😉
-
-# Designing for Precious Plastic machines
-
-In order to design great products you first need to understand the capabilities of each production method. We have outlined what we have learnt, but don’t be afraid to try new things, push the limits of your creativity and of course - share your findings with the Precious Plastic community! 
-
-## The Extrusion machine
-
-Extrusion is a continuous process where shredded plastic enters the hopper, is heated and pressed with a screw through a long barrel. The output is a steady line of plastic, and as this machine runs continuously, if you have enough plastic and a well-streamlined process you could (technically) be making products 24/7!
-
-![How Extrusion Machine Works](assets/create/extruder_design.svg)
-
-> Pro-Tip: Extruding plastic will mix the plastic uniformly and will also create new colours. Darker colours will dominate - make sure to practise with different combinations. 
-
-### 1. Weaving the filament
-
-This technique creates cool products by rolling the filament around a shape or mould. This will take a lot of practise (trust us!) and you can create all sorts of bowls, vessels, lamps, or your own creation. You can control the shape of the filament by changing the nozzle - think about pushing pasta or Play-Doh through a mould, you could have squares, circles, diamonds, a mixture.. it’s up to you!
-
-![Extrusion Products](assets/create/extrusion-products2.jpg)
-
-
-### 2. Beam making
-
-This technique allows you to extrude solid plastic beams by attaching a metal mould to the nozzle and extruding the plastic into it. You can create beams of many different shapes and sizes - from small to big, and simple to more complex and either straight or with angles. 
-
-<b>Moulds and techniques:</b>
-
-- [Make a flat nozzle for the extrusion machine](https://community.preciousplastic.com/how-to/make-a-flat-nozzle-for-the-extrusion-machine)
-- [Extrude different textures](https://community.preciousplastic.com/how-to/make-a-mould-to-extrude-beams)
-- [Make a t-shape beam](https://community.preciousplastic.com/how-to/make-a-tshape-beam-)
-- [Make glasslike beams](https://community.preciousplastic.com/how-to/make-glasslike-beams)
-- [Extrude into a closed mould](https://community.preciousplastic.com/how-to/extrude-into-a-closed-mould)
-- [Make a quick release for the extrusion machine](https://community.preciousplastic.com/how-to/make-a-quick-release-for-the-extrusion-machine)
-
-Figuring out how the colour is extruded and hardens take a few experiments. Basically, as the plastic moves through the beam mould, it hardens as it touches the metal, and the following plastic will fill the middle of the beam. This means that the colour you put in first will create the surface of the beam. 
-
-![Bench](assets/create/bench.jpg)
-
-> Pro-tip: if you heat the mould first you can achieve a smooth surface. But note that this will often increase the cooling times can be very energy inefficient as it is constantly heating up and cooling down a piece of metal.
-
-### 3. Using moulds
-
-You can also fill in closed moulds, it’s faster and can fill up bigger volumes than the injection machine can. 
-If you design with the strengths of each technique and you streamline your production process, you can produce a large amount of products very efficiently. For example the V4 Brick made with the extrusion machine and a mould is designed hollow which reduces the amount of material without compromising the strength of the object - this lowers the amount of material needed allowing you to make more with less, as well as cuts production time and transportation due to weight. Win!
-
-These are the type of design decisions you would consider before you go into production - circularity, efficiency and cost. Don’t forget to include all stages of production when assessing your product design - cooling times, demoulding processes and how much time to reattach a mould are examples of different variables.
-
-![Bench](assets/create/bricks.jpg)
-
-<b>Products:</b>
-
-- [Make extruded plastic bricks](https://community.preciousplastic.com/how-to/make-extruded-plastic-bricks)
-- [Build brick structures](https://community.preciousplastic.com/how-to/build-brick-structures)
-- [Make a bench with beams](https://community.preciousplastic.com/how-to/make-a-bench-with-beams)
-- [Make a lamp with beams](https://community.preciousplastic.com/how-to/make-a-lamp-with-beams)
-- [Create an extruded lamp](https://community.preciousplastic.com/how-to/create-an-extruded-lamp)
-
-## The Sheetpress
-
-This machine creates sheets up to 1 x 1 metre with a range of thicknesses between 6mm - 30mm. When making a sheet mould there are many different configurations of size, thickness and surface finish. Do your research, read through different how-tos and check out the products on the Bazar before investing in the best mould that will fit your needs. Some different methods are:
-
-- [Cut plastic jigsaw](https://community.preciousplastic.com/how-to/cut-plastic-jigsaw)
-- [Drill and screw through plastic](https://community.preciousplastic.com/how-to/drill-and-screw-through-plastic)
-- [Cut plastic with the table saw](https://community.preciousplastic.com/how-to/cut-plastic-with-the-table-saw)
-- [Make your sheet shiny](https://community.preciousplastic.com/how-to/make-your-sheet-shiny)
-- [Bend plastic sheets](https://community.preciousplastic.com/how-to/bend-plastic-sheets)
-
-![How Sheetpress Works](assets/create/sheetpress_design.svg)
-
-There are different ways of processing plastic sheets to create final products. Here we go over two of our most common techniques:
-
-### 1. Cutting and woodworking techniques
-
-Cutting is the most common process and there are a number of different methods - you can use regular woodworking tools such as a jigsaw or table saw or more advanced methods like CNC milling. 
-
-- HDPE and PP are easiest to cut and use
-- Having a clean cut is a matter of finding the right tool and blade
-- Air cooling will help if you have access to it
-- Cutting will produce a lot of offcuts, make sure to collect this and reuse
-- Snap fit joints works really well on plastic
-
-Note: if you’re using large cuts of plastic make sure to get familiar with the material and how it sags and bends across bigger areas. It can be very flexible and the more you know about it’s properties the more you can amplify it’s qualities.  
-
-![Stool](assets/create/stool.jpg)
-
-### 2. Bending
-
-This is quite fun! By applying the right temperature for a period of time you can mould and bend a sheet and turn it into a three-dimensional shape. The most important thing to get right is the temperature - this defines how fast and evenly the heat will spread through the sheet. It will be affected by the type of plastic, the size of the bend and the thickness of the sheet. 
-
-- Fast heat will guarantee the heat spreads evenly allowing for a nice and easy bend. If it’s too slow, it can burn on the outside before the heat reaches the inner layers, ending up in an uneven surface and cracks/white marks along the bend.
-- Thinner sheets up to 6-8mm are easier to bend
-- Above 6-8mm we recommend using double sided heat to reach the middle fast enough for a clean bend. This technique works well with PS but is harder when working with PP, LDPE or HDPE.
-- You can use line benders, there are many DIY options online using Nichrome wire for sheets under 6mm. For above you’ll need thick strings and double sided heat is highly recommended. You could also use heated blade benders for HDPE and PP. 
-- A less efficient option for smaller bends is heating the full piece in an oven and forming it with a two sided mould - it can be fast but restrictive due to the size of the oven.
-
-![Bends](assets/create/bends.jpg)
-
-<b>Products:</b>
-
-- [Make a chair with bent sheets](https://community.preciousplastic.com/how-to/make-a-chair-with-bent-sheets)
-- [Make a mould to bend sheets](https://community.preciousplastic.com/how-to/make-a-mould-to-bend-sheets)
-- [Make a stool with woodworking techniques](https://community.preciousplastic.com/how-to/make-a-stool-with-woodworking-techniques)
-
-
-## The Injection machine
-
-The Injection machine is a very simple concept, it heats the plastic and with pressure fills a mould. You can create really beautiful and well finished objects, and if your mould is well made then you can keep a consistent high quality across your production. It can also be very quick and easy to grasp for your customers or if you’re holding a workshop - you can fill plastic into the hopper, it is heated and fills the mould and then cooled and voilá! The product is finished for people to see and hand around. 
-
-![How Injection Machine Works](assets/create/injection_design.svg)
-
-This machine will allow you to be versatile with your production because all you have to do is screw on another mould and you can be making a completely different product. Be sure to check out the Moulds section on the left to learn more about the different methods.
-
-> Pro-tip: the injection machine is a perfect companion for a workshop as it is capable of turning waste into a valuable product within minutes and people/customers can really grasp the value of your process and product quickly.
-
-![Moulds](assets/create/moulds.jpg)
-
-<b>Techniques:</b>
-
-- [Work with the injection machine](https://community.preciousplastic.com/how-to/work-with-the-injection-machine)
-- [Make a quick release opening system for injection moulds](https://community.preciousplastic.com/how-to/make-a-quick-release-opening-system-for-injection-moulds)
-
-
-<b>Products:</b>
-
-- [Make a carabiner CNC vs laser cut](https://community.preciousplastic.com/how-to/make-a-carabiner-cnc-vs-lasercut)
-- [Make a lightswitch and socket](https://community.preciousplastic.com/how-to/make-a-lightswitch-and-socket)
-- [Make an interlocking brick](https://community.preciousplastic.com/how-to/make-an-interlocking-brick)
-- [Make a handplane - simple mould](https://community.preciousplastic.com/how-to/make-a-handplane-simple-mould)
-- [Make a broom hanger](https://community.preciousplastic.com/how-to/make-a-broom-hanger)
-
-<p class="note">Note: make sure to know the total amount of plastic that can fit in the barrel - this will limit the volume of the final product. It is usually around 150cm3 - this is quite small. It's not a problem, just a design constraint!</p> 
-
-![Human with mould](assets/create/person-with-mould.jpg)
-
-## how-tos
-
-When designing products to be produced with the Precious Plastic machines, your best resource will be the how-tos! You’ll find product designs, techniques and hacks, some from us and many are from the community. You can also check in on the Discord channel below because when (not if 😉) you get stuck, it’s very likely someone else has come across the same problem! If you come up with a super cool new product, hack or technique, create your own How-To so we can all benefit from your awesome knowledge. 
-
-<b>Want to share feedback, chat about products/product design or learn more from the community? Head to the [#Create](https://discordapp.com/invite/yhmfzTZ) channel on Discord. Here we talk about product design, mouldmaking, color blends, finishing... everything to create precious objects!</b>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### ビデオ・チャプター 
+- 00:07 はじめに 
+- 00:16 プラスチックの種類 
+- 01:05 圧縮と射出／押出の比較 
+- 02:32 プラスチックの価値 
+- 03:46 プラスチック・デザインの倫理 
+- 05:28 シートプレス 
+- 07:18 注射 
+- 09:23 押出し 
+</div> 
+</div> 
+
+### 章立て 
+1.はじめに 
+2.円形にする 
+3.貴重なプラスチック機械の設計 
+4.押出機。 
+5.シートプレス 
+6.インジェクション 
+7. ハウツー 
+## ♪ はじめに 
+プラスチックの基礎知識で説明したように、プラスチックの種類によって性質が異なるため、挙動も異なります。選んだプラスチックのことをよく知ることが大切です。それには、ある程度の時間とテストが必要です（もちろん、忍耐も必要です！）。 
+
+<b>コンプレッション</b>とは、熱と圧力によって細断されたプラスチックやペレットを圧縮することです。これは、私たちの新しいシートプレスのような機械、または旧式の圧縮機で達成することができます。 
+枚葉印刷機または圧縮機で作られた製品：
+
+![Sheet Products](assets/create/sheets-products.jpg) 
+<b>押出成形</b>は、高温の金属バレルを通してプラスチックを一本の線状に「押し出す」もので、プラスチックは完全に溶融し、色も均一になる。 
+押出機で作られた製品： 
+
+![Extrusion Products](assets/create/extrusion-products.jpg) 
+<b>射出成形</b>もまた、別のタイプの熱した金属の筒の中でプラスチックを溶かしますが、今回は金型に入れます。射出成形では、さまざまな種類の技術によって、色や質感で遊ぶことができます。 
+射出成形機で作られた製品： 
+
+![Injection Products](assets/create/injection-products.jpg) 
+
+## いくつかの指針がある： 
+プラスチックのリサイクルは、多くの場合、長い時間とエネルギーを要するプロセスであり、この素材を非常に貴重な資源にしています。ここでは、デザイン・プロセスを通じて従うことのできる指針をいくつか紹介し、この素材を最大限に活用していることを確認するためのチェック・マークとして使用します： 
+- デザインに使う材料の量を最適化し、薄くても丈夫な壁を使って中空ピースを作る。プラスチックは、適切な形に成形すると、本当に強くなります。 
+- 各工程にかかる時間とエネルギーの量を戦略的に考え、品質や持続可能性を損なうことなく、効率的で生産性の高い製造ラインを設計する。 
+- 各生産工程では、工程の性質上、プラスチック粉、端材、残留物などの副産物が必ず発生します。これらの副産物は、自社の施設で再利用したり、他の生産施設に売却・譲渡したりして適切に処理できるよう、必ず回収し、きれいに分別して慎重に保管するようにしましょう。 
+- 最後になるが、ユニークな美的資質を高める努力も怠らないことだ。人々に評価されるよう、よくデザインされ、よく作られた美しい製品を作ることが重要だ。細部にまで気を配り、簡単に捨てられてしまうような安っぽいものを作らないようにしましょう。 
+
+# 円形にする 
+
+### サーキュラー」とはどういう意味か？ 
+サーキュラリティとは、製品のライフサイクル全体を最初から考慮することである。つまり、リサイクル可能な材料で構成され、かつ／または明確にリサイクルできる（材料の分解と分離を含む）製品を設計することである。廃棄物を排除し、すべての材料が他の用途から調達されるか、または他の用途に回されることを考慮して設計することを意味する。 
+### テイク・メイク・ユーズ・ウェイストの線形モデル 
+循環型経済への移行は、私たちが地球上で生き残るために極めて重要である。現在の直線的なモデルでは、資源は地球から採取され、製品に加工され、そして捨てられる。これがプラスチックにどのように作用するか見てみよう： 
+<b>取る：</b> 有害な採掘と膨大なエネルギーを使って地球から石油を取る。 
+<br> 
+<b>製造：</b>プラスチックは有害な工程を経て製造され、有毒ガスや化学物質が水路や大気、地球に溶け出す。 
+<br> 
+<b>使用：</b>毎年生産される3億トンのうち、50%は単回使用である。つまり、この寿命は数分から数日ということになる。 
+<br> 
+<b>廃棄物：</b>数分間使用されただけで、一般的に使用されているプラスチックは、壊れ始めるまで少なくとも500年はもつ。 
+この経済がもたらす結果は壊滅的なものであり、私たちは別の考え方をする必要がある。この新製品の現実的な寿命は？このトピックに興味があるなら、『ゆりかごからゆりかごまで』は読むべき素晴らしい本である。 
+だから、使える材料はたくさんある😉。 
+# 貴重なプラスチック機械の設計 
+優れた製品をデザインするためには、まず各製造方法の能力を理解する必要があります。私たちが学んだことをまとめましたが、新しいことに挑戦し、創造性の限界に挑戦することを恐れないでください！ 
+
+# 押出機 
+押出成形は、破砕されたプラスチックがホッパーに入り、加熱され、長いバレルを通してスクリューでプレスされる連続プロセスである。この機械は連続的に稼働するため、十分な量のプラスチックと合理化された工程があれば、（技術的には）年中無休で製品を作ることができる！ 
+![How Extrusion Machine Works](assets/create/extruder_design.svg) 
+> プロからのアドバイス：プラスチックを押し出すと、プラスチックが均一に混ざり、新しい色も生まれます。濃い色が優勢になります。いろいろな組み合わせで練習してください。 
+
+### 1.フィラメントを織る 
+この技法は、フィラメントを形や型に巻きつけることで、クールな製品を作り出します。何度も練習する必要がありますが（私たちを信じて！）、ボウル、器、ランプ、またはあなた自身の創造物など、あらゆる種類のものを作ることができます。ノズルを変えることでフィラメントの形をコントロールすることができる。パスタやおままごとを型に通すことを考えれば、正方形、円形、ひし形、混合物......あなた次第だ！ 
+
+![Extrusion Products](assets/create/extrusion-products2.jpg) 
+
+### 2.ビーム製造 
+この技術では、ノズルに金型を取り付け、そこにプラスチックを押し出すことで、ソリッドプラスチックビームを押し出すことができます。小さなものから大きなものまで、シンプルなものから複雑なものまで、直線的なものから角度のあるものまで、さまざまな形や大きさの梁を作ることができます。 
+<b>金型と技法：</b>。 
+- [押出機用のフラットノズルを作る](https://community.preciousplastic.com/how-to/make-a-flat-nozzle-for-the-extrusion-machine) 
+- [異なるテクスチャーを押し出す](https://community.preciousplastic.com/how-to/make-a-mould-to-extrude-beams) 
+- [T字型ビームを作る](https://community.preciousplastic.com/how-to/make-a-tshape-beam-) 
+- [ガラスのような梁を作る](https://community.preciousplastic.com/how-to/make-glasslike-beams) 
+- [閉じた型に押し出す](https://community.preciousplastic.com/how-to/extrude-into-a-closed-mould) 
+- [押出機のクイックリリースを作る](https://community.preciousplastic.com/how-to/make-a-quick-release-for-the-extrusion-machine) 
+色がどのように押し出され、固まるかを解明するには、いくつかの実験が必要だ。基本的に、プラスチックがビーム型内を移動するとき、金属に触れて固まり、次のプラスチックがビームの真ん中を埋めます。つまり、最初に入れた色がビームの表面を作ることになる。 
+
+![Bench](assets/create/bench.jpg) 
+> ヒント：最初に金型を加熱すれば、表面を滑らかにすることができます。しかし、この場合、冷却時間が長くなることが多く、金属片を常に加熱して冷却するため、エネルギー効率が非常に悪くなることに注意してください。 
+
+### 3.金型の使用 
+密閉された金型に充填することもでき、射出成形機よりも速く、大きな容積を充填することができる。 
+それぞれの技術の長所を生かして設計し、生産工程を合理化すれば、非常に効率的に大量の製品を生産することができる。例えば、押し出し成形機で作られたV4ブリックは、金型が中空に設計されているため、対象物の強度を損なうことなく材料の量を減らすことができます。勝つ！ 
+循環性、効率、コストなど、生産に入る前に考慮すべき設計上の決定事項です。製品設計を評価する際には、製造の全段階を含めることを忘れないでください。冷却時間、脱型工程、金型の再接着にかかる時間などは、さまざまな変数の一例です。 
+
+![Bench](assets/create/bricks.jpg) 
+<b>製品：</b> 
+
+- [押し出しプラスチックレンガを作る](https://community.preciousplastic.com/how-to/make-extruded-plastic-bricks) 
+- [レンガ造りの建造物を建てる](https://community.preciousplastic.com/how-to/build-brick-structures) 
+- [梁でベンチを作る](https://community.preciousplastic.com/how-to/make-a-bench-with-beams) 
+- [梁のあるランプを作る](https://community.preciousplastic.com/how-to/make-a-lamp-with-beams) 
+- [押し出しランプの作成](https://community.preciousplastic.com/how-to/create-an-extruded-lamp) 
+- 
+
+# シートプレス 
+この機械は、最大1 x 1メートル、厚さ6ミリ～30ミリのシートを作ります。シートモールドを作る場合、サイズ、厚さ、表面仕上げの多くの異なる構成があります。あなたのニーズに合う最高の金型に投資する前に、よく調べて、さまざまなハウツーを読み、バザーの製品をチェックしてください。いくつかの異なる方法があります： 
+
+- ![カットプラジグソー](https://community.preciousplastic.com/how-to/cut-plastic-jigsaw) 
+- ![プラスチックに穴を開け、ネジを通す](https://community.preciousplastic.com/how-to/drill-and-screw-through-plastic) 
+- [テーブルソーでプラスチックを切る](https://community.preciousplastic.com/how-to/cut-plastic-with-the-table-saw) 
+- [シートをピカピカに](https://community.preciousplastic.com/how-to/make-your-sheet-shiny) 
+- [プラスチックシートの折り曲げ](https://community.preciousplastic.com/how-to/bend-plastic-sheets) 
+
+![How Sheetpress Works](assets/create/sheetpress_design.svg) 
+プラスチックシートを加工して最終製品を作るには、さまざまな方法があります。ここでは、最も一般的な2つの技術について説明します： 
+
+### 1.切断と木工技術 
+ジグソーやテーブルソーのような通常の木工工具を使うこともできるし、CNCフライス盤のような高度な方法を使うこともできる。 
+- HDPEとPPが最も切断しやすく、使いやすい。 
+- きれいにカットするには、適切な道具と刃を見つけることだ。 
+- 空冷が利用できるのであれば、それを利用することもできる。 
+- カッティングでは多くの端材が出るので、必ず回収して再利用すること。 
+- スナップフィット・ジョイントはプラスチックによく効く 
+注意：プラスチックの大きなカットを使う場合は、その素材や、大きな面積でどのようにたるんだり曲がったりするのかをよく理解しておくこと。プラスチックは非常に柔軟であり、その特性を知れば知るほど、その特質をさらに引き出すことができる。   
+![Stool](assets/create/stool.jpg) 
+
+### 曲げ 
+これはなかなか楽しい！適切な温度を一定時間加えることで、シートを成形したり曲げたりして、立体的な形状にすることができる。最も重要なのは温度で、この温度によって熱の広がり方が決まります。この温度は、プラスチックの種類、曲げる大きさ、シートの厚さによって左右されます。 
+- 加熱が速いと、熱が均等に広がり、曲げやすくなります。加熱が遅すぎると、熱が内層に到達する前に外層が焦げてしまい、表面に凹凸ができたり、曲げ部分にひび割れや白い跡がついたりします。 
+- 6-8mmまでの薄いシートの方が曲げやすい。 
+- 6～8mm以上では、きれいな曲げ加工をするために、両面ヒートで中間に素早く到達させることをお勧めします。このテクニックはPSではうまくいきますが、PP、LDPE、HDPEでは難しくなります。 
+- ラインベンダーを使うことができ、6mm以下のシートにはニクロム線を使ったDIYオプションがネット上にたくさんある。それ以上の場合は太い紐が必要で、両面加熱を強く推奨する。HDPEやPP用の加熱式ブレードベンダーを使うこともできる。 
+- 小さな曲げ加工には、オーブン内で全ピースを加熱し、両面モールドで成形するというあまり効率的でないオプションがある。 
+![Bends](assets/create/bends.jpg) 
+<b>製品：</b> 
+- 折り曲げたシートで椅子を作る](https://community.preciousplastic.com/how-to/make-a-chair-with-bent-sheets) 
+- シートを曲げる型を作る](https://community.preciousplastic.com/how-to/make-a-mould-to-bend-sheets) 
+- 木工技術でスツールを作る】(https://community.preciousplastic.com/how-to/make-a-stool-with-woodworking-techniques) 
+  
+## インジェクションマシン 
+射出成形機は非常にシンプルなコンセプトで、プラスチックを加熱し、圧力をかけて金型に充填します。金型がうまく作れれば、一貫した高品質を保つことができます。ホッパーにプラスチックを入れ、加熱して金型に充填し、冷やして出来上がりです！出来上がった製品を手にとって見てもらうことができます。 
+![How Injection Machine Works](assets/create/injection_design.svg) 
+この機械があれば、別の金型をねじ込むだけで、まったく別の製品を作ることができるため、多目的な生産が可能になります。左の「金型」のセクションをチェックして、さまざまな方法についてもっと知ってください。 
+> プロからのアドバイス：インジェクションマシンは、数分以内に廃棄物を価値ある製品に変えることができ、人々や顧客はあなたのプロセスや製品の価値を素早く理解することができるため、ワークショップの完璧なパートナーです。
+ 
+![Moulds](assets/create/moulds.jpg) 
+
+<b>テクニック：</b>. 
+
+- [射出成形機での作業](https://community.preciousplastic.com/how-to/work-with-the-injection-machine) 
+- [射出成形金型のクイックリリースオープニングシステムを作る](https://community.preciousplastic.com/how-to/make-a-quick-release-opening-system-for-injection-moulds) 
+<b>製品：</b> 
+
+- [カラビナを作ろう CNC vs レーザーカット](https://community.preciousplastic.com/how-to/make-a-carabiner-cnc-vs-lasercut) 
+- [スイッチとソケットを作る](https://community.preciousplastic.com/how-to/make-a-lightswitch-and-socket) 
+- [インターロッキングブリックを作る](https://community.preciousplastic.com/how-to/make-an-interlocking-brick) 
+- [ハンドプレーンを作ろう-簡単な型](https://community.preciousplastic.com/how-to/make-a-handplane-simple-mould) 
+- [ほうきハンガーを作ろう](https://community.preciousplastic.com/how-to/make-a-broom-hanger) 
+  
+<p class="notice">注意：樽に入るプラスチックの総量を確認してください。通常は150cm3程度で、これはかなり小さいです。これは問題ではなく、単なる設計上の制約です。 
+
+![Human with mould](assets/create/person-with-mould.jpg) 
+
+## ハウツー 
+プレシャスプラスチックのマシンで生産する製品をデザインする場合、一番の情報源はハウツーです！製品のデザイン、テクニック、ハックなど、私たちからのものもあれば、コミュニティからのものもあります。また、下のDiscordチャンネルでチェックすることもできます。なぜなら、あなたが行き詰まったとき（もし😉ではなく）、誰かが同じ問題に遭遇している可能性が高いからです！超クールな新製品、ハック、テクニックを思いついたら、あなた自身のHow-Toを作成して、あなたの素晴らしい知識から皆が恩恵を受けられるようにしてください。 
+<b>フィードバックを共有したり、製品/製品デザインについてチャットしたり、コミュニティからもっと学びたいですか？Discordの[#Create](https://discordapp.com/invite/yhmfzTZ)チャンネルへどうぞ。ここでは、製品デザイン、金型製作、カラーブレンド、仕上げ...貴重なオブジェクトを作成するためのすべてについて話しています！</b>。 

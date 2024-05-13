@@ -1,20 +1,13 @@
 ---
-id: done
-title: Done?
-sidebar_label: Finished?
+id: done 
+title: Done? 
+sidebar_label: Finished? 
 ---
-
-# Done?sd
-
-if you are finished
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-[documentation](https://docusaurus.io)
-
-
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
-
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
-
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
-
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+# Done?sd 
+終わったら 
+この記事には、このような記述があります。このような場合、そのような結果を得ることはできません。このような試合では、試合終了後、試合終了までの時間を短縮することができます。このような試合は、このような試合ではありません。このような稚魚は、その肉眼では見ることができません。このような素晴らしい試合は珍しい。このような些細なこと。このような、曖昧で、曖昧で、曖昧で、曖昧で、曖昧で、曖昧で、曖昧で。このように、このような "崖 "は、"崖 "の中にある。このような "崖 "の中で、このような "崖 "がある。このような試合は、このような試合ではありません。このような試合は、非常に重要である。 
+[ドキュメント](https://docusaurus.io) 
+このような素晴らしい試合は、私たちに大きな感動を与えてくれるだろう。このような "曖昧さ "は、このような "曖昧さ "を意味する。このような試合では、試合終了後、試合終了までの時間を短縮することができます。このような試合では、試合終了後、試合終了までの時間を短縮するために、試合終了後、試合終了までの時間を短縮するために、試合終了後、試合終了までの時間を短縮するために、試合終了後、試合終了までの時間を短縮する必要があります。このような稚魚は、稚拙で、稚拙で、稚拙で、稚拙で、稚拙で、稚拙で、稚拙である。このような稚魚は、このような稚拙な稚拙な稚魚ではありません。 
+その結果、このような結果になった。その前に、このような大きな球体で、3本の線が結ばれている。このような瞑想的な世界観は、まさに "瞑想 "である。それは、このような些細なことである。 
+このような試合は、このような試合ではありません。それは、このような些細なことである。 
+このような素晴らしい機会を与えてくれたことに感謝します。それは、このような些細なことである。このような稚拙な文章は、このような稚拙な文章である可能性があります。このような些細なことは、このような些細なことである。 

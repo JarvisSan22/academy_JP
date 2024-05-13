@@ -1,107 +1,74 @@
 ---
-id: shredder
-title: Setup a Shredder Workspace
-sidebar_label: Shredder
+id: shredder 
+title: Setup a Shredder Workspace 
+sidebar_label: Shredder 
 ---
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/FFv4GR8ku38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/FFv4GR8ku38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #37b4a3; 
+  --hover: #37b4a3; 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #37b4a3;
-  --hover: #37b4a3;
-}
-</style>
-
-# Shredder Workspace
-
+# シュレッダー作業スペース 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-###  This Precious Plastic Space receive plastic from Collection Points,  shreds it and sells it to other Precious Plastic workspaces recycling it into products. Without this, there’s no plastic to melt.
+### このプレシャス・プラスチックスペースでは、回収ポイントからプラスチックを受け取り、破砕して他のプレシャス・プラスチックスペースに販売し、製品にリサイクルしています。これがなければ、溶かすプラスチックはない。 
+よし、シュレッダーのワークスペースを設置しよう。素晴らしい！シュレッダー作業スペースは、プレシャスプラスチックの世界において重要な要素です。ワークスペースの設定は、主に3つのステップに分けることができる： 
 
-Ok, you want to set up a shredder workspace. Fantastic! The shredder workspace is a crucial element of the Precious Plastic universe. Setting up a workspace can be broken down into three main steps:
-
-1. <b>Search:</b> what to think about when choosing your space
-2. <b>Plan:</b> how to plan your space effectively
-3. <b>Build:</b> transforming an empty room into a Shredder Workspace
-
-Each of these steps is explained in more detail below.
-
-
-</div>
+1.<b>検索：</b>スペースを選ぶときに考えること 
+2.<b>計画：</b> スペースを効果的に計画する方法 
+3.<b>構築:</b> 空の部屋をシュレッダー・ワークスペースに変える。 
+これらの各ステップについて、以下で詳しく説明する。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:00 はじめに 
+- 00:49 シュレッダー・チョイス 
+- 01:15 プラスチックの調達 
+- 01:41 シュレッダー 
+- 03:36 物流 
+</div> 
+</div> 
 
-- 00:00 Introduction
-- 00:49 Shredder Choice
-- 01:15 Sourcing Plastic
-- 01:41 Shredding
-- 03:36 Logistics
+## ＃ ᔍ 検索 
+ワークスペースを設ける最初のステップは、スペースを見つけることだ（当たり前だ）。スペース探しにはいくつかの注意点があります。 
+1.<b>サイズ：</b> 機械や道具を使って自由に動き回れる十分なスペースを確保することが重要です。私たちが設計したシュレッダースペースはおよそ5 x 6メートルです。もっと大きくすることもできますが、あまり小さくすることはお勧めしません。 
+2.<b>電気:</b> シュレッダーマシンは、構築予定のバージョン（v2またはv4）により、単相または三相で動作することができますので、スペースを選択する際には、使用予定のモーターの仕様を確認してください。 
+3.<b>予算：</b>スペースが機能的なニーズを満たしていることを確認する一方で、予算に合うかどうかを念頭に置くことも重要です。 
+> このような機会が地元にあるかどうか、アクセラレーターや自治体の担当者に問い合わせてみる価値がある。 
+## ✍️ プラン 
+あなたのスペースが見つかりました。あとは、あなただけの間取りに合わせて、ワークスペースの要素をどのように配置するか、計画を立て始めましょう。 
+スペースはそれぞれ違うので、レイアウトをカスタマイズするチャンスです。 
+ダウンロード・キットには、スターター・フロアプラン、CADモデル、カスタム・フロアプランナーが含まれています。 
 
+![Shredder Workspace](assets/spaces_shredder.jpg) 
 
-</div>
-</div>
+有望と思われる間取りができたら、それを実際に空間の床にチョークで書き出して試してみる。納得のいく間取りができるまで、何度も繰り返してください。 
+## ＃ 😎 ビルド 
+間取りが決まったら、今度は空っぽの部屋をシュレッダーのワークスペースに変身させよう。 
+シュレッダー、作業台、基本的なツールなど、最も必要なアイテムから始め、そこから自分のワークフローに最も適したものを見つけ出していく。 
+> ヒント：ワークスペースの家具はキャスター付きにしておくと、必要に応じて簡単に移動できる。 
+可能であれば、中古品を探し、新しい材料や資源の使用量を減らしましょう。必要なものが中古で手に入らない場合は、新しく買うか、作る。そして常に、安さよりも質の良さを追求しましょう。 
+必要不可欠なアイテム 
+- シュレッダー - もちろん 
+- あらかじめ細断されたプラスチックの保存容器 - 袋でも良いが、プラスチックの収集方法によるかもしれない。 
+- シュレッダー付きプラスチック保存容器-頑丈であることを確認すること。シュレッダーの下に収まるもので、シュレッダーの後に直接保管でき、容器から別の容器にシュレッダーを注ぐ必要がないものが良い。種類と色を純粋に保つ。透明が良いが、必須ではない。 
+- プラスチック・ビームまたは大きなゴム槌（必要に応じてプラスチックをシュレッダーに押し込むため 
+- シュレッダーとシュレッダーの間を掃除するための組み立て用工具 - レンチ、六角レンチ、木槌 
+- 毛先の硬いブラシ - ブレードのクリーニング用 
+基本を押さえたら、シュレッダーを使ってワークフローを発展させ、より効率的で快適な作業をするために他に何が役立つかを考えよう。 
+そして、自分だけの魅力をスパイスとして加えることを恐れないでください！観葉植物、ポスター、適切な照明、ラジカセなどがあれば、ワークスペースがもっと楽しくなるはずだ。 
 
-
-## 🔍 Search
-
-The first step of setting up a workspace is to find a space (duh). While searching, there are a few considerations to keep in mind.
-
-
-1. <b>Size:</b> It’s important to be sure that you have enough space to move around freely with your machines and tools. The shredder space we designed is roughly 5 x 6 meters – you can go larger, but we wouldn’t recommend going much smaller.
-
-2. <b>Electricity:</b> The Shredder machine can run on single-phase or three-phase depending on the version you're planning to build (v2 or v4), so be sure to check the specs of the motor you plan to use when choosing your space.
-
-3. <b>Budget:</b> While making sure your space meets your functional needs, it’s also important to keep in mind how it will fit into your budget.
-
-> Pro-tip: sometimes, cities offer discounted rent to entrepreneurs with purposeful missions, so it’s worth getting in touch with accelerators and representatives of your municipality to see if there are opportunities like this in your area.
-
-## ✍️ Plan
-
-You’ve found your space. Now you can begin to plan how you will arrange the elements of your workspace according to your unique floorplan.
-
-Every space is different, so this is a chance for you to customize your layout to make it work for you.
-
-To help you begin, we’ve included some starter floor plans, CAD models, and a custom floor planner in the download kit, which you can use to explore different layouts before diving into the real thing.
-
-![Shredder Workspace](assets/spaces_shredder.jpg)
-
-Once you’ve made a floor plan that seems promising, test it out in real life by blocking it out on the floor of your space with chalk. Continue to iterate until you arrive at a floor plan that feels right.
-
-
-## 🛠 Build
-
-Now that your floor plan is blocked out, it’s time to transform your empty room into a shredder workspace.
-
-Start with your most essential items - shredder, workbench, basic tools – then build out from there as you start to see what suits your workflow best.
-
-> Pro-tip: it’s nice to keep your workspace furniture on wheels so that you can easily move it around as needed
-
-When possible, look for secondhand options to reduce the amount of new materials and resources being used to start your space. If what you need isn’t available secondhand, buy new or build it. And always strive for good quality rather than cheap.
-
-Some essential items to get you started:
-
-- Shredder - of course
-- Pre-shredded plastic storage containers - bags work well, might depend on how you collect your plastic
-- Shredded plastic storage containers - make sure they’re sturdy. Nice if they fit under the shredder and can be stored directly after shredding to eliminate the need of pouring shredded plastic from one container to another. Keeps types and colors pure. Clear is nice, but not required.
-- Plastic beam or large rubber - mallet for pushing plastic into shredder when needed
-- Assembly tools for cleaning between shreds - wrenches, allen keys, mallet
-- Stiff-bristled brush - to clean the blades
-
-Once you’ve got your basics covered, start working with the shredder to develop your workflow and see what else might help you work more efficiently and comfortably.
-
-And don’t be afraid to spice the place up with your own unique charm! Plants, posters, the right lighting, and a boombox will make your workspace more enjoyable to be in.
-
-### Your role in the universe
-| Your icon  |  Your task |
-|----------|----------------------|
-| <img src="../assets/universe/badge-workspace.png" width="150"/>        |  __Workspace__ <br> A Precious Plastic Workspace is a place where plastic gets transformed from waste into valuable materials or products. There are five different workspaces: Shredder, Extrusion, Sheetpress, Injection and Mix. |
-
-## 👋 Share
-
-You’ve built your space. Nice! We’re all learning together, so be sure to share back any hacks or developments that have helped you improve your space 🙂
-
-<b>Want to share feedback, chat about the Shredder Workspace or learn more from the community? Head to the [#Spaces](https://discordapp.com/invite/p92s237) channel on Discord. Here we answer questions and give tips on setting up your workspace and how to run it.</b>
+### 宇宙におけるあなたの役割 
+| Your icon  |  Your task | 
+|----------|----------------------| 
+| <img src="../assets/universe/badge-workspace.png" width="150"/>        |  __Workspace__ <br> A Precious Plastic Workspace is a place where plastic gets transformed from waste into valuable materials or products. There are five different workspaces: Shredder, Extrusion, Sheetpress, Injection and Mix. | 
+## 👋シェア 
+スペースができたね。いいね！私たちはみんな一緒に学んでいるので、あなたのスペースを改善するのに役立ったハックや開発をぜひシェアしてくださいᙂ。 
+<b>フィードバックを共有したり、シュレッダーワークスペースについてチャットしたり、コミュニティからもっと学びたいですか？Discordの[#Spaces](https://discordapp.com/invite/p92s237)チャンネルにアクセスしてください。ここで私たちは質問に答えたり、ワークスペースの設定や運営方法についてヒントを与えたりします</b>。 

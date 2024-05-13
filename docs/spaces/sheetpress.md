@@ -1,107 +1,72 @@
 ---
-id: sheetpress
-title: Setup a Sheetpress Workspace
-sidebar_label: Sheetpress
+id: sheetpress 
+title: Setup a Sheetpress Workspace 
+sidebar_label: Sheetpress 
 ---
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/TNG2f_hKc_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/TNG2f_hKc_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #37b4a3; 
+  --hover: #37b4a3; 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #37b4a3;
-  --hover: #37b4a3;
-}
-</style>
+# シートプレス・ワークスペース 
+<div class="videoChapters">（ビデオ・チャプターズ 
+<div class="videoChaptersMain">（ビデオ・チャプターズ・メイン）</div>
 
-# Sheetpress Workspace
-
-<div class="videoChapters">
-<div class="videoChaptersMain">
-
-###  This Precious Plastic Space transforms shredded plastic into beautiful (1m x 1m) sheets.
-
-So you want to set up an Sheetpress workspace. That's exciting right!? Your sheets can be used to create all sorts of useful, wonderful objects – or just look arty hanging on a wall 🙂
-
-Setting up a Sheetpress workspace can be broken down into three main steps:
-
-1. <b>Search:</b> what to think about when choosing your space
-2. <b>Plan:</b> how to plan your space effectively to fit big machines
-3. <b>Build:</b> transforming an empty room into a Sheetpress Workspace
-
-Each of these steps is explained in more detail below.
-
-</div>
+### このプレシャス・プラスチックスペースは、破砕されたプラスチックを美しい（1m x 1m）シートに変えます。 
+Sheetpressのワークスペースを立ち上げたいのですね。ワクワクするでしょ？あなたのシートは、様々な便利で素敵なオブジェを作るのに使えます。 
+Sheetpressのワークスペースの設定は、主に3つのステップに分けられます： 
+1.<b>検索：</b>スペースを選ぶときに考えること 
+2.<b>計画:</b> 大型マシンを設置するための効果的なスペース計画の立て方 
+3.<b>ビルド:</b> 何もない部屋をSheetpressワークスペースに変身させる。 
+これらの各ステップについて、以下で詳しく説明する。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:00 はじめに 
+- 00:50 シープレス 
+- 01:10 プラスチックの調達 
+- 01:40 プレス・タイム 
+- 04:20 商品と物流 
+</div> 
+</div> 
 
-- 00:00 Introduction
-- 00:50 Sheepress
-- 01:10 Sourcing Plastic
-- 01:40 Pressing Time
-- 04:20 Products and Logistics
-
-</div>
-</div>
-
-## 🔍 Search
-
-The first step of setting up a Sheetpress Workspace is to find a space (duh). While searching, there are a few considerations to keep in mind.
-
-1. <b>Size:</b> It’s important to be sure that you have enough space to move around freely with your machines and tools. The Sheetpress Workspace we designed is roughly 5 x 8 meters – you can go larger, but we wouldn’t recommend going much smaller.
-
-2. <b>Electricity:</b> The Sheetpress machine runs on three-phase and demands quite a it of power, so be sure to choose a space with three-phase and the following specs 400V / 32AMP /1.5KW.
-
-3. <b>Budget:</b> While making sure your space meets your functional needs, it’s also important to keep in mind how it will fit into your budget.
-
-> Pro-tip: sometimes, cities offer discounted rent to entrepreneurs with purposeful missions, so it’s worth getting in touch with accelerators and representatives of your municipality to see if there are opportunities like this in your area.
-
-
-## ✍️ Plan
-
-You’ve found your space. Now you can begin to plan how you will arrange the elements of your workspace according to your unique floorplan.
-
-Every space is different, so this is a chance for you to customize your layout to make it work for you.
-
-To help you begin, we’ve included some starter floor plans, CAD models, and a custom floor planner in the download kit, which you can use to explore different layouts before diving into the real thing.
-
-![Sheetpress Workspace](assets/spaces_sheetpress.jpg)
-
-Once you’ve made a floor plan that seems promising, test it out in real life by blocking it out on the floor of your space with chalk. Continue to iterate until you arrive at a floor plan that feels right.
-
-## 🛠 Build
-
-Now that your floor plan is blocked out, it’s time to transform your empty room into a Sheetpress workspace.
-
-### Begin with basics
-
-Start with your most essential items - Sheetpress, prep table, workbench, basic tools – then build out from there as you start to see what suits your workflow best.
-
-When possible, look for secondhand options to reduce the amount of new materials and resources being used to start your space. If what you need isn’t available secondhand, buy new or build it. And always strive for good quality rather than cheap.
-
-Some essential items to get you started:
-
-- Sheetpress - of course.
-- Prep table – makes preparing your moulds for the press safer and easier.
-- Shredded plastic storage containers – this might be determined by who you buy your plastic from. What’s most important is to make sure that they’re sturdy to prevent accidental spills. Clear is nice, but not required.
-- Simple mold – square frames with two steel sheets, simple and effective.
-- Basic tools – scale, bucket, sliding tool, silicone oil, heat resistant gloves, timer.
-- Ventilation – filter mask, ventilation hood, check out the <a href="https://community.preciousplastic.com/academy/plastic/safety">safety video</a> to learn more.
-- Off-cuts container
-
-
-Once you’ve got your basic workspace set up, start working with the Sheetpress to develop your workflow and see what else might help you work more efficiently and comfortably.
-
-And don’t be afraid to spice the place up with your own unique charm :) Plants, posters, the right lighting, and a boombox will make your workspace more enjoyable to be in for yourself and anyone who stops by.
-
-### Your role in the universe
-| Your icon  |  Your task |
-|----------|----------------------|
-| <img src="../assets/universe/badge-workspace.png" width="150"/>        |  __Workspace__ <br> A Precious Plastic Workspace is a place where plastic gets transformed from waste into valuable materials or products. There are five different workspaces: Shredder, Extrusion, Sheetpress, Injection and Mix. |
-
-## 👋 Share
-
-You’ve built your Sheetpress Workspace. Nice one! We’re all learning together, so be sure to share back any hacks or developments that have helped you improve your space along the way. Enjoy the journey 🙂
-
-<b>Want to share feedback, chat about the Sheetpress Workspace or learn more from the community? Head to the [#Spaces](https://discordapp.com/invite/p92s237) channel on Discord. Here we answer questions and give tips on setting up your workspace and how to run it.</b>
+## ＃ ᔍ 検索 
+Sheetpressワークスペースを設定する最初のステップは、スペースを見つけることです。探す間、心に留めておくべきいくつかの考慮事項があります。 
+1.<b>サイズ:</b> 機械や道具を使って自由に動き回れる十分なスペースを確保することが重要です。私たちが設計したシートプレス・ワークスペースは、およそ5 x 8メートルです。これより大きくすることもできますが、あまり小さくすることはお勧めしません。 
+2.<b>電気:</b> シートプレス機は三相で動作し、かなりの電力を要求しますので、必ず三相で以下のスペックの場所を選んでください 400V / 32AMP / 1.5KW. 
+3.<b>予算：</b>スペースが機能的なニーズを満たしていることを確認する一方で、予算に合うかどうかを念頭に置くことも重要です。 
+> このような機会が地元にあるかどうか、アクセラレーターや自治体の担当者に問い合わせてみる価値がある。 
+## ✍️ プラン 
+あなたのスペースが見つかりました。あとは、あなただけの間取りに合わせて、ワークスペースの要素をどのように配置するか、計画を立て始めましょう。 
+スペースはそれぞれ違うので、レイアウトをカスタマイズするチャンスです。 
+ダウンロード・キットには、スターター・フロアプラン、CADモデル、カスタム・フロアプランナーが含まれています。 
+![Sheetpress Workspace](assets/spaces_sheetpress.jpg) 
+有望と思われる間取りができたら、それを実際に空間の床にチョークで書き出して試してみる。納得のいく間取りができるまで、何度も繰り返してください。 
+## ＃ 😎 ビルド 
+間取りが決まったら、今度は何もない部屋をシートプレスのワークスペースに変身させよう。 
+### 基本から始める 
+シートプレス、準備台、作業台、基本的な道具など、最も必要なものから始め、そこから自分のワークフローに最も適したものを見つけ出していく。 
+可能であれば、中古品を探し、新しい材料や資源の使用量を減らしましょう。必要なものが中古で手に入らない場合は、新しく買うか、作る。そして常に、安さよりも質の良さを追求しましょう。 
+必要不可欠なアイテム 
+- もちろん、シートプレスだ。 
+- プレパレーションテーブル-プレスのための金型の準備をより安全で簡単にします。 
+- 細断されたプラスチックの保存容器 - これは、あなたが誰からプラスチックを買うかによって決まるかもしれない。最も重要なのは、誤ってこぼれないように頑丈であること。透明なものが良いが、必須ではない。 
+- シンプルな金型-2枚の鋼板による四角いフレーム、シンプルで効果的。 
+- 基本的な道具 - スケール、バケツ、スライディングツール、シリコンオイル、耐熱手袋、タイマー。 
+- 換気-フィルターマスク、換気フード、詳しくは<a href="https://community.preciousplastic.com/academy/plastic/safety">安全ビデオ</a>をご覧ください。 
+- 端材コンテナ 
+基本的なワークスペースが整ったら、Sheetpressを使ってワークフローを開発し、より効率的で快適な作業のために、他に何が役立つかを考えてみましょう。 
+そして、自分だけの魅力をスパイスとして加えることを恐れないでください。）観葉植物、ポスター、適切な照明、ラジカセなど、あなたのワークスペースは、あなた自身にとっても、立ち寄る人にとっても、より楽しいものになるでしょう。 
+### 宇宙におけるあなたの役割 
+| Your icon  |  Your task | 
+|----------|----------------------| 
+| <img src="../assets/universe/badge-workspace.png" width="150"/>        |  __Workspace__ <br> A Precious Plastic Workspace is a place where plastic gets transformed from waste into valuable materials or products. There are five different workspaces: Shredder, Extrusion, Sheetpress, Injection and Mix. | 
+## 👋シェア 
+Sheetpressワークスペースを構築しました。素敵ですね！私たちはみんな一緒に学んでいるので、あなたのスペースを改善するのに役立ったハックや開発をぜひシェアしてください。旅を楽しんでください🙂。 
+<b>フィードバックを共有したり、Sheetpressワークスペースについておしゃべりしたり、コミュニティからもっと学びたいですか？Discordの[#Spaces](https://discordapp.com/invite/p92s237)チャンネルにアクセスしてください。ここでは、質問に答えたり、ワークスペースの設定や運営方法についてヒントを与えたりしています</b>。 

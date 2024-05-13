@@ -1,68 +1,42 @@
-# Introduction
-Welcome to the Precious Plastic Questions module! This section is designed to facilitate the exchange of technical knowledge and expertise within the Precious Plastic community in the long-term. [Read more here on why sharing back is crucial.](https://community.preciousplastic.com/academy/universe/contribute)
+# はじめに 
+プレシャスプラスチックの質問モジュールへようこそ！このセクションは、プレシャスプラスチックのコミュニティ内で長期的に技術的な知識や専門知識の交換を促進するために設計されています。[なぜシェアバックが重要なのか、詳しくはこちらをお読みください。](https://community.preciousplastic.com/academy/universe/contribute) 
+一言で言えば、このモジュールは、プラスチックのリサイクル、機械の操作、材料の特性などに関する技術的な質問に対する答えを見つけるためのものです。 
+⚠️ 質問を投稿する前に、あなたの質問がすでに回答されていないか確認してください。 
+# 質問の仕方 
+技術的な質問は複雑な場合があり、多くの変数が関係するため、詳細に迷うことは簡単です。しかし、簡単な質問であっても、明確な説明と関連する画像や図がいくつかあれば、他の人にとって信じられないほど役に立つことがあります。 
+技術的な質問をする際のガイドラインを以下に示します： 
+## ザ・クエスチョン（タイトル） 
+質問の内容を正確に反映し、他の人が見つけやすく、答えやすいタイトルを選びましょう。なるべく短くまとめましょう。 
+例を挙げよう： 
+- シュレッダー後、より良い再生材料を得るためにPPを洗浄するには？ 
+- ラベルをどう使うか？ 
+- ❌ "自分の働き方を改善する方法を知りたい" 
 
-In a nutshell, this module is here to help you find answers to your technical questions about plastic recycling, machine operation, material properties and more.
-
-⚠️ Before posting your question, check it hasn’t already been asked to ensure that your question hasn't already been answered.
-
-
-# How to ask a question
-
-Technical questions can be complex, and it's easy to get lost in the details as there are many variables involved. However, even a simple question with a clear explanation and a few relevant images or diagrams can be incredibly helpful to others. 
-Here are some guidelines to keep in mind when asking a technical question:
-
-
-## The Question (title)
-
-Select a title that accurately reflects the content of your question, making it easier for others to find and answer. Try to keep it short.
-
-Examples:
-- ✅”How to clean PP to get better recycled material after shredding?”
-- ✅”How to work with labels?”
-- ❌”I would like to know how to improve my way of working”
-
-
-## Description
-
-- Ask a specific question related to your problem or goal, rather than a general or open-ended question.
-- If your question is about a problem you’re having, explain what you are experiencing in detail, including any unusual behaviour you have observed.
-- Clearly state what you are trying to achieve, and what’s the expected behaviour.
-- Include relevant details such as the specific machine you are using, the materials and tools involved, the type of plastic you are using, steps you have taken to troubleshoot or resolve the issue, anything that helps the community understand your situation.
-- If possible, attach photos to better illustrate your question.
-- If someone provides an answer to your question, let them know if it has worked or not. People are offering their time and expertise to help you :)
-
-Examples:
-- ✅ ”The motor is not running, and I've checked the power supply and fuses, but everything seems fine. I've also checked the motor connections and they seem secure. Can anyone provide some guidance on how to troubleshoot this issue? I've attached some photos of the machine and the motor for reference. Thanks in advance for your help!”
-
-- ❌ "I don't understand why my injection machine won't work. I've tried everything and nothing is working. Can someone please tell me why it's not working and how to fix it?”
-
-
-## Tags 
-
-That's how we stay organised: this will be how people find your question, so make sure they’re accurate.
-
-
-# Some tips & tricks
-
-- Titles are powerful. Choose wisely, keep it short.
-- Try to keep it short but informative: trust us, we all have short attention spans.
-
-
-# How to answer a question
-
-- Provide detailed and specific answers that address the questioner's needs and concerns. Avoid providing vague or general answers that don't provide enough context or detail.
-- Provide accurate and reliable information that is based on your knowledge and experience. 
-- Avoid speculation or guesswork, and provide references or sources when possible.
-- Be cautious when providing advice or instructions related to safety or hazardous materials.
-- Encourage the questioner to continue learning and exploring the topic, and provide resources or references for further study.
-- Follow up on your answers and provide feedback or additional information if necessary. Encourage the questioner to provide feedback or ask follow-up questions if they have any.
-
-
-# Moderation
-Following the guidelines will help to foster a culture of learning and improvement. 
-They will help us to keep consistency and deliver useful content to you: our precious community members. 
-By following them, we ensure that the Q&A has high standards of quality.
-
-If you fail to follow them, our community manager will reach out and you’ll have 72h to make the edits requested. 
-
-If they’re not made by then, your question or comment will be deleted.
+# 解説 
+- 一般的な質問や自由形式の質問ではなく、あなたの問題や目標に関連した具体的な質問をする。 
+- あなたが抱えている問題についての質問であれば、観察された異常な行動を含め、あなたが経験していることを詳しく説明してください。 
+- 何を達成しようとしているのか、期待される行動は何かを明確に述べる。 
+- 具体的な使用マシン、使用材料、使用工具、使用プラスチックの種類、トラブルシューティングや問題解決のために講じた措置など、あなたの状況をコミュニティに理解してもらうために役立つものであれば何でも構いません。 
+- 可能であれば、ご質問の内容をより分かりやすく説明するために写真を添付してください。 
+- もし誰かがあなたの質問に対する答えを提供してくれたら、それがうまくいったかどうかを教えてあげてください。人々はあなたを助けるために時間と専門知識を提供しているのです :) 
+例を挙げよう： 
+- モーターが動いていないので、電源とヒューズをチェックしましたが、すべて問題ないようです。モーターの接続も確認しましたが、安全なようです。どなたか、この問題のトラブルシューティング方法についてご指導いただけないでしょうか？参考のため、マシンとモーターの写真を添付します。よろしくお願いします。" 
+- なぜ注射器が動かないのか理解できません。いろいろ試しましたが、何もうまくいきません。なぜ動かないのか、どうすれば直るのか、どなたか教えてください。" 
+## タグ 
+そうすることで、人々はあなたの質問を見つけることができるのです。 
+# ヒント 
+- タイトルには力がある。賢く選び、短く。 
+- 私たちを信じてください、私たちは皆、注意力が短いのです。 
+# 質問の答え方 
+- 質問者のニーズや懸念事項に対応した詳細かつ具体的な回答をする。十分な文脈や詳細を提供しない曖昧で一般的な回答は避けましょう。 
+- 知識と経験に基づいた、正確で信頼できる情報を提供すること。 
+- 推測や当て推量は避け、可能な限り参考文献や出典を示すこと。 
+- 安全や危険物に関するアドバイスや指示を提供する場合は、慎重に行ってください。 
+- 質問者に、そのトピックについて学び、探求し続けるよう促し、さらに勉強するための資料や参考文献を提供する。 
+- 自分の答えをフォローアップし、必要であればフィードバックや追加情報を提供する。質問者にフィードバックや補足質問があればするよう促す。 
+# 中庸 
+このガイドラインに従うことで、学習と改善の文化が育まれる。 
+これらの情報は、私たちが一貫性を保ち、私たちの貴重なコミュニティ・メンバーである皆様に有益なコンテンツをお届けするために役立ちます。 
+それらに従うことで、私たちはQ&Aの高い品質水準を保証している。 
+もしそれに従わない場合は、コミュニティ・マネージャーが連絡を取り、72時間以内に編集を依頼します。 
+それまでに作成されない場合、あなたの質問やコメントは削除されます。 

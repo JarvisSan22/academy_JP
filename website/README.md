@@ -23,7 +23,7 @@ $ yarn
 $ yarn start
 ```
 
-## Directory Structure
+ ## Directory Structure
 
 Your project file structure should look something like this
 
@@ -50,7 +50,7 @@ my-docusaurus/
 
 # Editing Content
 
-## Editing an existing docs page
+ ## Editing an existing docs page
 
 Edit docs by navigating to `docs/` and editing the corresponding document:
 
@@ -67,7 +67,7 @@ Edit me...
 
 For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
 
-## Editing an existing blog post
+ ## Editing an existing blog post
 
 Edit blog posts by navigating to `website/blog` and editing the corresponding post:
 
@@ -85,7 +85,7 @@ For more information about blog posts, click [here](https://docusaurus.io/docs/e
 
 # Adding Content
 
-## Adding a new docs page to an existing sidebar
+ ## Adding a new docs page to an existing sidebar
 
 1. Create the doc as a new markdown file in `/docs`, example `docs/newly-created-doc.md`:
 
@@ -116,7 +116,7 @@ My new content here..
 
 For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
 
-## Adding a new blog post
+ ## Adding a new blog post
 
 1. Make sure there is a header link to your blog in `website/siteConfig.js`:
 
@@ -146,7 +146,7 @@ Lorem Ipsum...
 
 For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
 
-## Adding items to your site's top navigation bar
+ ## Adding items to your site's top navigation bar
 
 1. Add links to docs, custom pages or external links by editing the headerLinks field of `website/siteConfig.js`:
 
@@ -169,7 +169,7 @@ For more information about blog posts, click [here](https://docusaurus.io/docs/e
 
 For more information about the navigation bar, click [here](https://docusaurus.io/docs/en/navigation)
 
-## Adding custom pages
+ ## Adding custom pages
 
 1. Docusaurus uses React components to build pages. The components are saved as .js files in `website/pages/en`:
 1. If you want your page to show up in your navigation header, you will need to update `website/siteConfig.js` to add to the `headerLinks` element:

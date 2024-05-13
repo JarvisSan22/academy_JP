@@ -1,113 +1,77 @@
 ---
-id: collect
-title: Collect
-sidebar_label: Our Collection System
+id: collect 
+title: Collect 
+sidebar_label: Our Collection System 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/BtrfTSSGHEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/BtrfTSSGHEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #b79ecb; 
+  --hover: #b79ecb; 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #b79ecb;
-  --hover: #b79ecb;
-}
-</style>
-
-# Our worldwide Collection System
-
+# 世界的な収集システム 
 <div class="videoChapters">
-<div class="videoChaptersMain">
+<div class="videoChaptersMain">（
 
-### No collecting, no recycling!
-
-Collecting plastic is pretty crucial - here we’ll show you what it means to collect plastic, how it works around the world and how we envision a collection system within the Precious Plastic Universe!
-
-> Pro-tip: ask the shops and businesses around you if they have excess plastic waste they want to get rid of. If you set them up with some bins, they could even sort it for you!
-
-
-</div>
+### 回収もリサイクルもしない！ 
+プラスチックを回収することは非常に重要だ。ここでは、プラスチックを回収するとはどういうことか、世界中でどのように行われているのか、そしてプレシャス・プラスティック・ユニバースではどのような回収システムを考えているのかを紹介しよう！ 
+> プロからのアドバイス：周りのお店や企業に、余分なプラスチックゴミがないか聞いてみましょう。ゴミ箱を用意すれば、分別してくれるかもしれない！ 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:19 廃棄物収集 
+- 01:21 現在の状況 
+- 02:05 チャレンジ 
+- 02:32 プレシャス・プラスチック・プラン 
+- 03:00 戦略 
+- 03:42 このアプローチの利点 
+- 04:26 ツール 
+</div> 
+</div> 
 
-- 00:19 Waste Collection
-- 01:21 Current Situation
-- 02:05 Challenges
-- 02:32 Precious Plastic Plan
-- 03:00 Our Strategy
-- 03:42 Benefits of This Approach
-- 04:26 Tools
+# 廃棄物収集 
+![Daily Plastic Use](assets/Collect/dailyplastic.svg) 
+私たちは日常的に、大量のプラスチックを購入し、使用し、排出している。これらのプラスチックは、通常はごく短期間使用された後、廃棄されます。お住まいの地域にもよりますが、地元のリサイクル・ポイントに投函するか、回収業者が自宅から回収し、さらに処理することになります。通常、問題はここから始まる。 
+リサイクルされているのでしょう？さて、人々がリサイクル容器に捨てるプラスチックは、分別されておらず、たいてい汚れていて、しばしば他の素材と混ざっている（例えば、フィルムのラベルが付いたソーダボトル）。すでに学んだように、プラスチックの分別は適切なリサイクルの基本である。赤外線スキャン、水密度技術、手作業によるピッキングなど、工業的な分別は可能だが、毎年生産される3億4,800万トンを分別するには効率が悪い。そうだ。 
+### オーケー。それは厳しいな。それでどうなるんだ？ 
+プラスチックがリサイクルされることもある。どこかで読んだことがあると思うが、その割合は約9％である。非常に複雑で、高価で、時間とエネルギーを要するプロセスを経る必要があり、ほとんどの国にはその選択肢すらない。 
+<img src="./assets/Collect/burnlandfillocean.png" width="600" /></img> 
+もうひとつの、より可能性の高いシナリオは、プラスチックは燃やされるか、埋め立て地に送られるか、海に捨てられるか、貨物船でアジアやアフリカに送られるかのいずれかである（そこではプラスチックを処理するインフラがないことは確かだ）。これらの解決策は、大きな環境破壊と社会的抑圧を引き起こす。ゴミなんてどこにも落ちていない！欧米諸国の街はきれいだ。しかし、アジアやアフリカのある場所では、ゴミは汚く、ポイ捨てされているように見える。それは、回収システムを国が税金で補助しなければならないからで、多くの場所では不可能なのだ。しかし、これを混同してはいけない。西側諸国は依然として地球上で最大のプラスチック廃棄物排出国なのだ。その上、世界の回収システムは標準化されていない。国や自治体によって規制が異なるのだ。このため、人々は（私たちも含めて）非常に混乱している。 
 
+## チャレンジ 
+現在のプラスチックの回収方法には多くの課題がある： 
+- 回収されたプラスチックは汚れていたり、他の物質と混ざっていることが多い。 
+- 24時間365日、トラックとドライバーの一団を市内に走らせるのは、莫大なコストがかかる。 
+- 使い捨て文化を助長する（？） 
+# でも心配しないで！💪 
+## 貴重なプラスチック回収システム 
 
+プレシャス・プラスチックの活動は、私たちと同じように、皆さんと同じように、行動を起こしている人々に焦点を当てています。私たちと同じように、あなたと同じように、行動を起こす人たちです。私たちは、あなたがプラスチック廃棄物により深く関与し、解決策の一部となるよう呼びかけます。情報とインフラを提供することで、地域社会は変革の道具となるのです。 
+では、プラスチックの回収にはどう使うのですか？いい質問ですね😉。
 
-</div>
-</div>
+![Collection Network](assets/Collect/collectionnetwork.svg) 
 
-# Waste Collection
-
-![Daily Plastic Use](assets/Collect/dailyplastic.svg)
-
-On a daily basis we buy, use and generate a huge amount of plastic. Once this plastic is used, usually for a very short time, it’s discarded. Depending on where you live, you might drop it off at a local recycling point or they’ll collect it from your home to take it to further processing. This is normally where the problems begin.
-
-But why - it’s being recycled, right? Well, the plastic that people throw in their recycling bin is unsorted, usually dirty and often mixed with other materials (the soda bottle with the film label, for example). As we’ve learnt already, separating plastics is fundamental to proper recycling and well, they aren’t going to do it for us. Industrial sorting is possible, with infrared scanning, water density techniques and hand picking, but it’s no way near efficient enough to sort through the 348 million metric tons that is produced every year. Yup.
-
-### Ok. That’s grim. So what happens to it?
-
-Sometimes, the plastic is recycled. As you’ve probably read somewhere, it’s around 9%. It needs to go through a very complex, expensive, time-consuming and energy-intensive process and most countries don’t even have this option to do so.
-
-<img src="./assets/Collect/burnlandfillocean.png" width="600" />
-
-The other, more likely scenario is that plastic is either burnt, sent to a landfill, dumped in the ocean, or sent on a cargo ship to Asia or Africa (where they certainly don’t have the infrastructure to deal with it). These solutions cause huge environmental damage and social oppression. Have you ever caught yourself thinking - I don’t see any rubbish anywhere! Our streets in western countries are clean. But some places in Asia, Africa, it’s often seen as dirty and littered - it’s everywhere in the ocean and they burn it on the streets. That’s because collection systems have to be subsidized by the state through taxpayer money which is just not doable in many places. But don’t get this one mixed up - the west is still the biggest producer of plastic waste on the planet. And on top of this, collection systems worldwide are not standardized. Every country and municipality within that country have different regulations. This leaves people very confused (including us).
-
-## Challenges
-
-There are numerous challenges connected with the way plastic is currently collected:
-
-- Collected plastic is often dirty and mixed with other materials
-- It is very resource-intensive - running a fleet of trucks and drivers around the city 24/7 is hugely expensive.
-- It encourages a throw-away culture (??)
-
-# But don’t worry - we have a plan! 💪
-
-## The Precious Plastic Collection System
-
-You probably know by know, but Precious Plastic is focused on citizens: people, just like us, just like you, taking action. We invite you to become more involved in your plastic waste and become part of the solution. By providing the information and infrastructure, community can be a tool for change.
-
-So how does this work for collecting plastic? Great question 😉
-
-![Collection Network](assets/Collect/collectionnetwork.svg)
-
-<p class="note">Note: when we say citizens, we mean everyone in society. When we say people in our community, we mean those that have become part of the Precious Plastic community (and if you haven’t already, join us!)</p>
-
-<b>One.</b> We give people all the information they need to properly clean their plastic at home and then show them where they can bring it to make sure it’s recycled properly. Education is at the core of everything we do (knowledge = power) so teaching citizens on the importance of clean, label free plastic can alone create a huge shift.
-
-<b>Two.</b> We show people in our community how to create Collection Points in their local area to accept the clean plastic from citizens. As we only accept this clean, label free plastic it means that we’re also showing citizens and our community how valuable this material can be.
-
-## Benefits of this approach
-
-This new approach offers a few different benefits for both people and the environment:
-
-1. First (and most important) is that the <b>material collected is of high quality.</b> Setting up a local collection points that are managed by members of the community helps to obtain higher quality material that is clean and usable.
-
-2. Second, <b>it stays local.</b> The plastic collected will be recycled and transformed in one of the local Precious Plastic workspaces, not shipped across the planet hoping someone else will take care of it.
-
-3. Third is <b>education.</b> This approach aims to inform and educate citizens on plastic and how to recycle it properly.  This is a long-term strategy that is quite time-consuming in the beginning, but we believe will pay off in the long run.
-Forth, it’s powered by people, not by the government or companies. So it’s resilient, human, and accessible.
-
-# Tools
-
-Are you in? We hope so! We’ve developed a bunch of tools for citizens, as well as people in our community.
-
-For citizens we have a website that will teach them about the Precious Plastic recycling system, how to clean plastic and how to use the map so they can find their local drop off point.
-
-![All Tools](assets/Collect/alltools.svg)
-
-For people in our community we’re developed:
-- A <b>starter-kit:</b> if you’re interested in becoming a collection point this will give you everything you need to get started
-- A <b>platform</b> to connect everyone in the community. You can use the map to find local workspaces, or the How-To tool to learn about other collection strategies from around the world
-- <b>Posters</b> for your workspace or for your community to help spread the word
-- A <b>tool to weigh</b> how much plastic you process, so we can add it up and see the impact of the Precious Plastic Universe
-
-<b>Want to share feedback, chat about collecting plastic or learn more from the community? Head to the [#Collect](https://discordapp.com/invite/kpnYaEr) channel on Discord. Here we talk about the Collection system, Pickup points and how to sort plastic.</b>
+<p class="note">注意：私たちが市民と言うとき、それは社会のすべての人を意味します。私たちのコミュニティの人々というのは、プレシャス・プラスチックのコミュニティの一員となった人々のことです（まだの方は、ぜひご参加ください！）</p>。 
+<b>One.</b>私たちは、人々が家庭でプラスチックを適切に洗浄するために必要なすべての情報を提供し、その後、適切にリサイクルされるように、人々がプラスチックを持ち込める場所を紹介します。教育は私たちが行うすべてのことの核心であり（知識＝力）、ラベルのない清潔なプラスチックの重要性を市民に教えることだけでも、大きな変化を生み出すことができるのです。 
+<b>2つ目</b> 私たちは地域の人々に、市民から回収されたきれいなプラスチックを受け入れるための回収ポイントの作り方を教えています。私たちはラベルのないきれいなプラスチックだけを受け入れているため、この素材がいかに貴重なものであるかを市民や地域社会に示すことにもなるのです。 
+## このアプローチの利点 
+この新しいアプローチは、人と環境の双方にいくつかの異なる利点をもたらす： 
+1.第一に（そして最も重要なのは）、<b>収集される材料が高品質であることである。</b>地域社会のメンバーによって管理される地元の収集拠点を設置することは、清潔で使用可能な、より高品質の材料を得るのに役立つ。 
+2.第二に、<b>地元にとどまる。</b>回収されたプラスチックは、地元のプレシャス・プラスチックのワークスペースのひとつでリサイクルされ、生まれ変わる。 
+3.3つ目は<b>教育</b>である。このアプローチは、プラスチックとそれを適切にリサイクルする方法について市民に知らせ、教育することを目的としている。  これは長期的な戦略であり、最初のうちはかなり時間がかかるが、長期的には報われると信じている。 
+第四に、政府や企業ではなく、人々によって支えられている。だから、弾力性があり、人間的で、アクセスしやすい。 
+# ツール 
+参加しますか？私たちはそう願っています！私たちは、市民や地域の人々のためにたくさんのツールを開発しました。 
+市民の皆さんには、プレシャス・プラスチックのリサイクル・システム、プラスチックの洗浄方法、お近くの投棄場所を見つけるための地図の使い方などを紹介するウェブサイトを用意しています。 
+![All Tools](assets/Collect/alltools.svg) 
+地域の人々にとって、私たちは発展してきた： 
+- <b>スターター・キット：</b>コレクション・ポイントになることに興味があるなら、これを使えば始めるのに必要なものがすべて揃う。 
+- コミュニティのみんなをつなぐ<b>プラットフォーム</b>。マップを使って地元のワークスペースを探したり、ハウツーツールで世界中の他の収集戦略を学ぶことができる。 
+- <b>ポスター</b>は、あなたのワークスペースや地域社会に掲示し、この言葉を広めるのに役立ちます。 
+- <b>あなたが処理したプラスチックの量を量るツール</b>。 
+<b>フィードバックを共有したり、プラスチックの収集についてチャットしたり、コミュニティからもっと学びたいですか？Discordの[#Collect](https://discordapp.com/invite/kpnYaEr)チャンネルへどうぞ。ここでは、収集システム、ピックアップポイント、プラスチックの分類方法について話しています</b>。 

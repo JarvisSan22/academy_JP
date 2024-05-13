@@ -1,153 +1,120 @@
 ---
-id: extrusionprobuild
-title: Build an Extrusion Pro
-sidebar_label: - Build it
+id: extrusionprobuild 
+title: Build an Extrusion Pro 
+sidebar_label: - Build it 
 ---
-<div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/3-JFVo6BDA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
-</style>
-
+<div class="videocontainer"> 
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/3-JFVo6BDA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
+</style> 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-# Build an Extrusion Pro
+# ♪押し出し成形のプロを作ろう 
 
-Welcome to the Extruder Pro! This is a stronger, bigger and more robust version of our V3 extruder so if you are looking for serious production and have advanced milling and lathing skills, continue on! If you are starting out, or looking for a smaller and easier machine to build, we advise you to start with the original extruder (which is still badass).
+エクストルーダープロへようこそ！このエクストルーダープロは、V3エクストルーダの、より強く、より大きく、より頑丈なバージョンです！これからエクストルーダーを始められる方や、より小型で簡単なマシンをお探しの方は、オリジナルのエクストルーダーから始めることをお勧めします。 
+> もし精度が十分でなければ、複雑なパーツをバザーで探してみてください。精度が十分でない場合は、複雑な部品をバザーで探してみてください。 
+</div> 
 
-> Pro-tip: Making the extruder requires fine precision and eye for tolerances, if you are not precise enough try to find complex parts on the bazar. They are small and easy to ship.
-
-</div>
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:07 はじめに 
+- 01:30 ベアリング本体とシャフト 
+- 08:49 バレル注入口 
+- 12:17 バレル 
+- 15:13 モーター・アダプター 
+- 16:35 ホッパー 
+- 17:39 エレクトロニクス 
+- 19:45 フレーム 
+- 20:19 最終組立 
+- 24:11 メンテナンスと走り方 
+</div> 
+</div> 
 
-- 00:07 Introduction
-- 01:30 Bearing body and shaft
-- 08:49 Barrel inlet
-- 12:17 Barrel
-- 15:13 Motor adapter
-- 16:35 Hopper
-- 17:39 Electronics
-- 19:45 Frame
-- 20:19 Final assembly
-- 24:11 Maintenance and how to run
+# 必要な機械と技術 
+Build Extrusion Pro  | Machines needed | Skills needed 
 
-</div>
-</div>
+--- | ---| --- 
+<img style="margin-left: 0;" src="../assets/build/thumb-extrusion-pro.jpg" width="150"/>  | - Lathe <br> - Drill press <br>- Milling machine <br> - Welding machine (TIG or MIG/MAG recommended) <br> - Torq wrench| - Welding (advanced) <br> - Machining (advanced) <br> - Assembling (intermediate)<br> - Electronics (intermediate) 
 
+# 材料と部品 
 
-# 🛠 Required machinery & skills
-Build Extrusion Pro  | Machines needed | Skills needed
---- | ---| ---
-<img style="margin-left: 0;" src="../assets/build/thumb-extrusion-pro.jpg" width="150"/>  | - Lathe <br> - Drill press <br>- Milling machine <br> - Welding machine (TIG or MIG/MAG recommended) <br> - Torq wrench| - Welding (advanced) <br> - Machining (advanced) <br> - Assembling (intermediate)<br> - Electronics (intermediate)
+### モーターの選択と説明 
+モータの出力トルクは80～120Nmの範囲内で使用することを推奨します。最大出力トルクは120Nm、最小出力トルクは80Nmを推奨します。最大出力3kWのモータを使用することを推奨します。これは、最大（出力軸）回転数220～320RPMに相当します（ギアボックスとモータの効率を90％と仮定）。ウォームタイプのギヤボックスは効率が低いので避けることをお勧めします。 
+モーターを購入する前に、あなたの国の標準的な電圧と周波数を知っておく必要があります。これらの数値は世界中で異なるため、モーターの輸入が複雑になる可能性があります： 
 
+![Voltage Map](assets/ex1_map.jpg) 
 
-# 🔩 Materials and parts
+非同期モーターのカップリング（デルタまたはスター）は、設置場所の主電源電圧とモーターの定格電圧に依存します。設定が間違っている場合、モータは作動しますがトルクは低く、建物のブレーカーが落ちたり、モータが焼損したりする可能性があります。 
 
-### Motor selection & explanation
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex2.jpg" width="500"/></img> 
 
-We recommend to use motor output torque in the range of 80-120 Nm, in which  120 Nm is the recommended Max. output torque value and 80 Nm the minimum value. We recommend to use a motor with a max. power output of 3 kW Which corresponds to a maximum (Output shaft) speed of 220 - 320 RPM (assuming 90% gearbox and motor efficiency). We recommend to avoid worm-type gearboxes due to their low efficiency.
+ほとんどの可変周波数ドライブ（VFD）は、デルタ構成で接続されたモータで動作する必要がありますが、詳細についてはVFDのマニュアルを確認してください。 
+![Star Delta Connectiion](assets/ex3.jpg) 
 
-Before buying a motor, you need to be aware of the standard voltage and frequency of electricity in your country. These numbers vary worldwide and can make importing a motor complicated:
+### カップリング・オプションと説明 
+少ないスペースで大きなトルクに対応できることから、押出スクリューのクランプにはシャフトロックコンクランプ方式が採用されました。また、押出機のコンポーネントのメンテナンスが簡単にできるように設計されています。ギアボックスへのカップリングの取り付け、取り外しも簡単です。最低250Nmのトルクに対応できるクランプを必ず使用してください。 
+### ホッパー形状 
+プラスチックの粒子径や形状に大きなばらつきがある場合を除き、四角いフィードホッパーはうまく機能する。ホッパーの底の形状は多くの要因に影響されます。ピラミッド型ホッパーは一般的に、比較的流動性があり、時間の経過とともに安定する製品や、ペレットサイズが均一なバルク原料に使用されます。円錐形の容器は比較的構造が簡単で、内部圧力を維持するのに優れた形状をしています。 
+# 電子ボックス 
 
-![Voltage Map](assets/ex1_map.jpg)
+### 電気部品の役割の説明 
+![PID](assets/ex4_PID.jpg) 
+### PIDコントローラ： 
+3つのPIDがヒーティングカラーの温度を制御します。それぞれが熱電対と対になっており、プロセス内の指定されたポイントの温度を測定する。これらの温度センサーは非常に頑丈で、低コスト、セルフパワーです。温度センサーには多くの種類があるので注意が必要です。最も一般的な熱電対モデルはJ、T、Kタイプの熱電対で、これらは既成の形で入手できる。 
+### 熱電対センサーがPIDと同じタイプ(J,TまたはK)であることを確認してください。
 
-The coupling of your asynchronous motor (delta or star) depends on the mains voltage of your installation and the rated voltage of the motor. If your configuration is wrong the motor may run but with low torque, it may trip your building’s circuit breaker, or it could burn out your motor.
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex5.jpg" width="400"/></img>
 
+大半のPIDはデフォルトでタイプKだが、初期化モードを通じて初期設定を変更することで、他のタイプを使用できる場合もある： 
 
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex2.jpg" width="500"/>
+- PID REX C100 Page 7 Chapter 7.1 https://www.mpja.com/download/rex-c100.pdf 
 
-Most Variable Frequency Drives (VFD’s) ore required to work with the motor connected in a Delta configuration, but check your VFD manual for more information.
+### 周波数ドライバー： 
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex6.jpg" width="250"/></img>
+VFD（Variable Frequency Drive）は、モータの電気消費量、トルク、インピーダンスなどに影響を与えることなく、AC誘導モータの速度を制御するために特別に設計され、使用される精密電子機器である。  
 
-![Star Delta Connectiion](assets/ex3.jpg)
+# 👌 作るときのコツ 
 
-### Coupling option & explanation
+### 金型 
+マシンのノズルでは、金型を取り付けるために異なるタイプの接続を使用することができます。カムロックとアリ溝はクイックリリース用途に適しており、スクリューノズルは高圧出力を必要とする製品に最適です。 
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex7.jpg" width="500"/></img>
+金型の温度によって、表面の仕上がりは異なります。予熱された金型は非常に滑らかな仕上がりになり、冷たい金型は波打つような仕上がりになります。 
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex8.jpg" width="500"/></img> 
 
-A Shaft Lock Cone Clamping method was chosen to clamp the extrusion screw because it can handle large torques in a small amount of space. It is also designed for easy maintenance of the extruder’s components. It is easy to install and remove the coupling from the gearbox. Be sure to use a clamp that can support a minimum 250 Nm torque.
+この機械で梁を作る場合、型が一杯になるとすぐにわかりますが、それ以外のものを作る場合は厄介です。私たちが見つけたコツをいくつか紹介しよう： 
 
-### Hopper shape
+- 材料の流量と鋳型の体積がわかっていれば、タイマーをセットする、 
+- 小さな出口穴（1mm） 
+- レンガには、ダブテール接続部にバイスグリップを使用している。圧力が十分に高くなると、バイスグリップが開き始め、完成を示す。 
+- 
+より大きなものを作りたい場合、うまくいくテクニックは、金型に背圧をかけ、プラスチックが断面全体を満たすようにすることだ。高温のシリコーン・シールを使ったプランジャーは、これまで見つけた中で最も安価で簡単な解決策だ。圧力を強めたい場合は、プランジャーに重りを加えることができる。 
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex9.jpg" width="500"/></img>
+複雑な形状の梁や、収縮率の小さいプラスチック（PSなど）を使用する場合、2分割金型は、成形の解除を容易にする良い解決策となります。下の写真は、梁に溝を作るためのねじ付きフラットバーです。このような設計は、後加工の時間を短縮し、マイクロプラスチックの発生を防ぎます。 
 
-Square feed hoppers work well, except when there is a large variation in plastic particle size and shape. The choice of hopper bottom shape is influenced by many factors. Pyramid hoppers are typically used with relatively free flowing products that are stable with time and with bulk materials with uniform pellet size. Conical vessels are relatively simple to construct and have an excellent shape to sustain internal pressures.
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex10.jpg" width="500"/></img> 
 
-# ⚡ Electronic box
+# 追加オプション 
 
-### Explanation of electric component roles
+### バレルサポート 
+重量のある金型をマシンに取り付けて頻繁に使用する場合は、繰り返しかかる応力によって押出機が曲がってしまうのを防ぐため、バレルサポートが必要になる場合があります。 
+技術図面はダウンロードキットにあります。 
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex11.jpg" width="500"/></img>
 
-![PID](assets/ex4_PID.jpg)
+### 加熱保護オプション 
+火傷を防ぎ、ヒーティングカラーの空気中の熱拡散を最小限に抑えるため、押出機のバレルを覆うことをお勧めします。この保護には、薄い鋼板を手作業で切断して折り曲げます（折り曲げパターンには円筒形のものを使用できます）。 
+技術図面はダウンロードキットにあります。 
+あとは、バレルと鋼板の間に挿入する断熱材を使用する。さまざまな種類の断熱材を使用できる： 
+- セラミック・ウール（ベスト・オプション） 
+- ミネラルウール 
+- ロックウール 
+- グラスウール 
+<img style="margin-left: 0; margin-top: 0px margin-bottom：0px;" src="../assets/ex12.jpg" width="500"/></img>
 
-### PID controllers:
-
-The three PIDs control the temperature of the heating collars. Each is paired with a thermocouple that measures the temperature at a designated point in the process. These temperature sensors are extremely rugged, low-cost, and self-powered. You do need to be careful because there are many types of temperature sensors. The most common thermocouple models are J, T and K type thermocouples, which are available in pre-made forms.
-
-### Ensure your thermocouple sensor as the same type as your PID (J,T Or K).
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex5.jpg" width="400"/>
-
-The majority of PIDs are type K by default, but it is sometimes possible to use other types by changing the initial setting through the initialization mode:  
-
-- PID REX C100 Page 7 Chapter  7.1 https://www.mpja.com/download/rex-c100.pdf
-
-### Frequency Driver:
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex6.jpg" width="250"/>
-
-A VFD (Variable Frequency Drive) is a precision electronic device specifically designed and used to control the speed of AC induction motors without affecting the electric consumption, torque, impedance, etc. of the motor.    
-
-# 👌 Tips & tricks while making
-
-### Mould
-
-At the nozzle of the machine, you can use different types of connections to attach your mold. Cam lock & dovetail are good for quick release applications, and a screw nozzle is great for products requiring high pressure output.
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex7.jpg" width="500"/>
-
-You will obtain different surface finishes depending on the temperature of your mold. Preheated molds give you a very smooth finish and cold molds will be wavier.
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex8.jpg" width="500"/>
-
-When using the machine to make beams, it is easy to see when the mold is full, but for other objects things get tricky. Here are a few tricks that we found:
-
-- Set a timer if you know the material flow rate and volume of mold,
-- Tiny exit holes (1 mm)
-- For the brick, we have been using vise grips on the dovetail connection. When the pressure gets high enough, the vise grips start to open and indicate completion.
-
-If you want to make bigger object, a technique that works well is to create back pressure in the mold so that the plastic fills the whole section. A plunger with a high temperature silicone seal is the cheapest and most simple solution we found up to now. If you want to augment the pressure, you can add weight to the plunger.
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex9.jpg" width="500"/>
-
-When you want to make beams with a complex profile or with a plastic with a small shrink rate (such as PS) two part molds can be a good solution to facilitate the unmolding process. The photo below shows a screwed flat bar that will create a groove in the beam, and minimize additional machining for its designed purpose. This kind of design reduces post processing time and prevents the creation of microplastics.
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex10.jpg" width="500"/>
-
-# Additional Options
-
-### Barrel support
-
-If you frequently use your machine with heavy moulds attached to it, you may need a barrel support to avoid bending the extruder from the repeated stresses.
-
-You can find the technical drawings in the download kit.
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex11.jpg" width="500"/>
-
-### Heating protection option
-
-We recommend to cover the barrel of the extruder to prevent burning and minimize the thermal diffusion in the air of the heating collars. To build this protection, simply cut and fold a thin steel plate manually (a cylindrical object can be used to make the bending pattern).
-
-You can find the technical drawings in the download kit.
-
-It remains to use an insulating material to be inserted between the barrel and the steel plate. Different types of insulation can be used:
-- Ceramic wool (best option)
-- Mineral wool
-- Rockwool
-- Glass wool
-
-<img style="margin-left: 0; margin-top: 0px margin-bottom: 0px;" src="../assets/ex12.jpg" width="500"/>
-
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+**助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。ここでは機械についてオタクな話をします。 

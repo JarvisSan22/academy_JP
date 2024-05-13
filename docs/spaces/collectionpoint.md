@@ -1,88 +1,69 @@
 ---
-id: collectionpoint
-title: Setup an Collection Point
-sidebar_label: Collection Point
+id: collectionpoint 
+title: Setup an Collection Point 
+sidebar_label: Collection Point 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/i2h3DWEJl84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/i2h3DWEJl84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #37b4a3; 
+  --hover: #37b4a3; 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #37b4a3;
-  --hover: #37b4a3;
-}
-</style>
-
-# Collection Point
+# コレクション・ポイント 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-### This is the Precious Plastic Space to collect clean, label-free plastic in your neighbourhood to be passed on to the Shredder Workspace and further recycling.
+### この「プレシャス・プラスチックスペース」は、ご近所のラベルのないきれいなプラスチックを集めてシュレッダー・ワークスペースに運び、さらにリサイクルするためのスペースです。 
 
-So you want to set up a Collection Point. That's great, and so much needed!
-Collection Points are such a crucial element of the Precious Plastic Universe as they are the "catchers" of all that plastic waste out there waiting to be recycled. Setting up the Collection Point can be broken down into three main steps:
+コレクション・ポイントを設置したいのですね。それは素晴らしいことだし、とても必要とされていることだ！ 
+回収ポイントはプレシャス・プラスチックの世界では非常に重要な要素であり、リサイクルされるのを待っているプラスチック廃棄物の「受け皿」となります。回収ポイントの設置は、主に3つのステップに分けられます： 
+1.<b>検索：</b>スペースを選ぶときに考えること 
+2.<b>計画:</b> プラスチックを回収し、人々に働きかけるために、スペースを効果的に計画する方法。 
+3.<b>ビルド:</b> 何もない部屋をコレクション・ポイントに変える。 
+これらの各ステップについて、以下で詳しく説明する。 
 
-1. <b>Search:</b> what to think about when choosing your space
-2. <b>Plan:</b> how to plan your space effectively to collect plastic and reach out to people
-3. <b>Build:</b> transforming an empty room into a Collection Point
+<a href="https://collect.preciousplastic.com/">ウェブサイト</a>は、プレシャス・プラスチックの回収場所について近所の人たちとコミュニケーションをとるのに役立つ。 
 
-Each of these steps is explained in more detail below.
-
-> Pro-tip: we made this <a href="https://collect.preciousplastic.com/">website</a> to help you communicate with people in your neighbourhood about the Precious Plastic collection point. 
-
-</div>
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:00 はじめに 
+- 00:50 ワークスペースのセットアップ 
+- 01:25 コミットメント 
+- 02:00 ラベリングと記録 
+- 03:01 コレクション物流 
+</div> 
+</div> 
 
-- 00:00 Introduction
-- 00:50 Workspace Setup
-- 01:25 Engagement
-- 02:00 Labeling and Recording
-- 03:01 Collection Logistics
+### 準備はいいかい？ 
+さあ、始めよう。始める前に、考慮すべきことがいくつかあります。 
+1.<b>人:</b> チームを編成する（仲間がいればもっと楽しい！）。 
+2.<b>スペース：</b> プラスチックは量が多い。スペースは十分ですか？私たちは5 x 6メートルのスペースで作業しています。 
+3.<b>場所：</b>見つけやすいか、行きやすいか。 
+![Collection Workspace](assets/spaces_collection.jpg) 
+# 😎組み立てましょう！ 
+この「プレシャス・プラスチックスペース」を設置・運営する目的は、できるだけ多くのきれいなプラスチックを集めて分別することです。プラスチックの保管には大きな袋や容器を使うことをお勧めします。また、プラスチックの種類によって分別することが大切です。 
+![Pile of Plastic](assets/PileofPlastic.jpg) 
+もしプラスチックの一貫した（単一素材の）供給源、例えば近所のアイスクリーム店からプラスチックのスプーンを入手できるのであれば、それらを集めるときに別々に保管することで、一貫性を維持し、シュレッダー・ワークスペースに高品質の清潔なプラスチックを供給することができる。 
+そのため、キャンペーンやソーシャルメディア、パートナーシップ、コラボレーションなどのオンライン作業ができるデジタルワークステーションがあると便利です。私たちはまた、<a href="https://collect.preciousplastic.com/">ウェブサイト</a>を作成し、プレシャス・プラスチック回収ポイントについて近隣の人々と話し合う手助けをしました。 
 
-</div>
-</div>
+> プロからのアドバイス：<a href="https://youtu.be/7zm_xVx7TBs">このビデオ</a>は、あなたが地域の人たちにプラスチックを持ち込まれる前に洗浄する方法を教えるのに役立つように作りました。このビデオを見れば、プラスチックの種類や洗浄方法を理解し、あなたを見つけ、時間を節約することができます！
+ 
+* 回収場所に洗い場を設置しておけば、忘れたときにそこで洗うこともできる。 
+プラスチックの回収方法は、文化的、地理的、経済的なさまざまな要因に左右されるため、住んでいる場所によって大きく異なります。世界中の回収<a href="https://community.preciousplastic.com/how-to">ハウツー</a>（上部のフィルター切り替えを使用）をぜひチェックして、それぞれの地域で人々が行っているさまざまな創造的なプラスチック回収方法からインスピレーションを得てください。どのような方法を取るにせよ、あなたのワークスペースに来るすべての人が素敵でフレンドリーな体験ができるようにしましょう。もちろん、Precious Plasticの真のスタイルとして、ダウンロードキットの中には、貼ることができるポスターもあります。 
 
-### Ready?
+十分な量のプラスチックを集めたら、近くのシュレッダー・ワークスペースに渡す時だ。渡すワークスペースが受け取るプラスチックの種類を把握できるよう、きちんとラベルを貼っておくこと。渡す前に必ずプラスチックの重さを量り、記録しておくと、自分がどれだけプラスチックを集めているかがわかります。 
+週に一度、または月に一度（活動の規模によって異なります）、<a href="https://upload.preciousplastic.com/"> upload.preciousplastic.com </a>に集めたプラスチックの総重量をアップロードしてください。そうすれば、プレシャス・プラスチックのコミュニティ全体で集めたプラスチックの総量を全世界で見ることができます💪。 
 
-Let’s dive in. Before you start, there are a few things to consider.
-
-1. <b>People:</b> assemble your team (it’s more fun with friends!)
-2. <b>Space:</b> Plastic is voluminous. Is your space big enough? We’re working with a 5 x 6 metre space
-3. <b>Location:</b> is it easy to find and get to?
-
-![Collection Workspace](assets/spaces_collection.jpg)
-
-# 🛠 Let’s build!
-
-The goal of setting up and operating this Precious Plastic Space is to collect and sort as much clean plastic as possible, so you’ll need to be pretty organised and outgoing reaching out to people in your neighbourhood. We recommend using large bags or containers to store plastic, plus it’s important to separate your plastic based on type - so be sure to mark the bags to make sure everything goes in the right place.
-
-![Pile of Plastic](assets/PileofPlastic.jpg)
-
-If you’re able to get a consistent (mono-material) source of plastic, say the plastic spoons from your local ice-cream store, then you can store these separately as you collect them so you can maintain consistency and provide Shredder Workspaces with high-quality clean plastic.
-
-An important part of being the collection point for your local community is to engage both online and offline with people living in your area, so in your space it’s great to have a digital workstation where you can do online work like campaigns, social media, partnerships and collaborations. We also created this <a href="https://collect.preciousplastic.com/">website</a> to help you talk with people in your neighbourhood about the Precious Plastic Collection Point.
-
-> Pro-tip: we made <a href="https://youtu.be/7zm_xVx7TBs">this video</a> to help you teach your local community how to clean their plastic before they bring it to you. It will help them understand the different types of plastic, how to clean it, find you and save you lots of time! 
-*If you set up a washing station at the collection point, they can also wash it there if they forget.
-
-How you collect plastic can vary greatly depending on where you live as it relies on many different cultural, geographical and economic factors. Make sure to check out the Collection <a href="https://community.preciousplastic.com/how-to">How-tos</a> (use the filters toggle on the top) from around the world and get inspired with many different, creative ways people are using to collect plastic in their area. Whatever approach you take, make sure that everyone that comes to your workspace has a nice, friendly experience. And of course in true Precious Plastic style, in the downloadkit you can find some posters that you can hang up.
-
-Once you've collected enough plastic it's time to hand it off to a nearby Shredder Workspace. Be sure to label it properly, so that the workspace you pass it on knows what type of plastic they’re receiving. Before passing it on make sure to weigh the plastic and keep a record of it so you know how much plastic you’re collecting. 
-
-Once a week or a month (depending on the size of your operation) you should upload the total kg of plastic you've collected on <a href="https://upload.preciousplastic.com/"> upload.preciousplastic.com </a> so we can see the total amount collected by entire Precious Plastic community globally 💪
-
-### Your role in the universe
-| Your icon  |  Your task |
-|----------|----------------------|
-| <img src="../assets/universe/badge-collection-point.png" width="150"/> |  __Collection Point__ <br> Collection Points gather plastic from neighbours, organisations and businesses to be used by local Shredder Workspaces.   |
-
-
-### What else can you do?
-
-Seeing plastic as beautiful, valuable objects is a huge motivator for people to bring in their plastic, it’s nice to have a display to show off the Precious Plastic products that can be made from the plastic you’re collecting.
-
-So that’s it! Your needs will change depending on your own situation so make sure you adapt to what’s relevant for you and your community - make sure to share your experiences so we can all grow together. What’s next?
+### 宇宙におけるあなたの役割 
+| Your icon  |  Your task | 
+|----------|----------------------| 
+| <img src="../assets/universe/badge-collection-point.png" width="150"/> |  __Collection Point__ <br> Collection Points gather plastic from neighbours, organisations and businesses to be used by local Shredder Workspaces.   | 
+### 他に何ができる？ 
+プラスチックを美しく価値あるものとして見ることは、人々がプラスチックを持ち込む大きな動機になります。集めているプラスチックから作れるプレシャス・プラスチックの製品を紹介する展示があるといいですね。 
+以上です！あなた自身の状況によってニーズは変わるでしょうから、あなた自身やあなたのコミュニティに関連するものに適応するようにしてください。次は何をする？ 

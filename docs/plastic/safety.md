@@ -1,162 +1,126 @@
 ---
-id: safety
-title: Safety and Fumes
-sidebar_label: Safety and Fumes
+id: safety 
+title: Safety and Fumes 
+sidebar_label: Safety and Fumes 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/bsj6qHHLynk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/bsj6qHHLynk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #ffe084; 
+  --links: #29bbe3; 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: #29bbe3;
-  --hover: rgb(131, 206, 235);
-}
-</style>
-
-# Safety and Fumes
-
+# 安全性と煙 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-### It's important to take this seriously.
-
-Safety is a huge topic when working with plastic, it’s extremely important to take the right precautions - then you are completely safe. We’ll walk through the dangers of fume exposure and which plastics are unsafe to work with, and we’ll go through how we set up our filtration systems at Precious Plastic.
-
-> Pro-tip: Try to melt your plastic at the lowest temperature possible and for the shortest amount of time.
-
-
-</div>
+### 真剣に取り組むことが重要だ。 
+プラスチックを扱う上で、安全性は非常に重要なトピックです。ここでは、ヒュームにさらされる危険性や、どのようなプラスチックを扱うと安全でないかを説明し、プレシャス・プラスチックの濾過システムをどのように設置しているかを紹介します。 
+> ヒント：プラスチックはできるだけ低温で、短時間で溶かすこと。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00.18 喫煙の危険性 
+- 03:01 ヒュームテスト 
+- 06.14 ヒント 
+- 07.53 フィルター 
+</div> 
+</div> 
 
-- 00.18 Fume Dangers
-- 03:01 Fume Test
-- 06.14 Tips
-- 07.53 Filters
+# スモークの危険性 
+![Don't Burn Plastic](assets/plastic/dontburnplastic.svg) 
+最初のルールは、プラスチックを燃やさないこと。これはとても重要だ。なぜか？プラスチックは、あなた自身、あなたの周りの人々、そして環境にとって極めて有害だからです。  プラスチックを燃やすと非常に有害な毒素が放出され、ガンや呼吸器疾患、先天性欠損症になる可能性が大幅に高まります。また、内臓やホルモン系にも大きなダメージを与えます。 
+ポリ塩化ビニールを燃やすとダイオキシンが発生します。ダイオキシンは非常に有毒な化合物で、ガンや生殖障害、免疫系障害を増加させることがわかっています。プレシャス・プラスティックでは、PVCは使用しません。 
+もしプラスチックの小片を燃やしてその種類を特定する必要がある場合は、マスクを着用し、適切な煙霧濾過装置のそばで行うなど、適切な予防措置を講じること。プラスチックを扱う上で最も重要なこと：<b>溶かすことはできるが、燃やすことはできない。</b>そしてこれが重要な違いだ。 
 
-</div>
-</div>
+## 揮発性有機化合物（VOC) 
+すべてのプラスチックは大きな分子でできており、溶けると小さな分子がガスとなって発生します。これらのガスは揮発性有機化合物とも呼ばれ、目や鼻、肺に深刻な刺激を与え、安全対策なしに合成プラスチックのガスに長期間さらされると、ガンや先天性異常、病気につながる可能性があります。 
+下のグラフに見られるように、一般的なプラスチックのヒューム含有量は、大気・廃棄物管理協会、中国科学院、東京大学によって調査された。その結果、<b>ABSとPSが最も多くのヒュームを発生させ、他のプラスチックの約5～7倍であった</b>。 
 
-# Fume Dangers
+![PP Image](assets/plastic/fume-graph.png) 
+ABSやPSから発生するヒュームには、スチレン、ベンゼン、エチルベンゼンが含まれています。これらの化合物は環状化合物と呼ばれ、多くのヒュームを発生させ、ガンを引き起こす可能性があります。ベンゼンはヒト発がん性物質であり、スチレンとエチルベンゼンは発がん性物質である可能性が高い（発がん性物質である可能性が高いとは、その化合物ががんを引き起こすことがまだ証明されていないことを意味する）。幸いなことに、これらの環状化合物はすべて活性炭で簡単にろ過できるが、これについては後述する！ 
 
-![Don't Burn Plastic](assets/plastic/dontburnplastic.svg)
+PPとPEは環状化合物が少なく、本質的に精製されたワックスであるため、溶かして最も安全なプラスチックである。PVCとPAはヒュームが少ないが、中身は溶かすと有害である。 
 
-The first rule is: don’t burn plastic. This one is very important. Why? It is extremely harmful to you, those around you and the environment.  Very harmful toxins are released when burning plastic and can significantly increase the chances of cancer, respiratory illnesses and birth defects. It can also greatly damage internal organs and the hormonal system.
+# ヒュームテスト 
+ヒューム検査にはPID検出器を使用します。これは光イオン化の略で、VOCのヒューム安全レベルを検出し、ヒュームがどこから発生しているかを正確に知ることができます。PIDセンサーを使用する利点は、非常に正確で携帯できることで、移動可能なフレキシブルなヒューム抽出システムを設計できます。 
+有機化合物は光を通過する際にプラスに帯電したイオンを放出し、それがマイナスに帯電したプレートに捕捉され、測定可能な電流が発生する。 
+我々の結果だ： 
+私たちの作業スペースでは、発生源から2cmの距離からヒュームを検出し、推奨される最大値の約14倍でした。PSはHDPEとPPの5倍のヒュームを発生させた。これはHDPEとPPは環状化合物が非常に少ないことを意味する。また、各機械のどこからヒュームが発生したかも検出しました（詳細は後述）。 
+炭化水素含有量の3時間最大濃度は0.24ppmで、1年以上超過してはならない[2]。結論として、<b>最大の脅威はPSの溶解によって発生するスチレン蒸気である</b>。 
 
-When burning PVC, dioxins are released which a highly toxic compound that has been shown to increase cancer, reproductive problems and immune system damage. At Precious Plastic, we don’t work with PVC.
+詳細はhttps://tinyurl.com/y5r2u3u4。 
 
-If you do need to burn a small piece of plastic to identify its type, then do so taking the proper precautions: wearing a mask and beside a proper fume filtration system. The most important thing about working with plastic: <b>You can melt it, you just can’t burn it.</b> And that’s an important difference.
+## 貴重なプラスチック機械からの発煙源 
 
-##  Volatile Organic Compounds (or VOC’s)
+では、プレシャス・プラスチックの機械からはどこから煙が出るのですか？ 
+ 
+1.金型を外すとノズルから煙が出る。 
+2.インジェクターハンドルを上げると、ホッパーから煙が出る。 
+<img style="margin-left: 0;" src="../assets/plastic/injection_fumes.jpg" width="300" /></img> 
+<b>押出機</b>について 
 
-All plastics are made up of large molecules and when melted they make smaller molecule as fumes. These fumes are also called Volatile Organic Compounds and are very dangerous - immediate effects are severe irritation to the eyes, nose and lungs and prolonged exposure to fumes of any synthetic plastic with no safety precautions can lead to cancer, birth defects and illnesses..
+1.ほとんどのヒュームはノズルから出る 
+2.ペレットで塞がれていないホッパーおよび金型開口部からの若干のヒューム。 
+3.例えば、梁を作るとき、梁の金型の端からヒュームが出る。 
+<img style="margin-left: 0;" src="../assets/plastic/extrusion_fumes.jpg" width="300" /></img>
 
-As seen in the graph below, fume contents of common plastics were studied by the Air and Waste Management Association, Chinese Academy of Sciences and The University of Tokyo. The studies concluded that <b>ABS and PS created the most fumes: approximately 5 to 7 times more than the other plastics.</b>
+<b>シートプレス 
+1.ほとんどの煙は四方から出ている 
+2.暖房にムラがあると、過熱した部分から煙が出る。 
+3.コールドプレスの段階で7分間、まだ煙が出ていた。 
+<img style="margin-left: 0;" src="../assets/plastic/sheetpress_fumes.jpg" width="300" /></img> 
 
-![PP Image](assets/plastic/fume-graph.png)
+# ヒント 
+- プラスチックを溶かす前によく洗ってください。洗浄剤の残留物は有害なガスを発生させます。 
+- なぜなら、プラスチックの種類によって溶ける温度が異なり、あるプラスチックは他のプラスチックより先に燃えてしまうからだ。 
+- PSやABSを扱う場合は、週に8時間以上溶かさないようにし、必ずガスマスクと換気装置を使用すること。 
+- 普通の防塵マスクは使わないでください！必ず活性炭フィルターの防毒マスクを使ってください。また、防毒マスクが正しく装着されていることを確認してください！ 
+- できるだけ低い温度で、できるだけ短い時間でプラスチックを溶かす。 
+- めまいを感じたり、呼吸が苦しくなったりした場合は、ガスから離れ、新鮮な空気の場所に移動してください。 
+- ヒュームの発生源から離れること-推奨される最大暴露量の14倍もある。  換気がない場合は、マスクをして2メートルほど離れた場所に立つ必要がある。 
+- 押出成形と射出成形には、調節可能なアームを備えたヒュームキャディが必要である。シートプレスでは、ヒューム抽出フードを機械設計に含める必要があります。 
+- 作業場の空気が安全かどうか、フィルターが正しく機能しているかどうかをチェックするために、低価格のVOC検出器を購入する。 
+- 
+# 安全ギア 
+プラスチックを扱うときは、活性炭フィルターの防毒マスクと、同じく活性炭を使用した独立型の抽出フィルターを用意する必要がある。活性炭は素晴らしい素材であり、命の恩人でもある！環状化合物をよくろ過し、世界中どこでも簡単に手に入るので、私たちはこれを使うことにしました。私たちはまた、活性炭フィルターを備えたLEVシステムを機械やワークスペースの特定の場所に組み込むこともできます。 
 
-Fumes from ABS and PS contain styrene, benzene and ethylbenzene - these compounds are called cyclic compounds which create a lot of fumes and may cause cancer. Benzene is a human carcinogen, and styrene and ethyl benzene are probable carcinogens (probable carcinogen means that the compounds have not yet proven to cause cancer). Luckily, all of these cyclic compounds can be easily filtered with activated carbon, but more on that later!
+# 換気（LEV） 
 
-The safest plastic to melt is PP and PE because they are low in cyclic compounds and they are essentially refined wax. PVC and PA are low in fumes but the contents are harmful to melt.
+<img style="margin-left: 0;" src="../assets/plastic/ventilation_three.jpg" width="600"/></img> 
+LEVとはLocal Exhaust Ventilationの略で、有害な空気を効率的に換気するための業界標準である。このシステムは、汚染物質の雲をLEV内に入れるためのフード、フードから排出地点まで空気と汚染物質を移動させるダクト、そして毎時780～1000立方メートル（の）の遠心ファンの3つの部分からできている。 
+## 活性炭 
+活性炭フィルター（ACF）は、最もクリーンで簡単なフィルターです。ACFは表面積が大きく、通常のカーボンよりも多くの細孔を持つように処理されているため、ヒュームはこれらの細孔によく付着し、厄介なものをろ過するのに最適な素材です。ACFは以下のVOCをよく除去する：トルエン、キシレン、スチレン、アルコール、ベンゼン、デカン、エチルベンゼン、ヘプタン、オクタン、および以下のガス：ペンタン、アセトン、ヘキサン[3]。気孔率は活性炭の最大の特徴である。しかし、活性炭は長持ちしないので、フィルターを交換する必要がある。化合物は私たちには見えないが、通常はフィルターで除去される独特の臭いがある。臭いを感じたら、フィルターの交換時期だ。 
 
-# Fume Tests
+### スタンドアロン・フィルター 
+<img style="margin-left: 0;" src="../assets/plastic/carbonfilters.jpg" width="400"/></img>
+このようなフィルターは約40～50ユーロで、およそ2～3kgの粒状活性炭が入っており、毎月交換する必要がある（より長持ちする大きなフィルターも手に入る）。これらのフィルターは、換気用の遠心ファンに取り付けることができる。湿度70％以下、周囲温度80℃以下が望ましい。 
 
-For fume testing, we use a PID detector, which stands for photoionization - this detects the fume safety levels for VOC’s and can inform us where exactly the fumes are coming from. The advantage of using a PID sensor is that it’s very accurate and can be handheld, allowing us to design a flexible fume extraction system that we can move around.
+### カーボン顆粒（VOC除去用）の購入 
+<img style="margin-left: 0;" src="../assets/plastic/carbongranules.jpg" width="400"/></img> 
+フィルターの交換が必要になった場合、新しいフィルターを購入する必要はない。代わりに、使用済みの活性炭を交換するために活性炭の粒を購入することができます - この使用済み炭素は、地方自治体の埋立地に置くことができます。ヨウ素価が1050mg/g以上の活性炭を購入するのがベストです。ヨウ素価は活性表面積の目安です（ヨウ素価が大きいほど濾過能力が高い）。 
 
-When air enters the PID, a UV light interacts with the molecules in the air - organic compounds release positively charged ions when they pass through the light which are then captured by a negatively charged plate, producing measurable electrical current.
+### ガスマスク 
+<img style="margin-left: 0;" src="../assets/plastic/maskgas.jpg" width="400"/></img>
+ガスマスクも非常に重要で、濾過は100％ではないので、これは追加の障壁として機能する。大規模な産業リサイクルや製造業でさえ、清浄な空気には到達していないため、防毒マスクは一般的な習慣となっている。最も一般的なマスクは3M製で、マウスピース、フィルターカートリッジ、ダストフィルターホルダー、ダストフィルターの4つの部品から構成されている。カートリッジとダストフィルターの交換が必要になるまで、50時間使用できる。 
 
-Our results:
+# それで終わりだ！ 
+適切なガスマスクと抽出濾過の安全対策を講じれば安全です。PVCやABSでは作業しないでください。最も安全なプラスチックはPP、LDPE、HDPEです。ただし、PSを溶かすことができるのは週に8時間までであることをお忘れなく。 
+[すべてのリソース](https://drive.google.com/drive/folders/1MSfb8R3ZWbrJv6FxL1JpLioZ9i8KFD0D?usp=sharing) 
 
-In our workspace we detected fumes 2 cm from the source and it was approximately 14 times higher than the recommended maximum. PS created 5 times more fumes than HDPE and PP: this means that HDPE and PP are very low in cyclic compounds. We also detected where the fumes come from in each machine (more on that below).
+1.[異なるプラスチック固形廃棄物から排出されるVOCの汚染特性/健康リスク評価](http://iehpc.gdut.edu.cn/2015-7.pdf)
 
-We used a commonly used regulation: the maximum 3-hour concentration of hydrocarbon content is 0.24 ppm, not to be exceeded for more than a year [2]. In conclusion, <b>our biggest threat is styrene vapor formed from PS melting.</b>
+2.[汚染空気からのVOC除去](http://beta.chem.uw.edu.pl/people/AMyslinski/nowy/zarzadzanie_01/literature_HWW/02.pdf) 
 
-For more detail, visit: https://tinyurl.com/y5r2u3u4
+3.[VOCを除去するGACフィルターの評価](https://www.isiaq.org/docs/papers/940.pdf) 
 
-## Fume Sources from Precious Plastic machines
+<b>フィードバックを共有したり、安全性についてチャットしたり、コミュニティからもっと学びたいですか？
 
-Ok, so where do fumes come out of Precious Plastic machines?
+Discordの[#plastic](https://discordapp.com/invite/n5d8Vrr)チャンネルへどうぞ。
 
-<b>The Injection Machine</b>
-
-1. Fumes come out from the nozzle when you take off the mold
-2. Fumes come out of the hopper when the injector handle is up
-
-<img style="margin-left: 0;" src="../assets/plastic/injection_fumes.jpg" width="300" />
-
-
-<b>The Extrusion Machine</b>
-
-1. Most fumes comes out from nozzle
-2. Some fumes from hopper when not blocked by pellets and from the mold openings
-3. For example, when making a beam, fumes come out at the end of beam mold
-
-<img style="margin-left: 0;" src="../assets/plastic/extrusion_fumes.jpg" width="300" />
-
-<b>The Sheetpress</b>
-
-1. Most fumes come out from all four sides
-2. If heating is uneven fumes come out from certain overheated areas
-3. Fumes were still coming out for 7 minutes at the cold press stage
-
-<img style="margin-left: 0;" src="../assets/plastic/sheetpress_fumes.jpg" width="300" />
-
-# Tips
-
-- Wash plastic well before melting it. Residues from cleaning products can create harmful fumes.
-- Never melt unseparated plastic,  because different plastic types have different melting temperatures, meaning some plastic will burn before others are melted.
-- When working with PS or ABS, make sure you don’t melt it for more than 8 hours per week, and always use a gas mask and ventilation.
-- Don’t use a regular dust mask, that won’t work! Make sure you use an activated carbon filter gas mask. And make sure your gas mask is fitted properly!
-- Try to melt plastic at the lowest possible temperature for the shortest amount of time
-- If you ever feel dizzy, or it’s hard to breathe, move away from the fumes into fresh air.
-- Keep away from the fume source - it’s 14 times higher than the recommended maximum exposure.  If there’s no ventilation, you have to have a mask and stand about 2m away.
-- Fume caddies with an adjustable arm is needed for extrusion and injection. For the sheet press, a fume extraction hood should be included in the machine design.
-- Buy a low-cost VOC detector to check if the air in the workshop area is safe, and to check if the filter is working correctly.
-
-# Safety Gear
-
-When working with plastic, you should have an activated carbon filter gas mask, and a stand-alone extraction filter, which also uses activated carbon. It’s an incredible material, and a lifesaver! We chose to use this because it filters cyclic compounds very well and is easily found everywhere around the world. We also can build LEV systems with activated carbon filters into machines or specific areas in the workspace.
-
-## Ventilation (LEV)
-
-<img style="margin-left: 0;" src="../assets/plastic/ventilation_three.jpg" width="600"/>
-
-LEV stands for Local Exhaust Ventilation, which is an industry standard to ventilate toxic air efficiently. This system is made of three parts: a hood for allowing contaminant clouds to enter the LEV, ducting which transfers air and the contaminant from the hood to the discharge point, and attached to a centrifugal fan with 780-1000 cubic meter (of what?) per hour.
-
-## Activated Carbon
-
-Using an activated carbon filter (ACF) is the cleanest and easiest filtering method. It has a large surface area and is treated to have more pores than normal carbon - fumes stick very well to these pores making it a great material to filter out the nasty stuff. ACF will remove the following VOC’s very well: toluene, xylene, styrene, alcohol, benzene, decane, ethylbenzene, heptane and octane, and the following gases: pentane, acetone, hexane [3]. Porosity is the most determining feature of activated carbon. But they don’t last forever, you need to change the filter. While the compounds are invisible to us, they have a distinct smell that is normally filtered out. Once you can smell them, it’s time to change the filter.
-
-### Stand Alone Filters
-
-<img style="margin-left: 0;" src="../assets/plastic/carbonfilters.jpg" width="400"/>
-
-A filter like this costs approximately 40-50 euros and has roughly 2-3 kg of granular activated carbon which needs to be changed each month(you can also get bigger filter which will last longer). These filters can be attached to centrifugal fans for the ventilation. Preferable conditions for using these filters humidity under 70% and ambient temperature lower than 80°C.
-
-### Buying carbon granules (for VOC removal)
-
-<img style="margin-left: 0;" src="../assets/plastic/carbongranules.jpg" width="400"/>
-
-When the filter needs to be changed, you do not have to buy a new filter. Instead, you can buy activated carbon granules to change the spent activated carbon - this spent carbon can be placed in a municipal landfill. It is best to buy activated carbon with Iodine number bigger than 1050mg/g - Iodine number is an indication of active surface area (the bigger the iodine number the better the filtration).
-
-### Gas Mask
-
-<img style="margin-left: 0;" src="../assets/plastic/maskgas.jpg" width="400"/>
-
-A gas mask is also extremely important, as the filtration is not 100% so this acts as an extra barrier. Even in large industrial recycling and manufacturing they haven’t reached clean air, so gas masks are common practice. The most common masks are 3M masks and have four parts: the mouthpiece, the filter cartridge, a dust filter holder and a dust filter. They can be used for 50 hours before the cartridge and dust filters need to be replaced.
-
-# So, that’s it!
-
-If you take the proper safety precautions of a proper gas mask and extraction filtration, you are safe. Don’t work with PVC or ABS, and the safest plastic to work with is PP, LDPE and HDPE. Remember though, you can only melt PS for up to 8 hours per week.
-
-[All resources](https://drive.google.com/drive/folders/1MSfb8R3ZWbrJv6FxL1JpLioZ9i8KFD0D?usp=sharing)
-
-1. [Pollution characteristics / health risk assessment of VOCs emitted from different plastic solid waste](http://iehpc.gdut.edu.cn/2015-7.pdf)
-2. [Removal of VOCs from polluted air](http://beta.chem.uw.edu.pl/people/AMyslinski/nowy/zarzadzanie_01/literature_HWW/02.pdf)       
-3. [Evaluation of GAC filters to remove VOCs](https://www.isiaq.org/docs/papers/940.pdf)
-
-<b>Want to share feedback, chat about safety or learn more from the community? Head to the [#plastic](https://discordapp.com/invite/n5d8Vrr) channel on Discord. Here we talk about plastic, safety, fumes and material properties.</b>
+ここでは、プラスチック、安全性、煙霧、材料特性について話しています</b>。 

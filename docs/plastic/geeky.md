@@ -1,160 +1,122 @@
 ---
-id: nerdy
-title: Go nerdy on Plastic
-sidebar_label: Nerdy on Plastic
+id: nerdy 
+title: Go nerdy on Plastic 
+sidebar_label: Nerdy on Plastic 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/T5lAKQij1F4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/T5lAKQij1F4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #ffe084; 
+  --links: #29bbe3; 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: #29bbe3;
-  --hover: rgb(131, 206, 235);
-}
-</style>
-
-# Going nerdy on plastic
-
+# プラスチックでオタクになる 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-### Let's get some in-depth knowledge about this abundant material. 
-
-When did plastic arrive in our society, how did it grow from a small niche material to being available in every corner of the world? We’ll cover some history, and them some science, and why we work with thermoplastics only. We’ll go over the industrial production methods as well as what happens after it’s discarded. After reading this you’ll be the geeky plastic guy or gal (just like Jerry) 🤓
-
-> Pro-tip: being a plastic pro in your community will help you and those around you make better choices about plastic. Knowlege is power!
-
-</div>
+### この豊富な素材について、少し深い知識を得よう。 
+プラスチックはいつから私たちの社会に登場し、どのようにして小さなニッチ素材から世界の隅々まで行き渡るようになったのでしょうか？私たちはなぜ熱可塑性プラスチックだけを扱うのか。工業的な生産方法と、廃棄された後の処理についても説明する。これを読めば、あなたも（ジェリーのような）マニアックなプラスチック通になれるはずです。 
+> プロヒント：地域のプラスチックのプロになることは、あなたやあなたの周りの人々がプラスチックについてより良い選択をするのに役立ちます。知識は力です！ 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- プラスチックに関する一般知識 00.36 
+- 工業生産方式 06.58 
+- プラスチックのその後 14.56 
+</div> 
+</div> 
 
-- General Knowledge on Plastic 00.36
-- Industrial Production Methods 06.58
-- The Afterlife of Plastics 14.56
+# プラスチックに関する一般知識 
 
-</div>
-</div>
+プラスチックといえば、何を思い浮かべますか？買い物袋、ヨーグルトの容器、クレジットカード、ピンクのバケツでしょうか？では、これらのプラスチックと消しゴム、毛糸の帽子、椅子との関係は？これらはすべて、ポリマーという同じクラスの素材なのだ。ポリマーはモノマーからなる非常に長い繰り返し分子で、ポリ（poly）は多数、マー（mers）は部分、モノ（mono）は1つを意味する。つまり、ポリマーは1つの分子の多くの部分であり、長い反復鎖であると想像することができる。 
 
-# General knowledge on plastic
+![Polymerization](assets/plastic/polymerization.svg) 
 
-When you think of plastic, what comes to mind? A shopping bag, a yoghurt container, a credit card, a pink bucket, right? Well, what do these plastic objects have to do with an eraser, a wooly hat, or a chair? They are all from the same class of materials: polymers. Polymers are very long repetitive molecules made up of monomers: poly meaning many, mers meaning parts, and mono meaning one. So polymers are many parts of one, you can imagine them to be long repetitive chains and the difference is not how they are formed, but where the polymers are derived from.
+ウール、ゴム、毛髪、セルロース、でんぷんなど、昔から存在する天然ポリマーの材料もあれば、今日のさまざまな種類のプラスチックのような合成ポリマーの材料もある。プラスチックの場合、ポリマーは炭素に由来している。 
+## ちょっとした歴史 
 
-![Polymerization](assets/plastic/polymerization.svg)
+100％合成で作られた最初のポリマーは、ポリオキシベンジルメチルエングリコランヒドリドと呼ばれるものだった。これは1907年に化学者レオ・ベークランドによって作られ、一般にはベークライトと呼ばれていた。熱に強く、電気を通さないため、非常に優れた絶縁体であった。1924年、『タイム』誌はこれを「千の用途を持つ素材」と呼んだ。彼らは部分的に正しかった。 
 
-You can have materials from natural polymers that have existed forever like wool, rubber, hair, cellulose, starch, as well as materials from synthetic polymers like the many different types of plastic we have today. And in the case of plastic, the polymers are derived from carbon (it’s all making sense now, right?)
+<img style="margin-left: 0;" src="../assets/plastic/time_magazine.jpg" width="800" /></img> 
 
-## A little bit of history
+## ある科学 
 
-The first polymer to be 100% derived synthetically was called polyoxybenzylmethylenglycolanhydride (yikes). It was created in 1907 by chemist Leo Baekeland and publically called Bakelite - phew, much easier. It was a thermoset plastic (more on that later) that was celebrated for its properties: it was resistant to heat and would not conduct electricity, so it was a really good insulator. In 1924 Time Magazine called it a “material of a thousand uses”. They were partially right, it’s more like a hundred thousand uses.
+ご存知のように、プラスチックは合成ポリマーからできている。ポリはマルチプル、マースはユニットを意味する。この図では、一群のモノマーが重合と呼ばれるプロセスでポリマーを作る。 
+<img style="margin-left: 0;" src="../assets/jerry/jerry1.svg" width="100%" /></img/> 
+プラスチックに関しては、モノマーは化石燃料から作られ、分解と呼ばれるプロセスを経てプラスチックポリマーが作られる。製造方法の違いやポリマー構造の微調整によって、私たちは何百種類もの異なる性質や特性を持つプラスチックを手に入れることができる。この多様性は、化学者のアンドレア・セラによってよく説明されている： 
+ポリエチレンテレフタレート（PET）は、2気圧の圧力に耐える強度を持つため、今日では発泡酒のボトルに使われている。しかし、冬用の柔らかい手袋も、花を包むプラスチックシートも同じ素材だ。鋳造方法が違うだけで、同じ素材なのだ。そして、これは1つのプラスチックに過ぎない！もうひとつの例として、一般的な牛乳瓶はポリエチレンでできている。炭素を1つだけ加えてポリプロピレンにすると、もっと頑丈な素材になる。 
 
-<img style="margin-left: 0;" src="../assets/plastic/time_magazine.jpg" width="800" />
+<p class="note">注釈：プラスチックは、ピューター、紙、ガラス陶器で作られていた何百もの家庭用品や工業用品に取って代わった。プラスチックは永遠に長持ちするように見え、製造コストも安かったため、もてはやされた。しかし、その利点は、現在我々が知っているように、最大の欠点でもある。 
+<br> 
+さて、科学の話に戻ろう。プラスチックの種類は全部で数百種類あり、前のセクションで説明したように、熱硬化性プラスチック、熱可塑性プラスチック、エラストマーという異なるカテゴリーに分類されます。私たちが扱うプラスチックは熱可塑性プラスチックで（熱を加えて形を変えることができるため）、多くの場合、1～6（PET、HDPE、PP、PS LDPE、PVC）のリサイクルロゴが付いています。 
+簡単な総括だ： 
 
-## Some science
+<img style="margin-left: 0;" src="../assets/jerry/jerry2.svg" width="100%" /></img/> 
 
-As we know, plastic is made up of synthetic polymers. Poly stands for multiple, and mers stands for units. In this diagram a group of monomers create polymers in a process called polymerisation.
+<b>熱硬化性</b>：これらのプラスチックは、互いに架橋して不可逆的な結合を作るポリマーを含んでいる。熱硬化性樹脂をパンに例えて考えてみよう。パンは一度作られると、熱を加えようとしても燃えてしまう。これらのプラスチックはどれもリサイクルできない。 
+<b>熱可塑性</b>：熱すると柔らかくなり、冷えると硬くなるプラスチックポリマー。熱可塑性材料は何度も冷やしたり熱したりできる。熱すると溶けて液体になり、冷えると硬くなる。熱可塑性プラスチックはバターのようなもので、何度でも加熱・冷却が可能で、溶けてはまた固まる。 
+<b>エラストマー</b>：熱硬化性樹脂と熱可塑性樹脂の中間で、天然ゴム、シリコーン、ネオプレン（ウエットスーツの素材）などがある。 
 
-<img style="margin-left: 0;" src="../assets/jerry/jerry1.svg" width="100%" />
+# 工業生産方式 
+プラスチック製品の原料は通常、顆粒です。重合プロセスの後、プラスチックは小さなビーズやフレーク状になり、輸送効率が非常に高く、溶融も非常に簡単になります。プラスチックのリサイクルも同じようなプロセスで行われます。 
+勿論、その種類は様々である。 
+### 押出 
+最も単純な製造方法は<b>押出</b>である。プラスチックは供給部に入り、そこで特殊なスクリューを通してダイまで押し出される。スクリューの形状は最初から最後まで直径が変わり、多くの熱と圧力にさらされ、スクリューの先端に達すると完全に溶けたプラスチックになります。そこから金型に入り、製品ごとに異なる形状の金型を使用することができます。 
+<img style="margin-left: 0;" src="../assets/jerry/jerry3.svg" width="600px"/></img> 
 
-When it comes to plastic, monomers come from fossil fuels and through a process called cracking, create plastic polymers. With different production methods and/or tweaking of the polymer structure, we have hundreds of different types of plastics, with different properties and characteristics. This versatility is well illustrated by chemist Andrea Sella:
+### ブロー成形 
+また、[ブロー成形](https://www.youtube.com/watch?v=QpVNyCZ3gjw)のようなテクニックを使うこともできる。これは、まだ温かいうちに押出機の出力を取り出し、圧縮空気と金型の助けを借りてブロー成形する方法である。 
+<img style="margin-left: 0;" src="../assets/jerry/jerry4.svg" width="600px"/></img>
 
-Polyethylene terephthalate (PET) today it is used to make fizzy drink bottles, because it is strong enough to hold two atmospheres of pressure. But a soft winter glove, as well as a sheet of plastic for wrapping flowers? It's the same material, the only difference is the way in which it has been cast. And that is just one plastic! Another example, a standard milk bottle is made of polyethylene, made from a building block C2H4. If you add just one carbon, and go to polypropylene, what you have is a much more robust material.
+### 射出成形 
+2つ目の少し複雑な方法は、[射出成形](https://www.youtube.com/watch?v=KYqpR50ES5o)である。この工程では、プラスチックを金型に注入し、固めてから冷やします。冷やされると、金型の形を保ちます。射出成形では、例えばレゴのピース、歯ブラシ、CDケース、カトラリーなど、多くの製品を作ることができる。金型についてもっと知りたいですか？(リンク） 
+<img style="margin-left: 0;" src="../assets/jerry/jerry5.svg" width="600px"/></img>
 
-<p class="note">Note: Plastics replaced hundreds of household and industrial items that were made of pewter, paper, glass ceramic. They were heralded as they seemingly lasted forever and were cheap to produce. But that advantage, as we know now, is it’s biggest disadvantage.</p>
-<br>
+### 熱成形 
+もうひとつの工業生産プロセスは、[熱成形](https://www.youtube.com/watch?v=hZzTg2M64-g)である。シートは柔軟な温度まで加熱され、特定の形状に成形された後、冷却され、トリミングされる。この工程は、使い捨てのカップ、容器、蓋、トレイなど、食品、医療、一般小売業界で使用される多くの薄肉プラスチック製品の製造によく使用される。 
+<img style="margin-left: 0;" src="../assets/jerry/jerry6.svg" width="600px"/></img>
 
-Ok, back to science. In total there are hundreds of different types of plastic and as discussed in the previous section they fit into different categories: thermosets, thermoplastics and elastomers. The plastic that we work with are thermoplastics (because they can be heated and reshaped) and will often have a recycling logo with 1-6 (PET,HDPE,PP,PS LDPE and PVC).
+### 回転成形 
+この製法は、少量の大型プラスチック製品を作るのに使われる。プラスチックペレットを金型に入れ、均一に加熱しながら熱で溶かす。金型が高圧に耐える必要がないため、このプロセスは非常に柔軟である。しかし、非常に手間がかかり、かなりの時間がかかる。 
+<img style="margin-left: 0;" src="../assets/jerry/jerry7.svg" width="100%"/></img>
 
-A quick recap:
+### 積層造形（または3Dプリンティング） 
+これは比較的新しい製造方法だ。ここでは、複数の2Dレイヤーが3D形状を構成し、金型が不要なため好きなだけデザインを変更できるという利点がある。しかし、このプロセスには時間がかかり、現在、家庭ごみから3Dプリント用フィラメントを作るのはかなり難しい。 
+<img style="margin-left: 0;" src="../assets/jerry/jerry8.svg" width="600px"/></img> 
 
-<img style="margin-left: 0;" src="../assets/jerry/jerry2.svg" width="100%" />
+### 手動の方法 
+最後に、もっと手作業でプラスチックを加工することもできる。ドリルで穴を開けたり、フライスで削ったり、旋盤で回したり、やすりをかけたり。より工芸品のように感じられ、美しい仕上がりになります。これらの技術についてもっと知りたいですか？ハウツーをご覧ください！ 
+<img style="margin-left: 0;" src="../assets/jerry/jerry9.svg" width="600px"/></img>
 
-<b>Thermoset</b>: these plastics contain polymers that cross-link together and create an irreversible bond, meaning they can’t be melted - once they take shape, they will be solidified forever. Think of Thermoset as bread: once bread is made, if you try to heat it, it just burns. None of these plastics can be recycled.
+# プラスチックのその後 
+つまり、市場に出回っているプラスチックのほとんどは、識別、分別、破砕され、新しい製品に生まれ変わることが可能であり、理想を言えば、これは地域的にも世界的にも有効であることを学んだ。しかし、残念ながらそうではない。プラスチック包装の約2％がクローズド・ループ・プロセスでリサイクルされ（つまり、包装の2％だけが新しい包装を作るためにリサイクルされる）、さらに8％がダウンサイクルされる。 
+プラスチックのリサイクルが難しいのは、私たちの製品が他の材料と混ざっていることが多く、複数のプラスチックが融合しているため分解が困難であったり、プラスチックに多くの添加物が加えられているためである。 
+![Recycling Cycle](assets/plastic/recyclingcycle.svg) 
 
-<b>Thermoplastic</b>: a plastic polymer which becomes soft when heated and hard when cooled. Thermoplastic materials can be cooled and heated several times: when they are heated, they melt to a liquid and when they cool they become hard. Think of Thermoplastics as butter: it can be heated and cooled many times, it just melts and sets again.
+プラスチックのリサイクルが難しいのは、私たちの製品が他の材料と混ざっていることが多く、複数のプラスチックが融合しているため分解が困難であったり、プラスチックに多くの添加物が加えられているためである。 
 
-<b>Elastomer</b>: somewhere between thermoset and thermoplastic and examples of these are natural rubber, silicone or for example neoprene (yes, that stuff were wetsuits are made from)
+### では、もしあなたがプラスチックを持っていて、番号がないとしたら？ 
 
-# Industrial production methods
+プラスチックの見分け方はいくつかある： 
+<b>密度テスト</b> - この技術は、プラスチックの種類の異なる密度を利用します。プラスチックの種類によって、液体中で浮く密度が異なります。液体は塩水、アルコール、植物油、グリセリンなどがあり、この技術は業界で集中的に使用されている。ただし、2種類のプラスチックしか分離できないため、混合バッチを作る場合は何度も繰り返す必要がある。また、特にプラスチックに混合されている添加物のために密度が変化し、不正確になる可能性があるため、非常に厄介である。 
+<b>赤外線検査</b> - このプロセスは非常に効率的で、赤外線を（通常はベルトコンベア上で）さまざまなプラスチックに照射することで機能する。それぞれのプラスチックは異なる分子構造を持っているため、反応を簡単に識別することができます。残念ながら、現在の技術では、プラスチックに含まれる濃い色の色素が信号を混ぜる可能性があるため、プラスチックの見間違いがしばしばある。  これについては、アカデミーの研究セクションの "ロボット選別 "で詳しく説明している。 
+<img style="margin-left: 0;" src="../assets/jerry/jerryinfrared.svg" width="600px"/></img>
+<b>燃焼試験</b> - これは、プラスチックの小片を切って火をつけるという簡単な手法です（ただし、有毒ガスが発生するので、定期的に行うことはお勧めしません！）。未知のプラスチックの切れ端を切って火をつけ、炎の色、性質、匂いを観察します。 
 
-The raw material of your plastic products is usually granulate. After the polymerisation process, the plastic is made into small beads or flakes, making it extremely efficient to transport and melt very easily. Recycling plastic has a similar process - you shred the plastic into small pieces (sorted into
-their different types of course) and it’s ready to be made into new products.
+<b>手作業による選別</b> - これは手作業で、プラスチックがベルトコンベアに乗ってやってきて、人が共通のプラスチックを識別したり、SPIコードを使ったりする。このプロセスの問題点は、見た目や感触は同じでも素材が異なるものがあることだ。
 
-### Extrusion
+[2013年にオランダのデイヴが訪問している。](https://www.youtube.com/watch?v=Ktkn8TeoTA8) 
 
-The simplest production method is <b>extrusion</b>. The plastic enters the feed part where the plastic is pushed through a special screw all the way to the die. The shape of the screw changes diameter from beginning to end exposing it to a lot of heat and pressure resulting in a fully molten plastic when it reaches the end of the screw. From there it enters the die - you can use different shapes dies for different products.
-
-<img style="margin-left: 0;" src="../assets/jerry/jerry3.svg" width="600px"/>
-
-### Blow moulding
-
-You can also use techniques like [blow-molding](https://www.youtube.com/watch?v=QpVNyCZ3gjw), where you take the output of the extruder when it is still warm and blow it into shape with the help of compressed air and a mould.
-
-<img style="margin-left: 0;" src="../assets/jerry/jerry4.svg" width="600px"/>
-
-### Injection moulding
-
-The second, slightly more complex method is [injection molding](https://www.youtube.com/watch?v=KYqpR50ES5o). For this process, plastic is injected into a mould, solidified and then cooled down. When it’s cooled, it keeps the shape of the mould. You can make a lot of products with injection molding, for example lego pieces, toothbrushes, CD cases, or cutlery. Want to learn more about molds? (link)
-
-<img style="margin-left: 0;" src="../assets/jerry/jerry5.svg" width="600px"/>
-
-### Thermomoulding
-
-Another industrial production process is [thermomolding](https://www.youtube.com/watch?v=hZzTg2M64-g). Sheets are heated to a pliable temperature, formed into a specific shape and then cooled and trimmed. This process is often used to create disposable cups, containers, lids, trays - a lot of thin-walled plastic items that are used in the food, medical and general retail industries.
-
-<img style="margin-left: 0;" src="../assets/jerry/jerry6.svg" width="600px"/>
-
-### Rotation moulding
-
-This process is used to create low-quantity large plastic items. Plastic pellets are placed in a mould, and is molten with heat while heated evenly. The process is quite flexible as the mold doesn’t have to withstand high pressure. It’s very labour intensive though and take a significant amount of time.
-
-<img style="margin-left: 0;" src="../assets/jerry/jerry7.svg" width="100%"/>
-
-### Additive manufacturing (or 3D printing)
-
-This is a relatively new production process. Here, multiple 2D layers make up a 3D shape and the benefit is that you don’t need a mold so you can change the design as much as you want. However this process is slow and currently it is rather difficult to make 3D printing filament from household waste.
-
-<img style="margin-left: 0;" src="../assets/jerry/jerry8.svg" width="600px"/>
-
-### The manual way
-
-Lastly, you can also process plastic in a more manual way. You can drill it, mill it, turn it on a lathe, sand it. It feels more like a craft and there are some beautiful results. Interested to learn more about these techniques? Check out our how-tos!
-
-<img style="margin-left: 0;" src="../assets/jerry/jerry9.svg" width="600px"/>
-
-# The afterlife of plastics
-
-So, we’ve learnt that most plastics on the market are able to be identified, sorted, shredded and made into new products, and ideally, this would work locally and globally. But unfortunately this is not the case - approximately 2% of plastic packaging is recycled in a closed-loop process (this means that only 2% of packaging is recycled to make new packaging) and another 8% is down-cycled, meaning the quality is degraded and a lower quality product is made.
-
-Plastic recycling is difficult because our products are often mixed with other materials, which is difficult to disassemble because multiple plastics are fused together, or because many additives are added to the plastic.
-
-![Recycling Cycle](assets/plastic/recyclingcycle.svg)
-
-Plastic recycling is difficult because our products are often mixed with other materials, which is difficult to disassemble because multiple plastics are fused together, or because many additives are added to the plastic.
-
-### So if you you have plastic and see no number, then what?
-
-A few of the different ways to identify the plastic is:
-
-<b>Density testing</b> - this technique takes advantage of the different densities of plastic types. Each plastic type has its own specific density that will make it float differently in liquids. The liquid can be salted water, alcohol, vegetable oil and glycerin and this technique is used intensively by the industry. However, it can only separate 2 types of plastics - if you have you a mixed batch of plastic you will need to repeat this multiple times. And it can be very tricky, particularly because of the additives mixed with plastic that can change its density, making it inaccurate.
-
-<b>Infrared testing</b> - this process is very efficient and it works by shining an infrared light (usually on a conveyor belt) to different plastics. Because each plastic has a different molecular structure, the response back can be easily identified. Unfortunately where the technology is at now, darker pigments in plastic can mix the signal, so there is often misreads of plastic.  We dive into this in the Research section of the Academy, under “Robotic Sorting”
-
-<img style="margin-left: 0;" src="../assets/jerry/jerryinfrared.svg" width="600px"/>
-
-<b>Burn testing</b> - this is a simple technique where you cut a small piece of plastic and light it on fire (although this produces toxic fumes, so we don’t recommend doing this one regularly!) You you should cut a piece of the unknown plastic and light it up observing the flame colour, nature and smell.
-
-<b>Hand sorting</b> - this is a manual process where plastic comes in on a conveyor belt and people identify common plastics or using the SPI codes. The problem with this process is that some items can look and feel the same, but are made from different materials. [Want to see one in the Netherlands? Dave visit in 2013.](https://www.youtube.com/watch?v=Ktkn8TeoTA8)
-
-## Something to help you remember is that:
-
-- Chemicals are often stored in HDPE bottles
-- PP is very flexible, for example can be used with hinges and it will bend multiple times without breaking
-- If you smash PP with a hammer, it will shatter
-- If you smash PE, it will just bend or deform
-- To easily identify a thermoplastic from a thermoset, when you cut it with a sharp blade, a thermoplastic will be smooth and a thermoset will result in small particles
-
-<b>Want to share feedback, chat about plastic or learn more from the community? Head to the [#plastic](https://discordapp.com/invite/n5d8Vrr) channel on Discord. Here we talk about plastic, safety, fumes and material properties.</b>
+## 覚えておくといいことがある： 
+- 化学薬品はHDPEボトルで保管されることが多い。 
+- PPは非常に柔軟で、例えばヒンジに使用することができ、壊れることなく何度も曲げることができる。 
+- PPをハンマーで叩くと粉々になる。 
+- PEを潰しても、曲がるか変形するだけだ。 
+- 熱可塑性樹脂と熱硬化性樹脂を簡単に見分けるには、鋭利な刃物で切断すると、熱可塑性樹脂は滑らかになり、熱硬化性樹脂は小さな粒子になる。 
+- 
+<b>フィードバックを共有したり、プラスチックについておしゃべりしたり、コミュニティからもっと学びたいですか？Discordの[#plastic](https://discordapp.com/invite/n5d8Vrr)チャンネルへどうぞ。ここでは、プラスチック、安全性、煙、材料特性について話しています</b>。 

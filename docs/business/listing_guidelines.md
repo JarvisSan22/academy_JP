@@ -1,138 +1,74 @@
----
-id: listing_guidelines 
-title: Listing guidelines
-sidebar_label: Listing guidelines
----
-
-<style>
-:root {
-  --highlight: #f7b77b;
-  --hover: #f7b77b;
-}
-</style>
-
-
-# Create precious listings on the Bazar
-
-
-Putting some love into your listing will help you to attract customers and make them trust in the quality of your work.
-High quality content on the Bazar will also make the overall experience of the Bazar more successful and therefore make the users happier and result in **more traffic and sales for everyone!**
-
->Good listings also have better chances to be **promoted on the homepage, newsletters and social media**, which will help to increase your visibility and sales.
-
-**Here are some Guidelines on how to create an appealing listing that has higher chances to be sold.** [This video](https://www.loom.com/share/b1df010a31b04a79b034f723b579cc4e) will go over the essential elements to consider, they will also be explained below.
-
-## 1. Item type
-Stick to what the Bazar is made for as this is what customers will be looking for: Plastic recycling machines, moulds, raw material and products made from recycled plastic. Offering services is not accepted.
-
-## 2. Title
-
-The title of your item should be as straightforward as possible and include the essential elements of your item. It should not contain too much information but just enough for the customer to know straight away if this is what they are looking for.
-
-![Profile Logo](../assets/Business/bazar-listingguide-2.png)
-
-
-## 3. Images
-
-The content and quality of your images is probably one of the most important and powerful aspect to make your listing **informative and convincing**, so we will share some best practices here.
-
-Horizontal (landscape) images are highly encouraged for maximum visibility. The minimum recommended listing image size is **794 x 1000 pixels** with a resolution of 72ppi.
-
-![Product Image](../assets/Business/product.png)
-
-### 3.1 Multiple angles
-
-Include pictures from various angles, and to ensure a **full view** of the item, its components and proportions.
-
-It’s good practice to have both **clean photos** showing only the item itself, as well as at least one photo showing the item **in context** to get a feeling for the size and proportions.
-
-![Profile Logo](../assets/Business/bazar-listingguide-3.1.png)
-
-
-### 3.2 Close ups & wide angles
-
-Close ups as well as wide angles will help to get a feeling of the details and quality of the item.
-￼
-![Profile Logo](../assets/Business/bazar-listingguide-3.2.png)
-
-### 3.3 Shipping box (incl. dimensions)
- Especially when buying a machine, it is very useful for the customer to include a picture of the shipping box with dimensions. 
-
-This will help the customer **know what to expect when receiving the item** and if they need special equipment to unload it (e.g.: delivery pallet and need for a forklift). 
-
-It also shows that you have been through this step before and makes you more **trustworthy**.
-
-![Profile Logo](../assets/Business/bazar-listingguide-3.3.png)
-
-### 3.4 CAD drawings
-
-If available, it can help to share the CAD or technical drawings of the machine, mould or item.
- This can give a better understanding of **exact measurements and assembly**, which can help the customer to assess whether their existing equipment will be compatible with your item.
-
-![Profile Logo](../assets/Business/bazar-listingguide-3.4.png)
-
-# 4. Description
-
-As with pictures, having a **clear and detailed item description** will enable the customer to have no doubt on what they are buying, this will also help reduce your customer contact rate. 
-
-The buyer should be able to clearly understand all the key features, dimensions, conditions etc. **- everything they need to know** about what it is they're looking at, so that they can evaluate whether they are going to make a purchase or not.
-
-**Please don't include links to other platforms in your item description**. We accept links to content that explains more about the item and that is not supported on the Bazar, for example a PDF document.
-
-If applicable, you could also include your terms & conditions.
-
-![Profile Logo](../assets/Business/bazar-listingguide-4.png)
-
-## 5. Features
-
-Completing the features section provided by the Precious Plastic Bazar helps the customer better understand the item he is buying and building trust with your store.
-
-Please make sure you **fill out as many as possible, ideally all**.
-
-￼![Profile Logo](../assets/Business/bazar-listingguide-5.png)
-
-
-## 6. Options
-
-There is a great opportunity to **customise your item for customer needs** (people love that!). Additionally, it helps customers to click and buy, reducing friction and increasing conversion rate.
-
-A few examples:
-
-* A mould might have to fit either to a **screw or tapered** nozzle. 
-* A shredder can come with a sieve of **different hole sizes**. 
-* An item might be available in **different colour ranges**.
-
-Listings with multiple options generally perform better as customers love to choose **exactly what is suitable** for them.
-
-￼![Profile Logo](../assets/Business/bazar-listingguide-6.png)
-
-
-## 7. Shipping options
-
-The more shipping options you have, the **wider range of customers** you can reach. 
-
-The easiest option to cover shipping options worldwide, is to set up a shipping price for **each of the biggest regions** (USA, South America, Europe, Africa, Russia, Asia, Oceania).
-
-If not set up per region, try to offer shipping for **as many countries as possible**.  We recommend having at the very least shipping options in **Europe and the United States** (as these are the most active user groups on the Bazar).
-
-> The Bazar will only be able to **promote items with Europe and US shipping** enabled, as this is the biggest user group of the Bazar.
-
-Also make sure to pay attention to setting the price for each **additional item** (especially for machines it is very likely that double the quantity means double the shipping price).
-
-You can find more about shipping and regions in our [**Guide to set up your shipping options**](https://community.preciousplastic.com/academy/business/International_Shipping).
-
-![Profile Logo](../assets/Business/bazar-listingguide-7.png)
-
-
-# Want to get featured? ✨
-
-Ok, these are the guidelines we believe will **help your listings to perform well on the Bazar**. Good luck!
-
-We love showcasing great work, and support sellers who put love into their work and appearance on the Bazar. If you would like to see your listings featured (for example on the homepage, on email campaigns or social media) make sure to follow our guidelines [**how to get featured**](https://community.preciousplastic.com/academy/business/regions).
-
-
-## Questions? Feedback?
-
-Feel free to reach directly to us for help or if you think we’ve missed important information and tipps.
-
-You can find us daily on Discord on the [#🙌bazar-seller channel](https://discord.gg/2E93VxB3CD) or can send us an email to **bazar@preciousplastic.com**.
+--- 
+id: listing_guidelines  
+title: Listing guidelines 
+sidebar_label: Listing guidelines 
+--- 
+<style> 
+:root { 
+  --highlight: #f7b77b; 
+  --hover: #f7b77b; 
+} 
+</style> 
+# バザーに貴重なリストを作成する 
+リスティングに愛情を込めることで、顧客を惹きつけ、あなたの仕事の質を信頼してもらうことができる。 
+また、バザーの質の高いコンテンツは、バザーの全体的な経験をより成功に導き、その結果、ユーザーをより幸せにし、すべての人に**より多くのトラフィックと売上をもたらします！**。 
+>良いリスティングは、ホームページやニュースレター、ソーシャルメディア**で宣伝されるチャンスもあり、知名度や売上アップにつながります。 
+**このビデオ](https://www.loom.com/share/b1df010a31b04a79b034f723b579cc4e)では、考慮すべき重要な要素について説明します。 
+ ## 1.アイテムタイプ 
+このバザールのために作られたものにこだわってください：プラスチックリサイクル機械、金型、原料、リサイクルプラスチック製品。サービスの提供はお断りします。 
+ ## 2.タイトル 
+商品のタイトルは、できるだけわかりやすく、商品の本質的な要素を含むものにしましょう。情報が多すぎず、お客様が探しているものなのかどうかがすぐにわかる程度にしましょう。 
+![Profile Logo](../assets/Business/bazar-listingguide-2.png) 
+# # 3. 
+画像の内容と質は、リスティング広告を**情報豊富で説得力のある**ものにするために、おそらく最も重要で強力な要素の1つです。 
+最大限の視認性を確保するため、横長の画像を強く推奨します。最低推奨掲載画像サイズは**794×1000ピクセル**で、解像度は72ppiです。 
+![Product Image](../assets/Business/product.png) 
+ ### 3.1 マルチアングル 
+様々な角度からの写真を掲載し、商品の全体像、構成要素、プロポーションがわかるようにすること。 
+サイズやプロポーションがわかるように、**きれいな写真**と、**背景がわかる写真**の両方を用意するのがよい方法です。 
+![Profile Logo](../assets/Business/bazar-listingguide-3.1.png) 
+ ### 3.2 クローズアップとワイドアングル 
+クローズアップだけでなくワイドアングルでも、商品のディテールや品質を感じ取ることができる。 
+￼ 
+![Profile Logo](../assets/Business/bazar-listingguide-3.2.png) 
+ ### 3.3 出荷箱（寸法を含む） 
+特にマシンを購入する際には、輸送箱の写真と寸法を添付しておくと非常に便利です。 
+これは、顧客が商品を受け取る際に**何を期待すればよいのか**、また、商品を降ろすために特別な設備が必要かどうか（例：配送パレット、フォークリフトの必要性）を知るのに役立ちます。 
+また、このステップを経験したことがあることを示し、より**信頼**されるようになる。 
+![Profile Logo](../assets/Business/bazar-listingguide-3.3.png) 
+ ### 3.4 CAD図面 
+もし可能であれば、機械、金型、品目のCADや技術図面を共有することも役立ちます。 
+これにより、**正確な寸法と組み立て**をよりよく理解することができ、お客様の既存の機器がお客様の商品と互換性があるかどうかを評価するのに役立ちます。 
+![Profile Logo](../assets/Business/bazar-listingguide-3.4.png) 
+# 4.概要 
+写真と同様に、**明確で詳細な商品説明**を用意することで、顧客は自分が何を買っているのかを疑うことなく理解することができ、顧客からの問い合わせ率を下げることにもつながります。 
+買い手は、すべての主要な特徴、寸法、条件などを明確に理解できなければなりません。**- 買い手が購入するかどうかを判断できるように。 
+**商品説明に他のプラットフォームへのリンクを含めないでください。バザーでサポートされていない、例えばPDFドキュメントのような、アイテムの詳細を説明するコンテンツへのリンクは受け付けます。 
+該当する場合は、利用規約も記載することができます。 
+![Profile Logo](../assets/Business/bazar-listingguide-4.png) 
+ ## 5.特徴 
+Precious Plastic Bazarが提供する機能セクションを完成させることで、顧客は購入する商品についてよりよく理解し、あなたの店との信頼関係を築くことができます。 
+できるだけ多く、理想的にはすべて**記入してください。 
+￼![Profile Logo](../assets/Business/bazar-listingguide-5.png) 
+# # 6. オプション 
+顧客のニーズに合わせて商品をカスタマイズする**絶好の機会があります**（人々はそれが大好きです！）。さらに、顧客がクリックして購入するのを助け、摩擦を減らし、コンバージョン率を高めます。 
+いくつか例を挙げよう： 
+金型は**スクリューか**テーパー**ノズルのどちらかに合わせなければならないかもしれない。 
+* シュレッダーには、**異なる穴サイズ**のふるいが付属していることがある。 
+* 商品には**異なるカラーレンジ**がある場合があります。 
+顧客は自分にとって**ぴったり**のものを選ぶのが好きなので、複数の選択肢があるリスティングの方が一般的にうまくいく。 
+￼![Profile Logo](../assets/Business/bazar-listingguide-6.png) 
+ ## 7.配送オプション 
+配送オプションが多ければ多いほど、より幅広い顧客**にリーチすることができます。 
+世界中の配送オプションをカバーする最も簡単なオプションは、**各最大地域**（米国、南米、ヨーロッパ、アフリカ、ロシア、アジア、オセアニア）の配送価格を設定することです。 
+地域ごとに設定していない場合は、**できるだけ多くの国**への配送を提供するようにしてください。  少なくとも**ヨーロッパとアメリカ**の発送オプションを用意することをお勧めします（バザーで最もアクティブなユーザーグループだからです）。 
+> バザーは、ヨーロッパとアメリカへの発送が可能な商品のみ**販売することができます。 
+また、**追加アイテム**ごとに価格を設定することに注意してください（特に機械の場合、数量が2倍になると送料も2倍になる可能性が高いです）。 
+配送と地域については、[**配送オプション設定ガイド**](https://community.preciousplastic.com/academy/business/International_Shipping)をご覧ください。 
+![Profile Logo](../assets/Business/bazar-listingguide-7.png) 
+# 特集を組みたい？✨ 
+以上が、**バザー**でリスティングがうまくいくためのガイドラインです。頑張ってください！ 
+私たちは素晴らしい作品を紹介するのが大好きで、作品やバザーへの掲載に愛情を注いでいるセラーを応援しています。もし、あなたの作品をホームページやEメール、ソーシャルメディアに掲載したい場合は、ガイドライン[**掲載方法**](https://community.preciousplastic.com/academy/business/regions)に従ってください。 
+ ## 質問は？ご意見は？ 
+また、重要な情報やヒントを見逃したと思われる場合は、遠慮なく直接お問い合わせください。 
+Discordの[#🙌bazar-sellerチャンネル](https://discord.gg/2E93VxB3CD)、または**bazar@preciousplastic.com**までメールをお送りください。 

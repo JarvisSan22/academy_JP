@@ -1,35 +1,24 @@
 ---
-id: spaces
-title: Spaces
-sidebar_label: Intro
+id: spaces 
+title: Spaces 
+sidebar_label: Intro 
 ---
+<style> 
+:root { 
+  --highlight: #37b4a3; 
+  --hover: #37b4a3; 
+} 
+</style> 
+![Community Badges](assets/comm_badges.jpg) 
+# 貴重なプラスチック空間 
 
+プレシャス・プラスチックスペースは、プレシャス・プラスチックの宇宙の構成要素です。各スペースは、リサイクルプロセスの1つの要素を担当します。一度に一つの側面に集中し、習得する。さまざまなスペースが相互に関連し、依存し合い、協力し合い、知識、プラスチック、専門知識を共有し、地域のプラスチック廃棄物問題に取り組んでいる。   
+私たちは、シンプルさ、生産性、そして生活の質を念頭に置いて、それぞれのPrecious Plastic Spaceを設計、製造、テストしました。以下のセクションでは、フロアプラン、CADモデル、お勧めのツールなど、ステップバイステップのガイドをご覧いただけます。 
 
-<style>
-:root {
-  --highlight: #37b4a3;
-  --hover: #37b4a3;
-}
-</style>
+### 仕事をする上で、心に留めておくべき一般的なことがいくつかある： 
 
-![Community Badges](assets/comm_badges.jpg)
-
-# Precious Plastic Spaces
-
-Precious Plastic Spaces are the building blocks of the Precious Plastic Universe. Each space takes care of one element of the recycling process. Focusing and mastering one aspect at the time. Different spaces are interconnected and dependent on each other, collaborating and sharing knowledge, plastic and expertise to tackle the plastic waste problem locally.  
-
-To help you get started on the right foot we’ve designed, built and tested each Precious Plastic Space with simplicity, productivity, and quality of life in mind. In the following sections you’ll find a step-by-step guide with floor plans, CAD models, and tool recommendations to help you plan the various elements of your plastic recycling space.
-
-
-### As you work, there are a few general things to keep in mind:
-
-<b>1. Work together.</b> Find a teammate. Or two. Having someone to share tasks with makes the work more fun and easier to handle. It’s best if you and your teammates have complementary skillsets – engineer + businesswoman, for example.
-
-<b>2. Customize.</b> Your context (space, location, products) will affect the way you set up your Precious Plastic Space. Use the plans here as a starting point, and always be on the lookout for ways to adapt them to better suit your needs.
-
-
-<b>3. Keep it simple.</b> We recommend starting with the most basic elements of your space (machine, workbench, basic tools) and building out from there as you start to work with your machines or techniques. This way, you’ll build and buy only what suits your needs.
-
-<b>4. Welcoming.</b> Your workspace is more than a recycling center - it’s a tool for cultural change. Take care of the little details to make it a nice and enjoyable place to be for you, your team, and visitors.
-
-Ok, ready to get started? Check out the next chapters to learn about how to set up your Precious Plastic Space.
+<b>1.チームメイトを見つける。あるいは2人。仕事を分担する相手がいれば、仕事はより楽しく、扱いやすくなる。例えば、エンジニア＋ビジネスウーマンといったように、あなたとチームメイトのスキルが補完し合えればベストだ。 
+<b>2.カスタマイズ</b> あなたの置かれている状況（スペース、場所、製品）によって、プレシャス・プラスティック・スペースの設置方法は変わってきます。ここにあるプランは出発点として使い、よりあなたのニーズに合うようにアレンジする方法を常に探してください。 
+<b>3.シンプルに保つ</b> 私たちは、スペースの最も基本的な要素（マシン、作業台、基本的なツール）から始め、マシンやテクニックを使い始めるにつれて、そこから作り上げていくことをお勧めします。そうすれば、自分のニーズに合ったものだけを作ったり買ったりすることができる。 
+<b>4.歓迎</b> ワークスペースは単なるリサイクルセンターではなく、文化を変えるためのツールです。自分にとっても、チームにとっても、そして訪問者にとっても、素敵で楽しい場所になるよう、小さなことにも気を配りましょう。 
+さあ、始める準備はできたかな？次の章では、プレシャス・プラスティック・スペースの設定方法について説明します。 

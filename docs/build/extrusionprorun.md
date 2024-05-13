@@ -1,115 +1,77 @@
 ---
-id: extrusionprorun
-title: Build an extrusion Pro
-sidebar_label: - Run it
+id: extrusionprorun 
+title: Build an extrusion Pro 
+sidebar_label: - Run it 
 ---
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
-</style>
+![Shredder](assets/build/extruderpro-run.jpg) 
 
-![Shredder](assets/build/extruderpro-run.jpg)
+# エクストルージョン・プロの運転とメンテナンス 
+万歳！エクストルーダープロを自分で作りましたね！さあ、楽しんで梁やレンガを作りましょう。以下では、エクストルーダー・プロの作り方、使用する温度、ワークフロー、メンテナンスなど実用的な事柄について説明します。 
+## 🏃‍♀️ プラスチックを押し出す 
+### 始め方 
+1.メインスイッチを入れる 
+2.3つのPIDで希望の温度を選択する。 
+3.ホッパーの中にプラスチックを入れる。 
+4.好みの温度になるまで待つ（約15～20分）。 
+5.マスクをする／換気をする 
+6.低速でモーターを回転させ、プラスチックの流れを確認する。 
+7.<i>(オプション)</i> 前セッションから材料を変更した場合は、古いプラスチックが新しいプラスチックに置き換わるまでバレルを回転させ、古いプラスチックからバレルを洗浄する必要があります。 
+8.これでマシンは生産準備が整った。 
 
-# Run and Maintain the Extrusion Pro
-Hooray! You build yourself an Extruder Pro! Let's have some fun and make some beams and bricks. Below we explain how to do this, which temperatures to use, how the workflow should be, plus the practical things to take in account like maintenance.
+### 生産 
+1.目的の製品に型が必要な場合は、ノズルに取り付ける。 
+2.流量はVFD（0～50/60HZ）の回転数を増減することで調整できます。 
+3.VFDを起動し、実行を押します。 
+4.押し出し中にホッパー内に十分なプラスチックフレークを保ち、押し出されたプラスチックに気泡が入る可能性を減らします。 
+# 👌 使用中のヒントとコツ 
 
-## 🏃‍♀️ Extrude some Plastic
+金型をセットする前に、ノズルをチェックして、プラスチックが均質で、流動性があり、粘度と色をチェックしてください。 
+プラスチックを変更した場合は、マシンを1分間作動させ、バレルが前のプラスチックタイプからきれいになっていることを確認する。 
+7mm以下で丸みを帯びた細切りフレークは、ホッパーをよく通過する。細長いフレークはホッパーに滞留しやすい。細粒にするか、ホッパーにバイブレーターを取り付けると、供給が良くなります。一般的に、プラスチック顆粒はより良い供給を可能にします。 
+ノズルからプラスチックが出ず、温度の測定値が異常に高いということは、バレル内で多くの摩擦が起こり、圧力が上昇していることを意味します。おそらくどこかに詰まりがあり、プラスチックが流れ出るのを妨げているのでしょう。 
 
-### How to Start
+### ⚠️ 熱いプラスチックを取り扱う際は、常に注意し、適切な手袋を使用してください！ 
+バレルが空になると、キーキーと甲高い音がしたり、金属と金属がこすれる音がしたりします。そのような場合は、余分な磨耗を防ぐために、押出を止めてホッパーに補充してください。 
 
-1. Turn on the main switch
-2. Select the desired temperature on the 3 PIDs
-3. Pour the plastic inside the hopper
-4. Wait until you reach the desired temperature (around 15/20 min)
-5. Put your mask / put ventilation on
-6. Turn on the motor at slow speed to check for plastic flow
-7. <i>(optional)</i> If you change the material from the previous session, you need to clean the barrel from old plastics by letting it run until the old plastic is replaced by the new one.
-8. The machine is now ready for production.
+# ⏳メインテナンス 
+エクストルーダーはシンプルで頑丈な機械です。しかし、長く使い続けたいのであれば、機械のメンテナンスのコツをいくつかお教えしましょう： 
+### ベアリングの潤滑 
 
-### Production
-
-1. If a mould is required for the desired product, attach it to the nozzle
-2. The flow can be adjusted by increasing or decreasing the speed on the VFD (0 to 50/60HZ)
-3. You can start and press run on the VFD
-4. Keep enough plastic flakes in the hopper while extruding to reduce chances of bubbles in the extruded plastic.
-
-# 👌 Tips & tricks while using
-
-Before setting up your mold, check the nozzle to see if the plastic looks homogeneous, fluid and check the viscosity and color.
-
-If you change plastic let the machine run for a minute to make sure the barrel is clean from the previous plastic type.
-
-Shredded flakes smaller than 7 mm and rounded feed through the hopper very well. Longer and thinner flakes tend to stay stuck in the hopper. You can either granulate them to smaller grains or install a hopper vibrator to improve the feeding. Plastic granules generally allow for better feeding.
-
-No plastic exiting the nozzle and abnormally high temperature readings means that a lot of friction is happening in the barrel and that the pressure is rising. Immediately shut off the machine as there is probably a clog somewhere preventing the plastic to flow out.
-
-### ⚠️ Always be careful and use suitable gloves when handling hot plastic!
-
-Make sure there is always plenty of plastic in the hopper. you can hear a high-pitched squeak noise or metal on metal rubbing sounds if the barrel is empty. In that case, refill the hopper of stop extrusion to prevent excess wear.
-
-# ⏳ Maintain
-
-The extruder is a simple and robust machine. However, if you wish to keep it for a long time, we will now give you a few maintenance tips for your machine:
-
-### Bearing lubrication
-
-Make sure there is plenty of grease in the bearing housing. You can add a little grease with the greasing nozzle every month to make sure they are always well lubricated.
-
-### Gear box lubrification
-
-Depending on the type, the gear unit can be lubricated with grease or oil. Each gear unit is equipped with a lubrication plate. Check and follow the maintenance instructions from your motor and gearbox supplier.
-
-### Barrel maintenance
-
-Your barrel is made out of mild steel, and designed to be easy to build. You’ll want to avoid rust from getting on the inner part of the barrel. Letting the plastic cool down inside the barrel will prevent rust in the barrel. If you don’t use it for a long time, you can add a little silicon oil after having emptied plastic from the barrel to avoid rust. The screw is hardened and expected to last longer then the barrel. Make a new barrel if required.
-
-### Check the tightening torque of the screws
-
-Frequently check the tightening torque of the screws (coupler,motor adaptor etc) of the extruder.
-
-# 🔓 Troubleshooting
-
-### 2 heating elements stopped working together
-
-If you notice that 2 heating elements wired together are not working anymore, chances are that your Solid State Relay (SSR) is the problem. Open the electronics box and verify that the wires are well connected. If the wiring is good and the LED light doesn’t turn ON on the relay, you probably need to change it.
-
-If you change it and it still doesn’t work with the new Solid State Relay, you need to change your PID controller.
-
-### A heating element stopped working
-
-If you notice that a heating element is not working anymore, open the electronics box and verify that the wires are well connected and that the SSR connected to it has his LED working when you start your extruder. If you  checked that, the problem is therefore the heating collar and you need to change it.
-
-The heating collars may stop working if you bend them out of shape too much, be careful when putting them in or removing them from the barrel.
-Also don’t go over the maximum temperature of the heating collar.
-
-### Engine overheating
-
-If you notice your engine overheating, test your motor in a warm surrounding environment or let it run for a long time on low speed ( <20 Hz). If the motor fan is then not sufficient to cool it an additional fan should be installed at the top of the motor.
-
-### Extrusion Screw doesn’t turn
-
-An overload of the motor is often the main cause of a motor malfunction. Checking the error message on the VFD will guide you to the reasons for the shutdown ( In the case of the bosch rexroth efc 5610 and a converter overload there will be the code OL-1)
-
-You can also check the conformity of the connection on the terminal plate, depending on your connection to the mains, you must connect your three-phase motor in Delta or Star mode. It affects the torque that the motor provides. Check the tightening torque of the extrusion screw coupler also if the shaft is turning and not the extrusion screw.
-
-It can be also the plastic you put in the hopper that didn’t melt enough and is still solid or has a too low MFI to be used by the machine.
-
-### Foreign object in the hopper
-
-If  something falls in the hopper and blocks the screw, you should try to slowly reverse the motor : You can reverse the direction of the motor by physically swapping any two motor phases. Or by changing the frequency driver parameters.
-
-Be careful not to drop metal parts in the hopper. You can remove magnetic objects from your shredded plastic by probing with a magnet. Remove the barrel to take out any debris is necessary.
-
-### Output plastic not uniform
-
-The most common problem with the extrusion is having an output that is not uniform. There are a few reasons why this could happen :
-
-1. Dirty plastic may have clogged the nozzle making it difficult for the clean plastic to get out.
-2. Two different types of plastic are mixed together, common causes for this can be contamination in the sorting stage or plastic left in the barrel from previous activity. In this case, one plastic type melts while the other doesn’t and obstructs the plastic flowing through the nozzle.
-3. The temperature is not high enough and the plastic in the barrel does not manage to fully melt.
-4. You can solve the above problems by checking the integrity and purity of the raw material or by raising the temperature. Upon adjusting your process make sure to empty the entire barrel before attempting to make a new product.
-
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+ベアリングハウジングにグリースがたっぷり入っていることを確認してください。毎月グリスノズルで少量のグリスを追加し、常に十分な潤滑が保たれていることを確認してください。 
+### ギアボックスの潤滑 
+タイプに応じて、ギアユニットはグリースまたはオイルで潤滑することができます。各ギアユニットには潤滑プレートが装備されています。モータとギヤボックスの供給業者からのメンテナンス指示を確認し、それに従ってください。 
+### 樽のメンテナンス 
+銃身は軟鋼製で、作りやすいように設計されている。樽の内側に錆がつかないようにしたい。樽の中のプラスチックを冷やすことで、樽の錆を防ぐことができます。長期間使用しない場合は、バレル内のプラスチックを空にしてからシリコンオイルを少量加えると錆を防ぐことができる。スクリューは硬化しているので、バレルよりも長持ちすると思われる。必要であれば、新しいバレルを作ってください。 
+### ネジの締め付けトルクのチェック 
+押出機のネジ（カプラー、モーターアダプター等）の締め付けトルクをこまめにチェックしてください。 
+# トラブルシューティング 
+### 2つの発熱体が同時に作動しなくなった 
+一緒に配線された2つのヒーターエレメントが動作しなくなった場合、ソリッドステートリレー（SSR）に問題がある可能性があります。エレクトロニクスボックスを開けて、配線が正しく接続されていることを確認してください。配線に問題がなく、リレーでLEDライトが点灯しない場合は、リレーを交換する必要があります。 
+もし変更しても新しいソリッド・ステート・リレーで動作しない場合は、PIDコントローラーを変更する必要があります。 
+### ヒーターが作動しなくなった 
+ヒーティングエレメントが動作しなくなったことに気づいたら、エレクトロニクスボックスを開け、配線が正しく接続されていること、およびエクストルーダーを起動したときにSSRに接続されたLEDが動作していることを確認してください。それを確認した場合、問題はヒーターカラーにあり、それを交換する必要があります。 
+ヒーティング・カラーは、曲げすぎると動かなくなることがあります。 
+また、ヒーティングカラーの最高温度を超えないこと。 
+### エンジンのオーバーヒート 
+エンジンのオーバーヒートに気づいたら、周囲の暖かい環境でモーターをテストするか、低速（<20 Hz）で長時間運転させてください。モーターファンで十分に冷却できない場合は、モーター上部に追加のファンを取り付ける必要があります。 
+### 押出スクリューが回転しない 
+モータの故障の主な原因はモータの過負荷であることがよくあります。VFDのエラーメッセージを確認することで、シャットダウンの原因を知ることができます（bosch rexroth efc 5610とコンバータの過負荷の場合、コードOL-1が表示されます）。 
+主電源への接続に応じて、三相モーターをデルタまたはスターモードで接続する必要があります。モーターのトルクに影響します。押し出しスクリューではなくシャフトが回転している場合は、押し出しスクリューカプラの締め付けトルクも確認してください。 
+また、ホッパーに入れたプラスチックが十分に溶けずに固まったままだったり、MFIが低すぎて機械で使用できなかったりすることもある。 
+### ホッパー内の異物 
+ホッパーに何かが落ちてスクリューをブロックした場合は、モーターをゆっくり逆回転させてみてください。または、周波数ドライバのパラメータを変更する。 
+金属部品をホッパーに落とさないように注意してください。磁石で探れば、細断されたプラスチックから磁性体を取り除くことができる。バレルを取り外してゴミを取り除くことが必要です。 
+### 出力プラスチックが均一でない 
+押し出し成形の最も一般的な問題は、出力が均一でないことです。これが起こる理由はいくつかあります： 
+1.汚れたプラスチックがノズルに詰まり、きれいなプラスチックが出にくくなっている可能性がある。 
+2.2つの異なる種類のプラスチックが混ざった場合、一般的な原因としては、選別段階でのコンタミネーションや、前の作業でバレルに残ったプラスチックが考えられます。この場合、一方のプラスチックは溶け、他方のプラスチックは溶けず、ノズルを流れるプラスチックが妨げられる。 
+3.温度が十分に高くないため、バレル内のプラスチックが完全に溶けない。 
+4.上記の問題は、原料の完全性と純度をチェックするか、温度を上げることで解決できる。工程を調整したら、新しい製品を作る前に必ず樽全体を空にしてください。 
+**助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。ここでは機械についてオタクな話をします。 

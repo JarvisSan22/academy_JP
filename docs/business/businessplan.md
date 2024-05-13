@@ -1,96 +1,72 @@
----
-id: businessplan
-title: Business Plan Template
-sidebar_label: Business Plan Template
----
-
-<div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/IXzcRQNe-hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<style>
-:root {
-  --highlight: #f7b77b;
-  --hover: #f7b77b;
-}
-</style>
-
-# Business Plan template
-
-<div class="videoChapters">
-<div class="videoChaptersMain">
-
-### Telling the story of your business or project
-
-The Business Plan template has two purposes: Firstly, to clarify the idea for you and your team, and secondly to communicate this idea clearly to potential funding and/or partners. This can be useful for grant applications, preparation for a bank loan or perhaps to take to an investor.
-
-This template is an easy to follow framework for your business plan and consists of different sections to work through everything you need to get started, and to build your case as to why someone should be contributing to your business. The outline is below, but don’t worry if you don’t know what some of these are, Joseph is here to take you through bit by bit.
-
-> Pro-tip: quality over quantity - don’t write more information if it’s not needed. You only have people's attention for so long, so don’t waste it!
-
-
-</div>
-<div class="videoChaptersSidebar">
-
-### Video Chapters
-
-- 00.08 Intro
-- 00.37 Template Structure
-- 00.55 Your Business Details
-- 01.11 Executive Summary
-- 01.25 Mission
-- 02.17 Team
-- 02.42 Market Analysis
-- 03.33 Target Groups
-- 04.37 Operations
-- 06.12 Impact
-- 07.39 Financials
-- 08.29 Legal Structure
-- 09.05 Appendix
-
-
-</div>
-</div>
-
-### 👇The link to the Business Plan template
-
-Click on the link below to open the document, and click File > Make a copy and you're ready to go!
-
-[Open the Business Plan template](https://bit.ly/3g0sKUG)
-
-![Business Plan](assets/Business/businessplantemplate.jpg)
-
-## So what's in it?
-
-1. Executive summary
-2. Mission
-3. Team
-4. Market Analysis
-    - Product and Services
-    - Target Groups
-    - Engagement
-    - Sales Channels    
-5. Operations
-    - Key Resources    
-    - Key Activities
-    - Running Costs
-    - Collaborators
-6. Impact Measures
-    - Community
-    - Planet
-    - Income Streams
-7. Financials
-8. Legal Structure
-9. Appendix
-
-![Business Plan](assets/Business/businessplan.jpg)
-
-# 👌 Tips
-
-- Complete the Action Plan first before writing down everything in a long business plan. Your business model is more important than a business plan.
-- Think of your business plan as an opportunity for you to tell the story of your business or project, and why you have a compelling financial proposition. Show that you’ve really thought things through, especially how you’re delivering value to customers.
-- The legal structure is an important part of your business plan that’s not covered in the previous two tools - make sure to research the structures in your country and for your particular situation, and what the advantages are for each. You may need to consult a business lawyer for this.
-- Quality over quantity - don’t write more information if it’s not needed. You only have people's attention for so long, so don’t waste it.
-- This is an example outline for a business plan based on Precious Plastic business tools, but there are also other formats out there that may suit you better.
-
-<b>Want to share feedback or chat business or learn more from the community? Head to the [#business](https://discordapp.com/invite/n5d8Vrr) channel on Discord. Here we talk money. We love numbers. Business models, revenue, bazar etc 🤑</b>
+--- 
+id: businessplan 
+title: Business Plan Template 
+sidebar_label: Business Plan Template 
+--- 
+<div class="videocontainer">（ビデオコンテナ）</div 
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/IXzcRQNe-hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #f7b77b; 
+  --hover: #f7b77b; 
+} 
+</style> 
+# ビジネスプランのテンプレート 
+<div class="videoChapters">（ビデオ・チャプターズ 
+<div class="videoChaptersMain">（ビデオ・チャプターズ・メイン）</div>
+ ### ビジネスやプロジェクトのストーリーを語る 
+ビジネスプラン・テンプレートには2つの目的がある：第一に、あなたとあなたのチームのアイデアを明確にすること、第二に、このアイデアを潜在的な資金提供者やパートナーに明確に伝えることです。これは、助成金の申請や銀行融資の準備、あるいは投資家への説明などに役立ちます。 
+このテンプレートは、ビジネスプランに必要なフレームワークで、さまざまなセクションで構成されています。概要は以下の通りだが、これらのセクションが何であるかわからなくても心配はいらない。 
+> ヒント：量より質 - 必要でない情報は書かないこと。人の注意を引くことができる時間は限られているので、無駄にしないこと！ 
+</div> 
+<div class="videoChaptersSidebar">（ビデオチャプターサイドバー 
+ ### ビデオ・チャプター 
+- 00.08 イントロ 
+- 00.37 テンプレート構造 
+- 00.55 あなたのビジネスの詳細 
+- 01.11 エグゼクティブ・サマリー 
+- 01.25 任務 
+- 02.17 チーム 
+- 02.42 市場分析 
+- 03.33 ターゲット・グループ 
+- 04.37 オペレーション 
+- 06.12 インパクト 
+- 07.39 財務 
+- 08.29 法的構造 
+- 09.05 付録 
+</div> 
+</div> 
+ ### 👇ビジネスプラン・テンプレートへのリンク 
+下のリンクをクリックして文書を開き、「ファイル」＞「コピーを作成」をクリックすれば準備完了です！ 
+[ビジネスプランのテンプレートを開く](https://bit.ly/3g0sKUG) 
+![Business Plan](assets/Business/businessplantemplate.jpg) 
+ ## それで中身は？ 
+1.要旨 
+2.使命 
+3. チーム 
+4.市場分析 
+    - 製品とサービス 
+    - ターゲット・グループ 
+    - 私たちのコミットメント 
+    - 販売チャネル 
+5.オペレーション 
+    - 主要リソース 
+    - 主な活動 
+    - ランニングコスト 
+    - 協力者 
+6.影響対策 
+    - コミュニティ 
+    - プラネット 
+    - 収入の流れ 
+7.財務 
+8.法的構造 
+9.付録 
+![Business Plan](assets/Business/businessplan.jpg) 
+# 👌ヒント 
+- 長いビジネスプランにすべてを書き込む前に、まずアクションプランを完成させよう。ビジネスモデルはビジネスプランよりも重要です。 
+- 事業計画書は、あなたのビジネスやプロジェクトのストーリーを語る機会であり、説得力のある財務提案を行う理由であると考えてください。特に、顧客にどのような価値を提供しようとしているのかについて。 
+- 法的構造は、前の2つのツールではカバーされていない、あなたのビジネスプランの重要な部分です - あなたの国や特定の状況での構造と、それぞれの利点が何であるかを必ず調べてください。これについては、ビジネス弁護士に相談する必要があるかもしれません。 
+- 量より質-必要のない情報は書かない。人の注意を引く時間は限られているので、無駄にしないこと。 
+- これは、プレシャス・プラスチックのビジネス・ツールに基づいたビジネス・プランのアウトラインの例である。 
+<b>フィードバックを共有したり、ビジネスをチャットしたり、コミュニティからもっと学びたいですか？Discordの[#business](https://discordapp.com/invite/n5d8Vrr)チャンネルへどうぞ。ここではお金の話をします。私たちは数字が大好きです。ビジネスモデル、収益、バザーなど。 

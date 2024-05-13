@@ -8,64 +8,54 @@ sidebar_label: Hello! 🤙
   <iframe width="800" height="400" src="https://www.youtube.com/embed/dP1s7viFZHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: #29bbe3;
-  --hover: rgb(131, 206, 235);
-}
-</style>
+<style> 
+:root { 
+  --highlight: #ffe084; 
+  --links: #29bbe3; 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
 
-# Welcome to the Precious Plastic Academy!
+# プレシャス・プラスチック・アカデミーへようこそ！ 
 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-### Awesome to see you are interested in recycling plastic.
-We've created this collection of videos, tutorials and content to share the most crucial things we've learned over the past 7 years about transforming plastic waste into valuable products.
+### あなたがプラスチックのリサイクルに関心を持っているのを見るのは素晴らしいことです。 
 
-We will teach you about the basics of plastic - what types there are and how to identify them, collecting and separating plastic, building your own machines, business models you can adopt, how to become an important member in the Precious Plastic community, and much more.
+私たちはこのビデオ、チュートリアル、コンテンツのコレクションを作成し、プラスチック廃棄物を価値ある製品に変えることについて、過去7年間で学んだ最も重要なことを共有しています。 
+私たちは、プラスチックの種類や見分け方、プラスチックの収集と分別、自分で機械を作る方法、採用できるビジネスモデル、プレシャス・プラスチックのコミュニティで重要なメンバーになる方法など、プラスチックの基本についてお教えします。 
+ダウンロードキットとテンプレートをご用意しましたので、すべてご覧いただければ、世界中どこでもご自分のリサイクル・ワークスペースを始めることができます！ 
+</div> 
 
-We’ve created download kits and templates so once you’ve gone through everything, you’ll be ready to start your own recycling workspace, anywhere in the world!
-
-</div>
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:00 はじめに 
+- 00:42 何を学ぶのか 
+- 01:40 ヘルプ＆フィードバック 
+- 02:01 寄付する 
+- 02:30 プロジェクトを広める 
+</div> 
+</div> 
 
-- 00:00 Introduction
-- 00:42 What will you learn
-- 01:40 Help & Feedback
-- 02:01 Donate
-- 02:30 Spread the project
+![Open Source](assets/Intro/opensource.svg) 
 
-</div>
-</div>
+## なぜこんなことを？ 
 
+プレシャス・プラスティックは、プラスチック廃棄物の驚くべき可能性を世界に示すことで、プラスチック汚染をなくし、新たなバージン・プラスチックの需要を減らし、材料ループを閉じると同時に、世界中の人々により良い生活を提供したいと考えています。プレシャス・プラスティックは、何よりも、プラスチックに対する社会の見方を変えるための文化的なツールなのです。 
+身の回りにあるプラスチックはすべて資源であり、廃棄物ではない。世界中に転がっている大きな可能性を秘めた素材であり、正しく処理すれば、新しい価値あるものに生まれ変わる。この資源は、私たちの環境に悪影響を与えないようにしながら、収入源になったり、地域社会の教育ツールになったりします。 
+<img style="padding：50px 0" src="./assets/Intro/PP_universe.svg" width="500px"/></img>
+私たちは、機械、金型、消費者製品のオープンソースデザイン、リサイクルワークスペースを立ち上げ、運営するためのビジネスモデルやツールを提供することで、プラスチックリサイクル技術、インフラ、知識の分散化と地域化を図りながら、地球上の人々が地元でプラスチック廃棄物の処理を始めることができるよう、機械、文書、ビデオチュートリアル、キャンペーン、プラットフォームを作成しました。 
 
-![Open Source](assets/Intro/opensource.svg)
-
-## But wait - why did you do this?
-
-At Precious Plastic we want to show the world the incredible opportunities of plastic waste in order to eliminate plastic pollution, reducing the demand for new virgin plastic and closing its materials loop while creating better livelihoods for people around the world. Precious Plastic is, above all, a cultural tool to change the way society perceives plastic.
-
-All plastic laying around you is a resource, not waste. It is a material with great potential, laying all around the world that, if processed correctly, can become something new and valuable. This resource can become a source of income or an educational tool for your community, while making sure it doesn’t enter our environment.
-
-<img style="padding: 50px 0" src="./assets/Intro/PP_universe.svg" width="500px"/>
-
-We have created machines, documentation, video tutorials, campaigns and a platform to empower people across the planet to start working with plastic waste locally while trying to decentralise and localise plastic recycling technologies, infrastructures and knowledge by providing open-source designs for machines, moulds and consumer products, as well as business models and tools for you to set up and run a recycling workspace.
-
-## Open source & License
-We share everything open source for anyone to use and benefit from. This means that all the knowledge, know-how, processes, methodologies and tools are available online, for free at all times. This open source philosophy is at the core of Precious Plastic and shapes most decisions within our team. We believe that collaboration is stronger than competition and that the plastic problem can only be solved collectively.
-
-Different parts of this project are under different license conditions
-
-- **Content:** All our content is licensed under Creative Commons Attribution - Sharealike International 4.0. You can read a summary of that [here](https://creativecommons.org/licenses/by-sa/4.0/), or check out the full [license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
-- **Code:** Code license for the academy site is [GPL-3.0 License](https://github.com/ONEARMY/academy/blob/master/LICENSE).
-
-## Support & get involved
-If you are in the position to help there are many ways you can <a href="https://support.preciousplastic.com/">support Precious Plastic.</a>
-
-<p class="note">Are you interested to connect with the Precious Plastic community? Perhaps you want to learn more or share your own knowledge. Well you're in luck! We have created a <a href="https://discordapp.com/invite/cGZ5hKP">Discord</a> to discuss all the things we're doing here. Check out the Questions section in the sidebar to see where you can chat with people locally and globally.</p>
-
-Ok, let's dive in!
+## オープンソースとライセンス 
+私たちは、誰もが使用し利益を得られるよう、すべてをオープンソースで共有しています。つまり、すべての知識、ノウハウ、プロセス、方法論、ツールはオンラインでいつでも無料で利用できるということです。このオープンソースの哲学がプレシャス・プラスチックの核心であり、チーム内の意思決定のほとんどを形成しています。私たちは、協力は競争よりも強く、プラスチック問題は集団でしか解決できないと信じています。 
+このプロジェクトの異なる部分は、異なるライセンス条件の下にある 
+- コンテンツ： **私たちのすべてのコンテンツは、クリエイティブ・コモンズ 表示 - 継承 4.0 の下でライセンスされています。その要約は[こちら](https://creativecommons.org/licenses/by-sa/4.0/)で読むことができますし、完全な[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/legalcode)をチェックすることもできます。 
+- コード:** アカデミーサイトのコードライセンスは[GPL-3.0 License](https://github.com/ONEARMY/academy/blob/master/LICENSE)です。 
+  
+## 支援と参加 
+<a href="https://support.preciousplastic.com/">プレシャス・プラスチックを支援する</a>方法はたくさんあります。 
+<p class="note">プレシャス・プラスチックのコミュニティとつながることに興味がありますか？もっと学びたいとか、自分の知識を共有したいとか。それならラッキーです！私たちは<a 
+href="https://discordapp.com/invite/cGZ5hKP">Discord</a>を作成し、ここで行っているすべてのことについて話し合っています。サイドバーの質問セクションをチェックして、地域や世界の人々とチャットできる場所を確認してください。 
+よし、飛び込もう！ 

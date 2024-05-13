@@ -1,97 +1,72 @@
 ---
-id: shredderprorun
-title: Run a Shredder Pro
-sidebar_label: - Run it
+id: shredderprorun 
+title: Run a Shredder Pro 
+sidebar_label: - Run it 
 ---
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
-</style>
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
+</style> 
 
-![Shredder](assets/build/shredderpro-run1.jpg)
+![Shredder](assets/build/shredderpro-run1.jpg) 
 
-# Run and Maintain the Shredder Pro
-Congrats, you've built a Shredder Pro! Time to chop some plastic. Below we explain how to do this, the settings to use, and an ideal workflow.  Remember that maintenance is also important!
+# シュレッダープロの運転とメンテナンス 
 
-## 🏃‍♀️ Time to shred some plastic!
+おめでとう、あなたはシュレッダー・プロを作った！プラスチックを細かくする時が来た。以下に、その方法、使用する設定、理想的なワークフローを説明します。  メンテナンスも重要であることを忘れないでください！ 
 
-### How to Start
+# 🏃‍♀️ プラスチックをシュレッダーにかける時間だ！ 
 
-1. With the main switch off, the emergency stops off, and the direction switch in the stop position plug in the shredder (if it was not plugged in) to a 16A three-phase plug.
-2. Check that the hopper and the sieve (if it is needed) are mounted properly.
-3. Check the hopper is empty of parts that could damage the machine.
-4. Turn on the main switch, then the display will turn on.
-5. If the display reads “READY”, turn on the emergency stop.
-6. Run the shredder in reverse mode for a few seconds to check everything works properly. The display should show “REVERSING”.
-7. Run the shredder in shredding/forward mode. The display should show “SHREDDING”.
-8. The machine is ready to use.
-
->If you hear or see something unexpected, stop the machine immediately and check what the issue is. The machine has enough power to damage the components by itself if they are not assembled properly.
-
-### Pour plastic
-
-The output of the shredder depends on, among other things, the shape of the plastic. CD cases, sheets, bottle caps, extrusion/injection leftovers… are easy to shred. Round shapes or big pieces are hard for the blades to grab. To increase the productivity of the shredder, try to pour the plastic in a way that the shredder can grab it. For example, for most of the bottles, a good way is to pour them upside down, so they can be grabbed from the nozzle.
-
-For a second shred, just fill the hopper with the shredded plastic.
-
-### Run
-
-Depending on the motor’s power, you may need to check the load of the motor (shown on the display while the machine is shredding). The motor load also depends on the material, shape, and thickness of the pieces to be shred.
-
-For example, PS CD Cases (brittle plastic) don’t require much power. Big bottles of HDPE (elastic-plastic) require much more power.
-
-Depending on your motor, you may be running at different nominal power / amperage. Make sure that you always run your motor under its rated amperage on average. If your motor is under dimensioned for the work and your shredding amperage is above its rated power, ensure enough break time to let it cool down.
-
-During the shredding process, we recommend keeping an eye on the temperature of the blades, bearings, box, and motor with a temperature gun. The temperature will depend on the load of the motor and the running time. Stop the machine if the temperature of the blades exceeds 90 ºC or your plastic will start melting. The other components shouldn’t heat up too much unless you're doing very intense shredding or the weather is fairly hot. Check manufacturer recommended temperature, but in general don’t let other components go over 55°C.
-
-### Deep clean
-
-It is recommended to do the following cleaning steps if you are going to change the material. It is not necessary to clean if you change the color but not material type (as always, this depends on your desired output).
-
-1. Before cleaning the machine, push the emergency stop and turn off the main switch.
-2. Remove the sieve (if it is mounted).
-3. Remove the hopper.
-4. Remove the top plate of the box.
-5. Remove the fixed blades.
-6. Clean between the blades. The bottom of the machine has to be cleaned as well.
-7. Clean the hopper, fixed blades, sieve and the interior of the box.
-8. Mount the fixed blades, top plate, hopper and sieve (if required).
-
-### Change the material or color to shred
-
-Shredding plastic of the same material and color is recommended. If you want to change the material or color, you will need to clean the machine. Follow the steps about “Deep clean”.
-If you want to change only the color, but you don’t mind if there are some flakes with a different color, you could clean the shredder, lightly, with a brush and a flat screwdriver to remove the plastic between the static blades.
-
-# 🔓 Troubleshooting
-Arduino or the display doesn’t works properly
-
-1. Check the wiring.
-2. Connect the arduino board to a computer and upload the code. Set up the code.
-
-# ⏳ Maintain
-
-### Before starting
-
-Check the oil level of the motor gearbox. Usually, the quantity of oil depends on the mount position of the motor. Check the manufacturer's instructions.
-
-Ensure bearing and gears are greased properly.
-
-![Shredder](assets/build/shredderpro-maintain.jpg)
-
-### Weekly
-
-- Deep clean the shredder
-- Once you remove all the blade, inspect both fixed and moving blade : they should not have any scratches. If you see scratches, dismantle the shredder and sand / sharpen damaged blades.
-- Check for plastic stuck in between blade. If this is the case, disassemble the axis, clean blade and reassemble.
-
-### Monthly
-
-- Disassemble gears, clean them and reassemble with new grease.
-- Inspect bearings looking for any cracks and add extra grease if needed.
-- Disassemble the box, sand or sharpen damaged part and oil all plates. If teeth are too damaged, replace them. We recommend ordering extra blades to allow this maintenance easily.
-- Depending on the coupling that the machine uses, you may need to replace some rubber components. Check the manufacturer’s instructions.
-- Check the paint, and repaint damage to prevent long term corrosion issues.
-
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+### 始め方 
+1.メインスイッチがオフ、非常停止スイッチがオフ、方向スイッチが停止位置にある状態で、シュレッダーのプラグを（プラグが差し込まれていない場合は）16Aの三相プラグに差し込む。 
+2.ホッパーとふるい（必要な場合）が正しく取り付けられていることを確認する。 
+3.ホッパーに機械に損傷を与える部品がないことを確認する。 
+4.メインスイッチをオンにすると、ディスプレイがオンになります。 
+5.ディスプレイに「READY」と表示されたら、非常停止をオンにします。 
+6.シュレッダーをリバースモードで数秒間運転し、すべてが正しく動作することを確認してください。ディスプレイは "REVERSING "を表示するはずです。 
+7.シュレッダーを細断/前進モードで作動させてください。ディスプレイは "SHREDDING "を表示する。 
+8.マシンは使用可能です。 
+>予期せぬ音がしたり、予期せぬものが見えたりした場合は、ただちにマシンを止め、何が問題なのかを確認してください。マシンは、正しく組み立てられていない場合、それだけでコンポーネントを損傷させるのに十分なパワーを持っています。 
+### プラスチック用 
+シュレッダーの出力は、とりわけプラスチックの形状に左右される。CDケース、シート、ボトルキャップ、押出/射出残渣...は細断しやすい。丸い形や大きな破片は刃がつかみにくい。シュレッダーの生産性を上げるには、シュレッダーがつかめるようにプラスチックを流し込むようにする。例えば、ほとんどのボトルは、ノズルからつかむことができるように、逆さまに注ぐのが良い方法です。 
+2回目の細断は、細断されたプラスチックでホッパーを満たすだけでよい。 
+### 走る 
+モーターのパワーによっては、モーターの負荷（細断中にディスプレイに表示される）をチェックする必要があります。モーター負荷は、細断される断片の材質、形状、厚さによっても異なります。 
+例えば、PSのCDケース（もろいプラスチック）はそれほどパワーを必要としない。HDPE（弾力性のあるプラスチック）の大きなボトルには、もっと大きな力が必要です。 
+モーターによっては、異なる公称出力／アンペアで運転している場合があります。モーターは常に平均して定格アンペア以下で運転するようにしてください。モーターが作業に対して過小であり、シュレッダーのアンペア数が定格電力を超えている場合は、冷却させるために十分な休憩時間を確保してください。 
+細断処理中は、温度計でブレード、ベアリング、ボックス、モーターの温度に注意することをお勧めします。温度はモーターの負荷と運転時間によって異なります。ブレードの温度が90℃を超えたら機械を止めてください。他の部品は、非常に激しい破砕を行うか、かなり暑い天候でない限り、それほど熱くならないはずです。メーカーの推奨温度を確認するが、一般的に他の部品が55℃を超えないようにしてください。 
+### ディープクリーン 
+素材を変更する場合は、以下のクリーニングを行うことをお勧めします。色は変えるが素材の種類は変えない場合は、クリーニングの必要はありません（いつものことですが、これはご希望の出力によります）。 
+1.機械を清掃する前に、非常停止を押し、メインスイッチを切ってください。 
+2.ふるいを取り外します（取り付けられている場合）。 
+3.ホッパーを取り外す。 
+4.箱の天板を外す。 
+5.固定ブレードを取り外す。 
+6.ブレードの間を掃除する。機械の底も掃除する。 
+7.ホッパー、固定ブレード、ふるい、ボックス内を清掃する。 
+8.固定ブレード、トッププレート、ホッパー、ふるい（必要な場合）を取り付ける。 
+### シュレッダーに素材や色を変更する 
+同じ材質、同じ色のプラスチックの破砕をお勧めします。素材や色を変えたい場合は、マシンをクリーニングする必要があります。ディープクリーン」の手順に従ってください。 
+色だけを変えたいが、色の違うフレークがあっても構わないという場合は、シュレッダーをブラシとマイナスドライバーで軽く掃除し、静止ブレードの間のプラスチックを取り除くとよい。 
+# トラブルシューティング 
+Arduinoまたはディスプレイが正しく動作しない 
+1.配線を確認する。 
+2.arduinoボードをコンピューターに接続し、コードをアップロードする。コードを設定します。 
+# ⏳メインテナンス 
+### 開始前 
+モーターギアボックスの油量を確認する。通常、油量はモーターの取り付け位置によって異なります。メーカーの指示を確認してください。 
+ベアリングとギアが適切にグリスアップされていることを確認する。 
+![Shredder](assets/build/shredderpro-maintain.jpg) 
+### 週刊誌 
+- シュレッダーのディープクリーニング 
+- すべての刃を取り外したら、固定刃と可動刃の両方を点検する：傷があってはならない。傷がある場合は、シュレッダーを分解し、傷んだ刃を研磨してください。 
+- ブレードの間にプラスチックが詰まっていないか確認する。このような場合は、軸を分解し、ブレードを清掃して再度組み立てます。 
+### 毎月 
+- ギアを分解して清掃し、新しいグリスで組み立てる。 
+- ベアリングに亀裂がないか点検し、必要であればグリースを追加する。 
+- ボックスを分解し、傷んだ部分をやすりで削り、すべてのプレートに注油する。歯が傷んでいる場合は交換する。このメンテナンスが簡単にできるように、予備のブレードを注文することをお勧めします。 
+- マシンが使用しているカップリングによっては、ゴムの部品を交換する必要があるかもしれません。メーカーの指示を確認してください。 
+- 塗装をチェックし、長期的な腐食の問題を防ぐために損傷を再塗装する。 
+  
+**助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。ここでは機械についてオタクな話をします。 

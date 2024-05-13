@@ -1,193 +1,119 @@
 ---
-id: sheetpressbuild
-title: Build a Sheetpress
-sidebar_label: - Build it
+id: sheetpressbuild 
+title: Build a Sheetpress 
+sidebar_label: - Build it 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/j3OctDe3xVk " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
-</style>
-
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/j3OctDe3xVk " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
+</style> 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-# Build a Sheetpress
-
-Hi! It looks like you might want to build a Sheetpress? That is great! It's a very exciting machine that can recycle big amounts of plastic on a daily basis. And everytime you open up the machine it's a little suprise how the sheet comes out. But ok. Focus. We need to build it first. Watch this video to see how to make the machine in 20 minutes, or have a scroll down below to find out more about specific parts and machines you need to build it.
-
-> Pro tip: Before you build, make sure you to read all documentation. Its a big project so make sure you know where you're getting into.
-
-
-</div>
+# シートプレスを作る 
+こんにちは！シートプレスを作りたいようですね？それは素晴らしい！毎日大量のプラスチックをリサイクルできる、とてもエキサイティングな機械だよ。そして、機械を開けるたびに、シートが出てくる様子にちょっと驚かされるよ。でも大丈夫。集中するんだ。まずは作る必要がある。このビデオでは、20分でマシンを作る方法を見ることができます。また、下の方にスクロールすると、マシンを作るために必要な部品や機械について詳しく知ることができます。 
+> プロからのアドバイス：ビルドする前に、必ずすべてのドキュメントを読んでください。大きなプロジェクトなので、自分がどこに入り込んでいるのかをよく理解しておくこと。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
-
-- 00:06 Introduction
-- 01:07 Pressing Plates
-- 02:46 Frame
-- 04:43 Heating Elements
-- 09:32 Pressing Mechanism
-- 12:46 Extraction Hood
-- 13:54 Electronics
-- 15:35 Assembly
-- 16:08 How to Use
-
-</div>
-</div>
-
-
-# 🛠 Required machinery & skills
-Build Sheetpress  | Machines needed | Skills needed
---- | ---| ---
-<img style="margin-left: 0;" src="../assets/build/thumb-sheetpress.jpg" width="100"/>  | - Drill press <br> - Welding machine (not specific) <br>  - Lifting system (or some strong friends) | - Welding (expert) <br> - Machining (intermediate) <br> - Assembling (intermediate)<br> - Electronics (expert)
-
-
-
-# 🔩 Materials and parts
-
-You need to make and buy parts. In the download-kit you can find the complete Bill of Materials. It's a list for the entire Sheetpress system. So it includes the Sheetpress, Cooling press and preparation table. Below you can find the commercial parts you need to buy and we go more in depth on where to look out for.
-
-### Jacks option & explanation
-
-The type of jack used for both presses is a long-ram hydraulic bottle jack with an eye connection (round, not plate) at the bottom that allows it to be mounted with a bolt. For the Sheetpress we recommend using a minimum 8 tons of pressure and for the cooling press we recommend using a minimum of 3 tons of pressure. Our CAD models and technical drawings are designed to fit a jack with a 28mm diameter ram which we found to be the most common. Note the tip of the ram is smaller than the rest, it is typical to list the diameter of the tip.
-
-### Slider and Spring Mechanism tube diameter
-
-The diameters of the tube for the slider and the spring mechanism are dependent on the diameter of the ram of the jack.  The inner section of the spring mechanism and hence the rail for the pressing plates should be the same diameter as the ram. As the outer section of the spring mechanism and the rail need to run smoothly their inner dimension is also dependant on the dimension of the ram on the jack. Ideally the outer dimension should be as thick as possible for strength, as long as your spring fits accordingly. These dimensions are very similar to the Injection barrel and plunger. If you have them left over from building the injection, see if they fit your jack, or try and find a jack that fits them. Alternatively you can modify them on a lathe to fit the jack.
-
-### Spring choice
-
-We used a die spring but you could also use a racing motorbike spring or any other that has close dimensions to the one we used which can be found in the engineering drawings. We chose the firmest spring we could, the firmer the better, as long as it is possible to compress it with the jack you use.
-
-### Heating element option & explanation
-
-We chose 300W cartridge heaters as our heat source. Cartridge heaters allow the heat to be transferred through conduction, as opposed to radiation, which is much more energy efficient than the alternative. Using many small heat sources spread across the heating plates as opposed to a few large heat sources allows the heat to be distributed evenly. Despite being small, 300w in the quantity that we used is more than a sufficient amount of heat to efficiently melt the common types of plastic we are processing.
-
-If you are going to modify the size of the Sheetpress, we found that one 300W element can sufficiently heat a 240x240mm 10mm thick plate of aluminium. Just adjust the number of these heating elements accordingly. Also note, that we offset the heating elements on the upper and lower heating plates to achieve more even heating.
-
-### Aluminium sheet option & explanation
-
-Precision milled aluminium as opposed to rolled aluminium was used as it has several advantages over rolled aluminium. It is less prone to warping with heat, stronger, so less prone to bending from pressure and the surface has a smaller tolerance so it is flatter.  
-
-### Mould Steel choice
-
-We recommend using either 2mm stainless steel sheet or 2mm galvanised steel sheet for the moulds. Any thinner is too prone to damage from pressing. These sheets are also resistant to corrosion and often come with a polished surface finish which is very favourable for this application. Mild steel sheets also work but have a shorter lifespan due to corrosion and increased tendency for plastic to stick to an unpolished surface. To ensure maximum lifespan of your moulds, keep the following points in mind;
-
-- Do not overload the jack while pressing (only press until the spring is fully compressed)
-- Ensure you are using appropriate mould material
-- Ensure the initial distribution of shredded plastic is even (not piled up in the centre)
-
-### Laser cut or not?
-
-If possible we recommend you laser cut all the sheet steel components, especially the support structure for the pressing plates. The advantages of laser cutting are both level of precision and dramatically reduced build time. If you are unable to get your parts laser cut you can cut the majority of them by hand from 100x6mm steel strip although some require a larger sheet such as the electronics box and the parts of the bottom support structure.
-
-### Laser Cut Steel Choice
-
-For the 6mm laser cut components we chose to use hot rolled (HRS 75F70) structural steel for its high tensile strength. This type of steel is hot rolled which also makes it less prone to warping when welding during construction and heating plastic during usage.
-
-For the 2mm laser cut components we used 2mm Cold Rolled steel (CRS CR4) as high strength is not required.
-
-### Mould release
-
-We found silicone oil to be the best performing mould release. There are many alternatives, if you find a more available or better performing solution please share it in our online community!  
-
-### Cooling insulation interest and choice
-
-For the insulation material we chose mineral wool. Mineral wool is widely available, soft so it can be cut easily and packed into irregular shaped cavities. It could be substituted for similar types of soft insulation as long as the temperature resistance is enough to. Glass wool is the next closest substitute, it is commonly made from partly recycled material but it is more expensive, less widely available and more  susceptible to damp and hence its life expectancy is shorter.
-
-# ⚡ Electronic box
-
-![Sheetpress electronics](assets/build/sheetpress-electronics.jpg)
-
-### Explanation of electric component roles
-
-The core of the system runs on the typical PID-SSR-Thermocouple-Heatsync combination which features in all of our machines.
-
-The main difference is the addition of a mechanical relay, between the main power line in and the heating elements, triggered by the SSRs. This was added so that the current required to power the heating elements does not pass through the SSRs as during prototyping we have experienced them burning out despite being below the rated current.
-
-This is expected to be from the combination of current and heat conducting back down the cables. The mechanical relay provides a physical break and is larger preventing heat from building up inside the relays.
-
-There are two PID controllers, one for the top plate and one for the bottom plate.
-The k-type thermocouples we used are 3M in length in order to reach the right position on the heating plates.
-
-Between the main power line and the PIDs there is a rotary switch to turn them on and off and an emergency stop.
-
-The heating elements are distributed evenly between each of the three phases. Each plates has one entire phase plus half of another which is shared by the two plates. E.g On the bottom plate ⅔ of the elements are on phase ⅓ of the elements are on phase two and on the top plate ⅓ of the elements are on phase 2 and ⅔ of the elements are on phase 3. The power supply from the control box enters the pressing plates and reaches a ceramic terminal, the ceramic terminal is used as it is capable of withstanding high temperatures.
-
-The heating elements are arranged in a 45° support structure array which is offset on the top and the bottom so that each the heating elements on one plate sit in the centre of the other plate.
-
-They are mounted inside an aluminium block which is mounted to the bottom of the aluminum plate to allow the heat to conduct easily.
-
-For the wiring inside the pressing plates we used ceramic insulated cable. Both when joining cables and attaching them to the terminals we used PTFE base heat shrink as it is capable of withstanding high temperatures.
-
-For any soldering we recommend using high temperature solder with a melting temperature >300°C.   
-
-It is mandatory to ground every individual metal component, both pressing plates, both heating plates, the electronics control box and the front panel of the electronics control box.  
-
-Cable glands are used whenever a cable passes between the inside and the outside of the body to prevent moisture entering the system and to protect the cable from physical damage. They should be face down on the enclosure to prevent liquid pooling inside the glands.
-
-When wiring the control box, when each wire is screwed to a terminal a crimp is used to secure the wires properly in place.
-
-
-# 👌 Tips & tricks while making
-
-### Parallel build
-
-If you are building the Sheetpress and the Cooling Press the process is almost identical so you can build them in parallel to simplify the process.
-
-### Drilling jigs
-
-The purpose of the drilling Jigs is to both ensure that the two holes used to mount the aluminium blocks to the aluminium plate are spaced evenly so that they align properly and to ensure that the drill remains straight when drilling.
-
-### Welding Frame Sequence
-
-1. First weld the outside frames, then the bottom frame. (When mounting the jack mount plates to the bottom frame, weld the middle plate first as it is not possible to reach it once the outside plates are in place. Use the bolt to align all three plates.)
-
-2. Bolt the outside frames to the top pressing plate with the entire structure upside down. (Once welded turn over the structure)
-
-3. Take some offcuts from the beams to to position the bottom frame between the side frames. It should be 100mm from the ground to allow a pallet/pump truck to fit underneath when weld the bottom frame in place.
-
-### Welding Pressing Plate Sequence
-
-1. Tack weld the square frame that surrounds the support structure, It’s important these are the correct dimension and that holes are drilled and cable glands are attached before welding.
-
-2. Separate the parts for the top support structure and the bottom support structure. The pieces for the top support structure have a small notch in the laser cutting files.
-
-3. For each part:
-   * Slot the pieces together.
-   * Raise them on blocks so they can be clamped from underneath.
-   * Clamp each intersection as you tack weld it to ensure a flat surface. It is best to weld opposite points of the support structure to avoid warping from uneven tension.  Tack all the intersections before fully welding them.
-
-4. For the bottom part weld the jack mount tabs in place.
-
-5. Position the support structures inside the square frames, make sure that the aluminium plate sits 3mm above the surface of the square frame.  
-
-6. Tack weld several points where the support structure joins with the frame then fully weld them and finally the corners of the frame.
-
->Tip: The most important part of the steel structure is that both sets of laser cut support structures are perfectly flat. Fortunately they’re slotted precisely to depth, so this can be done by clamping the two sections together.
-
-If you are building both the Sheetpress and Cooling Press make sure to weld the support structure for the Cooling Press before you install the aluminium plate in the Sheetpress pressing plates.
-
-# Additional Options
-
-### Integrated ventilation
-
-It is possible to run the system without the ventilation but for the safety of you and the people around you we recommend to only turn the machine on when the extraction hood is attached and the ventilation system is turned on. As well as using the ventilation hood we also recommend ventilating the ambient space around the press. The ideal environment to operate the press would be an industrial spray painting room.
-
-### Only Sheetpress or complete system
-
-You can make sheets with the Sheetpress alone but the process is slow. You have to wait for the Sheetpress to heat up and cool down for each sheet you make which means you can produce one or two sheets per day. For some people (e.g. craftsmen and artisans) this is acceptable but for many others a faster rate of production is desirable.
-
-To improve ease of use and efficiency we designed three tools to turn the Sheetpress in to a full-on production system. Adding a cooling press, prep table and sliding tool allows you to prepare, heat and cool sheets simultaneously. You are also able to transport them easily and safely between each three of these stages. This dramatically increases the rate of production. So if you are looking to setup an efficient production, build the whole system. If you don't have a lot of space or just want to make a few sheets, make the Sheetpress.
-
-![Sheetpress run](assets/build/sheetpress-system.jpg)
-
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+### ビデオ・チャプター 
+- 00:06 はじめに 
+- 01:07 プレス・プレート 
+- 02:46 フレーム 
+- 04:43 ヒーティング・エレメント 
+- 09:32 プレス・メカニズム 
+- 12:46 抽出フード 
+- 13:54 エレクトロニクス 
+- 15:35 集合 
+- 16:08 使い方 
+</div> 
+</div> 
+
+# 必要な機械と技術 
+Build Sheetpress  | Machines needed | Skills needed 
+--- | ---| --- 
+<img style="margin-left: 0;" src="../assets/build/thumb-sheetpress.jpg" width="100"/>  | - Drill press <br> - Welding machine (not specific) <br>  - Lifting system (or some strong friends) | - Welding (expert) <br> - Machining (intermediate) <br> - Assembling (intermediate)<br> - Electronics (expert) 
+
+# 材料と部品 
+パーツを作ったり買ったりする必要があります。ダウンロードキットの中に部品表があります。これは、シートプレス・システム全体のリストです。枚葉印刷機、クーリングプレス、準備台が含まれます。以下では、購入が必要な市販のパーツを見つけることができます。 
+### ジャックスのオプションと説明 
+どちらのプレスにも使用されるジャッキのタイプは、ボルトで取り付けられるように底部にアイ接続部（プレートではなく丸型）が付いたロングラム油圧ボトルジャッキです。シートプレスには最低8トンの圧力を、クーリングプレスには最低3トンの圧力を使用することをお勧めします。当社のCADモデルと技術図面は、最も一般的と思われるラム径28mmのジャッキに適合するように設計されています。ラムの先端は他の部分より小さいので、先端の直径を記載するのが一般的です。 
+### スライダーとスプリング機構のチューブ径 
+スライダーとスプリング機構のチューブの直径は、ジャッキのラムの直径に依存します。  スプリング機構の内側部分、つまり押え板用のレールは、ラムの直径と同じでなければなりません。スプリング機構の外側の部分とレールは滑らかに動く必要があるため、その内側の寸法もジャッキのラムの寸法に依存します。理想的には、外側の寸法は、スプリングがそれに合う限り、強度のためにできるだけ厚くすべきです。これらの寸法は、インジェクションのバレルとプランジャーとよく似ています。もしインジェクションを作ったときに余ったものがあれば、それがあなたのジャッキに合うかどうか、あるいは合うジャッキを探してみてください。あるいは、旋盤でジャッキに合うように改造することもできます。 
+### 春の選択 
+私たちはダイススプリングを使いましたが、レーシングバイク用のスプリングや、設計図にある私たちが使ったものと寸法が近いものなら何でも使えます。使用するジャッキで圧縮することが可能であれば、硬ければ硬いほど良い。 
+### ヒーター・エレメントのオプションと説明 
+私たちは熱源として300Wのカートリッジヒーターを選びました。カートリッジ・ヒーターは、輻射ではなく伝導で熱を伝えるので、他の方法よりもはるかにエネルギー効率が良いのです。大きな熱源を数個使用するのではなく、小さな熱源を多数使用することで、熱を均一に分散させることができます。小さいとはいえ、私たちが使用した300Wの熱量は、私たちが加工する一般的な種類のプラスチックを効率よく溶かすには十分すぎる熱量です。 
+Sheetpressのサイズを変更する場合、300Wのエレメント1つで240x240mmの10mm厚のアルミ板を十分に加熱できることがわかりました。この発熱体の数を適宜調整してください。また、より均一な加熱を実現するため、上下のヒータープレートでヒーターエレメントをオフセットしていることにも注意してください。 
+### アルミニウム・シートのオプションと説明 
+圧延アルミに比べ、精密切削アルミにはいくつかの利点があるため、圧延アルミとは対照的に精密切削アルミが使用された。熱による反りが少なく、強度が高いので圧力による曲がりが少なく、表面の公差が小さいので平坦になります。   
+### 金型鋼の選択 
+金型には、2mmのステンレス鋼板か2mmの亜鉛メッキ鋼板を使うことをお勧めします。これ以上薄いと、プレスによるダメージを受けやすい。また、これらの鋼板は腐食に強く、この用途に非常に有利な研磨表面仕上げが施されていることが多い。軟鋼板も使えますが、腐食のため寿命が短くなり、研磨されていない表面にプラスチックが付着しやすくなります。金型の寿命を最大限に延ばすには、以下の点に留意してください； 
+- ジャッキを押している間、負荷をかけすぎないこと（スプリングが完全に圧縮されるまで押すこと） 
+- 適切な金型材料を使用していることを確認する 
+- 細断されたプラスチックの最初の分布が均等であることを確認する（中央に積み重ならないようにする）。 
+### レーザーカットかどうか？ 
+可能であれば、すべての鋼板部品、特にプレスプレートの支持構造をレーザー切断することをお勧めします。レーザー切断の利点は、精度の高さと製作時間の大幅な短縮です。もしレーザーカットができない場合は、100x6mmの鋼板から手作業でパーツの大部分をカットすることができますが、電子機器ボックスや底部支持構造のパーツなど、より大きな鋼板が必要なものもあります。 
+### レーザーカット・スチール・チョイス 
+6mmのレーザーカット部品には、高い引張強度を持つ熱間圧延（HRS 75F70）構造用鋼を選びました。このタイプの鋼材は熱間圧延されているため、建設中の溶接や使用中のプラスチック加熱時に反りが発生しにくくなっています。 
+2mmのレーザーカット部品には、高強度を必要としないため、2mmの冷間圧延鋼板（CRS CR4）を使用した。 
+### 金型リリース 
+私たちは、シリコーンオイルが最も優れた離型剤であることを発見しました。もっと入手しやすい、あるいはもっと性能の良い解決策を見つけたら、私たちのオンライン・コミュニティで共有してください！   
+### 冷却断熱への関心と選択 
+断熱材にはミネラルウールを選んだ。ミネラルウールは広く入手でき、柔らかいので簡単に切断でき、不規則な形の空洞に詰めることができる。耐熱温度さえ十分であれば、同じような種類の柔らかい断熱材で代用できる。グラスウールは次に近い代用品で、部分的にリサイクルされた材料から作られるのが一般的ですが、より高価で、あまり広く出回っておらず、湿気の影響を受けやすいため寿命が短くなります。 
+# 電子ボックス 
+![Sheetpress electronics](assets/build/sheetpress-electronics.jpg) 
+### 電気部品の役割の説明 
+システムの中核は、当社の全マシンに搭載されている典型的なPID-SSR-熱電対-ヒートシンクの組み合わせで作動する。 
+主な違いは、主電源ラインと発熱体の間に、SSRによって作動する機械式リレーを追加したことです。これは、発熱体に電力を供給するために必要な電流がSSRを通らないようにするために追加されたもので、試作中に定格電流以下にもかかわらず、SSRが焼き切れるという経験をした。 
+これは、電流と熱の組み合わせがケーブルを伝導するためと予想される。メカニカル・リレーは物理的な断絶を提供し、リレー内部に熱が蓄積するのを防ぐ。 
+PIDコントローラーは2つあり、1つはトッププレート用、もう1つはボトムプレート用である。 
+私たちが使用したk型熱電対は、加熱プレートの適切な位置に届くように長さが3Mある。 
+主電源ラインとPIDの間には、それらをオン／オフするためのロータリースイッチと緊急停止スイッチがある。 
+発熱体は、3つの相のそれぞれに均等に分配されている。各プレートは、1つのフェーズ全体と、2つのプレートで共有される別のフェーズの半分を持ちます。例：ボトムプレートでは⅔エレメントがフェーズ2に、トッププレートでは⅔エレメントがフェーズ2に、⅔エレメントがフェーズ3に配置されています。コントロールボックスからの電源はプレスプレートに入ってセラミック端子に達する。 
+発熱体は、上下にオフセットされた45°の支持構造アレイに配置され、一方のプレートの発熱体が他方のプレートの中央に位置するようになっている。 
+熱伝導を容易にするため、アルミプレートの底に取り付けられたアルミブロックの中に取り付けられている。 
+プレスプレート内の配線にはセラミック絶縁ケーブルを使用した。ケーブルの接続と端子への取り付けには、高温に耐えられるPTFEベースの熱収縮材を使用した。 
+はんだ付けには、溶融温度が300℃を超える高温はんだを使用することを推奨します。    
+個々の金属部品、両押さえ板、両加熱板、電子制御ボックス、電子制御ボックスの前面パネルを接地することが必須である。   
+ケーブルグランドは、ケーブルがボディの内側と外側の間を通るときに必ず使用され、システムへの湿気の侵入を防ぎ、物理的な損傷からケーブルを保護する。グランド内に液体が溜まるのを防ぐため、エンクロージャーに下向きに設置する。 
+コントロールボックスを配線する際、各ワイヤーをターミナルにねじ込む際、ワイヤーを適切に固定するためにクリンプを使用する。 
+
+# 👌 作るときのコツ 
+
+### パラレルビルド 
+シートプレスとクーリングプレスを作る場合、工程はほとんど同じなので、工程を簡略化するために並行して作ることができる。 
+### 穴あけ治具 
+穴あけ治具の目的は、アルミニウム・ブロックをアルミニウム・プレートに取り付けるための2つの穴の間隔が均等であることを確認することと、穴あけ時にドリルがまっすぐであることを確認することです。 
+### 溶接フレームシーケンス 
+1.まず外側フレームを溶接し、次にボトムフレームを溶接する。(ジャッキ・マウント・プレートをボトム・フレームに取り付ける場合、外側のプレートを取り付けると手が届かないので、真ん中のプレートを先に溶接します。ボルトで3枚のプレートの位置を合わせます)。 
+2.構造体全体を逆さまにして、外側のフレームを上部のプレスプレートにボルトで固定する。(溶接したら裏返す） 
+3.サイドフレームとサイドフレームの間にボトムフレームを配置するため、梁の一部を切り取る。底フレームを溶接する際、パレットやポンプ車が下に収まるよう、地面から100mmの高さにする。 
+### 溶接プレス板シーケンス 
+1.支持構造を囲む四角いフレームを鋲で溶接する。これらは正しい寸法で、溶接前に穴を開け、ケーブルグランドを取り付けることが重要である。 
+2.上部サポート構造と下部サポート構造のパーツを分ける。上部支持構造用の部品には、レーザー切断用ファイルに小さな切り欠きがあります。 
+3.各パートについて： 
+   * ピースをはめ込む。 
+   * 下からクランプできるように、ブロックの上に上げる。 
+   * 平らな面を確保するため、タック溶接する際に各交差部をクランプする。不均等な張力による反りを避けるため、支持構造の反対側を溶接するのが最善です。  完全に溶接する前に、すべての交差部をタック溶接する。 
+4.下部はジャッキマウントのタブを溶接する。 
+5.アルミプレートが正方形フレームの表面から3mm上にあることを確認してください。   
+6.支柱とフレームが接合する数カ所を鋲で溶接し、それらを完全に溶接し、最後にフレームの角を溶接する。 
+>ヒント：スチール構造で最も重要なのは、レーザーカットされた2組のサポート構造が完璧に平らであること。幸いなことに、深さに合わせて正確にスロットが入っているので、これは2つのセクションをクランプで固定することでできる。 
+シートプレスとクーリングプレスの両方を製作する場合は、シートプレスのプレスプレートにアルミプレートを取り付ける前に、クーリングプレスのサポート構造を溶接してください。 
+# 追加オプション 
+### 統合換気 
+換気フードを使用せずにシステムを稼動させることも可能ですが、お客様や周囲の方々の安全のため、換気フードを取り付け、換気システムを稼動させているときのみ、機械の電源を入れることをお勧めします。換気フードを使用するだけでなく、プレス機周囲の空間も換気することをお勧めします。プレス機を運転する理想的な環境は、工業用スプレー塗装室です。 
+### 枚葉印刷機のみ、またはシステム一式 
+
+Sheetpressだけでもシートは作れるが、工程が遅い。一枚作るごとに、シートプレスが温まり、冷めるのを待たなければなりません。人によっては（例えば職人や職人）、これは許容範囲ですが、他の多くの人々にとっては、より速い生産速度が望まれます。 
+使いやすさと効率を向上させるため、私たちはSheetpressを完全な生産システムに変える3つのツールを設計しました。クーリングプレス、プレパレーションテーブル、スライドツールを追加することで、シートの準備、加熱、冷却を同時に行うことができます。また、これらの3つのステージ間で、シートを簡単かつ安全に搬送することができます。これにより、生産速度が劇的に向上します。ですから、効率的な生産をセットアップしたいのであれば、システム全体を構築してください。スペースがあまりない場合や、数枚のシートを作りたい場合は、シートプレスを作ってください。 
+
+![Sheetpress run](assets/build/sheetpress-system.jpg) 
+
+** 助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。ここでは機械についてオタクな話をします。 

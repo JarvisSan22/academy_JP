@@ -1,107 +1,72 @@
 ---
-id: create
-title: Create
-sidebar_label: Intro
+id: create 
+title: Create 
+sidebar_label: Intro 
 ---
-
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/VdUkOjIP0Ok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/VdUkOjIP0Ok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #ffe084; 
+  --links: #29bbe3; 
+  --hover: rgb(131, 206, 235); 
+} 
 
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: #29bbe3;
-  --hover: rgb(131, 206, 235);
-}
-</style>
+</style> 
 
-# Create
-
+# 作成 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-### Start creating things from plastic!
-
-So we’ve learnt about plastic, how to collect it and how to build the machines. Now let’s dive into creating valuable products from waste! Like with any other material, working with plastic takes time and dedication to master the craft. Don't be hasty. First experiments will fail, it's ok! Keep on trying. You'll get there!
-
-> Pro-tip: the more accurate you make your mould, the more accurate the output. Spend time thinking about how you’ll make the best mould available to your budget and tools available
-
-
-</div>
+### プラスチックからモノを作り始める！ 
+プラスチックについて学び、それを集める方法と機械を作る方法を学んだ。では、廃棄物から価値ある製品を生み出すことに飛び込んでみよう！他の素材と同じように、プラスチックの加工にも、技術を習得するための時間と献身が必要だ。焦ってはいけない。最初の実験は失敗するでしょう！続けてみてください。きっとうまくいく！ 
+> ヒント：金型を正確に作れば作るほど、出力も正確になります。予算と道具の範囲内で最高の金型を作るにはどうしたらいいか、時間をかけて考えましょう。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:00 はじめに 
+- 00:29 融解温度 
+- 01:33 型を作る 
+- 03:00 インジェクションで作る 
+- 04:13 押し出しで作る 
+- 06:02 圧縮して作成する 
+</div> 
+</div> 
+プラスチックの世界に足を踏み入れたばかりのころは、プラスチックがどのように溶け、どのように冷え、どのようなときに燃え、なぜ燃えるのか、あるいはどのように磨いて仕上げれば素晴らしい製品ができるのか、といった感覚をつかむ必要がある。プラスチックの経験を積むだけでなく、さまざまな素材とプラスチックとの相性について、ある程度の専門知識を身につけることも重要だ。これは、自分で新しい金型を作ろうとする場合に特に重要です。どの素材が最も効率よく熱を伝導するか、どの素材がプラスチックを容易に放出するか、その他の重要な素材に関する見識を知ることは、あなたの成功にとって極めて重要です。 
+以下の情報は、新しい価値ある製品を使い始める前に必要なことすべてです！ 
+<br> 
+<br> 
+![Precious Plastic products](assets/create/pp_products.jpg) 
 
-- 00:00 Introduction
-- 00:29 Melting Temps
-- 01:33 Make Moulds
-- 03:00 Create with Injection
-- 04:13 Create with Extrusion
-- 06:02 Create with Compression
+# ♪ 💩を覚えよう 
+プラスチックの種類とその特性、溶融温度、機械とその挙動、壊さない方法についての知識を持つ。準備すればするほど、ミスを減らすことができます（私たちを信じてください、ミスはたくさんあります！）。 
+> プロからのアドバイス：1つのマシンやテクニックをマスターすることから始めましょう。興奮し、何にでも手を出したくなるのは簡単だが、それで大成するのは難しい-1つに集中し、それをマスターして次に進む。これはプラスチックでも同じで、1種類を選び、それに集中する。最初のうちは変数を減らし、後で自分に感謝することになる！ 
+# ❗️ 安全性 
+安全。安全。安全。プラスチックで作業する際には、適切な予防策を講じることで、安全を確保することができます。換気をよくし、常にマスクを着用すること。 
+# ᘎプラスチックを選んで簡単に始めよう 
+多くの中から選ぶことができ、それぞれに特性がある。作業しやすいもの、溶融域が長いもの、地元で入手しやすいものなどさまざまです。可能であれば、PP、HDPE、PSから始めることをお勧めします。 
+# 🌡️ 温度 
+プラスチックをリサイクルする場合、溶かして燃やさないために必要な溶融温度を知っておくことが不可欠です。溶融温度は、プラスチックの種類と、作業スペースの室温（例えば、風が強いと熱の拡散が速くなる）の2つによって決まります。私たちは[この図](assets/plastic/melting-temperatures.jpg)を作りましたので、各プラスチックのさまざまな溶融状態を参照する資料としてお使いください。しかし、ひとつ注意していただきたいのは、プラスチックはしばしば添加物、顔料、充填剤と混合され、最終的な溶融温度に影響を与える化学的・物理的組成を変化させるということです。推奨される溶融温度では望ましい溶融状態にならないことがあっても驚かないで、望ましい溶融状態になるまで徐々に温度を上下させてみてください。 
+# 🥵燃やすな。燃やす。プラスチック。 
+当たり前のことだと思う人もいるかもしれないが、繰り返す価値がある。家庭で、あるいはプレシャス・プラスチックを使って仕事をしているときに、プラスチックは決して燃やしてはいけません。プラスチックを溶かすのと燃やすのとでは大きな違いがあります。プラスチックを燃やすと発生する煙は非常に有毒で、人体に深刻な健康被害をもたらす可能性があります。プラスチックを燃やすと、出来上がった製品が破損したり、品質が低下したりするので、リサイクルの過程においても、プラスチックを燃やすことは非常に悪い行為です。すべてのプラスチックにはメルティングゾーン（☝️）があります。メルティングゾーンとは、プラスチックが溶ける温度帯のことです（例：130～171℃）。この温度を超えるとプラスチックは燃え始めます。そのようなことは常に避けるようにしてください。 
+# 💅金型 
+金型はプレシャス・プラスチックの生態系に欠かせないものであり、それ自体が一つの世界といっても過言ではありません。私たちの身の回りにあるほとんどのもの（携帯電話ケース、アウトドアチェア、植木鉢など）を作るために、世界中のデザイナーやエンジニアのチーム全体が金型開発に人生を捧げています。金型は私たちの現代社会を形成しており、あなたが作る素晴らしい製品も金型が形成しているのです！金型はさまざまな材料で作ることができますが、私たちは一般的に、耐久性と熱伝導性の高い金属を使うことをお勧めしています。金属はさまざまな方法で成形することができますが、どの方法を使うかは、作ろうとするものの種類や利用できる技術によって異なります。 
+> ヒント：利用可能なさまざまな金型技術について学ぶことで、それぞれの方法の長所を生かした最適な設計ができるようになります。もっと実践的なアプローチで、溶接機（これはもう少し荒っぽい）やフライス盤、旋盤を使って新しい金型を作ることもできます。あるいは、CADファイルを作成し、非常に精密なCNCフライス盤のような、より高度な（そして高価な）技術を使うこともできます。 
+![Socket Mould](assets/create/sockets.jpg) 
+木型、プラスチック型、3Dプリント型、アルミ鋳造型など、金型を探求する方法や新しい方法はたくさんあります。  より良い製品を作るために、考え、デザインし、正確な型を作ることに時間をかけることをお勧めします。長い目で見れば、きっと報われるはずです！ 
+<b>コミュニティから最高の金型を見たいですか</b>？ 
 
-
-
-</div>
-</div>
-
-In the early days of your journey into plastic you should get a feeling of how it melts, how it cools, when it burns and why or how to polish and finish it to make great products. Besides getting experience with plastic it is also important to develop some degree of expertise on different materials and how they work with plastic. This is particularly important when you will try to make new moulds on your own. Knowing what material conducts heat most efficiently, which one releases plastic easily and other key material insights will be crucial to your success.
-
-The following information is everything you need to do before getting started with your new valuable products!
-<br>
-<br>
-
-![Precious Plastic products](assets/create/pp_products.jpg)
-
-# Learn your 💩
-
-Go through the previous modules - having the knowledge about plastic types and their properties, melting temperatures, the machines and how they behave, and how to not break them. The more prepared you are the less mistakes you’ll make (trust us, there’ll be plenty of those!)
-
-> Pro-tip: start by mastering one machine and/or technique. It's easy to get excited and want to start with everything, but it's hard to get great at it - focus on one, master it and move on to the next. This is the same for plastic, choose one type and focus on it. Reduce the amount of variables in the beginning and you will thank yourself later!
-
-# ❗️ Safety
-
-Safety. Safety. Safety. Taking the proper precautions when working with plastic will ensure your safety when doing so. Ventilate the area well and always wear a mask.
-
-# 😎 Choose your plastic and start easy
-
-There are many to choose from and each have their own properties. Some are easier to work with, amongst other things, they have a longer melting zone, and some might just be more available in your local area more than others. If possible, we suggest you start with PP, HDPE, PS since they are much easier to work with and will make your life a lot easier.
-
-# 🌡️ Temperature 
-
-When recycling plastic, it’s imperative to know the melting temperature that’s needed to melt and not burn. It will mostly depend on two different things: the plastic type, and the room temperature of your workspace (eg. if it is windy the heat will disperse faster). We’ve made [this diagram](assets/plastic/melting-temperatures.jpg) that you can use as a resource to reference the different melting states of each plastic, but one thing to note is that plastic is often mixed with additives, pigments and fillers that transform its chemical and physical composition affecting the final melting temperature. Don’t be surprised if sometimes the recommended melting temperature does not achieve the desired molten state, try to gradually adjust your temperature up or down until you achieve the desired melt.
-
-# 🥵 Don’t. Burn. Plastic. 
-
-This might seem obvious for some but worth repeating. Plastic should never be burned, at home or while working with Precious Plastic. There is a huge difference in melting plastic, and burning it - fumes from burning plastic are highly toxic and can cause serious health issues to humans. For the recycling process it is also extremely bad practice to burn plastic as the resulting products will be damaged or lower quality. All plastics have a melting zone ☝️, which is a temperature window between which they melt (eg. 130 to 171 °C), beyond those temperatures plastic will begin to burn. Try to avoid that at all times.
-
-# 💅 Moulds 
-
-Moulds are an integral part of the Precious Plastic ecosystem and could almost be considered a world on its own, they give shape to the molten plastic and create the final product. Entire teams of designers and engineers all around the world dedicate their lives to mould development to make most of the stuff around us - your phone case, your outdoor chair, your plant pot. Moulds shape our modern society, and they will shape the amazing products that you create! Moulds can be made using different materials but we generally advise you to work with metal for its durability and better capacity to conduct heat - it’s more energy efficient. Metal can be shaped in a number of ways, which one you will use depends on what kind of object you intend to make and what technologies you can access. 
-
-> Pro-tip: learn about the different mould techniques available so you can best design to the strengths of each method. You could use a more hands-on approach and create new moulds using a welding machine (which is a bit more rough), or a milling machine or a lathe. Or you could create a CAD file and use more advanced (and expensive) technologies like CNC milling which is very precise.
-
-![Socket Mould](assets/create/sockets.jpg)
-
-It's worth noting that there are many ways of exploring moulds and new methods, using for example wood, plastic, 3d printed and aluminum casted moulds.  We advise to spend some time thinking, designing and making an accurate mould so you can create better products. It will pay off in the long run!
-
-<b>Want to see some of the best moulds from the community?</b>
-
-- [Make a handplane - simple mould](https://community.preciousplastic.com/how-to/make-a-handplane-simple-mould)<br>
-- [Make a broom hanger](https://community.preciousplastic.com/how-to/make-a-broom-hanger)<br>
-- [Make a carabiner CNC vs laser cut](https://community.preciousplastic.com/how-to/make-a-carabiner-cnc-vs-lasercut)<br>
-- [Make an interlocking brick](https://community.preciousplastic.com/how-to/make-an-interlocking-brick)
-
-# 💰 Make plastic valuable
-
-We believe that plastic should not be seen as disposable or cheap. We strive to make plastic valuable and to create objects that are long-lasting and that people will cherish. We hope that designers, engineers, entrepreneurs and people in the community will see plastic as a valuable material to create and purchase beautiful, useful items. Put effort into your products so people will buy them because they want to, not because it’s cheap, and we’ll all achieve something great: the plastic won’t end up in the environment.
-
-# 🤝 Share back
-
-Made a cool product? Figured out how to streamline your production? Had a great mould made? Our global community (you!) is the backbone of Precious Plastic and together we are finding new solutions every day to tackle the plastic problem. Don’t forget to publish a How-To, or post in the community Discord. Help fuel the project forward!.
-
-# Be open and collaborative
-
-We’ve been busy designing the tools, resources and framework you need to run a Precious Plastic recycling workspace, and now you have all of the knowledge, it’s up to you to make it work in your local community and take it to the next level. Whether you want to create products, make moulds, hack the machines, collaborate with other designers/engineers, experiment, teach others, host collection parties, whichever you choose, make sure to keep the Precious Plastic spirit with you: be open, be collaborative.
-
-<b>Want to share feedback, chat about products/product design or learn more from the community? Head to the [#Create](https://discordapp.com/invite/yhmfzTZ) channel on Discord. Here we talk about product design, mouldmaking, color blends, finishing... everything to create precious objects!</b>
+- [ハンドプレーンを作ろう-簡単な型](https://community.preciousplastic.com/how-to/make-a-handplane-simple-mould)<br> 
+- [ほうきハンガーを作ろう](https://community.preciousplastic.com/how-to/make-a-broom-hanger)<br> 
+- [カラビナを作ろう CNC vs レーザーカット](https://community.preciousplastic.com/how-to/make-a-carabiner-cnc-vs-lasercut)<br> 
+- [インターロッキングブリックを作る](https://community.preciousplastic.com/how-to/make-an-interlocking-brick) 
+- 
+# プラスチックの価値を高める 
+私たちは、プラスチックを使い捨てや安物と見なすべきではないと考えています。私たちは、プラスチックに価値を持たせ、長持ちし、人々に愛されるようなものを作る努力をしています。私たちは、デザイナー、エンジニア、起業家、そして地域の人々が、プラスチックを、美しく便利なものを作り、購入するための貴重な材料として見てくれることを願っています。人々が安いからではなく、買いたいから買うように、あなたの製品に力を注いでください。 
+# 🤝シェアバック 
+クールな製品を作りましたか？生産を効率化する方法を見つけましたか？素晴らしい金型を作りましたか？プレシャス・プラスチックの屋台骨はグローバル・コミュニティ（皆さん！）であり、一緒にプラスチック問題に取り組むために日々新しい解決策を見出しています。ハウツーを公開したり、コミュニティのDiscordに投稿するのをお忘れなく。プロジェクトを前進させるために力を貸してください 
+# オープンで協力的であれ 
+私たちは、プレシャス・プラスチックのリサイクル・ワークスペースを運営するために必要なツールやリソース、フレームワークのデザインに取り組んできました。製品を作りたいのか、金型を作りたいのか、機械をハックしたいのか、他のデザイナーやエンジニアとコラボレートしたいのか、実験したいのか、他の人に教えたいのか、回収パーティーを開きたいのか、どれを選ぶにしても、プレシャス・プラスチックの精神を忘れないようにしてください。 
+<b>フィードバックを共有したり、製品/製品デザインについてチャットしたり、コミュニティからもっと学びたいですか？Discordの[#Create](https://discordapp.com/invite/yhmfzTZ)チャンネルへどうぞ。ここでは、製品デザイン、金型製作、カラーブレンド、仕上げ...貴重なオブジェクトを作成するためのすべてについて話しています！</b>。 

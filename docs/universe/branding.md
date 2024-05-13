@@ -1,62 +1,57 @@
 ---
-id: branding
-title: Branding
-sidebar_label: Style guides
+id: branding 
+title: Branding 
+sidebar_label: Style guides 
 ---
+<style> 
+:root { 
+  --highlight: #f090b3; 
+  --links: #f090b3; 
+  --hover: #f2a5c1; 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #f090b3;
-  --links: #f090b3;
-  --hover: #f2a5c1;
-}
-</style>
+# プレシャス・プラスチックのスタイルとグラフィック 
+プレシャス・プラスティックはグローバルなオープンソースコミュニティです。つまり、人々は好きなものを何でも手に入れ、作ることができるのです。ですから、個人、グループ、そして本部の私たちがポスター、ウェブサイト、ステッカーなどのグラフィック素材を作っています。しかし、私たちは世界規模で協力することを好んでいます。ランダムにたくさんのものを作るのではなく、まとまりのあるものを作りたいんだ。誰かが何かを作れば、地球の裏側にいる誰かがそれを使うことができる。そのために、私たちはいくつかのスタイルガイドを持っています。 
 
-# The style and graphics behind Precious Plastic
-Precious Plastic is a global Open-Source community. This means people can take and make whatever they want. So we have individuals, groups and us in the headquarters making graphic material like posters, website and stickers. But we like to collaborate on a global scale. Instead of making a lot of random things, we like to keep them coherent. So if someone makes something, someone else on the other side of the world can use it as well. And in order to achieve this we have some style-guides.
-<img src="../assets/universe/our-logos.png" />
-# Our different logo's
-There are basically 3 different types of logo's we use. Each of them have their own function.
-1. **Official Logo:** This logo is only used by the headquarters, you can see this on the website and graphic materials we make. We use a different logo because we don't operate as a Precious Plastic Space, we do development and run infrastructure for the community. The logo helps people to see what is official. *Do not use this logo*
-1. **Community Logo:** This is used for things made by the community for the community. For instance posters, stickers, t-shirts a community driven forum. Things that other members around the world as can use as well.
-1. **Custom Logo:** These logo's are used by [Spaces](../spaces) around the world. Community Points, Workspaces, Machine Shops & Collection Points. The logo can be customized to your needs with your own name, more on that in the [next chapter](../universe/yourlogo). These logo's are used to promote your own space, business cards, sign outside your workspace, social media account etc.
+<img src="../assets/universe/our-logos.png" /></img> 
 
-
+# 私たちのさまざまなロゴ 
+私たちが使用するロゴには、基本的に3つの種類があります。それぞれに機能があります。 
+1.**公式ロゴ： **このロゴは本部でのみ使用されています。私たちが別のロゴを使用しているのは、私たちがプレシャス・プラスティック・スペースとして活動しているのではなく、コミュニティのために開発やインフラ運営を行っているからです。このロゴを使うことで、何が公式なものなのかがわかりやすくなります。*このロゴは使用しないでください。 
+2.**コミュニティ・ロゴ： **これはコミュニティがコミュニティのために作ったものに使われます。例えば、ポスター、ステッカー、Tシャツ、コミュニティが運営するフォーラムなどです。世界中の他のメンバーも使えるもの。 
+3.**これらのロゴは世界中の[Spaces](../spaces)で使用されています。コミュニティ・ポイント、ワークスペース、マシンショップ、コレクション・ポイント。このロゴは、あなた自身の名前を入れてカスタマイズすることができます。これらのロゴは、あなた自身のスペース、名刺、ワークスペースの外の看板、ソーシャルメディアのアカウントなどを宣伝するために使用されます。 
 
 <img src="../assets/universe/ourfonts.png" />
-# Using our font
-We mainly use 3 different fonts. For titles, subtitles and written text. For titles we use our own made Precious Plastic font, can be found in the download-kit. It's nice to use big an bulky. We use Varela Round for subtitles, like there in the academy. We prefer to use it a bit more bold and often in uppercase. It's used in posters and actually also in the logo! And finally we have a text for text, most of our text is digital. For this we use System-Fonts.  These fonts are already on your computer installed. This makes it easier to load and saves bandwith. But it does look a bit different on each device.
 
+# フォントを使用する 
+私たちは主に3種類のフォントを使用しています。タイトル用、字幕用、テキスト用です。タイトルには、ダウンロードキットの中にある、私たちが作ったPrecious Plasticフォントを使用しています。大きくてかさばらないのがいいですね。字幕には、アカデミーにあるようなVarela Roundを使っています。私たちはこのフォントをもう少し太く、しばしば大文字で使うことを好みます。ポスターやロゴにも使われています！そして最後に、私たちのテキストはほとんどがデジタルです。これにはシステム・フォントを使います。  これらのフォントはすでにコンピュータにインストールされています。これにより、読み込みが簡単になり、帯域幅も節約できます。しかし、各デバイスでは少し違って見えます。 
+<img src="../assets/universe/title-font.png" />のように。 
 
+# プレシャス・プラスチック・カラー 
 
+色は私たちにとって重要な鍵であり、大好きな色だ。親しみやすく、私たちにとってはシュレッダープラスチックを象徴している。しかし、私たちは整理整頓され、物事を明確にするためにも色を愛用しています。ランダムに使うのではなく、私たちのDNAとUXデザインに組み込まれているのです。私たちは数年前にアカデミーでこの色を使い始め、それを基に発展させてきました。これが私たちのメインカラーです； 
 
-<img src="../assets/universe/title-font.png" />
+## アカデミーカラー 
 
+| Color   |  Location & Hex code         | Color | Location & Hex code                  | 
+|----------|---------------|--|--------| 
+| <img src="../assets/universe/CDCFD5.jpg" width="100%" height="50px" /> | __Intro__ <br> #CDCFD5    | <img src="../assets/universe/F6B67B.jpg" width="100%" height="50px"/> | __Business__ <br> #F6B67B	| 
+| <img src="../assets/universe/95D2EF.jpg" width="100%" height="50px" /> | __Plastic__ <br> #95D2EF |  <img src="../assets/universe/2DAE9E.jpg" width="100%" height="50px"/> | __Spaces__ <br> #2DAE9E |   
+| <img src="../assets/universe/F19093.jpg" width="100%" height="50px" /> | __Build__ <br> #F19093 |    <img src="../assets/universe/798BC5.jpg" width="100%" height="50px"/> | __Research__ <br> #798BC5 | 
+| <img src="../assets/universe/C0ADD4.jpg" width="100%" height="50px" /> | __Collect__ <br> #C0ADD4 |  <img src="../assets/universe/F18DAF.jpg" width="100%" height="50px"/> | __Universe__ <br> #F18DAF | 
+| <img src="../assets/universe/FCDE8A.jpg" width="100%" height="50px" /> | __Create__ <br> #FCDE8A |  <img src="../assets/universe/CDCFD5.jpg" width="100%" height="50px"/> | __Support & Download__ <br> #CDCFD5 | 
 
-# Precious Plastic colors
-Colors are key for us, we love them. They are friendly and represent shredder plastic for us. But we also love them to stay organised and make things clear. We don't use them randomly, they are nested in our DNA and UX Design. We started using them in the Academy a few years ago and kept building upon them. Here are our main colors;
+## スペースカラー 
 
+|  color | Location & Hex code           | color | Location & Hex code                   | 
+|----------|---------------|--|--------| 
+| <img src="../assets/universe/8ec685.jpg" width="100%" height="50px" /> | __Community Points__ <br> #8FC487    | <img src="../assets/universe/95D2EF.jpg" width="100%" height="50px"/> | __Workspaces__ <br> #95D2EF	| 
+| <img src="../assets/universe/C0ADD4.jpg" width="100%" height="50px" /> | __Collection Points__ <br> #C0ADD4    | <img src="../assets/universe/F19093.jpg" width="100%" height="50px"/> | __Machine shop__ <br> #F19093	| 
 
-## Academy colors
-| Color   |  Location & Hex code         | Color | Location & Hex code                  |
-|----------|---------------|--|--------|
-| <img src="../assets/universe/CDCFD5.jpg" width="100%" height="50px" /> | __Intro__ <br> #CDCFD5    | <img src="../assets/universe/F6B67B.jpg" width="100%" height="50px"/> | __Business__ <br> #F6B67B	|
-| <img src="../assets/universe/95D2EF.jpg" width="100%" height="50px" /> | __Plastic__ <br> #95D2EF |  <img src="../assets/universe/2DAE9E.jpg" width="100%" height="50px"/> | __Spaces__ <br> #2DAE9E |  
-| <img src="../assets/universe/F19093.jpg" width="100%" height="50px" /> | __Build__ <br> #F19093 |    <img src="../assets/universe/798BC5.jpg" width="100%" height="50px"/> | __Research__ <br> #798BC5 |
-| <img src="../assets/universe/C0ADD4.jpg" width="100%" height="50px" /> | __Collect__ <br> #C0ADD4 |  <img src="../assets/universe/F18DAF.jpg" width="100%" height="50px"/> | __Universe__ <br> #F18DAF |
-| <img src="../assets/universe/FCDE8A.jpg" width="100%" height="50px" /> | __Create__ <br> #FCDE8A |  <img src="../assets/universe/CDCFD5.jpg" width="100%" height="50px"/> | __Support & Download__ <br> #CDCFD5 |
+# 貴重なプラスチックのグラフィックを作ろう
 
-## Spaces colors
-|  color | Location & Hex code           | color | Location & Hex code                   |
-|----------|---------------|--|--------|
-| <img src="../assets/universe/8ec685.jpg" width="100%" height="50px" /> | __Community Points__ <br> #8FC487    | <img src="../assets/universe/95D2EF.jpg" width="100%" height="50px"/> | __Workspaces__ <br> #95D2EF	|
-| <img src="../assets/universe/C0ADD4.jpg" width="100%" height="50px" /> | __Collection Points__ <br> #C0ADD4    | <img src="../assets/universe/F19093.jpg" width="100%" height="50px"/> | __Machine shop__ <br> #F19093	|
+グラフィックはメッセージを伝える強力なツールです。私たちは、溶融温度やプラスチックの種類など、乾燥した機能的な情報を共有するために使用しています。例えば、回収ポイントのキャンペーン・ポスターのように、私たちはグラフィックを使って人々を惹きつけ、プラスチックに目を向けるきっかけを作ります。また、ソーシャルメディアやウェブサイトなど、デジタルでも活用しています。そして、おそらく様々な目的や作るべきものがあり、私たちはすべての例を持っているわけでも、すべてのガイドラインを深く知っているわけでもありません。一番いいのは、私たちがすでに提供しているグラフィック素材を見て、それを例やテンプレートにして、それをもとに作ることです。そして、もしそれが良いものかどうかわからない場合は、Discordで共有してください。） 
+<img src="../assets/universe/posters.png" />のように。 
 
-
-
-# Make graphics for Precious Plastic
-Graphics are a powerful tool to communicate a message. We use it to share dry functional information like melting temperatures and different types of plastic. We use it to trigger people and look different at plastic, for instance with our campaign posters from the Collection Points. And we use it digitally, on social media and our website. And there are probably many different purposes and things to make, we don't have an example for everything nor have all the guidelines in depth. The best thing to do is have a look at the graphic material we already provide, take them as an example or template an build upon that. And if you are unsure wheter it looks good, just share it in the Discord, many people love to share their opinion on it :)
-
-<img src="../assets/universe/posters.png" />
-
-<b>Have yout got any questions, need help making your poster or want to share what you made? Head to the [#Universe](https://discordapp.com/invite/QUw8A3w) channel on Discord. Here we talk about how you fit in the universe, roles, branding and your own logo.</b>
+<b>質問がある、ポスター作りを手伝ってほしい、作ったものを共有したい？Discordの[#ユニバース](https://discordapp.com/invite/QUw8A3w)チャンネルへどうぞ。ここでは、あなたがユニバースでどのようにフィットするか、役割、ブランディング、あなた自身のロゴについて話します。 

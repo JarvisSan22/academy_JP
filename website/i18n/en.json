@@ -10,8 +10,7 @@
         "sidebar_label": "Intro"
       },
       "build/components": {
-        "title": "Overview of components",
-        "sidebar_label": "components"
+        "title": "build/components"
       },
       "build/compression": {
         "title": "Build an compression Machine",
@@ -82,16 +81,13 @@
         "sidebar_label": "Overview"
       },
       "business/businessplan": {
-        "title": "Business Plan Template",
-        "sidebar_label": "Business Plan Template"
+        "title": "business/businessplan"
       },
       "business/get_featured": {
-        "title": "Get featured",
-        "sidebar_label": "Get featured"
+        "title": "business/get_featured"
       },
       "business/listing_guidelines": {
-        "title": "Listing guidelines",
-        "sidebar_label": "Listing guidelines"
+        "title": "business/listing_guidelines"
       },
       "business/set_up_shipping": {
         "title": "Set up shipping",
@@ -143,6 +139,9 @@
       "guides/guidelines-moulds": {
         "title": "guides/guidelines-moulds"
       },
+      "guides/guidelines-questions": {
+        "title": "guides/guidelines-questions"
+      },
       "guides/machine-inventory": {
         "title": "Machine Inventory",
         "sidebar_label": "Research"
@@ -180,8 +179,7 @@
         "sidebar_label": "Beyond Plastic"
       },
       "research/robotics": {
-        "title": "Robotic sorting",
-        "sidebar_label": "Robotic sorting"
+        "title": "research/robotics"
       },
       "spaces": {
         "title": "Spaces",

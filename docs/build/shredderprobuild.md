@@ -1,236 +1,169 @@
 ---
-id: shredderprobuild
-title: Build a Shredder Pro
-sidebar_label: - Build it
+id: shredderprobuild 
+title: Build a Shredder Pro 
+sidebar_label: - Build it 
 ---
-
 <div class="videocontainer">
   <iframe width="800" height="400" src="https://www.youtube.com/embed/4GWYJhAd-R0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<style>
-:root {
-  --highlight: #f29094;
-  --hover: #f29094;
-}
-</style>
-
-
-
+</div> 
+<style> 
+:root { 
+  --highlight: #f29094; 
+  --hover: #f29094; 
+} 
+</style> 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-# Build a Shredder Pro
-
-So you want to shred plastic? Cool! We have 2 different shredders: the original small Shredder, and the Shredder Pro. This is the Pro - it's more robust, advanced and productive than the smaller one, but also more complex to build. But if you're familiar with building machines it's very doable, and you can also buy parts on the bazar. Or the whole machine! You could even sell them yourself. The Shredder is actually the most requested machine around the world!
-
->Tip: Building a Shredder Pro requires a bit more advanced tools and skills than the normal shredder. The tools itself are still relative basic techniques and can be found anywhere in the world. But the tolerances are definitely tighter. So you need to make sure your tools and skills are up for the job
-
-
-</div>
+# シュレッダープロを作ろう 
+プラスチックをシュレッダーにかけたい？クールだ！私たちは2種類のシュレッダーを持っています：オリジナルの小型シュレッダーとシュレッダー・プロ。これはプロで、小型のものよりも頑丈で、高度で、生産的ですが、組み立てもより複雑です。しかし、機械の組み立てに慣れている人なら、とても簡単に作ることができるし、バザーで部品を買うこともできる。機械全体でもいい！自分で売ることもできる。シュレッダーは実際、世界中で最もリクエストの多いマシンだ！ 
+>ヒント：シュレッダー・プロを作るには、通常のシュレッダーよりも少し高度な道具と技術が必要だ。道具自体はまだ比較的基本的な技術で、世界中どこでも手に入る。しかし、公差は確実に厳しくなる。そのため、自分の道具とスキルがこの仕事に適していることを確認する必要がある。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
-
-- 00:07 - Intro
-- 01:34 - Frame
-- 03:45 - Shafts
-- 08:16 - Hopper
-- 08:57 - Sieve
-- 10:44 - Electronics
-- 11:50 - Motor and gearing
-- 13:15 - Full assembly
-- 16:16 - How to run
-
-
-
-</div>
-</div>
-
-
-
-# 🛠 Required machinery & skills
-Build Shredder Pro  | Machines needed | Skills needed
---- | ---| ---
-<img style="margin-left: 0;" src="../assets/build/thumb-shredder-pro.jpg" width="150"/>  | - Lathe <br> - Drill press <br>- Milling machine <br> - Welding machine (not specific) <br> - Torq wrench <br> - M16 hand tap | - Welding (intermediate) <br> - Machining (expert) <br> - Assembling (expert)<br> - Electronics (expert)
-
-
-# 🔩 Materials and parts
-
-You need to make and buy parts. In the download-kit you can find the complete Bill of Materials. It's a list for the entire Shredder Pro. Below you can find the commercial parts you need to buy and we go more in depth on where to look out for.
-
-### Motor option & explanation
-
-All the energy to shred the plastic comes from the electric motor. More energy means more productivity and smaller flakes. A double shaft shredder works at a low speed and a high torque, so the motor needs to have these requirements.
-
-To choose a 3-phase geared motor, you need to check:
-
-- Nominal Power
-- Output speed
-- Torque
-- Service factor
-
-### Nominal Power
-
-Nominal power is a value directly linked to nominal current. On most motors, you will be able to run at this power continuously (depending on your safety factor, ambient temperature, humidity, etc).
-
-However, for a short amount of time, your motor will be able to deliver a higher power by having a higher current. This can be typically observed at the start of the rotation or when you encounter harder pieces to shred.
-
-But if the motor is capable of running at a higher power, this will damage it.
-We found that no motor should be run at more than 1,6 times their nominal current/power, and this will be controlled by the electronics box. See the recommendation paragraph for which power will work for your needs.
-
-### Speed and torque
-
-In a 3-phase motor, the motor speed depends on the frequency and the number of poles of the motor.
-- Theoretical speed (rpm)
-- 2 - 12 are number of poles of the motor
-
-| Frequency (Hz) | 2    | 4    | 6    | 8   | 10  | 12  |
-|----------------|------|------|------|-----|-----|-----|
-| 50             | 3000 | 1500 | 1000 | 750 | 600 | 500 |
-| 60             | 3600 | 1800 | 1200 | 900 | 720 | 600 |
-
-Motor Synchronous Speeds (RPM)
-
-*The real speed will likely be less due to loads, friction...*
-
-Speed can be then reduced through a gearbox, which is defined by a gearbox ratio. Ratio = input speed / output speed. The higher the speed will be, the higher the productivity will be.
-A double axis shredder is a shredder that runs at a low speed. We recommend looking for a gearbox that will bring the output speed between 15 and 25 revolutions per minute.
-
-Torque is a relation between the output speed obtained and the motor’s power. The higher the torque will be, the tougher the shredder will be. To get a high torque you can increase the power of the motor or increase the gearbox ratio. Know that increasing gearbox ratio will lower the speed and productivity.
-For this shredder, we recommend a nominal torque of 1100N.m as a minimum and 2000N.m as a solid goal.
-
-### Service Factor
-
-The service factor is the percentage of overloading what the motor can handle for short periods when operating normally within the correct voltage tolerances. Both your gearbox and your motor have a service factor, these can be different. In any case, make sure that the service factor of both elements is at least 1, or your motor reductor is downgraded.
-
-Having a higher motor service factor can be useful for:
-
-- Inaccuracy in predicting intermittent system horsepower needs
-- Longer insulation life by lowering the temperature at rated load
-- Intermittent or occasional overloads
-- Ambient temperature above 40°C
-- Low or unbalanced supply voltages
-
-Having a higher gearbox service factor can be useful for:
-
-- Elevated temperatures
-- Extreme shock loads or vibrations
-- Non-uniform loads
-- Cyclic loads
-
-The higher the safety factor, the higher the lifetime. You might as well compensate and have a lower-powered motor for this reason.  
-
-### Motor proposals
-
-**2.2kW - 16rpm - 1200N.m**: smallest suggested motor, will be fine for small household plastic, but the motor will limit the operation of the shredder and so it will never operate at its full capacity
-
-**3kW - 18rpm - 1500N.m**: probably a good price/efficiency compromise
-
-**4kW - 18rpm - 2000N.m**: you will be able to operate the shredder to its full capacity
-
-**5,5kW - 22rpm - 2300N.m**: very long life motor as you will be running the motor under its capacity; might be worth it for a high productivity shredder (higher speed to limit the torque)
-
-### Coupling option & explanation
-
-Couplings usually have a nominal torque and a maximum torque they can manage. Nominal torque is the torque value that the coupling can handle without damage. The coupling may handle a higher torque for a short period, but always keep things under the maximum torque. The component life will be reduced if the coupling operates frequently over the nominal torque.
-
-If our motor has around 2000 Nm of nominal torque, an HRC 230 Coupling will work properly. Even if you choose a motor with lower torque, we recommend to slightly oversize the coupling for increased durability.
-
-| Reference          | Nominal Torque (Nm) | Max Torque (Nm) | Notes                                             |
-|--------------------|---------------------|-----------------|---------------------------------------------------|
-| HRC 230 Coupling   | 2000                | 5000            | Pros: cheap <br>Cons: smaller misalignments           |
-| F140 Tyre coupling | 2325                | 5642            | Pros: higher misalignment <br>Cons: more expensive |
-
-We recommend following the assembly instructions of the manufacturer. Not following this requirement can lead to damage or early wear.
-
-### Gears choice
-
-The gears transmit the power between the two shafts. Double shaft shredders work with low speed and high torque, so the gears need to be calculated for that torque. We recommended the following gear specs:
-
-| Gear type | Module | No of teeth | Width (mm) | Hole diam. (mm) | Keyway (mm) |
-|-----------|--------|-------------|------------|-----------------|-------------|
-| Spur gear | 6      | 18          | 60         | 45              | 14 x 9      |
-| Spur gear | 6      | 20          | 60         | 45              | 14 x 9      |
-
-We recommend to use gears with hardened teeth.
-
-The distance between them has to be 114mm. Many components, like the blades or the box, depend on that distance. If the gear specs change, the distance shall be kept fixed or a redesign of the blades and box will be required.
-
-### Shaft specifications
-The shaft is made by a 50mm hexagon bar milled to a 45mm diameter. We recommend using mid-high quality steel with a minimum yield strength of 350 Mpa (we used C45 steel).
-
-### Bearing specifications
-
-We used UCFL209:
-
-- Shaft size 45 mm
-- Fixing Spacing 148 mm
-- Fixing hole diameter 19mm
-
-We use an M16 bolt to fix them: an adaptor is required
-
-### Laser cut parts
-
-All the laser cut parts are made with mild steel. They don’t require a specific material. However, we used wear-resistant steel (Hardox 400) for the blades and fixed blades (not the spacers), to make them more durable.
-
-# ⚡ Electronic box
-
-### Electric components
-- 1 x 3 phase general switch
-- 1 x Emergency stop switch with 3 NC connections
-- 1 x 3 phase current limiter, 6,8 Amps
-- 2 x 3 phase contactors, 3 NO and 1 NC connections
-- 1 x 5V 500mA power supply
-
-### Schematic link
-https://github.com/davehakkens/shredder-reverse/blob/master/Schematic.pdf
-
-### Electronic components
-
-- 1 x Arduino nano
-- 1 x 5V 2 channels relay module 250VAC
-- 1 x ACS712 30A hall effect sensor module
-- 1 x full bridge rectifier 1A (DF10-G)
-- 1 x 100uF capacitor 10V
-- 2 x  10k resistors 1/4W
-- 1 x 100k resistor 1/4W
-- 1 x  2.2mF capacitor 10V
-- 1 x 3 position toggle switch
-
-### Arduino code link
-https://github.com/davehakkens/shredder-reverse
-
-# 👌 Tips & tricks while making
-
-There are two different types of blades. 13 teeth blades require more motor power but they produce smaller flakes, whereas, 6 teeth blades require less power but produce longer flakes. The grip should be slightly better with 6 teeth blades, but it depends on the shape and material.
-
-| Blade    | Required power | Flake size | Grip   | Output          |
-|----------|----------------|------------|--------|-----------------|
-| 6 teeth  | Lower          | Longer     | Better | Slightly Lower  |
-| 13 teeth | Higher         | Smaller    | Good   | Slightly Higher |
-
-- To have a good balance in the shredder’s performance, we recommend to use 13 teeth blades on the shaft connected to the motor and 6 teeth blades on the opposite shaft. But you can choose and set up the shredder as you want.
-
-- The gap between the blades is 0,25mm. To reach that level of precision, it is good to keep all the parts clean while the machine is being assembled.
-
-- The blades are fixed to the shaft by two nuts on each side. It is recommended to tighten the nuts (100Nm at least) to prevent the plastic from entering between the blades and spacers.
-
-- The shafts are quite long and heavy. If you cannot use a good lathe, we recommend you to order them from a professional.
-Order multiple spacers for assembly adjustment.
-
-- Weld the tubes of the box, for faster cleaning (non structural weld)
-
-- Attach the moter: You will probably use a different motor than the one in the 3D model. So you will need to modify the frame.
-
-# Additional Options
-
-### Safety Hopper
-
-We designed a fully closed version of the hopper to prevent the plastic from jumping out and make it safer for people to use. The drawings are accessible in the download kit to laser cut. Make sure to choose the hopper you want before sending the files to laser cut.
-
-### Different sieves
-
-You could use the shredder with no sieve, but in order to achieve different flake size standards - see input & output chapter - we provided different sieve designs to be cut. You can get your own drilled hole plates, but we designed these sieves to be the perfect sizes for our standards, with a denser holes concentration for efficiency and with a line for easy welding.
-
-**If you need help, have questions or looking for someone to talk to in your lonely cold workspace. Head to the [#build](https://discordapp.com/invite/XQDmQVT) channel on Discord. Here we talk nerdy about machines.**
+### ビデオ・チャプター 
+- 00:07 - イントロ 
+- 01:34 - フレーム 
+- 03:45 - シャフト 
+- 08:16 - ホッパー 
+- 08:57 - ふるい 
+- 10:44 - エレクトロニクス 
+- 11:50 - エンジンとギアリング 
+- 13:15 - 全体集合 
+- 16:16 - 走り方 
+</div> 
+</div> 
+
+# 必要な機械と技術 
+Build Shredder Pro  | Machines needed | Skills needed 
+--- | ---| --- 
+<img style="margin-left: 0;" src="../assets/build/thumb-shredder-pro.jpg" width="150"/>  | - Lathe <br> - Drill press <br>- Milling machine <br> - Welding machine (not specific) <br> - Torq wrench <br> - M16 hand tap | - Welding (intermediate) <br> - Machining (expert) <br> - Assembling (expert)<br> - Electronics (expert) 
+
+# 材料と部品 
+パーツを作ったり買ったりする必要があります。ダウンロードキットの中に部品表があります。これはシュレッダープロ全体のリストです。以下では、あなたが購入する必要がある市販の部品を見つけることができます。 
+
+### モーターオプションと説明 
+プラスチックを細断するエネルギーはすべて電動モーターから供給される。より多くのエネルギーは、より多くの生産性とより小さなフレークを意味します。ダブルシャフトシュレッダーは低速、高トルクで動作するため、モーターはこれらの要件を満たす必要があります。 
+三相ギヤード・モーターを選ぶには、以下の点をチェックする必要がある： 
+- 公称出力 
+- 出力速度 
+- トルク 
+- サービス係数 
+### 公称出力 
+公称電力は、公称電流に直結した値です。ほとんどのモーターでは、この電力で連続運転することができます（安全係数、周囲温度、湿度などによって異なります）。 
+しかし、短時間であれば、モーターは大電流を流すことで、より高いパワーを発揮することができます。これは通常、回転開始時や、より硬い細断物に遭遇したときに見られます。 
+しかし、モーターがより高い出力で作動できるものであれば、これはモーターを損傷させることになる。 
+どのモーターも公称電流/パワーの1.6倍以上で動かすべきでないことがわかりました。どのパワーがあなたのニーズに合うかについては、推奨のパラグラフを参照してください。 
+### スピードとトルク 
+
+三相モーターでは、モーター速度はモーターの周波数と極数に依存する。 
+- 理論回転数（rpm） 
+- 2～12はモーターの極数 
+  
+| Frequency (Hz) | 2    | 4    | 6    | 8   | 10  | 12  | 
+|----------------|------|------|------|-----|-----|-----| 
+| 50             | 3000 | 1500 | 1000 | 750 | 600 | 500 | 
+| 60             | 3600 | 1800 | 1200 | 900 | 720 | 600 | 
+
+モーター同期速度（RPM） 
+
+* 実際の速度は、負荷や摩擦の関係でもっと遅くなるだろう。
+ 
+速度はギアボックスを通して減速され、ギアボックス比によって定義される。比＝入力速度／出力速度。速度が高いほど生産性は高くなる。 
+二軸シュレッダーは、低速で動作するシュレッダーです。毎分15回転から25回転の間に出力速度をもたらすギアボックスを探すことをお勧めします。 
+トルクとは、得られる出力速度とモーターのパワーの関係である。トルクが高ければ高いほど、シュレッダーはタフになる。高トルクを得るには、モーターのパワーを上げるか、ギアボックス比を上げることができる。ギアボックス比を上げると、速度と生産性が低下することを知っておいてください。 
+このシュレッダーの場合、公称トルクは最低1100N.m、確実な目標として2000N.mを推奨する。 
+
+### サービス係数 
+サービスファクターとは、正しい電圧許容範囲内で通常運転する場合に、モーターが短時間で処理できる過負荷の割合のことです。ギヤボックスとモーターにはサービスファクターがあり、これらは異なる場合があります。いずれにしても、両方の要素のサービスファクターが少なくとも1であることを確認してください。 
+より高いモーター・サービス・ファクターを持つことは、次のような場合に有効である： 
+- 断続的なシステムの必要馬力予測の不正確さ 
+- 定格負荷時の温度を下げることで、絶縁寿命が長くなる 
+- 断続的または時折の過負荷 
+- 周囲温度40℃以上 
+- 低電圧または不平衡電源電圧 
+ギアボックスのサービスファクターが高いことは、次のような場合に役立つ： 
+- 高温 
+- 極度の衝撃荷重や振動 
+- 不均一な荷重 
+- 繰り返し荷重 
+安全係数が高ければ高いほど、寿命も長くなる。このような理由から、より低出力のモーターを使用した方がよいでしょう。   
+### モーター提案 
+
+**2.2kW-16rpm-1200N.m**：最小のモーターで、小さな家庭用プラスチックには問題ありませんが、モーターがシュレッダーの運転を制限するため、フル稼働することはありません。 
+**3kW - 18rpm - 1500N.m.**：おそらく価格と効率の良い妥協点であろう。 
+**4kW - 18rpm - 2000N.m**: シュレッダーをフル稼働させることができます。 
+**5.5kW-22rpm-2300N.m**：モーターをその能力以下で運転することになるので、モーターは非常に長寿命である。 
+
+### カップリング・オプションと説明 
+カップリングには通常、公称トルクと管理可能な最大トルクがあります。公称トルクとは、カップリングが損傷することなく扱えるトルク値である。カップリングは短期間であればより高いトルクを扱えるかもしれませんが、常に最大トルク以下で使用してください。カップリングが公称トルクを超えて頻繁に作動すると、部品の寿命が短くなります。 
+公称トルクが2000Nm程度のモーターであれば、HRC 230カップリングは正しく機能します。低いトルクのモーターを選択する場合でも、耐久性を高めるためにカップリングのサイズを少しオーバーすることをお勧めします。 
+
+| Reference          | Nominal Torque (Nm) | Max Torque (Nm) | Notes                                             | 
+|--------------------|---------------------|-----------------|---------------------------------------------------| 
+| HRC 230 Coupling   | 2000                | 5000            | Pros: cheap <br>Cons: smaller misalignments           | 
+| F140 Tyre coupling | 2325                | 5642            | Pros: higher misalignment <br>Cons: more expensive | 
+メーカーの組み立て説明書に従うことをお勧めします。この指示に従わない場合、破損や早期磨耗の原因となります。 
+### ギア選択 
+ギアは2つのシャフト間で動力を伝達する。ダブルシャフトシュレッダーは低速で高トルクで働くため、ギアはそのトルクを計算する必要があります。私たちは以下のギア仕様を推奨した： 
+| Gear type | Module | No of teeth | Width (mm) | Hole diam. (mm) | Keyway (mm) | 
+|-----------|--------|-------------|------------|-----------------|-------------| 
+| Spur gear | 6      | 18          | 60         | 45              | 14 x 9      | 
+| Spur gear | 6      | 20          | 60         | 45              | 14 x 9      | 
+歯が硬化したギアを使用することをお勧めします。 
+その距離は114mmでなければならない。ブレードやボックスなど、多くの部品がこの距離に依存している。ギアの仕様が変更された場合、距離は固定されたままでなければならず、ブレードやボックスの再設計が必要となる。 
+### シャフト仕様 
+シャフトは、50mmの六角棒を直径45mmにフライス加工したもの。350Mpa以上の降伏強度を持つ中高級鋼を使用することを推奨する（当社ではC45鋼を使用）。 
+### ベアリング仕様 
+UCFL209を使用した： 
+- シャフトサイズ 45 mm 
+- 固定間隔 148 mm 
+- 固定穴直径19mm 
+固定にはM16ボルトを使用：アダプターが必要 
+### レーザーカット部品 
+レーザーカットされた部品はすべて軟鋼で作られている。特定の材料は必要ありません。しかし、ブレードと固定ブレード（スペーサーではない）には耐摩耗鋼（Hardox 400）を使用し、耐久性を高めています。 
+# 電子ボックス 
+### 電気部品 
+- 1 x 3フェーズ一般スイッチ 
+- 1 x 非常停止スイッチ、3 NC接続 
+- 1 x 3相電流リミッター、6.8アンペア 
+- 3相コンタクタ×2、NO接続×3、NC接続×1 
+- 1 x 5V 500mA電源 
+### 回路図リンク 
+https://github.com/davehakkens/shredder-reverse/blob/master/Schematic.pdf 
+### 電子部品 
+- 1 x Arduino nano 
+- 1 x 5V 2チャンネルリレーモジュール 250VAC 
+- 1 x ACS712 30A ホール効果センサーモジュール 
+- 1 x フルブリッジ整流器 1A (DF10-G) 
+- 1 x 100uF 10V コンデンサ 
+- 2 x 10k 抵抗 1/4W 
+- 1 x 100k 抵抗 1/4W 
+- 1 x 2.2mF 10V コンデンサ 
+- 1 x 3ポジショントグルスイッチ 
+  
+### Arduinoコードリンク 
+https://github.com/davehakkens/shredder-reverse 
+#👌 作るときのコツ 
+ブレードには2種類あります。13枚歯のブレードは、より多くのモーターパワーを必要としますが、より小さなフレークを作ります。一方、6枚歯のブレードは、より少ないパワーで、より長いフレークを作ります。グリップは6枚刃の方が若干良いはずですが、形状や素材によります。 
+
+
+| Blade    | Required power | Flake size | Grip   | Output          | 
+|----------|----------------|------------|--------|-----------------| 
+| 6 teeth  | Lower          | Longer     | Better | Slightly Lower  | 
+| 13 teeth | Higher         | Smaller    | Good   | Slightly Higher | 
+
+- シュレッダーの性能をバランスよく発揮させるため、モーターに接続されたシャフトには13枚刃を、反対側のシャフトには6枚刃を使用することをお勧めします。しかし、あなたが望むようにシュレッダーを選択し、設定することができます。 
+- ブレード間の隙間は0.25mm。この精度を達成するためには、マシンを組み立てている間、すべてのパーツをきれいにしておくのがよい。 
+- ブレードは、両側の2つのナットでシャフトに固定されています。ブレードとスペーサーの間にプラスチックが入らないよう、ナットを締めることをお勧めします（最低100Nm）。 
+- シャフトはかなり長く重い。良い旋盤が使えない場合は、プロに注文することをお勧めします。 
+組立調整用に複数のスペーサーをご注文ください。 
+- ボックスのチューブを溶接し、より早くクリーニングできるようにする。 
+- モーターを取り付けます：おそらく3Dモデルとは異なるモーターを使用することになるでしょう。そのため、フレームを改造する必要があります。 
+# 追加オプション 
+### 安全ホッパー 
+プラスチックの飛び出しを防ぎ、より安全に使用できるよう、ホッパーを完全に閉じたバージョンを設計しました。図面はダウンロードキットでレーザーカットすることができます。レーザーカットのファイルを送信する前に、ご希望のホッパーを選択してください。 
+### 異なるふるい 
+ふるいなしでシュレッダーを使用することもできますが、さまざまなフレークサイズ規格を達成するために（インプットとアウトプットの章を参照）、私たちはカットするためにさまざまなデザインのふるいを用意しました。ドリルで穴をあけたプレートを入手することもできますが、私たちはこのふるいを規格にぴったりのサイズに設計し、効率を上げるために穴の密度を濃くし、溶接しやすいようにラインを入れました。
+
+**助けが必要な場合、質問がある場合、孤独な寒いワークスペースで話せる人を探している場合。Discordの[#build](https://discordapp.com/invite/XQDmQVT)チャンネルへどうぞ。ここでは機械についてオタクな話をします。 

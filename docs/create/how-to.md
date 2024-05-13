@@ -1,149 +1,115 @@
 ---
-id: howto
-title: Browse how-to
-sidebar_label: How to's
+id: howto 
+title: Browse how-to 
+sidebar_label: How to's 
 ---
+<style> 
+:root { 
+  --highlight: #ffe084; 
+  --links: rgb(131, 206, 235); 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: rgb(131, 206, 235);
-  --hover: rgb(131, 206, 235);
-}
-</style>
+![How to](assets/create/howto2.png) 
+# 詳しくはハウツーをご覧ください！ 
 
+ここはウェブ上の強力な場所だ。ここでは（あなたのような）世界中の人々が、学んだことを構造化された方法で他の人々と共有することができる。このツールは、私たちのオープンソースの共同コミュニティの中心です。私たちは、みなさんが私たちから知識を得て、その学びを共有し、プラスチック廃棄物の問題を共に解決していくことを期待しています！[分かち合うことがなぜ重要なのか、詳しくはこちらをお読みください](https://community.preciousplastic.com/academy/universe/contribute) 
 
-![How to](assets/create/howto2.png)
+> [ハウツー](https://community.preciousplastic.com/how-to)を見てみると楽しいよ。 
+> 
+# ♪ハウツーの作り方 
+さて、あなたはハウツーを見て回り、おそらくそれらのいくつかを使い、そして今、あなた自身のハウツーを投稿する準備ができています。あなたの貴重な情報を文書化するために時間を割いてくださることに、私たちPrecious Plasticコミュニティの全員が本当に感謝しています。プロセスや開発は複雑です。45のステップで完璧なハウツーを作ることに夢中になりがちです。それを目指してください。私たちはそういうものが大好きだ。しかし、現実的には、他のほとんどのメーカーは、優れた3Dモデルや数枚の写真から多くの情報を得ることができます。もし、あなたがそれをアップロードして、何が起こっているのか、なぜそのようなことをしているのかを大まかに説明するいくつかのステップと一緒にアップロードすれば、とても役立ちます。以下のガイドラインを参考にしてください。 
 
-# Learn more in our how-tos!
+## イントロ 
 
-This is a powerful place on the web. Here people from around the world (like you) can share the things they've learned with others in a structured way. This tool is the heart of our open-source, collaborative community. We rely on all of you to gain knowledge from us and then share your learnings back, that way we are all solving the problem of plastic waste together! [Read more here on why sharing back is crucial](https://community.preciousplastic.com/academy/universe/contribute)  
+<b>ハウツーのタイトル：</b>目標を示しているか？わかりやすいですか？短くまとめることを忘れずに。 
+<b>ハウツーのタグを選択する（最大4つ）</b> 正確なタグを選択すると、ハウツーが見つかります。 
+<b>どのくらい時間がかかりますか</b>ユーザーが時間を計画するのに役立ちます。 
+<b>難易度</b> 目的はわかっている！ハウツーを完成させるユーザーのタイプから選ぶようにしてください。経験のない人が基本的な型を作るのは、おそらくかなり難しいと感じるでしょう。しかし、金型職人にとっては簡単です。 
+<b>ハウツーについての短い説明：</b> 300文字以内でお願いします！ 
+ファイルのアップロード： CAD図面、テストシート、または役立つ資料をお持ちですか？フォルダに圧縮してここにアップロードしてください。MB以下を目安にしてください。 
+<b>カバー写真:</b> あなたの製品やプロセスがはっきりとわかる風景写真をアップロードしてください。私たちは視覚的な生き物です。良いイメージはテキストよりも早く伝わります。1280x960pxに抑えてください。 
 
-> Pro-tip: have a look at our [how-tos](https://community.preciousplastic.com/how-to) its fun to browse around :)
+![How to](assets/create/how-to-title.jpg) 
+## ステップ 
+さて、ここからが本題だ。各ステップにはイントロ、説明、写真が必要です。最低3つのステップが必要で、さらに追加したい場合は、一番下にある「ステップを追加」をクリックする必要があります。 
+<b>イントロ:</b> 繰り返すが、短くまとめること。 
+<b>説明文:</b> 要領よく編集し、文章の流れにしないこと。もし1つのステップに対してテキストが多すぎるなら、それはおそらくあなたのステップが2つ大きいということであり、2つのステップに分けた方が良いということです。そうすれば、他の人にとっても消化しやすくなります。 
+<b>写真：</b>鮮明でステップに役立つものであること。 
 
-# How to make... a How-to
-Ok, you’ve had a look around the how-tos, perhaps used some of them, and now you’re ready to post your own. We and everyone in the Precious Plastic community really REALLY appreciates you taking the time to document your valuable information. Processes and development can be complex. It’s easy to get lost in the perfection of creating the perfect how-to with 45 steps. Aim for that. We love those. But realistically most other makers can get a lot of information from a good 3D model or a few pictures. If you upload that with a few steps thats explain roughly whats going on and why you are doing already helps a lot. Here a few guidelines to take in account
+![How to](assets/create/how-to-step.jpg) 
+> プロとしての心得1：__ベストは、何をするにしても、その全過程を（たくさんのメモと写真を使って）常に記録すること。 
+![How to](assets/create/categories.jpg) 
 
+## カテゴリー 
+それぞれのハウツーは、4つのカテゴリーのいずれかに属することができます：機械、金型、製品、ガイドです。各カテゴリーには、若干異なる要件(✅)とガイドライン(👍)があります。ハウツーをカテゴリーに合わせて最適化する方法については、以下をご覧ください。 
+### ⚙️ 機械 
+カバー画像には、完全に組み立てられたマシンを掲載すること。 
+✅ マシンを複製するためのファイル（図面、CAD、3Dファイルなど）を含む<br>。 
+👍いくつかのステップを踏むことをお勧めします： 
+- ステップ1 > マシンの説明<br> 
+- ステップ2＞必要な道具について言及する＜br> 
+- ステップ3＞マシン作りに挑戦<br> 
+- ステップ4＞実行方法を説明する<br>
+- ステップ5 > ヒントとコツ<br>
+- ステップ6 > バザールで販売する場合はバザールへのリンク<br> 
+- 
+### 金型 
+カバー画像は、完全に作られた金型を示すものでなければなりません。 
+✅ 金型を複製するためのファイル（CAD、3Dファイルなど）を含む<br>。 
+👍いくつかのステップを踏むことをお勧めします： 
+- ステップ1＞型を説明する<br>
+- ステップ2＞必要な道具について言及する＜br> 
+- ステップ3＞金型製作に挑戦<br>
+- ステップ4＞型の使い方を説明する<br> 
+- ステップ5 > ヒントとコツ<br>
+- ステップ6 > 最終製品を見せる<br> 
+- ステップ7 > バザールで売る場合はバザールへのリンク<br> 
+### 製品情報 
+カバー画像は最終製品を示すものでなければならない。 
+👍必要であれば、製品を複製するためのファイルを含めます<br>。 
+👍いくつかのステップを踏むことをお勧めします： 
+- ステップ1＞商品説明<br>
+- ステップ2（必要なステップ数）＞プロセスについて話す<br>。 
+- ステップ3（必要なステップ数）＞製品作りに挑戦<br 
+- ステップ5 > ヒントとコツ<br>
+- ステップ6 > 最終製品を見せる<br> 
+- ステップ7 > バザールで売る場合はバザールへのリンク<br>
+### 📖 ガイド 
+表紙画像は、ガイドのトピックを示すものでなければならない。 
+必要に応じて複製するファイルを含める。 
+👍いくつかのステップを踏むことをお勧めします： 
+- ステップ1＞ガイドの説明<br>
+- ステップ2（必要なステップ数）＞プロセスについて話す<br> 
+- ステップ3（必要なステップ数）＞課題について話す＜br＞。 
+- ステップ5 > ヒントとコツ<br>
+- ステップ6 > 最終的な結果を示す<br>
+#ガイドライン 
+### ✏️ テキスト 
+- 最大700文字/ステップ 
+- アップロード 最低3ステップ 
+- シンプルに！ドキュメントは初心者ガイドだと思ってください。 
+- シンプルな表現と会話調をお勧めします。 
+- 複雑なステップをいくつか用意するよりも、簡単なステップをたくさん用意したほうがいい。 
+- 情報が多すぎて1つのステップにまとめられない場合は、より多くのステップに分割してみてください。 
+### 📸画像 
+- すべてのステップに1～3枚の画像を含めること。 
+- すべての画像は横長（4:3）で、（1920x1440）が最適です。 
+- ハウツーで何を学べるかを示す、きれいで素敵な表紙画像 
+- 技術的な図面やテンプレートを含めると便利ですが、サイズが合わない場合はダウンロードファイルとして追加してください。 
+- 見てもらう必要があるものを見せるために、クリアできれいな写真を撮るようにしましょう（スペースを掃除するのも効果的です ;）。 
+- 可能であれば、すべてのステップにそのステップの結果を示す写真を掲載する。 
+- 最終結果の良い写真は純金だ。 
+### ファイルをダウンロードする 
+- 詳細図面、CADファイル、材料リストなど、ドキュメントをサポートするダウンロード可能なファイルを追加できます。 
+- すべてのファイルを1つの.zipファイルにまとめます。共有しやすくなります。） 
+## Tips & Tricks： 
+1.<b>タイトルは強力だ</b> 賢く選び、短くする。 
+2.<b>タグを使いましょう。</b>タグは、私たちが整理整頓を保つためのものです。 
+3.<b>短く</b>、しかし有益に保つようにしましょう：私たちを信じてください、私たちは皆、注意力が短いのです。 
+4.<b>各ステップで画像を使う</b>：これは、ユーザーがあなたの指示を視覚化するのに役立ちます。画像は鮮明で、良いカメラで撮影されたものにしてください（スマートフォンでも大丈夫です！）。 
+## ♪ すべて終わったか？ 
+超素晴らしい。あなたが私たちと一緒にこの旅に参加し、Precious Plasticコミュニティの他の人たちと知識を共有してくれていることにとても感謝しています！座ってリラックスして、あなたの[カルマポイント](https://community.preciousplastic.com/academy/universe/contribute#5-reasons-why-you-should-share-back)が増えていくのを感じてください。 
 
-
-## Intro
-<b>Title of your How-to:</b> is it indicative of the goal? Is it easy to understand? Remember, keep it short.
-
-<b>Select tags for your How-to (max 4)</b> Select accurate tags, then your How-To will be found.
-
-<b>How long does it take?</b> Helps users plan their time.
-
-<b>Difficulty level?</b> Objective, we know! Try to select from the type of user that will be completing a How-To. Creating a basic mould from someone that has no experience will probably find it quite hard. But for a mould maker, easy.
-
-<b>Short description of your How-to:</b> keep it to 300 characters please!
-Upload files: do you have CAD drawings, testing sheets, or resources that will help? Zip them in a folder and upload them here. Aim to keep it under mb.
-
-<b>Cover photo:</b> upload a landscape photo that shows your product or process clearly. We are visual creatures, good imagery will communicate quicker than text will. Keep it to 1280x960px.
-
-![How to](assets/create/how-to-title.jpg)
-
-## Steps
-
-Ok now for the good stuff. Each step needs an intro, a description and photos. You’ll need to have three steps minimum, and if you want to add more, you’ll need to click “Add Step” at the bottom.
-
-<b>Intro:</b> again, keep it short
-
-<b>Description:</b> edit it down to the essentials, and don’t make it a stream of text. If you have to much text for one step, it probably means your step is two big and it's better to split it up in 2 steps. This makes it easier to digest for others.
-<b>Photos:</b> make sure they’re clear and useful to the step.
-
-![How to](assets/create/how-to-step.jpg)
-
-
-> __Pro tip 1 :__ Best is to always document (with lots of notes & photos) during the entire process of whatever you’re doing, so you have content ready for documenting.
-
-
-![How to](assets/create/categories.jpg)
-
-## Categories
-
-Each How-to can be part of one of 4 categories: Machines, Moulds, Products or Guides. Each category has some slightly different requirements (✅) and guidelines (👍). Learn below how to optimise your How-to to fit its category.
-
-### ⚙️ Machines
-✅ Cover image should show the fully built machine<br>
-✅ Include files to replicate the machine (drawings, cad, 3d files etc..)<br>
-👍 Few steps we advise having:
-- Step 1 > Explain the machine<br>
-- Step 2 > Mention tools required<br>
-- Step 3 > Challenges building the machine <br>
-- Step 4 > Explain how to run it<br>
-- Step 5 > Tips & tricks<br>
-- Step 6 > Link to the Bazar if you sell it there<br>
-
-### 💅 Moulds
-✅ Cover image should show the fully built mould<br>
-✅ Include files to replicate the mould (cad, 3d files etc..)<br>
-👍 Few steps we advise having:
-- Step 1 > Explain the mould<br>
-- Step 2 > Mention tools required<br>
-- Step 3 > Challenges producing the mould <br>
-- Step 4 > Explain how to use the mould<br>
-- Step 5 > Tips & tricks<br>
-- Step 6 > Show the final product<br>
-- Step 7 > Link to the Bazar if you sell it there<br>
-
-### 🔫 Products
-✅ Cover image should show the final product<br>
-👍 Include files to replicate the product if needed<br>
-👍 Few steps we advise having:
-- Step 1 > Explain the product<br>
-- Step 2 (as many steps as needed) > Talk about the process<br>
-- Step 3 (as many steps as needed) > Challenges making the product<br>
-- Step 5 > Tips & tricks<br>
-- Step 6 > Show the final product<br>
-- Step 7 > Link to the Bazar if you sell it there<br>
-
-### 📖 Guides
-✅ Cover image should show the topic of the guide<br>
-👍 Include files to replicate if needed<br>
-👍 Few steps we advise having:
-- Step 1 > Explain the Guide<br>
-- Step 2 (as many steps as needed) > Talk about the process<br>
-- Step 3 (as many steps as needed) > Talk about the challenges<br>
-- Step 5 > Tips & tricks<br>
-- Step 6 > Show the final outcome<br>
-
-
-## Guidelines
-
-### ✏️ Text
-- max. 700 characters per step
-- Upload Minimum 3 steps
-- Keep it simple! Think of your documentation as a beginners guide.
-- We recommend simple language and a conversational tone.
-- It’s better to have more easy steps than a few very complex ones.
-- If you have too much information to put into one step then try to split it up into more steps.
-
-### 📸 Images
-- Every step must include 1-3 images.
-- All images should be landscape (4:3) best at (1920x1440)
-- Nice & clean cover image showing what to learn in the How-to
-- It can be useful to include technical drawings or templates, if it doesn't fit add them as download file.
-- Try to make clear and clean photos showing what needs to be seen (cleaning your space could help ;)).
-- If possible, every step should include a photo showing the result of that step.
-- A good picture of the end result is pure gold.
-
-
-### 📦 Download files
-
-- Add downloadable files to support your documentation: detailed drawings, CAD-files, a material list etc.
-- Bundle all your files into 1 .zip file. Easier to share around. :)
-
-
-## Some tips & tricks:
-
-1. <b>Titles are powerful.</b> Choose wisely, keep it short.
-2. <b>Use tags,</b> that's how we stay organised: this will be how people find your How-To, so make sure they’re accurate.
-3. <b>Try to keep it short</b> but informative: trust us, we all have short attention spans.
-4. <b>Use images</b> in each step: this will help the user to visualise your instructions. Make sure your images are clear and taken with a good camera (smartphones are ok too!)
-
-
-## All done?
-
-Super awesome. You’re part of this journey with us and we are so grateful you’re sharing your knowledge with the rest of the Precious Plastic community! Sit back, relax and feel your [karma points](https://community.preciousplastic.com/academy/universe/contribute#5-reasons-why-you-should-share-back) growing.
-
-<b>Want to share feedback, chat about products/product design or learn more from the community? Head to the [#Create](https://discordapp.com/invite/yhmfzTZ) channel on Discord. Here we talk about product design, mouldmaking, color blends, finishing... everything to create precious objects!</b>
+<b>フィードバックを共有したり、製品/製品デザインについてチャットしたり、コミュニティからもっと学びたいですか？Discordの[#Create](https://discordapp.com/invite/yhmfzTZ)チャンネルへどうぞ。ここでは、製品デザイン、金型製作、カラーブレンド、仕上げ...貴重なオブジェクトを作成するためのすべてについて話しています！</b>。 

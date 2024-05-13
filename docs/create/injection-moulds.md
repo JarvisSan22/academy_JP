@@ -1,250 +1,182 @@
 ---
-id: injection-moulds
-title: Tips on injection mouldmaking
-sidebar_label: Injection moulds
+id: injection-moulds 
+title: Tips on injection mouldmaking 
+sidebar_label: Injection moulds 
 ---
-<style>
-:root {
-  --highlight: #ffe084;
-  --links: rgb(131, 206, 235);
-  --hover: rgb(131, 206, 235);
-}
-</style>
-<img style="margin-left:0px;" src="../assets/create/socket-cnc.jpg" />
+<style> 
+:root { 
+  --highlight: #ffe084; 
+  --links: rgb(131, 206, 235); 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
+<img style="margin-left:0px;" src="../assets/create/socket-cnc.jpg" /></img>
 
-# Tips on making injection moulds
+# 射出成形金型製作のヒント 
+基本的に、シートであれ、ビームであれ、何かを作るにはすべての機械に金型が必要です。金型を使う最も汎用性の高い機械は射出成形機ですが、射出成形機にも限界があります。何も恐れることはない！ただ、設計上の制約を知ることが重要なのです。それでは、長所と短所から始めましょう： 
 
-Basically, all machines require moulds to make something whether it's a sheet, or a beam or anything else you will make. The most versatile machine to use moulds with is the Injection machine, but it has it's limits. Nothing to be afraid of! It's just important knowing your design restraints going on. Let's start with the pro's and con's:
+| Pro    |     Cons   | 
+|----------|-------------| 
+| Ideal for small volume parts <150cm³> |  Moulds can be expensive | 
+| Short cycle times (<2-5min>) |   Complicated process with many uncertainties   | 
+| Multiple cavities enable faster production |     Volume not enough for bigger parts   | 
+| Reliable production of parts   |   Parts with thin walls need more pressure than the current machine can offer   | 
+| Very detailed parts can be achieved | Mainly suited for HDPE and PP	| 
+| Advanced parts can be designed by the use of inlays and sliders|	| 
 
-| Pro    |     Cons   |
-|----------|-------------|
-| Ideal for small volume parts <150cm³ |  Moulds can be expensive |
-| Short cycle times (<2-5min) |   Complicated process with many uncertainties   |
-| Multiple cavities enable faster production |     Volume not enough for bigger parts   |
-| Reliable production of parts   |   Parts with thin walls need more pressure than the current machine can offer   |
-| Very detailed parts can be achieved | Mainly suited for HDPE and PP	|
-| Advanced parts can be designed by the use of inlays and sliders|	|
+## 型を作るための材料 
+まだここにいるのか？素晴らしい！小型金型の最も一般的な材料はアルミニウムで、鋼鉄よりも加工しやすく、他の材料に比べて比較的寿命が長いからです。また、金型の製造にはさまざまな製造工程があり、それぞれに長所と短所があります。ここではその概要を説明します： 
 
+| Material    |     Application   | Accuracy | Accessibility | Costs | Lifetime (shots) | 
+|----------|-------------|-----|-----|-----|-----| 
+| Wood/ MDF| Not recommended (plastic sticks to the mould) |Low- Medium|High|Low (<100€>)|-| 
+| Acryl (CNC/ Lasercut) |   Demonstrations/prototyping   |Low- Medium|High|Low (<100€>)|5-10| 
+| Silicone Casting |     Prototyping  |Low|High|Low (<100€>)|Up to 20| 
+| SLA Printing (High Temp resin)   |   Prototyping, Small Series   |Medium| Medium |Medium (>200€)|Up to 100| 
+| [Aluminium (Casting)](https://youtu.be/5LhHUBz9uL0)  |	Moulds for organic Geometry  |Low - Medium|High|Low (<100€>)|Up to 2000 - 10.000| 
+| [Aluminium (Machined)]( https://youtu.be/ZYFoWP-3MYE)   | Small Series, Medium Series	|High|Low|Medium (>200€)|Up to 2000 - 10.000| 
+| [Steel (2D Lasercut)](https://youtu.be/P_zCIXsHkVI )  | Prototyping - Big Series	|Medium (Lasercut)|Medium|Low (<100€)|Up to 100.000| 
+| [Steel (Welded)](https://youtu.be/dYG7qcGp5mc )    | Prototyping - Big Series	|Low- Medium|High|Low (<100€)|Up to 100.000| 
+| Steel (Machined)    |Big Series|Very High|low|High (>1.000€)|Up to 100.000| 
 
+# 部品と金型の寸法 
 
-## Materials to make a mould
-
-Still here? Awesome! The most common material for small mnoulds is aluminium due to it being easier to machine than steel, and has a relative high lifespan compared to other materials. There are also different manufacturing processes which can be selected for the manufacturing of a mould, each comes with certain advantages and disadvantages. Here we have an overview:
-
-
-| Material    |     Application   | Accuracy | Accessibility | Costs | Lifetime (shots) |
-|----------|-------------|-----|-----|-----|-----|
-| Wood/ MDF| Not recommended (plastic sticks to the mould) |Low- Medium|High|Low (<100€)|-|
-| Acryl (CNC/ Lasercut) |   Demonstrations/prototyping   |Low- Medium|High|Low (<100€)|5-10|
-| Silicone Casting |     Prototyping  |Low|High|Low (<100€)|Up to 20|
-| SLA Printing (High Temp resin)   |   Prototyping, Small Series   |Medium| Medium |Medium (>200€)|Up to 100|
-| [Aluminium (Casting)](https://youtu.be/5LhHUBz9uL0)  |	Moulds for organic Geometry  |Low - Medium|High|Low (<100€)|Up to 2000 - 10.000|
-| [Aluminium (Machined)]( https://youtu.be/ZYFoWP-3MYE)   | Small Series, Medium Series	|High|Low|Medium (>200€)|Up to 2000 - 10.000|
-| [Steel (2D Lasercut)](https://youtu.be/P_zCIXsHkVI )  | Prototyping - Big Series	|Medium (Lasercut)|Medium|Low (<100€)|Up to 100.000|
-| [Steel (Welded)](https://youtu.be/dYG7qcGp5mc )    | Prototyping - Big Series	|Low- Medium|High|Low (<100€)|Up to 100.000|
-| Steel (Machined)    |Big Series|Very High|low|High (>1.000€)|Up to 100.000|
-
-
-
-# Part and mould dimensions
-
-The maximum possible part size is defined by multiple variables:
-
-1. Maximum volume -> is the part volume (inclusive sprue, gates and runners) less than 150g? (for the standard v3 injection machine). Going towards the upper end of the volume range >130g will make additional compressing of the plastic necessary and reduce the cycle time. The flakes have a bigger volume than the molten volume of the plastic:
-<br><br>
+可能な最大部品サイズは複数の変数によって定義される： 
+1.最大容積→部品の容積（スプルー、ゲート、ランナーを含む）は150g以下ですか？ 標準v3射出成形機の場合）。130gを超えると、プラスチックの圧縮が必要になり、サイクルタイムが短くなります。フレークの体積は、プラスチックの溶融体積よりも大きい： 
+<br><br> 
 <img style="margin-left:0px;" src="../assets/create/volume.jpg" width="500"/><br>
-
-2. Total Size of the mould -> can it be used with my injection machine?
-(v3 Injection: Diameter: 380mm x 170mm) If you use a screw nozzle and a rectangular mould consider the diagonal distance for the maximum width/length!
-<br><br>
+2.金型の総サイズ→私の射出成形機で使えますか？ 
+(v3射出：直径380mm x 170mm) スクリューノズルと長方形の金型を使用する場合は、最大幅/長さの対角線距離を考慮してください！ 
+<br><br> 
 <img style="margin-left:0px;" src="../assets/create/sizes.jpg" width="500"/><br>
 
-3. Depth of part -> Easiest if less than ~40mm, because standard endmills can be used for the machining. Most Endmills are limited to around 100mm length. Can be relevant if hobby style CNC machines with little Z-Travel are used. The mould can be usually machined from a single block if you stay below 80mm. This can be a big cost saver in the process. <br><br>
+3.部品の深さ→標準的なエンドミルで加工できるため、～40mm以下であれば最も簡単。ほとんどのエンドミルは長さ100mm程度が限界。Z-Travelの少ないホビースタイルのCNCマシンを使用する場合、関連する可能性がある。80mm以下であれば、金型は通常1つのブロックから加工できます。これは大きなコスト削減になります。<br><br 
 <img style="margin-left:0px;" src="../assets/create/milling.jpg" width="500"/><br>
-
-4. Projected area of all cavities, runners and gates towards the opening direction of the mould. This determines the necessary clamping force. This is not an issue for part designs injected with manual injection machines. If your part is manufactured on a higher pressure injection machine you might need to consider this closer. <br><br>
+4.すべてのキャビティ、ランナー、ゲートの金型開口方向への投影面積。これにより、必要な型締力が決まります。これは、手動射出成形機で射出される部品設計では問題ではありません。もしあなたの部品がより高圧の射出成形機で製造されるのであれば、このことをより詳しく考慮する必要があるかもしれません。<br><br> 
 <img style="margin-left:0px;" src="../assets/create/mould.jpg" width="500"/><br>
 
-
-
-> Pro-tip: thinking about the manufacturing restrictions of your product early on in the process will save you time and money down the road. To reduce the costs for mould making you should design all features as big and as shallow as possible - it allows for the use of bigger tools and faster speeds in the manufacturing of the mould.
-
-## Shrinkage and tolerancing
-
-All thermoplastic polymers have shrinkage when they cool down from a molten state (see table below).
-
-The shrinkage rate is very relevant for the material and mould planning: the material will usually shrink towards the center of a part and this means that any cutouts or high features in the center can result in a part which will get stuck in the mould.
-
-The consideration of shrinkage is very important, especially for fine features where tolerances to match other parts is slim. The shrinkage can vary also within the given range based on (unknown) additives inside the material.
-<br>
-| Material    |     Shrinkage Rate   |
-|----------|-------------|
-| HDPE |  3,3% |
-| LDPE |   3,8%   |
-| PP |     2,6%   |
-| ABS, PC, PMMA   |   0,6%   |
-| PS | 0,5%	|
-<br>
-<img style="margin-left:0px;" src="../assets/create/shrinkage.jpg" width="500"/><br>
-
-
-## Draft Angle
-
-To eject parts from moulds easily, all surfaces parallel to the opening direction need a draft angle. This enables easy un-moulding of the part.
-
-Common value to start is 2°, high features can use a draft angle up to 5°. It is recommended to add 1° draft angle for every 25mm of feature height. The more draft angle, the better it is for ejecting a part from the mould. Adding draft angles to a part is not a “natural” consideration and is often conflicting with design goals from mechanical engineering or industrial design, so the goal is to include as much as possible while still achieving your design and engineering goals. Even a draft angle of 0,5° can make a big difference in the production.
-
-> Pro-tip: if you add texture to your surfaces take care to increase the draft angle to 3-5°.
-
-Many software packages on the market offer a helpful draft analysis function and this can be very handy especially if you have to check many surfaces on a single part for draft angle. You can set the range of legible draft angles. See image below.
-
-<img style="margin-left:0px;" src="../assets/create/draft-angle-1.jpg" width="500"/>
-<br>
-<p class="note">Note: if there is no possibility of adding a draft angle to your design, consider to work with sliders or inserts to make straight surfaces possible. Keep in mind that this will significantly increase the manufacturing costs.
-</p>
-
-## Wall Thickness
-The right wall thickness is very important for the successful injection of your part during manufacturing. The wall thickness corresponds with the material selection, or more accurately with the MFI (melt flow index). So according to your material there is a range of possible wall thicknesses (see table below)
-
-Be aware that manual injection machines are mainly limited by the pressure they can build up - select a value at the upper end of the range to ensure that the part can be successful injected. A proven wall thickness is above 2,5mm which in most applications worked well.
-In the image you see the iPhone 7 case from the last starter kit, it shows a simulation of multiple wall thicknesses and shows the reason why it became 2,5mm thick.
-
-<img style="margin-left:0px;" src="../assets/create/wall-thickness.jpg" width="500"/>
-
-The maximum values are recommended values from the industry. Keep in mind that it is a valid option to exceed them as far as you want. This can be an option to inject solid parts like a knife handle, small plates or other objects. The disadvantage is that you will face bigger sink marks, higher shrinkage and a longer cycle time because the parts have to cool longer before they can be removed from the mould.
-
-<img style="margin-left:0px;" src="../assets/create/wall-thickness-1.jpg" width="500"/>
-
-The wall thickness in combination with the flow distance (the gate to the farthest cavity space) is the most important factor in part design to determine the necessary injection force.
-
-In comparison to the industry, most workspaces with manual injection machines do not have the option to increase the injection pressure by switching the injection machine. So be very careful about the design of thin walled parts (<1,5mm) and if you can, ask for feedback from your mould supplier if the necessary injection force is sufficient to fill your mould.
-
-The wall thickness should be the same all over the part for several reasons
-:
-- Undisturbed flow within the part
-- Prevention of sink marks
-
-Reasons to increase the wall thickness:
-
-- Necessary pressure reduced
-- Structural strength added
-- (Part Geometry needs to be solid)
-
-Reasons to decrease the wall thickness:
-
-- Prevent sink marks
-- Reduce material use (necessary injection volume)
-- Reduce Cycle Time
-
-<br>
-| Material    |   Full Range - industrial (mm)   | Manual Machines - recommended (mm) |
-|----------|-------------|------------|
-| PP |        0,8 - 3,8 | 2,5 - 5 |
-| HDPE/LDPE |   0,8 - 4  | 2,5 - 5 |
-| PS |     1 - 4   | 2,5 - 5 |
-| ABS/PC   |   1,2 - 3,5  | 2,5 - 4,5  |
-| POM | 0,8 - 3	| 2,5 - 4 |
-| PMMA | 0,6 - 3,8|  2,5 - 5 |
-
-
-## Fillets
-All plastic parts around you have fillets on their edges. The only exception are the edges which are formed at the intersection of each mould half, or those formed by sliders and inserts in combination with other parts. This enables on one hand an easy release of the part and on the other a uniform material flow within the mould. Additionally, it reduces the costs of mould making in the manufacturing process.
-
-> Pro-tip: try to keep the minimum inside fillets bigger than 0,5mm to make sure standard tools can be used for manufacturing.
-
-<br>
-<img style="margin-left:0px;" src="../assets/create/fillets.jpg" width="500"/>
-
-Keep in mind that the wall thickness should be maintained on the fillet as well.
-
-<img style="margin-left:0px;" src="../assets/create/fillets-1.jpg" width="500"/>
-
-To ensure an easy material flow, try to avoid hard breaks in the part design.
-
-<img style="margin-left:0px;" src="../assets/create/fillets-2.jpg" width="500"/>
-
-
-## Text and Graphics
-
-With engraving you can add text and graphics to your product in a very economical way. This avoids post processes like stamping and printing, and makes the use of additional labels unnecessary. In this process the plastic type can be added easily and with a fine detail.
-
-Text and graphic can be integrated in two ways, either embossed or debossed:
-
-- Debossed text is the more economic option because the material around the text does not need to be removed by a small endmill.
-- Although embossed is easier to read, because the area gets darker from the shadows which cast inside.
-
-<img style="margin-left:0px;" src="../assets/create/text-engrave.jpg" width="500"/>
-
-The most relevant value is the ratio of minimal line width to depth. You see in below image how the shape of an engraving bit looks like. Due the geometric shape the line with gets wider as deeper the cut becomes. There are engraving bits in a range of 10° up to 90° and the advantage is that you already get a draft angle by default. On smaller font heights the draft angle is barely visible.
-
-The depth for engraved text and graphics should be bigger than >0,2 to 0,5mm. Deeper features can be machined with small endmills. Basic machines can only use endmills of a bigger size ~>0,5mm and the line width has to be matched accordingly.
-
-All engraving bits have a flat or round tip and the smallest tip size starts from 0,1mm.
-
-<img style="margin-left:0px;" src="../assets/create/text-graphics.jpg" width="500"/>
-
-## Holes and Cutouts
-
-Integrated holes or cutouts in injection parts save you time in post processing your parts with secondary operations.
-
-But they come with the risk of creating weld/knit lines when the plastic flows around them and cools down on the way. Those knit lines can add structural weakness at their location. Therefore it is important to know if there is any load applied to the area behind them where the plastic merges.
-
-<img style="margin-left:0px;" src="../assets/create/socket-holes.jpg" width="500"/>
-
-The same effect will occur if you work with multiple injection gates.
-
-If the applied forces to this area are critical you can also consider post processing methods like Drilling, Laser cutting, CNC milling or die cutting. However this adds another process step and will increase the manufacturing costs.
-
-
-## Ribs
-
-To increase the structural strength while maintaining the same wall thickness, ribs can be added to increase the rigidity of a part. This can be a time consuming design process (opposed to increasing the wall thickness) but prevents sink marks in a better way and reduces material usage.
-
-<img style="margin-left:0px;" src="../assets/create/socket-rib.jpg" width="500"/>
-
-The thickness of the ribs should be around a factor of 0,4 - 0,6x wall thickness of the part - stay on the lower end to prevent sink marks.
-The height of the surface ribs should be less than factor 3x wall thickness.
-
-<img style="margin-left:0px;" src="../assets/create/socket-rib-1.jpg" width="500"/>
-
-If you design the ribs, make sure to consider the direction of the applied forces - especially for long parts.
-
-<img style="margin-left:0px;" src="../assets/create/ribbon.jpg" width="500"/>
-
-To prevent sink marks on aesthetic relevant surfaces, the ribbon structure can be offset at the intersection points, where more material is present. Take care that draft angle and fillets have to be applied to all ribbons as well to ensure a easy ejection of the part. The bottom fillet for the ribs is a difficult choice. Try to reduce the stress in the part while preventing material accumulation and sink marks.
-
-<img style="margin-left:0px;" src="../assets/create/material-flow.jpg" width="500"/>
-
-## Surface Texture
-
-You can add a surface texture to parts. Larger details can be implemented into your CAD model and can be engraved during the production. For finer surface structure post processing methods like sand blasting can be used to achieve rough surface texture.
-
-If you add texture to your surfaces take care to increase the draft angle to 3-5°. Below is an example of an aluminum mould with a sandblasted finish inside.
-
-<img style="margin-left:0px;" src="../assets/create/texture-sandblast.jpg" width="500"/>
-
-
-## Reducing costs in mould making
-
-| Suggestion    |     Effect   |
-|----------|-------------|
-| Reduce the number of cavities                     |  The machining time multiplies with the number of cavities within a mould. The setup time stays the same. |
-| Avoid undercuts                                   |   Saves the necessity of sliders or inserts  |
-| Avoid small features below 1mm size               |    Makes it possible to machine the mould without utilization of EDM   |
-| Optimize the part and mould geometry for milling  |  Saves communication and speeds up the process of mould making   |
-| Use lower grade finishes                          |	Saves labour in the post processing of the mould |
-| Consider secondary operations after injection     |	Can save costly sliders or difficulties in the mould making |
-| Reduce the number of parts of the mould           | Reduces the complexity of the mouldmaking |
-
-
-## Make your mould file ready to share
-
-Finally, the cool thing about injection moulds is that they often come from CAD files and can be shared around the web. One digital file enables others to replicate the mould 🎉 You should transfer your CAD files or as .step files.
-
-In case of simple geometries .svg or .dxf files can be used for easy file transfer to the mould maker. If you use .svg files, make sure to add a technical drawing so the mould maker knows the depth of all features. Consider the additional effort for the generation of the 3D CAD file.
-
-To make sure that the 3d files are solid closed geometries helps to speed up the process. Programs like Rhino can cause mistakes in the model generation. You can open your .step files in various file viewers and easy accessible CAD programs and viewers like Fusion 360, Solidworks eDrawings, A360 or onShape to check if only one solid part is in the file.
-
-Polygonal software like 3ds max, Cinema 4D, (Blender) and openSCAD are insufficient to build closed geometry. They can be used in rare cases like complex organic models, however then the complete process becomes more complicated in manufacturing.
-
-<b>Want to share feedback, chat about products/product design or learn more from the community? Head to the [#Create](https://discordapp.com/invite/yhmfzTZ) channel on Discord. Here we talk about product design, mouldmaking, color blends, finishing... everything to create precious objects!</b>
+> ヒント：早い段階で製品の製造上の制約を考えておくと、将来的に時間と費用を節約できます。金型製作のコストを削減するためには、すべての機能をできるだけ大きく、浅く設計する必要があります。 
+## 縮みと公差 
+すべての熱可塑性ポリマーは、溶融状態から冷えると収縮する（下表参照）。 
+収縮率は、材料と金型のプランニングに非常に関係します。材料は通常、パーツの中心に向かって収縮するため、中心部に切り込みや高いフィーチャーがあると、パーツが金型にはまり込んでしまう可能性があります。 
+収縮率を考慮することは、特に他の部品との公差が小さい微細な形状の場合、非常に重要です。収縮率は、材料内部の（未知の）添加物に基づいて、与えられた範囲内でも変化する可能性があります。 
+<br> 
+
+| Material    |     Shrinkage Rate   | 
+|----------|-------------| 
+| HDPE |  3,3% | 
+| LDPE |   3,8%   | 
+| PP |     2,6%   | 
+| ABS, PC, PMMA   |   0,6%   | 
+| PS | 0,5%	| 
+<br> 
+
+<img style="margin-left:0px;" src="./assets/create/shrinkage.jpg" width="500"/><br><img style="margin-left:0px;" src="."> 
+
+## ドラフト角度 
+金型から部品を簡単に取り出すには、開口方向に平行なすべての面に抜き勾配が必要です。これにより、部品を簡単に型から外すことができます。 
+一般的なドラフト角度は2°ですが、高さのあるフィーチャーでは5°まで使用できます。フィーチャーの高さ25mmごとに1°の抜き勾配をつけることを推奨します。抜き勾配が大きいほど、金型からパーツを排出しやすくなります。部品に抜き勾配をつけることは「自然」なことではなく、機械工学や工業デザインの設計目標とは相反することが多いので、設計目標や技術目標を達成しながら、できるだけ多くの抜き勾配をつけることが目標です。0.5°の抜き勾配でも、生産に大きな違いをもたらします。 
+> プロからのアドバイス：サーフェスにテクスチャーを加える場合は、ドラフト角度を3～5°にするよう注意してください。 
+市販されている多くのソフトウェアパッケージには、ドラフト解析機能があり、特に1つの部品の多くの面をドラフト角度でチェックする必要がある場合に非常に便利です。特に1つの部品で多くの面を抜き勾配でチェックする必要がある場合に便利です。下の画像をご覧ください。 
+<img style="margin-left:0px;" src="../assets/create/draft-angle-1.jpg" width="500"/></img> 
+<br> 
+<p class="note">注意：設計に抜き勾配をつける可能性がない場合は、スライダーやインサートで直線面を作ることを検討してください。この場合、製造コストが大幅に増加することに留意してください。 
+</p> 
+
+## 肉厚 
+適切な肉厚は、製造中に射出成形を成功させるために非常に重要です。肉厚は材料の選択、より正確にはMFI（メルトフローインデックス）に対応します。従って、お客様の材料に応じて、可能な肉厚の範囲があります（下表参照）。 
+手動式射出成形機は、主にその圧力によって制限されることに注意してください - 部品が正常に射出できることを保証するために、範囲の上限の値を選択します。実績のある肉厚は2.5mm以上で、ほとんどの用途でうまくいきました。 
+画像は前回のスターターキットのiPhone 7ケースですが、複数の肉厚のシミュレーションを示し、2,5mm厚になった理由を示しています。 
+<img style="margin-left:0px;" src="../assets/create/wall-thickness.jpg" width="500"/></img> 
+最大値は業界からの推奨値です。最大値を超えても有効なオプションであることに留意してください。これは、ナイフの柄や小皿などのソリッドパーツを射出する際のオプションとなる。デメリットは、ヒケが大きくなること、収縮率が高くなること、金型から取り出すまでに冷却時間が長くなるためサイクルタイムが長くなることです。 
+<img style="margin-left:0px;" src="../assets/create/wall-thickness-1.jpg" width="500"/></img>
+肉厚と流動距離（ゲートから最も遠いキャビティ空間までの距離）の組み合わせは、必要な射出力を決定する部品設計において最も重要な要素である。 
+業界と比較して、手動射出機のあるほとんどの職場では、射出機を切り替えて射出圧力を上げるオプションがありません。そのため、薄肉部品（<1,5mm）の設計には細心の注意を払い、可能であれば、必要な射出力が金型を満たすのに十分かどうか、金型サプライヤーにフィードバックを求めてください。 <br> 
+肉厚は、いくつかの理由から、部品全体で同じであるべきです。  
+: 
+- 部品内の乱れのない流れ 
+- ヒケの防止 
+肉厚を増す理由： 
+- 必要な圧力を低減 
+- 構造的強度の向上 
+- 部品形状はソリッドである必要がある 
+肉厚を減らす理由： 
+- シンク跡を防ぐ 
+- 材料使用量（必要注入量）の削減 
+- サイクルタイムの短縮 
+- 
+<br> 
+| Material    |   Full Range - industrial (mm)   | Manual Machines - recommended (mm) | 
+|----------|-------------|------------| 
+| PP |        0,8 - 3,8 | 2,5 - 5 | 
+| HDPE/LDPE |   0,8 - 4  | 2,5 - 5 | 
+| PS |     1 - 4   | 2,5 - 5 | 
+| ABS/PC   |   1,2 - 3,5  | 2,5 - 4,5  | 
+| POM | 0,8 - 3	| 2,5 - 4 | 
+| PMMA | 0,6 - 3,8|  2,5 - 5 | 
+
+## フィレ 
+身の回りのプラスチック部品には、すべて縁にフィレットがある。唯一の例外は、各金型の半分の交点に形成されるエッジ、または他の部品と組み合わせてスライダーやインサートによって形成されるエッジです。これにより、一方ではパーツの離型が容易になり、他方では金型内での材料の流れが均一になります。さらに、製造工程における金型製作のコストを削減することができます。 
+> ヒント：標準的な工具で製造できるように、フィレット内側の最小値を0.5mmより大きくする。 
+<br> 
+<img style="margin-left:0px;" src="../assets/create/fillets.jpg" width="500"/></img>
+フィレットの肉厚も維持する必要があることに留意してください。 
+<img style="margin-left:0px;" src="../assets/create/fillets-1.jpg" width="500"/></img> 
+材料が流れやすいようにするため、部品の設計では硬い切れ目を入れないようにする。 
+<img style="margin-left:0px;" src="../assets/create/fillets-2.jpg" width="500"/></img>
+
+## テキストとグラフィック 
+
+エングレービングでは、非常に経済的な方法で製品にテキストやグラフィックを追加することができます。スタンプや印刷のような後工程を省くことができ、追加ラベルの使用も不要になります。この工程では、プラスチック活字を簡単かつ精細に追加することができます。 
+テキストとグラフィックは、エンボス加工とデボス加工の2つの方法で統合できる： 
+- デボス加工された文字は、小さなエンドミルで文字の周りの材料を取り除く必要がないため、より経済的なオプションです。 
+- エンボス加工の方が読みやすいが、内側に落ちる影でその部分が暗くなるからだ。 
+<img style="margin-left:0px;" src="../assets/create/text-engrave.jpg" width="500"/></img>
+
+最も重要な値は、最小線幅と深さの比です。下の画像は、彫刻ビットの形状がどのように見えるかを示しています。幾何学的な形状のため、切り込みが深くなるほど、線幅が広くなります。10°から90°までの範囲の彫刻ビットがあり、その利点は、デフォルトですでにドラフト角度が得られることです。文字高が小さい場合、抜き勾配はほとんど見えません。 
+彫刻された文字やグラフィックの深さは、0.2～0.5mm以上でなければならない。より深いフィーチャーは、小さなエンドミルで加工できます。基本的な機械では、0.5mm以上のエンドミルしか使用できず、線幅もそれに合わせる必要があります。 
+すべての彫刻ビットの先端は平らまたは丸く、最小の先端サイズは0.1mmからです。 
+
+<img style="margin-left:0px;" src="../assets/create/text-graphics.jpg" width="500"/></img> 
+
+# 穴と切り抜き 
+
+射出成形部品に穴や切り抜き加工を施すことで、二次加工にかかる時間を短縮できます。 
+しかし、プラスチックがその周囲を流れ、途中で冷やされる際に、ウェルド／ニットラインができる危険性がある。これらのニットラインは、その場所に構造的な弱点を加える可能性がある。そのため、プラスチックが合流する背後の部分に荷重がかかるかどうかを知ることが重要です。 
+<img style="margin-left:0px;" src="../assets/create/socket-holes.jpg" width="500"/></img>
+複数のインジェクション・ゲートを使用する場合も、同じ効果が生じる。 
+この部分にかかる力が重要な場合は、穴あけ、レーザー切断、CNCフライス加工、型抜きなどの後加工方法を検討することもできます。ただし、この場合、別の工程が追加され、製造コストが増加します。 
+
+## リブ 
+同じ肉厚を維持しながら構造強度を高めるために、リブを追加して部品の剛性を高めることができます。これは（肉厚を増やすのとは対照的に）時間のかかる設計プロセスですが、より良い方法でヒケを防ぎ、材料の使用量を減らすことができます。 
+<img style="margin-left:0px;" src="../assets/create/socket-rib.jpg" width="500"/></img>
+リブの厚さは、部品の肉厚の0.4～0.6倍程度にする。 
+表面リブの高さは、肉厚の3倍以下でなければならない。 
+<img style="margin-left:0px;" src="../assets/create/socket-rib-1.jpg" width="500"/></img> 
+リブを設計する場合は、力のかかる方向を必ず考慮してください（特に長い部品の場合）。 
+<img style="margin-left:0px;" src="../assets/create/ribbon.jpg" width="500"/></img>
+美観に関連する表面のヒケを防ぐため、リボン構造は、より多くの材料が存在する交点でオフセットすることができます。抜き勾配とフィレットは、すべてのリブにも適用し、パーツの排出を容易にするように注意する。リブの底フィレットは難しい選択です。材料の蓄積やヒケを防ぎつつ、パーツの応力を減らすようにします。 
+<img style="margin-left:0px;" src="../assets/create/material-flow.jpg" width="500"/></img> 
+
+## 表面の質感 
+部品に表面テクスチャを追加できます。大きなディテールはCADモデルに実装することができ、製造中に彫刻することができます。より微細な表面構造には、サンドブラストのような後処理方法を使用して、粗い表面テクスチャを得ることができます。 
+表面にテクスチャーを加える場合は、抜き勾配を3～5°にするよう注意してください。下の写真は、内側にサンドブラスト仕上げを施したアルミ鋳型の例です。 
+<img style="margin-left:0px;" src="../assets/create/texture-sandblast.jpg" width="500"/></img> 
+
+## 金型製造のコスト削減 
+| Suggestion    |     Effect   | 
+|----------|-------------| 
+| Reduce the number of cavities                     |  The machining time multiplies with the number of cavities within a mould. The setup time stays the same. | 
+| Avoid undercuts                                   |   Saves the necessity of sliders or inserts  | 
+| Avoid small features below 1mm size               |    Makes it possible to machine the mould without utilization of EDM   | 
+| Optimize the part and mould geometry for milling  |  Saves communication and speeds up the process of mould making   | 
+| Use lower grade finishes                          |	Saves labour in the post processing of the mould | 
+| Consider secondary operations after injection     |	Can save costly sliders or difficulties in the mould making | 
+| Reduce the number of parts of the mould           | Reduces the complexity of the mouldmaking | 
+## モールドファイルを共有できるようにする 
+最後に、射出成形金型のクールな点は、多くの場合CADファイルから作成され、ウェブ上で共有できることです。1つのデジタルファイルによって、他の人が金型を複製することができます🎉 CADファイルまたは.stepファイルとして転送する必要があります。 
+単純な形状の場合、.svgまたは.dxfファイルを使用すると、金型メーカーへのファイル転送が簡単になります。.svgファイルを使用する場合は、金型メーカーがすべての形状の深さを把握できるように、必ず技術図を追加してください。3D CADファイルの生成にかかる追加の労力を考慮してください。 
+3Dファイルがソリッドな閉じたジオメトリであることを確認することは、プロセスのスピードアップに役立ちます。Rhinoのようなプログラムは、モデル生成にミスを引き起こす可能性があります。Fusion 360、Solidworks eDrawings、A360、onShapeなど、様々なファイルビューアーや簡単にアクセスできるCADプログラムやビューアーで.stepファイルを開き、ファイル内にソリッドパーツが1つだけあるかどうかを確認することができます。 
+3ds max、Cinema 4D、(Blender)、openSCADのようなポリゴンソフトウェアは、閉じたジオメトリを構築するには不十分です。複雑な有機モデルのような稀なケースでは使用できますが、その場合、製造工程が複雑になります。 
+
+<b>フィードバックを共有したり、製品/製品デザインについてチャットしたり、コミュニティからもっと学びたいですか？Discordの[#Create](https://discordapp.com/invite/yhmfzTZ)チャンネルへどうぞ。ここでは、製品デザイン、金型製作、カラーブレンド、仕上げ...貴重なオブジェクトを作成するためのすべてについて話しています！</b>。 

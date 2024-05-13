@@ -1,386 +1,275 @@
 ---
-id: faq
-title: FAQ
-sidebar_label: FAQ
+id: faq 
+title: FAQ 
+sidebar_label: FAQ 
 ---
-<style>
-:root {
-  --highlight: #e1e1e1;
-  --links: rgb(131, 206, 235);
-  --hover: rgb(131, 206, 235);
-}
-</style>
-
-# Frequently asked questions
-
-## 💬 General
-
-<details><summary><b>How do I get started?</b></summary>
+<style> 
+:root { 
+  --highlight: #e1e1e1; 
+  --links: rgb(131, 206, 235); 
+  --hover: rgb(131, 206, 235); 
+} 
+</style> 
+# ♪よくある質問 
+## ＃ 💬 一般論 
+<details><summary><b>どうすれば始められますか</b></summary>。 
 <p>
 
-Our [main website](https://preciousplastic.com/) explains the overall picture of Precious Plastic. The [Academy](https://community.preciousplastic.com/academy/intro.html) has video tutorials and information for you to learn how to start recycling plastic. The [Map](https://community.preciousplastic.com/map) and [Discord](https://discord.com/invite/rnx7m4t) can connect you with recyclers in your local area. Be sure to add a pin to the map when you are up and running!
-</p>
+当社の[メインウェブサイト](https://preciousplastic.com/)では、プレシャス・プラスチックの全体像を説明しています。アカデミー](https://community.preciousplastic.com/academy/intro.html)では、プラスチックのリサイクルの始め方を学べるビデオチュートリアルや情報を提供しています。Map](https://community.preciousplastic.com/map)と[Discord](https://discord.com/invite/rnx7m4t)では、あなたの地域のリサイクル業者とつながることができます。活動を開始したら、必ずマップにピンを追加してください！ 
+</p> 
+</details> 
+<details><summary><b>プレシャス・プラスティックにお返しをするにはどうしたらいいですか</b></summary>。 
+<p> 
+Precious Plasticはオープンソースプロジェクトです。つまり、あなたの知識を他のコミュニティと共有し、リサイクルの裾野を広げることができます。その方法は主に2つあります： 
+- ハウツーとは、リサイクルの旅で発見したヒントやコツを、ステップごとに説明したものです。マシンハック、新製品、金型、イベント開催、またはその中間であれ、私たちはそれらを聞きたいと思っています！ 
+- [Discord](https://discord.com/invite/rnx7m4t)、私たちのDiscordで質問してくる人たちを助けるノウハウを共有してください。一番良いのは、新しいリサイクル業者が、より質の高いリサイクルをより頻繁に行うことができるように、あなたがしてしまったかもしれない間違いを避けるのを助けることです。私たちは人々が知識を共有してくれることをとても嬉しく思いますし、感謝しています。 
+</p> 
+</details>
+<details><summary><b>プレシャス・プラスチックとコラボレーションするには？ 
+<p> 
+プレシャス・プラスティックには[Collabs](https://preciousplastic.com/collabs.html)のページがあります。ここでは、先進的なパートナーと協力し、世界中でリサイクルプロジェクトを立ち上げています。詳しくはCollabsのページをご覧ください。ワークスペースを立ち上げたい方は[Starterkits](https://preciousplastic.com/archived/starterkits/overview.html)をご覧ください。 
+</p> 
+</details>
+<details><summary><b>プレシャス・プラスチックのアイデアがあるのですが、どこで共有できますか</b></summary>。 
+<p> 
+すべてのアイデアを歓迎し、大いに歓迎します。マシン、製品、コレクションなどのチャンネルがあります。 
+</p> 
+</details>
+<details><summary><b>プレシャス・プラスティックで働きたいのですが、どうすれば応募できますか</b></summary>。 
+<p> 
+私たちは現在ポルトガルに拠点を置く小さなリモートチームです。募集や機会があれば、Discordやソーシャルメディアに投稿しています。リサイクルを学びながら働きたい、インターンシップをしたいという方は、マップをチェックし、お近くのワークスペースに求人情報を尋ねてみてください。 
+</p> 
+</details>
+<details><summary><b>オープンソースとは</b></summary>。 
+<p> 
+「オープンソース」とは、人々が改変したり共有したりできるもの、つまりその内容が「オープン」であることを指す。この用語は、オープンソースがソースコードがオープンであることを指していたソフトウェア業界に由来しているが、今日では、この用語は、ハードウェア、製品、研究、デザインなど、共同作業が可能で非独占的なあらゆるものを含むように拡大している！ 
+</p> 
+</details>
+<details><summary><b>プレシャス・プラスチックの目的は何ですか</b></summary>？ 
+<p> 
+プレシャス・プラスチックの目的は、プラスチック廃棄物問題に対する世界的な解決策を提供することです。私たちは、機械プラン、製品デザイン、プラスチックと産業に関する知識、ビジネスモデル、そしてこの問題を自分たちの手で解決しようとする誰もが採用できる完全なエコシステムを提供します。私たちが学び、オンラインで公開するものはすべて無料で、誰でも利用し、変更することができるオープンなものです。 
+</p> 
+</details>
+<details><summary><b>どのように貢献できますか</b></summary>。 
+<p> 
+私たちのコミュニティに参加して、Precious Plastic Universeの一員になってください。私たちはPrecious Plasticをさらに発展させるために、より分散化された共同プロセスを目指しています。もし私たちに金銭的な貢献をしたいのであれば、[Patreon](https://www.patreon.com/one_army)になるか、[support](https://preciousplastic.com/support.html)のページで他の方法を見つけてください。 
+</p> 
 </details>
 
-<details><summary><b>How can I share back to Precious Plastic?</b></summary>
-<p>
-
-Precious Plastic is an open-source project. This means that you can share back your knowledge with the rest of the community to help grow the recycling base. There are two main ways to do so: 
-- How-Tos, these are step by step instructions that show tips and tricks you have discovered during your recycling journey. Whether these are a machine hack, new product, mould, event hosting or anything in between, we want to hear about them!
-- [Discord](https://discord.com/invite/rnx7m4t), share your know-how helping people who come with questions on our Discord. The best thing is to help new recyclers avoid mistakes you may have made so that more quality recycling can happen more often. We are very happy for people to share their knowledge and are grateful.
-
-</p>
+## ⚙️ 機械 
+<details><summary><b>ダウンロードキットはどこにありますか</b></summary>？ 
+<p> 
+ダウンロードキット](https://community.preciousplastic.com/academy/download)はアカデミーにあります。このキットには、プラスチックリサイクルを始めるために必要なものがすべて入ったメインキットがあり、さらに各[スターターキット](https://preciousplastic.com/archived/starterkits/overview.html)にはそれぞれダウンロードキットがあります。 
+</p> 
+</details>
+<details><summary><b>マシンは販売していますか</b></summary>？ 
+<p> 
+いいえ、私たちは機械を販売していません。地元で作っていただくか、機械屋さんにお願いしています。はっきりさせておきますが、私たちは機械を売っていません :) 
+</p> 
+</details>
+<details><summary><b>マシンはどこで買えますか</b></summary>？ 
+<p> 
+機械や部品は[Precious Plastic Bazar](https://bazar.preciousplastic.com/)で買うことができる。配送の二酸化炭素排出量を減らすために、必ずあなたの周りの人から購入しましょう。私たちのコミュニティ・プラットフォームの地図やバザーで、地元で何が手に入るか確認してください。 
+</p> 
+</details>
+<details><summary><b>マシンを作って売ることはできますか</b></summary>？ 
+<p> 
+そうですね。リサイクルする人が増えれば増えるほどいい。利益はすべてあなたのものです！機械は[Precious Plastic Bazar](https://bazar.preciousplastic.com/)で売ることができます。 
+</p> 
+</details>
+<details><summary><b>マシンは安全に使えるか</b></summary>？ 
+<p> 
+私たちの図面通りに作れば大丈夫です。全体的には安全に作業できる。しかし、シュレッダーのような機械はかなりのダメージを与える可能性がある。しかし、機械をカスタマイズしてより安全にすることはいつでもできる。安全に関するヒントについては、[ハウツー](https://community.preciousplastic.com/how-to)をご覧ください。いずれにせよ、常に気をつけてください！ 
+</p> 
+</details>
+<details><summary><b>必要条件は？(スペース、道具／設備、お金、時間、人）</b></summary> 
+<p> 
+マシンによって異なりますが、この情報を見つけるにはアカデミーの[Build](https://community.preciousplastic.com/academy/build)セクションが最適です。さらに質問がある場合は、[Discord](https://discord.com/invite/rnx7m4t) でコミュニティに尋ねてください。 
+</p> 
+</details>
+<details><summary><b>マシンはどれくらいのエネルギーを消費しますか</b></summary>？ 
+<p> 
+出力に関する技術的なdetailsは、弊社ウェブサイトの[スターターキット](https://preciousplastic.com/starterkits/showcase/shredder)のページでご覧いただけます。 
+</p> 
+</details>
+<details><summary><b>技術的な質問があります。 
+<p> 
+Discord](https://discord.com/invite/rnx7m4t)を使ってください。そこには多くの有能で情報通のコミュニティメンバーやエンジニアがおり、あなたを助けてくれるかもしれません！ 
+</p> 
+</details>
+## プラスチック 
+<details><summary><b>プラスチックとは</b></summary></b></summary> 
+<p> 
+アカデミーの[プラスチック](https://community.preciousplastic.com/academy/plastic/basics)の項を参照のこと。 
+</p> 
+</details>
+<details><summary><b>プレシャス・プラスチックのマシンですべての種類のプラスチックを使用できますか</b></summary>？ 
+<p> 
+いいえ。私たちは通常、HDPE（#2）、PP（#5）、PS（#6）をプレシャス・プラスティック・マシンで最もうまく機能するプラスチックの種類として推奨しています。他の種類については、コミュニティで尋ねてみてください。   
+</p> 
+</details>
+<details><summary><b>プラスチックを扱うのは危険ですか</b></summary>？ 
+<p> 
+適切な注意事項に従う限り、プラスチックを扱うことはそれほど危険ではない。ただし、プラスチックの種類によって必要なものは異なります。アカデミーの[安全と煙](https://community.preciousplastic.com/academy/plastic/safety)のセクションを参照してください。PVCは有毒ですので、作業しないでください。 
+</p> 
+</details>
+<details><summary><b>プラスチックの種類を知るには？ 
+<p> 
+もしそうなら、万々歳です！ネットで簡単に検索できますし、[プラスチックの基礎知識](https://community.preciousplastic.com/academy/plastic/basics)でさらに詳しく説明しています。マークがない場合は少し難しい。密度テスト、赤外線テスト、燃焼テストなどの手法があります。また、一般的な製品にどのような種類のプラスチックが使われているかについても詳しく知ることができます（例えば、化学薬品はHDPEボトルに入っていることが多い）。これらのトピックはすべて、アカデミーの[Nerdy on Plastic](https://community.preciousplastic.com/academy/plastic/nerdy)で学ぶことができます。 
+</p> 
+</details>
+<details><summary><b>プラスチックは何回再利用できますか</b></summary>？ 
+<p> 
+プラスチックはかなり丈夫な素材なので、きちんと分別して洗浄さえすれば、理論上は何度でもリサイクルできる。プラスチックの種類にもよるが、業界では通常10回程度と言われている。しかし、重要なのは、できるだけ長く地球や海や大気から出さないために、長持ちするものを作ることなのだ。 
+</p> 
+</details>
+<details><summary><b>Precious PlasticはPETをリサイクルできますか？ 
+<p> 
+私たちはまだPETに対する解決策を持っていません。[Discord](https://discord.com/invite/rnx7m4t)にアクセスして、PETに対処するための斬新な解決策の開発に協力してください。 
+</p> 
+</details>
+## ＃ 🏓 製品 
+<details><summary><b>プレシャス・プラスチックの製品はどこで買えますか</b></summary>。 
+<p> 
+バザール](https://bazar.preciousplastic.com/)では、プレシャス・プラスチックのコミュニティから商品を購入することができる。 
+</p> 
+</details>
+<details><summary><b>製品を販売していますか</b></summary>？ 
+<p> 
+いいえ、私たちは商品を売っていません。 
+</details>
+<details><summary><b>商品のアイデアがあるのですが、作ってもらえますか</b></summary>？ 
+<p> 
+いいえ、現在私たちは製品デザインであなたを助けることはできません。Map](https://community.preciousplastic.com/map)を使ってワークスペースを探すか、[Discord](https://discord.com/invite/rnx7m4t)でチャットしてください。</p> 
 </details>
 
-<details><summary><b>How do I collaborate with Precious Plastic?</b></summary>
-<p>
+## 👨‍👩‍👦‍👦 コミュニティ 
+<details><summary><b>地元で人を見つけるにはどうしたらいいですか</b></summary>。 
+<p> 
+コミュニティプラットフォームの[地図](https://community.preciousplastic.com/map)を使って、あなたの周りにいる人を探してください！ 
+</p> 
+</details>
+<details><summary><b>どうすれば参加できますか</b></summary><b>どうすれば参加できますか</b></summary><b>どうすれば参加できますか？ 
+<p> 
+私たちのコミュニティに参加して、プレシャス・プラスティック・ユニバースの一員になってください。アカデミーの[Universe Explained](https://community.preciousplastic.com/academy/universe/universe)をチェックしてください。もし私たちに金銭的な貢献をしたいのであれば、[Patreon](https://www.patreon.com/davehakkens)でサポートすることができます。 
+</p> 
+</details>
+<details><summary><b>プラスチックを集めているのですが、どこに持っていけばいいですか</b></summary>。 
+<p> 
+収集するときは、[このページ](https://collect.preciousplastic.com/)でヒントやコツをチェックしよう。あなたのプラスチックを引き取ってくれる人を探すには、[地図](https://community.preciousplastic.com/map)をチェックしてください。世界中にワークスペースがあるので、あなたの地域にもワークスペースやコレクティングポイントがあるといいですね。 
+</details>
+<details><summary><b>プレシャス・プラスチックの名前は使えますか</b></summary>？ 
+<p> 
+はい！アカデミーの[スタイルガイド](https://community.preciousplastic.com/academy/universe/branding)にあるブランディングとスタイルのガイドラインをチェックしてください。 
+</p> 
+</details>
+<details><summary><b>検証されたワークスペースとは何ですか？ 
+<p> 
+プレシャス・プラスチックの検証済みスペースは、プレシャス・プラスチックを次のレベルに押し上げるプロジェクトです。詳しくはアカデミーの[コミュニティ・プログラム](https://community.preciousplastic.com/academy/guides/community-program)をご覧ください。 
+</p> 
+</details>
+<details><summary><b>マップピンの種類にはどのようなものがありますか</b></summary>？ 
+<p> 
 
-Precious Plastic has a page for [Collabs](https://preciousplastic.com/collabs.html). This is where we work with forward-thinking partners to create recycling projects around the world. You can learn more about it on the Collabs page. If you wish to start up a workspace check out our [Starterkits](https://preciousplastic.com/archived/starterkits/overview.html). 
-
-</p>
+マップピンは5種類あります：[ワークスペース]、[マシンショップ](https://preciousplastic.com/archived/starterkits/showcase/machine-shop.html)、[コレクションポイント](https://preciousplastic.com/archived/starterkits/showcase/collection-point.html)、[コミュニティポイント](https://preciousplastic.com/archived/starterkits/showcase/community-point.html)、[メンバー(始めたい)]。ワークスペースには5つの種類があります：[Extrusion](https://preciousplastic.com/archived/starterkits/showcase/extrusion.html)は、押出成形機のみが設置されているワークスペース、[Injection](https://preciousplastic.com/archived/starterkits/showcase/injection.html)は、射出成形機のみが設置されているワークスペース、[Shredder](https://preciousplastic.com/archived/starterkits/showcase/shredder.html)は、シュレッダーだけが設置されているワークスペース、[Sheetpress](https://preciousplastic.com/archived/starterkits/showcase/sheetpress.html)は、枚葉印刷機のみが設置されているワークスペース、[Mix](https://preciousplastic.com/archived/starterkits/showcase/mix.html)は、いずれかのマシンを組み合わせたワークスペースです。始めたい」ピンは、自分の地域で始めたい人、プレシャス・プラスチックのワークスペース／コレクション／コミュニティ／マシンショップを立ち上げる人を探している人のためのものです。 
+</p> 
 </details>
 
-<details><summary><b>I have an idea for Precious Plastic, where can I share it?</b></summary>
-<p>
+## ビジネス 
+<details><summary><b>プレシャス・プラスチックのビジネスとしての実現性は？ 
+<p> 
+Precious Plasticでお金を稼ぐ方法はたくさんあります。私たちの[スターターキット](http://preciousplastic.com/archived/starterkits/overview.html)のページから様々なものを見つけることができます。どんなビジネスでもそうですが、立ち上げは大変ですが、世界中の多くのワークスペースが成功を収めています。詳しくはアカデミーの[ビジネス](https://community.preciousplastic.com/academy/business)セクションをご覧ください。 
+</p> 
+</details>
+<details><summary><b>プレシャス・プラスチックのワークスペースの開始費用はいくらですか</b></summary>？ 
+<p> 
+起業にかかる費用は、起業したいビジネスの規模によって場所によって異なります。スターターキット](http://preciousplastic.com/archived/starterkits/overview.html)のページで見積もりをご覧いただけます。 
+</p> 
+</details>
+<details><summary><b>製品/マシンを販売するには</b></summary><b>どうすればよいですか？ 
+<p> 
+プレシャスプラスチックバザールがあります！プレシャスプラスチックのコミュニティーのためのマーケットプレイスです。アカウントを作ってすぐに販売を始めることができます。ガイドラインと[Bazar](https://bazar.preciousplastic.com/)をチェックしてください。 
+</p> 
+</details>
+<details><summary><b>商品の価格はどのように設定すればよいですか</b></summary>? 
+<p> 
 
-All ideas are welcome and much appreciated. Use Discord to gauge your initial ideas with the community, we have channels for machines, products, collections and more.
-</p>
+料金の見積もりやビジネスに関するアドバイスについては、アカデミーの[ビジネス](https://community.preciousplastic.com/academy/business)セクションと[ワークスペース計算機](https://community.preciousplastic.com/academy/business/workspacecalculator)をご覧ください。 
+</p> 
 </details>
 
-<details><summary><b>I want to work for Precious Plastic, how can I apply?</b></summary>
-<p>
+## 👩‍💻 コミュニティ・プラットフォーム 
+<details><summary><b>パスワード、ログイン、またはその両方を忘れてしまいました</b></summary>。 
+<p> 
+パスワードをお忘れの場合は、[サインアップ](https://community.preciousplastic.com/sign-in)ページの "Lost password? "リンクをご利用ください。 
+</p> 
+</details>
+<details><summary><b>地図上の新しいスペースはどのように承認しますか</b></summary>？ 
+<p> 
 
-We are a small remote team currently based in Portugal. When we have openings and opportunities we post them on Discord or social media. If you would like to work or do an internship learning recycling, check out the Map and ask  local workspaces for job opportunities in your area.
-</p>
+ワークスペース、コレクション・ポイント、コミュニティ・ポイントが、プレシャス・プラスチックの世界で活動するために必要な条件を満たしているか、チームが確認します。 
+</p> 
+</details>
+<details><summary><b>コミュニティ・プログラムとは</b></summary></b></p>
+<p> 
+コミュニティ・プログラムは、プレシャス・プラスチックの発展に最も貢献している人々やプロジェクトを支援し、その功績に報いることを目的としています。様々なレベル、条件、報酬があります。どのように参加できるか、下記をご覧ください。詳しくはアカデミーの[コミュニティ・プログラム](https://community.preciousplastic.com/academy/guides/community-program)をご覧ください。 
+</p> 
+</details>
+<details><summary><b>アカデミーの翻訳版はありますか</b></summary>？ 
+<p> 
+翻訳は初日から要望されていましたが、なかなか難しいものでした。さまざまなフォーマットやプラットフォームのコンテンツがあります。さらに、多くの異なる言語でのコミュニティ・インターフェースは、役に立つというよりも、混乱を招く可能性があります。これらの理由から、私たちは翻訳を保留しています。しかし今のところ、[Discord](https://discord.com/invite/rnx7m4t)のREGIONSチャンネルにアクセスして、あなたの言語でチャットすることができます。 
+</p> 
+</details>
+## プロジェクトについて 
+<details><summary><b>このプロジェクトの背後にいるのは誰か</b></summary>。 
+<p> 
+プレシャス・プラスティックは2013年にデーブ・ハッケンズによってスタートした。チームは数年の間に何度も変わり、主に新しいバージョンに取り組んできた。現在では、小さなチームが一貫してプロジェクトに取り組んでいます。この[チーム](https://preciousplastic.com/people/team.html)は、コミュニティの繁栄を維持し、マシンと製品の開発を続ける手助けをしています。私たちの[歴史](https://preciousplastic.com/about/history.html)を通して、プロジェクトについてもっと学んでください。 
+</p> 
+</details>
+<details><summary><b>なぜすべてを無料で共有するのですか</b></summary>？ 
+<p> 
+知識を無償で開放することが、効果的な解決策を構築する最短の方法だと信じているからだ。ボトムアップ、草の根、コミュニティ主導。 
+</details>
+<details><summary><b>クリエイティブ・コモンズ、著作権、オープンソース？ 
+<p> 
+詳しくは[オープンソース](https://preciousplastic.com/about/open-source)のページをご覧ください。基本的に、私たちが提供するものはすべてクリエイティブ・コモンズ・パブリック・ライセンスの下で共有されており、あなたはそれを自由に使用することができます！ 
+</p> 
+</details>
+<details><summary><b>なぜ無料で共有するのですか</b></summary>？ 
+<p> 
+知識を無償で開放することが、効果的な解決策を構築する最短の方法だと信じているからです。ボトムアップ、草の根、コミュニティ主導。   
+</p> 
+</details>
+<details><summary><b>クリエイティブ・コモンズ、著作権、オープンソース？ 
+<p> 
+詳しくは[オープンソース](https://preciousplastic.com/about/open-source)のセクションをチェックしてください。基本的に私たちが行っていることはすべてオープンソースであり、自由に使用することができます！私たちはクリエイティブ・コモンズ・パブリック・ライセンスを取得し、私たちのデザイン、設計図などを保護しています。 
+</p> 
+</details>
+<details><summary><b>このプロジェクトでお金を稼げますか</b></summary>？ 
+<p> 
+プロジェクトの収益源はいくつかある。主なものは、大きなパートナーとのコラボレーションです。これらのコラボレーションは、プレシャス・プラスチックの研究開発だけでなく、オンライン・プラットフォームの構築やメンテナンスの資金源にもなっています。また、助成金、賞金、寄付金、バザーの参加費を組み合わせて資金を調達しています。寄付をご希望の方は、[Support](https://preciousplastic.com/support.html)のページをご覧ください。 
+</p> 
 </details>
 
-<details><summary><b>What is open source?</b></summary>
-<p>
-
-"Open source" refers to something that people can modify and share - its contents are "open". The term comes from the software industry where open source referred to the source code being open, nowadays the term has expanded to include hardware, products, research, design, just about anything that can be collaborative and non-proprietary!
-</p>
+## 💬 連絡先 
+<details><summary><b>あなたのワークスペースを訪問したいのですが</b></summary>。 
+<p> 
+もし、プレシャス・プラスチックのワークスペースが実際に行われているところを見たいのであれば、マップをチェックして、お近くのワークスペースがあなたの手助けをしてくれるかどうか調べてみてください。 
+</p> 
+</details>
+<details><summary><b>困っていることがあります。</b></summary>質問したいことがあるのですが。 
+<p> 
+[Discord](https://discord.com/invite/rnx7m4t)は、コミュニティからの質問や回答を見つけるのに最適な場所です！パトロンサポーターの方は、Discordのパトロンヘルプデスクにアクセスしてください。 
+</p> 
+</details>
+<details><summary><b>研究プロジェクトを行っており、プロジェクトについていくつか質問したいのですが</b></summary>。 
+<p> 
+残念ながら、私たちは小さなチームなので、質問に直接答えることはできません。私たちの情報はすべてアカデミーにありますし、私たちの[Discord](https://discord.com/invite/rnx7m4t)で多くのアクティブな人たちと話すことができます。また、[Map](https://community.preciousplastic.com/map)で地元のワークスペースに連絡することも、素晴らしい情報を得るためのもう一つの方法です。 
+</p> 
+</details>
+<details><summary><b>あなたのプロジェクトに資金提供/寄付することに興味があります</b></summary>。 
+<p> 
+ぜひご相談ください！[サポート](https://preciousplastic.com/support.html)のページをご覧ください。 
 </details>
 
-<details><summary><b>What is the aim of Precious Plastic?</b></summary>
-<p>
-
-The aim of Precious Plastic is to provide a global solution to the plastic waste problem. We provide machine plans, product designs, knowledge on plastic and the industry, business models and a full ecosystem that can be adopted by anyone that wants to take the problem into their own hands. Everything we learn and publish online is free and open for anyone to use and modify.
-</p>
-</details>
-
-<details><summary><b>How can I contribute?</b></summary>
-<p>
-
-We'd love you to join our community and become part of the Precious Plastic Universe. We’re working towards more decentralised and collaborative processes to develop Precious Plastic further, check out our Discord to learn how you can contribute. If you'd like to contribute to us financially, you can become a [Patreon](https://www.patreon.com/one_army) or visit our [support](https://preciousplastic.com/support.html) page to find another way to help.
-
-</p>
-</details>
-
-
-
-## ⚙️ Machines
-<details><summary><b>Where is the Download Kit?</b></summary>
-<p>
-
-The [Download Kit](https://community.preciousplastic.com/academy/download) is in the Academy. It has the main kit with everything needed to start plastic recycling, plus each [Starterkit](https://preciousplastic.com/archived/starterkits/overview.html) has its own download kit.
-</p>
-</details>
-
-<details><summary><b>Do you sell the machines?</b></summary>
-<p>
-
-No. We do not sell machines. We prefer that people build them locally or hire a machine shop. Just to make it clear, WE DO NOT SELL MACHINES :)
-</p>
-</details>
-
-<details><summary><b>Where can I buy the machines?</b></summary>
-<p>
-
-You can buy machines or parts on the [Precious Plastic Bazar](https://bazar.preciousplastic.com/). Make sure to buy from someone around you to reduce delivery carbon emissions. Check out the Map on our Community Platform, or the Bazar to see what's available locally.
-
-</p>
-</details>
-
-<details><summary><b>Can I build the machines and sell them?</b></summary>
-<p>
-
-Yes, we would love that. The more people recycle, the better. The profit is all yours my friend! You can sell the machines via the [Precious Plastic Bazar](https://bazar.preciousplastic.com/).
-</p>
-</details>
-
-<details><summary><b>Are the machines safe to work with?</b></summary>
-<p>
-
-If you build them according to our drawings, it should be ok. Overall they are safe to work with. However, a machine like a shredder can do quite some damage. But you can always customise the machines and make them safer. For more safety tips, check out the [How-tos](https://community.preciousplastic.com/how-to). Either way, please always watch out!
-</p>
-</details>
-
-<details><summary><b>What are the requirements? (Space, tools/equipment, money, time, people)</b></summary>
-<p>
-
-It's different for every machine, the best place to find this information is in the [Build](https://community.preciousplastic.com/academy/build) section of the Academy. If you have any further questions, ask the community on [Discord](https://discord.com/invite/rnx7m4t).
-
-</p>
-</details>
-
-<details><summary><b>How much energy do the machines consume?</b></summary>
-<p>
-
-You can find all the output technical details on the [starterkit](https://preciousplastic.com/starterkits/showcase/shredder) pages of our website.
-</p>
-</details>
-
-<details><summary><b>I have a technical question, where can I get help?</b></summary>
-<p>
-
-You can use [Discord](https://discord.com/invite/rnx7m4t). Many talented and informed community members and engineers are there and might be able to help you!
-</p>
-</details>
-
-## 🥤 Plastics
-
-<details><summary><b>What is plastic?</b></summary>
-<p>
-
-See the [Plastic](https://community.preciousplastic.com/academy/plastic/basics) section in the Academy.
-</p>
-</details>
-
-<details><summary><b>Can I use all plastic types in Precious Plastic machines?</b></summary>
-<p>
-
-Nope. We usually recommend HDPE (#2), PP (#5), and PS (#6) as the plastic types that work best in the Precious Plastic machines. Ask around the community about other types.  
-</p>
-</details>
-
-<details><summary><b>Is it dangerous to work with plastic?</b></summary>
-<p>
-
-It's not overly dangerous to work with plastic as long as you follow the proper precautions. However, different plastic types have different requirements. Refer to the [Safety and Fumes](https://community.preciousplastic.com/academy/plastic/safety) section of the Academy.PVC is toxic, so don’t work with it.
-</p>
-</details>
-
-<details><summary><b>How do I know what type of plastic something is?</b></summary>
-<p>
-
-Hopefully, the piece of plastic you're referring to is marked with a number from 1 to 7. If it is, hooray! You can easily search online or check out our [Basics of Plastic](https://community.preciousplastic.com/academy/plastic/basics) section which goes into more detail. If it's not marked, it's a little more difficult. There are techniques such as density testing, infrared testing and burn to test. You can also get to know more about what kinds of plastic are used for common products (for example, chemicals are often stored in HDPE bottles). You can learn about all these topics in the [Nerdy on Plastic](https://community.preciousplastic.com/academy/plastic/nerdy) in the Academy.
-
-</p>
-</details>
-
-<details><summary><b>How many times can you reuse plastic?</b></summary>
-<p>
-
-Plastic is a pretty strong material and as long as it's sorted and cleaned properly, in theory, it could be recycled many times. Depends on the plastic type, but the industry says it's usually around 10 times. But the point is to make long-lasting items to keep them out of our earth/ocean/atmosphere as long as possible.
-</p>
-</details>
-
-
-<details><summary><b>Can Precious Plastic recycle PET?</b></summary>
-<p>
-
-We don’t have solutions for PET yet, head over to [Discord](https://discord.com/invite/rnx7m4t) and help us develop novel solutions to deal with PET.
-</p>
-</details>
-
-## 🏓 Products
-
-<details><summary><b>Where can we buy Precious Plastic products?</b></summary>
-<p>
-
-You can purchase products from the Precious Plastic community on the [Bazar](https://bazar.preciousplastic.com/).
-</p>
-</details>
-
-<details><summary><b>Do you sell products?</b></summary>
-<p>
-
-Nop, we don't sell products.</p>
-</details>
-
-<details><summary><b>I have an idea for a product, can you make it for me?</b></summary>
-<p>
-
-Nop, currently we cannot help you with product design. You can use the [Map](https://community.preciousplastic.com/map) to find a workspace to help you or chat with people on [Discord](https://discord.com/invite/rnx7m4t).</p>
-</details>
-
-
-## 👨‍👩‍👦‍👦 Community
-
-<details><summary><b>How do I find people in my local area?</b></summary>
-<p>
-
-Use the [Map](https://community.preciousplastic.com/map) on the community platform to find people around you!
-</p>
-</details>
-
-<details><summary><b>How can I get involved?</b></summary>
-<p>
-
-We'd love you to join our community and become part of the Precious Plastic Universe. Check out the [Universe Explained](https://community.preciousplastic.com/academy/universe/universe) in the Academy. If you'd like to contribute to us financially, you can support us on [Patreon](https://www.patreon.com/davehakkens).
-</p>
-</details>
-
-<details><summary><b>I have been collecting plastic, where can I bring it?</b></summary>
-<p>
-
-When collecting, check out [this page](https://collect.preciousplastic.com/) for tips and tricks. To find people wanting to take your plastic, check out the [Map](https://community.preciousplastic.com/map). There are workspaces all over the world, so hopefully, there is a workspace or Collecting Point in your area.</p>
-</details>
-
-<details><summary><b>Can I use the Precious Plastic name?</b></summary>
-<p>
-
-Yes you can! Check out the branding and style guidelines in the Academy under [Style guides](https://community.preciousplastic.com/academy/universe/branding).
-</p>
-</details>
-
-<details><summary><b>What is a Verified workspace and how do I become one?</b></summary>
-<p>
-
-The Precious Plastic Verified spaces are the projects pushing Preicous Plastic to the next level. Check out the [Community Program](https://community.preciousplastic.com/academy/guides/community-program) on the Academy to learn more.
-</p>
-</details>
-
-<details><summary><b>What are the different types of map pins?</b></summary>
-<p>
-
-There are 5 different map pins: Workspace, [Machine Shop](https://preciousplastic.com/archived/starterkits/showcase/machine-shop.html), [Collection Point](https://preciousplastic.com/archived/starterkits/showcase/collection-point.html), [Community Point](https://preciousplastic.com/archived/starterkits/showcase/community-point.html) and Member (Want to get started). There are 5 different types of Workspaces: [Extrusion](https://preciousplastic.com/archived/starterkits/showcase/extrusion.html), a workspace that has only an extrusion machine; [Injection](https://preciousplastic.com/archived/starterkits/showcase/injection.html), a workspace that has only an Injection machine; [Shredder](https://preciousplastic.com/archived/starterkits/showcase/shredder.html), a workspace that has only a shredder; [Sheetpress](https://preciousplastic.com/archived/starterkits/showcase/sheetpress.html), a workspace that has only a sheetpress and [Mix](https://preciousplastic.com/archived/starterkits/showcase/mix.html), a combination of any of the machines. The "Want to Get Started" pin is for people who want to get started in their area and searching for people to start up a Precious Plastic workspace/collection/community/machine shop.
-</p>
-</details>
-
-
-## 💰 Business
-
-<details><summary><b>How feasible is Precious Plastic as a business?</b></summary>
-<p>
-
-There are many ways to make money with Precious Plastic. You can find a wide variety via our [Starterkits](http://preciousplastic.com/archived/starterkits/overview.html) page. Like any business, it can be tough starting up, but many workspaces around the world have seen successes. Check out the [Business](https://community.preciousplastic.com/academy/business) section in the Academy for more information.
-</p>
-</details>
-
-<details><summary><b>What are the starting costs for a Precious Plastic workspace?</b></summary>
-<p>
-
-Starting costs vary from place to place depending on the scale of the business you wish to start. You can find our estimates on the [Starterkits](http://preciousplastic.com/archived/starterkits/overview.html) page.
-</p>
-</details>
-
-<details><summary><b>How do I sell my products/machines?</b></summary>
-<p>
-
-We have the Precious Plastic Bazar! This is a marketplace for the Precious Plastic Community to sell anything related to Precious Plastic. You can set up an account and start selling straight away. Check out the guidelines and the [Bazar](https://bazar.preciousplastic.com/).
-</p>
-</details>
-
-<details><summary><b>How do I price my items?</b></summary>
-<p>
-
-For pricing estimates and further business advice, check out the [Business](https://community.preciousplastic.com/academy/business) section and [Workspace Calculator](https://community.preciousplastic.com/academy/business/workspacecalculator) in the Academy.
-</p>
-</details>
-
-## 👩‍💻 Community Platform
-
-<details><summary><b>I’ve forgotten my password, login, or both!</b></summary>
-<p>
-
-If you've forgotten your password, you can use the "Lost password?" link on the [Sign up](https://community.preciousplastic.com/sign-in) page.
-</p>
-</details>
-
-<details><summary><b>How do you approve new Spaces on the map?</b></summary>
-<p>
-
-A team will review each incoming Workspaces, Collection Points or Community Points to make sure they meet the requirements needed to operate within the Precious Plastic universe to keep the community active and relevant.
-
-</p>
-</details>
-
-<details><summary><b>What is the Community Program?</b></summary>
-<p>
-
-The Community Program aims to help and reward the people and projects contributing the most to grow the Precious Plastic movement. There are different levels, requirements and rewards. Have a dig below to understand how you can be part of it. For more information check out the [Community Program](https://community.preciousplastic.com/academy/guides/community-program) on the Academy.
-</p>
-</details>
-
-<details><summary><b>Is there a translated version of the Academy?</b></summary>
-<p>
-
-Translation has been requested since day one and has been difficult to figure out. We have content in many different formats and platforms. Additionally, a community interfacing in many different languages can be more confusing than helpful. For these reasons we have translation on hold. But for now you can access REGIONS channels on [Discord](https://discord.com/invite/rnx7m4t) to chat in your language.
-</p>
-</details>
-
-## 🔆 About the project
-
-<details><summary><b>Who is behind this project?</b></summary>
-<p>
-
-Precious Plastic was started by Dave Hakkens in 2013. The teams have changed multiple times over the years, mainly working on new versions. Now, there is a small team consistently working on the project. This [team](https://preciousplastic.com/people/team.html) helps keep the community thriving and continues the development of machines and products. Learn more about the project through our [history](https://preciousplastic.com/about/history.html).
-
-</p>
-</details>
-
-<details><summary><b>Why are you sharing everything for free?</b></summary>
-<p>
-
-Because we believe that opening up knowledge for free is the fastest way to build effective solutions. Bottom up, grassroots, and community driven.</p>
-</details>
-
-<details><summary><b>Creative commons, copyright and open source?</b></summary>
-<p>
-
-Check out our [open source](https://preciousplastic.com/about/open-source) page for more information. Basically everything we is shared under Creative Commons public licence and and you are free to use it!
-</p>
-</details>
-
-<details><summary><b>Why are you sharing it for free?</b></summary>
-<p>
-
-Because we believe that opening up knowledge for free is the fastest way to build effective solutions. Bottom up, grassroots, and community driven.  
-</p>
-</details>
-
-<details><summary><b>Creative commons, copyright and open source?</b></summary>
-<p>
-
-Check out our [open source](https://preciousplastic.com/about/open-source) section for more information. Basically everything we do is open source and you are free to use it! We have a creative commons public license to help protect all of our designs, blueprints, etc.
-</p>
-</details>
-
-<details><summary><b>Do you make money with this project?</b></summary>
-<p>
-
-We have a few revenue streams for the project. The main one is the Collabs we do with bigger partners. These Collabs help fund the building and maintenance of the online platforms as well as research and development of Precious Plastic. We are also funded through a combination of grants, awards, donations, and Bazar fees. If you would like to contribute, check out the [Support](https://preciousplastic.com/support.html) page.
-</p>
-</details>
-
-## 💬 Contact
-
-<details><summary><b>I would like to visit your workspace</b></summary>
-<p>
-
-Would love to but it is not possible at the moment :( If you would like to see a Precious Plastic workspace in action, check out the Map and see if your local workspace can facilitate you.
-</p>
-</details>
-
-<details><summary><b>I'm stuck with something. Can I contact you to ask you a question?</b></summary>
-<p>
-
-[Discord](https://discord.com/invite/rnx7m4t) is the best places to ask questions and find answers from the community! If you're a Patreon supporter you can head to the Patreon Helpdesk on Discord.
-</p>
-</details>
-
-<details><summary><b>I am doing a research project and would like to ask a few questions about the project?</b></summary>
-<p>
-
-Unfortunately, we can’t directly answer questions as we are a small team. We have all our information on the Academy and you can talk to many active people on our [Discord](https://discord.com/invite/rnx7m4t). Also contacting your local workspace on the [Map](https://community.preciousplastic.com/map) is another way to get great information.
-</p>
-</details>
-
-<details><summary><b>I'm interested in funding/donating to your project.</b></summary>
-<p>
-
-Well we'd love to talk to you! Please visit our [Support](https://preciousplastic.com/support.html) page and find out how you can help.</p>
-</details>
-
-### That's a lot of questions! The quickest way to get anything answered that isn't here is to head to our Discord. There's a rundown of all the channels in the Chat section next.
+### 質問が多いですね！ここに書かれていないことに答えるには、Discordにアクセスするのが一番手っ取り早い。次のチャットセクションに全チャンネルの概要があります。 

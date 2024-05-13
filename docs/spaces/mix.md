@@ -1,119 +1,81 @@
 ---
-id: mix
-title: Setup a mix Workspace
-sidebar_label: Mix
+id: mix 
+title: Setup a mix Workspace 
+sidebar_label: Mix 
 ---
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/RmN0d41399w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/RmN0d41399w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div> 
+<style> 
+:root { 
+  --highlight: #37b4a3; 
+  --hover: #37b4a3; 
+} 
+</style> 
 
-<style>
-:root {
-  --highlight: #37b4a3;
-  --hover: #37b4a3;
-}
-</style>
-
-# Mix Workspace
-
+# ミックス・ワークスペース 
 <div class="videoChapters">
 <div class="videoChaptersMain">
 
-###  This Precious Plastic Space is the place to learn and get into plastic recycling and create beautiful products from plastic waste.
-
-Ok, you want to set up an Mix workspace. Super. We're going to walk you through how to learn about plastic, build the machines and set up the space to create wonderful objects from plastic waste 🤙
-
-Setting up a Mix workspace can be broken down into three main steps:
-
-1. <b>Search:</b> what to think about when choosing your space
-2. <b>Plan:</b> how to plan your space effectively to fit all the machines
-3. <b>Build:</b> transforming an empty room into a Mix workspace
-
-Each of these steps is explained in more detail below.
-
-</div>
+### このプレシャス・プラスチックスペースは、プラスチックのリサイクルを学び、プラスチック廃棄物から美しい製品を生み出す場所です。 
+よし、Mixワークスペースをセットアップしよう。スーパー。プラスチックについて学び、機械を作り、プラスチック廃棄物から素敵なオブジェを作るためのスペースを設置する方法を説明します🤙。 
+ミックスのワークスペースを設定するには、主に3つのステップに分けることができる： 
+1.<b>検索：</b>スペースを選ぶときに考えること 
+2.<b>計画:</b> すべてのマシンを収めるための効果的なスペース計画の立て方 
+3.<b>ビルド：</b> 何もない部屋をミックスのワークスペースに変える。 
+これらの各ステップについて、以下で詳しく説明する。 
+</div> 
 <div class="videoChaptersSidebar">
 
-### Video Chapters
+### ビデオ・チャプター 
+- 00:00 はじめに 
+- 01:10 機械 
+- 01:22 プラスチックの調達 
+- 02:05 シュレッダーの時間 
+- 03:01 機械と働く 
+- 04:17 物流 
+</div> 
+</div> 
 
-- 00:00 Introduction
-- 01:10 Machines
-- 01:22 Sourcing Plastic
-- 02:05 Shredding Time
-- 03:01 Working With Machines
-- 04:17 Logistics
-
-</div>
-</div>
-
-## 🔍 Search
-
-The first step of setting up a Mix workspace is to find a space (duh). While searching, there are a few considerations to keep in mind.
-
-1. <b>Size:</b> It’s important to be sure that you have enough space to move around freely with your machines and tools. The Mix space we designed is roughly 5 x 8 meters – you can go larger, but if you include all the v2 machines (like ours) we wouldn’t recommend going much smaller.
-
-2. <b>Electricity:</b> The Injection and Extrusion machine can run on single-phase, but the shredder sometimes runs on three-phase, so be sure to check the specs of the motor you plan to use when choosing your space.
-
-3. <b>Budget:</b> While making sure your space meets your functional needs, it’s also important to keep in mind how it will fit into your budget.
-
-> Pro-tip: sometimes, cities offer discounted rent to entrepreneurs with purposeful missions, so it’s worth getting in touch with accelerators and representatives of your municipality to see if there are opportunities like this in your area.
-
-
-## ✍️ Plan
-
-You’ve found your space. Nice one. Now you can begin to plan how you will arrange the elements of your workspace according to your unique floorplan.
-
-Every space is different, so this is a chance for you to customize your layout to make it work for you.
-
-To help you begin, we’ve included some starter floor plans, CAD models, and a custom floor planner in the download kit, which you can use to explore different layouts before diving into the real thing.
-
-![Mix Workspace](assets/spaces_mix.jpg)
-
-Once you’ve made a floor plan that seems promising, test it out in real life by blocking it out on the floor of your space with chalk. Continue to iterate until you arrive at a floor plan that feels right.
-
-## 🛠 Build
-
-Now that your floor plan is blocked out, it’s time to transform your empty room into a Mix workspace.
-
-### Begin with basics
-
-Start with your most essential items - machines, workbench, basic tools – then build out from there as you start to see what suits your workflow best.
-
-When possible, look for secondhand options to reduce the amount of new materials and resources being used to start your space. If what you need isn’t available secondhand, buy new or build. And always strive for good quality rather than cheap.
-
-Some essential items to get you started:
-
-- Machines - of course. You can get them all or start with a combination that fits your workspace's goals. 
-- Pre-shredded plastic storage containers - bags work well, might depend on how you collect your plastic.
-- Shredded plastic storage containers – Can be almost anything. What’s most important is to make sure that they’re sturdy to prevent accidental spills. If you have your own shredder, it’s nice to use storage containers that you can shred into then store, so that you don’t have to pour shredded plastic from one container to another – helps keep types and colours pure. Clear containers are nice, but not required.
-- Simple moulds – could be beam, bowl, or any other item – depends on which machines you use. Best to start with something simple to familiarise yourself with the process, then build from there. Check out the <a href="https://community.preciousplastic.com/">how-tos</a> for inspiration.
-- Basic tools - wrenches, scoop, hammer, chisel, channel lock pliers, screwdriver, safety glasses and heat resistant gloves.
-- Ventilation – filter mask, ventilation caddy, check out the <a href="https://community.preciousplastic.com/academy/plastic/safety">safety video</a> to learn more.
-- Workbench.
-- Off-cuts container.
-
-
-Once you’ve got your basic workspace set up, start working with your machines to develop your workflow and see what else might help you work more efficiently and comfortably.
-
-And don’t be afraid to spice the place up with your own unique charm :) Plants, posters, the right lighting, and a boombox will make your workspace more enjoyable to be in for yourself and anyone who stops by.
-
-## Inside a shipping container
-Optionally we've also created a series of 4 videos where you can see how we build an entire Mix Workspace inside a 40 feet shipping container. It might give you some tips or inspiration on how to arrange your space :)
-
-1. Get a container https://youtu.be/IhYHzKHH0CQ
-2. Build the interior: https://youtu.be/KQgzhtyaiHs
-3. Paint it: https://youtu.be/noQWukX7lTI
-4. How to run it:  https://youtu.be/ME-eiYvbgCg
-<iframe width="800" height="400" src="https://www.youtube.com/embed/IhYHzKHH0CQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Your role in the universe
-| Your icon  |  Your task |
-|----------|----------------------|
-| <img src="../assets/universe/badge-workspace.png" width="150"/>        |  __Workspace__ <br> A Precious Plastic Workspace is a place where plastic gets transformed from waste into valuable materials or products. There are five different workspaces: Shredder, Extrusion, Sheetpress, Injection and Mix. |
-
-## 👋 Share
-
-You’ve built your Mix Workspace. Nice! We’re all learning together, so be sure to share back any hacks or developments that have helped you improve your space along the way. Enjoy the journey 🙂
-
-<b>Want to share feedback, chat about the Mix Workspace or learn more from the community? Head to the [#Spaces](https://discordapp.com/invite/p92s237) channel on Discord. Here we answer questions and give tips on setting up your workspace and how to run it.</b>
+## ＃ ᔍ 検索 
+ミックスのワークスペースを整える最初のステップは、スペースを見つけることだ（当たり前だ）。スペース探しには、いくつか注意すべき点があります。 
+1.<b>サイズ：</b>マシンやツールを自由に動き回れる十分なスペースを確保することが重要です。私たちが設計したMixスペースは、おおよそ5 x 8メートルです。これより大きくすることもできますが、（私たちのように）すべてのV2マシンを含めるのであれば、これより小さくすることはお勧めしません。 
+2.<b>電気:</b> 射出成形機と押出成形機は単相で稼働できるが、シュレッダーは三相で稼働することもあるので、スペースを選ぶ際には使用予定のモーターのスペックを必ず確認すること。 
+3.<b>予算：</b>スペースが機能的なニーズを満たしていることを確認する一方で、予算に合うかどうかを念頭に置くことも重要です。 
+> このような機会が地元にあるかどうか、アクセラレーターや自治体の担当者に問い合わせてみる価値がある。 
+## ✍️ プラン 
+自分のスペースを見つけたね。いい感じです。あとは、あなただけの間取りに合わせて、ワークスペースの要素をどのように配置するか、計画を立て始めましょう。 
+スペースはそれぞれ違うので、レイアウトをカスタマイズするチャンスです。 
+ダウンロード・キットには、スターター・フロアプラン、CADモデル、カスタム・フロアプランナーが含まれています。 
+![Mix Workspace](assets/spaces_mix.jpg) 
+有望と思われる間取りができたら、それを実際に空間の床にチョークで書き出して試してみる。納得のいく間取りができるまで、何度も繰り返してください。 
+## ＃ 😎 ビルド 
+間取りが決まったら、今度は何もない部屋をミックスのワークスペースに変身させよう。 
+### 基本から始める 
+機械、作業台、基本的な工具など、最も必要なものから始め、そこから自分のワークフローに最も適したものを見つけ出していく。 
+可能であれば、中古品を探し、新しい材料や資源の使用量を減らしましょう。必要なものが中古で手に入らない場合は、新しく買うか、建てる。そして常に、安さよりも質の良さを追求しましょう。 
+必要不可欠なアイテム 
+- マシン - もちろん。全部揃えることもできるし、ワークスペースの目的に合った組み合わせから始めることもできる。 
+- あらかじめ細断されたプラスチックの保存容器-袋でもいいが、プラスチックの集め方にもよるかもしれない。 
+- シュレッダー付きプラスチック保存容器 - ほとんど何でもよい。最も重要なのは、誤ってこぼれないように頑丈であることだ。自分のシュレッダーを持っているなら、シュレッダーにかけてから保存できる保存容器を使うと、容器から別の容器にシュレッダーを注ぐ必要がなく、種類や色を純粋に保つことができる。透明な容器も良いが、必須ではない。 
+- 簡単な金型-梁、ボウル、その他どんなものでも構いません-は、使用する機械によります。工程に慣れるために簡単なものから始めて、そこから積み上げていくのがベストです。<a href="https://community.preciousplastic.com/">ハウツー</a>をチェックして、インスピレーションを得てください。 
+- 基本工具：スパナ、スコップ、ハンマー、ノミ、チャンネルロックプライヤー、ドライバー、安全眼鏡、耐熱手袋。 
+- 換気-フィルターマスク、換気キャディ、詳しくは<a href="https://community.preciousplastic.com/academy/plastic/safety">安全ビデオ</a>をご覧ください。 
+- 作業台。 
+- 切り落としコンテナ。 
+基本的なワークスペースが整ったら、マシンを使ってワークフローを開発し、より効率的で快適に仕事ができるような他の方法を試してみよう。 
+そして、自分だけの魅力をスパイスとして加えることを恐れないでください。）観葉植物、ポスター、適切な照明、ラジカセなど、あなたのワークスペースは、あなた自身にとっても、立ち寄る人にとっても、より楽しいものになるでしょう。 
+## 輸送用コンテナの中 
+オプションで、40フィートの輸送用コンテナの中にミックス・ワークスペース全体を構築する様子をご覧いただける4本のビデオシリーズもご用意しました。あなたのスペースをどのようにアレンジするか、ヒントやインスピレーションが得られるかもしれません。） 
+1.コンテナを入手する https://youtu.be/IhYHzKHH0CQ 
+2.内装を作る: https://youtu.be/KQgzhtyaiHs 
+3.ペイント：https://youtu.be/noQWukX7lTI 
+4.実行方法：https://youtu.be/ME-eiYvbgCg 
+<iframe width="800" height="400" src="https://www.youtube.com/embed/IhYHzKHH0CQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+### 宇宙におけるあなたの役割 
+| Your icon  |  Your task | 
+|----------|----------------------| 
+| <img src="../assets/universe/badge-workspace.png" width="150"/>        |  __Workspace__ <br> A Precious Plastic Workspace is a place where plastic gets transformed from waste into valuable materials or products. There are five different workspaces: Shredder, Extrusion, Sheetpress, Injection and Mix. | 
+## 👋シェア 
+ミックス・ワークスペースが完成しました。いいですね！私たちはみんな一緒に学んでいるので、あなたのスペースを改善するのに役立ったハックや開発があれば必ずシェアしてください。旅を楽しんでください。 
+<b>フィードバックを共有したり、Mix Workspaceについてチャットしたり、コミュニティからもっと学びたいですか？Discordの[#Spaces](https://discordapp.com/invite/p92s237)チャンネルにアクセスしてください。ここでは質問に答えたり、ワークスペースの設定や運営方法についてヒントを与えたりしています</b>。 

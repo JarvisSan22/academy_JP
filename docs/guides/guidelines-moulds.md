@@ -1,73 +1,57 @@
-# Mould How-to guidelines
-
-By sharing a mould How-to you’re contributing to develop the largest, decentralised, open source library of recycling machines. Big up on that 🤙
-
-When it comes to moulds How to, the most important thing is to provide a complete download file with all the necessary files to replicate the moulds. We understand that most of the work for your how-to will go in designing your product and documenting it thoroughly, so a short 3-4 step how-to will be enough! If you want to add more steps for giving some tips and tricks regarding the mould manufacturing process it’s very valuable.
-
-For the mould files, here’s what to remember:
-
-## Download files
-- Including the original format for 3D files is good but should always come together with a **STEP** file so that people can open it in different 3D Modelling softwares.
-- For laser cut files, **.DXF** generally works best and if there’s any engraving, make sure to include that information in your steps.
-- Bill of materials (if needed) is best in **PDF** or **excel** format.
-- Bundle all your files into **one .zip file**. Or a public link to make it easier to share around. :)
-- Make sure they describe the content you are providing so that you can check if that what’s in the zip file.
-        For example:
-            In this folder you will find:
-                1. 3D CAD (.step and .f3d)
-                2. Laser cut files (.dxf)
-                3. Blueprints (.pdf)
-                4. Schematics
-                5. BOM
-
-## Steps structure
-### How to title: “_____ Mould” 
-Just the name of what it is, keep it simple.
-![How-to title examples](assets/guides/moulds-1.png)
-
-### Intro/banner
-#### Text:
-Explain what product is it and what it is for
-Add any other important or interesting information about the product/mould.
-
-#### Cover picture: 
-The best is to show the mould next to the final product, so people can easily recognize what they can make with it.
-![Cover image examples](assets/guides/moulds-2.png)
-
-### Step 1 - Title: Download:
-#### Text:
-- Tell people to make sure the mould design and size is compatible with their machine capacity.
-- Recommended Plastic type (it can be more than 1)
-- Explain what machine is suitable to use this mould and any specific requirement if applicable (For ex. This mould is suitable for injection machines, ideally arbour-powered  machines that can reach at least 75 bars but not more than 100 bars - Using a machine that can go over 100 bars can cause the mould to break).
-- Tell people to decide if they want to customise it according to their needs or not, since now is the moment to do so (Like adding engraving, reducing or increasing the amount of cavities, etc.) But, always keeping in mind the capacity of their machine! 
-
-
-#### Step picture: 
-Can be a render, screenshot of the 3D model or blueprint (basically what people will find in the download zip): 
-![Step Picture examples](assets/guides/moulds-3.png)
-
-### Step 2 - Title: Manufacture:
-#### Text:
-- Now they should prepare to manufacture the mould. They can do this step themselves if they have their own CNC Machine, laser cutter or metal working tools, otherwise they can always contact their local manufacturer.. 
-- Explain the important requirements the manufacturer needs to know before making this mould, such as: Machine/s, material, tooling, surface finish, nozzle type, fixing dimensions, etc.
-- If you have any tips & tricks related to the manufacturing or use of this mould to share, now is the time! You can recommend add-ons to the mould (like ejecting pins), ways to demould the product easier, or ways to improve the surface finish of the mould and therefore the product, etc.
-
-#### Step picture (if applicable): 
-Tools and materials needed layed out or close up to manufactured mould (not a render)
-![Tools and materials example images](assets/guides/moulds-4.png)
-
-
-### Step 3 - Title: Inject! / Extrude! / Press! (Depending for what machine is the mould for):
-#### Text:
-- Test the mould with the corresponding plastic type for that product
-- Explore the possible applications and colour combinations
-- Include any recommendations regarding the injection/ extrusion/ pressing into this mould if necessary (Like preheating, oiling, adding inserts, in the mould).
-- If you have this mould or product available for sale, make sure to add the Bazar link! 
-
-#### Step picture: 
-Mould open after injecting, finished product and/or different applications of the same product
-![Finished mould examples](assets/guides/moulds-5.png)
-
-## Check some good mould how-tos for some inspiration:
-- [Flower Pot mould](https://community.preciousplastic.com/how-to/flowerpot-mould)
-- [Light Switch and socket mould](https://community.preciousplastic.com/how-to/make-a-lightswitch-and-socket)
+# 金型ハウツーガイドライン 
+金型のハウツーを共有することで、あなたは最大の、分散化された、リサイクルマシンのオープンソースライブラリの開発に貢献しているのです。それを誇りに思う🤙。 
+金型のハウツーに関して最も重要なことは、金型を複製するために必要なすべてのファイルを含む完全なダウンロードファイルを提供することです。ハウツーに必要な作業の大半は、製品の設計とその徹底的な文書化であることを理解していますので、3～4ステップの短いハウツーで十分です！もし、金型製造プロセスに関するヒントやトリックを提供するために、さらにステップを追加したい場合は、それは非常に貴重です。 
+金型ファイルについて、覚えておくべきことは以下の通りだ： 
+ ## ファイルをダウンロード 
+- 3Dファイルのオリジナルフォーマットを含めることは良いことですが、異なる3Dモデリングソフトウェアで開くことができるように、常に**STEP**ファイルと一緒にする必要があります。 
+- レーザーカットファイルの場合、一般的に**.DXF**が最適です。また、彫刻がある場合は、その情報をステップに含めるようにしてください。 
+- 部品表（必要な場合）は**PDF**または**excel**形式が最適です。 
+- すべてのファイルを**1つの.zipファイル**にまとめてください。または、共有しやすくするために公開リンクを張ってください。） 
+- zipファイルの中身を確認できるように、提供するコンテンツが記述されていることを確認してください。 
+        例えば、こうだ： 
+            このフォルダには 
+                1.3D CAD (.step および .f3d) 
+                2.レーザーカットファイル（.dxf） 
+                3.設計図 (.pdf) 
+                4. 回路図 
+                5.BOM 
+ ## ステップ構造 
+ ### How to title: “_____ Mould”  
+名前だけ、シンプルに。 
+![How-to title examples](assets/guides/moulds-1.png) 
+ ### イントロ/バナー 
+ ## ## テキスト 
+どのような製品で、何のためにあるのかを説明する。 
+その他、製品・金型に関する重要な情報や興味深い情報を追加してください。 
+ ## ## 表紙の写真 
+一番いいのは、最終製品の隣に型を見せることで、それで何が作れるかを簡単に認識できるようにすることだ。 
+![Cover image examples](assets/guides/moulds-2.png) 
+ ### ステップ1 - タイトル：ダウンロード 
+ ## ## テキスト 
+- 金型の設計とサイズが機械の能力に適合していることを確認するよう伝える。 
+- 推奨プラスチックタイプ（1つ以上でも可） 
+- この金型を使用するのにどのような機械が適しているか、また、該当する場合は具体的な要件を説明してください（例：この金型は射出成形機に適しています。この金型は射出成形機に適しており、75バール以上100バール以下のアーバー式成形機が理想です。） 
+- 自分のニーズに合わせてカスタマイズするかどうかは、今がその時だから決めるように言ってください（刻印を入れたり、キャビティの量を減らしたり増やしたりなど）！ 
+ ## ## ステップの写真： 
+レンダリング、3Dモデルのスクリーンショット、または設計図（基本的に、ダウンロードしたzipファイルに含まれるもの）でもかまいません： 
+![Step Picture examples](assets/guides/moulds-3.png) 
+ ### ステップ2 - タイトル製造： 
+ ## ## テキスト 
+- さて、彼らは金型を製造する準備をしなければならない。CNCマシン、レーザーカッター、金属加工ツールを持っている場合は、このステップを自分で行うことができます。 
+- この金型を製造する前に、製造者が知っておくべき重要な要件を説明する：機械、材料、金型、表面仕上げ、ノズルタイプ、固定寸法など。 
+- この金型の製造または使用に関するヒントやコツをお持ちの方は、今がその時です！金型に追加するもの（排出ピンなど）、製品をより簡単に脱型する方法、金型の表面仕上げ、ひいては製品の表面仕上げを向上させる方法などを推奨してください。 
+ ## ## ステップ写真（該当する場合）： 
+型に必要な道具や材料を並べたもの、またはそのクローズアップ（レンダーではない） 
+![Tools and materials example images](assets/guides/moulds-4.png) 
+ ### ステップ3 - タイトル注入する！/ 押し出せ/ プレス(どのマシン用の金型かによる）： 
+ ## ## テキスト 
+- その製品に対応するプラスチック・タイプで金型をテストする。 
+- 可能な用途と色の組み合わせを探る 
+- 必要であれば、この金型への射出／押出／プレスに関する推奨事項（予熱、注油、インサートの追加など）も含めてください。 
+- この金型や製品を販売している場合は、必ずBazarのリンクを追加してください！ 
+ ## ## ステップの写真： 
+注入後の型開き、完成品および／または同一製品の異なる用途 
+![Finished mould examples](assets/guides/moulds-5.png) 
+ ## インスピレーションを得るために、良い金型のハウツーをいくつかチェックしよう： 
+- [フラワーポット型](https://community.preciousplastic.com/how-to/flowerpot-mould) 
+- [照明スイッチとソケットの金型](https://community.preciousplastic.com/how-to/make-a-lightswitch-and-socket) 

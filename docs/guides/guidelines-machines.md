@@ -1,148 +1,121 @@
-# Machines How-to guidelines
+# マシン ハウツー・ガイドライン 
 
-By sharing a machine How-to you’re contributing to develop the largest, decentralised, open source library of recycling machines. Big up on that 🤙
+マシンのハウツーを共有することで、あなたは最大の、分散化された、リサイクルマシンのオープンソースライブラリの開発に貢献することになります。それを誇りに思う🤙。 
+マシンのハウツーに関して最も重要なことは、マシンを再現するために必要なファイルをすべてダウンロードできるようにすることです。ハウツーに必要な作業のほとんどは、マシンを設計し、それを徹底的に文書化することにあると私たちは理解していますので、3～4ステップの短いハウツーで十分です！もし、マシンの製造プロセスに関するヒントやトリックを提供するために、さらにステップを追加したいのであれば、それはとても貴重なことです。 
+ドキュメンテーションについては、CAD＋部品表＋回路図（電気部品の場合）が、マシンのハウツーを共有するための**最低条件**と考えます。とはいえ、このマシンを複製するために、追加の部品図面や組立図面、レーザー切断ファイル、マニュアル、その他の関連情報を提供していただけると大変助かります。 
 
-When it comes to  machines How-to, the most important thing is to provide a complete download file with all the necessary files to replicate the machine. We understand that most of the work for your how-to will go in designing your machine and documenting it thoroughly, so a short 3-4 step how-to will be enough! If you want to add more steps for giving some tips and tricks regarding the machine manufacturing process it’s very valuable.
+## これらのハウツーに必要な主なものは以下の通り： 
+- ファイルの入手（最低限）。 
+- 提供するコンテンツを説明する 
+例えば、こうだ： 
 
-Regarding the documentation, we see CAD + a bill of material + schematic (if electric components) as the **minimum requirement** to share a machine how-to. This being said, it helps a lot if you can provide additional part and assembly drawings, laser cut files, manuals or any other relevant information to replicate this machine. 
+*このフォルダには次のものがあります。 
+    *- 3D CAD（.stepと.f3d）*。 
+    *- レーザーカットファイル(.dxf) 
+    *- ブループリント(.pdf) 
+    *- 回路図 
+    *- BOM 
+    *...そしてもっと :)* 
+- 必要な技能のリスト（溶接、はんだ付けなど） 
+- 製造に必要な機械のリスト（溶接機、ドリル、グラインダーなど）。 
+- マシンが作られたことの証明。 
+- マシンの動作/結果の証明（テスト済み）。 
+マシンファイルについて、覚えておくべきことは以下の通りだ： 
 
-## Main requirements for these how-tos are:
-
-- Getting the files (at least at a minimum).
-- Describe the content you are providing 
-For example:
-*In this folder you will find:*
-    *- 3D CAD (.step and .f3d)*
-    *- Laser cut files (.dxf)*
-    *- Blueprints (.pdf)*
-    *- Schematics*
-    *- BOM*
-    *... and more :)*
-- List of skills required (welding, soldering, etc..)
-- List of machinery required for manufacturing (welder, drill, grinder etc..).
-- Proof of the machine having been built.
-- Proof of the machine working/outcome (tested).
-
-For the machine files, here’s what to remember:
-
-## Download files folder structure
-![Fold structure example](assets/guides/machines-1.png)
-
-- Including the original format for 3D files is good but should always come together with a **STEP** file so that people can open it in different 3D Modelling softwares.
-- For laser cut files, **.DXF** generally works best and if there’s any engraving, make sure to include that information in your steps.
-- Blueprints individual **.PDF** for parts and assembly drawings. 
-- Bill of materials (if needed) is best in **.PDF** or **excel** format.
-- Schematics in **PDF.** 
-- Any image format (JPEG, PNG)
-- You can always include in the “Others” folders things like: instruction manuals, pictures, renders, add-ons, etc.
-- Bundle all your files into **one .zip file.** Or a public link to make it easier to share around :)
-
-
-# Steps structure:
-## How to title: 
-Ex. “Solar powered injection machine” (just the name of what it is, keep it simple).
-![Names examples](assets/guides/machines-2.png)
-*DO NOT USE PRECIOUS PLASTIC’S OFFICIAL MACHINE MODELS NUMBERING SYSTEM. 
-
-## How to cover: 
-### Text:
-- Explain what machine it is. 
-*Tip: check “information about naming” for more details below.
-- Explain what this machine is for and specify if it's an upgrade or based on an existing design, if so, which one and what are the main improvements.
-- Add any other important or interesting information about the product/mould.
-
-### Cover picture:
-![Cover image examples](assets/guides/machines-3.png)
-It can be a render or a picture of the built machine in front of a clean background (or as clean as possible).
-
-### Step #1 - Title:  Download.
-#### Text:
-Describe the content you are providing 
-For example:
-In this folder you will find:
-- 3D CAD (.step and .f3d)
-- Laser cut files (.dxf)
-- Blueprints (.pdf)
-- Schematics
-- BOM
-... and more :)
-
-#### Picture:
-![Picture example](assets/guides/machines-4.png)
-Picture can be a render or a blueprint sample.
-
-
-### Step #2 - Title: Build it.
-#### Text:
-Now describe the needed skills to build this machine. Here is a non-exhaustive list that you could include if applicable:
--  General metalworking (cutting, drilling)
-- Welding
-- Turning (machining on a lathe)
-- Milling (machining on a mill)
-- General woodworking (cutting, drilling)
-- General electrical work (wiring safety switch, temperature controllers…)
-- Motor electrical work (wiring motor, contactor, overload protection…)
-- Programming (arduino, VFD…)
-- Advanced assembly work (require specific tools, measurement  instruments and tolerances knowledge to align and assemble)
-- Pneumatic
-- Hydraulic
-- …
-
-⚙️List the machinery you used for the built (Optional but useful):
-- Grinder, chop saw, MIG/MAG, TIG, drill press
-- Lathe, mill (precise if manual or CNC)
-- Table saw, router, planner
-- …
-
-#### Picture:
-![Machine example](assets/guides/machines-5.png)
-Picture should be of the machine built, **not** a render.
-
-### Step 3: Run, create and sell :)   
-#### Text:
-- Explain how the machine should be operated.
-- Explain what product you obtain with the machine.
-- Give the relevant input / output of the machine (type of plastic, thickness, productivity, electric consumption…).
-- Link relevant how-tos.
-- Invite to sell and or buy in the Bazar.
-
-#### Picture:
-![Operation example](assets/guides/machines-6.png)
-Picture of the machine running and/ or of the product obtained
-
-
-### Step 4: Share back and feedback   
-#### Text:
-If you have feedback on the machine design or build process, share it with the community in the comments. Constructive feedback can help improve the quality of the machines and tools available on the platform.
-
-If you have expertise in a particular area of machine building or plastic recycling, share it with the community. This can be in the form of tutorials, guides, or best practices. By sharing your knowledge, you can help others learn and grow in their plastic recycling journey.
-
-Join discussions on the Community Platform on the Questions module and share your thoughts and opinions on machine building and plastic recycling. This is a great way to connect with other community members and learn from their experiences.
-
-By sharing back and providing feedback, you can help strengthen the Precious Plastic community and contribute to its mission of reducing plastic waste. So, don't be afraid to speak up and share your thoughts with the community!
-
-# Tips on naming your machine:
-- Machines developed directly by the Precious Plastic core team are documented with specific names (Shredder, Extruder PRO, Sheet-press…) that are sometimes shortened to few letters as a simplification. Then to keep track of changes, our machines are numbered with 2 digits. The first one symbolises a significant change in the design or the concept, while the second is to symbolise small changes and/or optimisations :
-**For example:** We designed the Sheet-press 2.0 (SPR - 2.0) based on the V4 Sheet-press design (SPR - 1.0). We considered the changes made there significant (We increased the total dimensions of the machine from 1,2 m to 1,5m and disassembly ability), therefore we increased the first digit value.
-Then we improved out design slowly, with small iterations:
-- SPR 2.1 Integrated spacer in the side frame.
-- SPR 2.2 Integrated lifting point for manufacturing and assembly.
-- And lately SPR 2.3 integrated CE required guards.
-
-While we highly recommend you to use a similar system to be able to track your change, this is not mandatory. 
-
-However, we ask you to use a **different name** when you release a machine, and **not an iteration of our numbering system**. This is to avoid confusion as it is very likely that multiple people will develop their own version simultaneously, sometimes with different advantages that are difficult to evaluate. 
-For example, your machine name can:
-- Include the specificity of the design (Hand crank Shredder, Solar Injection machine…)
-- Include the country / region where you built it (Shredder India, extruder Texas…)
-- Include your workspace name (Shredder PRO LRF, Injection sustainable studio…)
-- Include an adaptation of the design (Shredder 2.1 imperial …)
-
-## Check some good machine how-tos for some inspiration:
-- [SPR - 2.3](https://community.preciousplastic.com/how-to/spr---23)
-- [SHR - 2.3](https://community.preciousplastic.com/how-to/shr---33-)
-- [INJ - 2.1](https://community.preciousplastic.com/how-to/inj---21-)
-- [EXTPRO - 1.2 ](https://community.preciousplastic.com/how-to/extpro---12)
-
-
-
+## ダウンロードファイルのフォルダ構造 
+![Fold structure example](assets/guides/machines-1.png) 
+- 3Dファイルのオリジナルフォーマットを含めることは良いことですが、異なる3Dモデリングソフトウェアで開くことができるように、常に**STEP**ファイルと一緒にする必要があります。 
+- レーザーカットファイルの場合、一般的に**.DXF**が最適です。また、彫刻がある場合は、その情報をステップに含めるようにしてください。 
+- 部品図および組立図については、個々の**.PDF**をご覧ください。 
+- 部品表（必要な場合）は**.PDF**または**excel**形式が最適です。 
+- PDF.**の回路図 
+- 任意の画像フォーマット（JPEG、PNG） 
+- Others "フォルダには、取扱説明書、写真、レンダリング、アドオンなどを入れることができます。 
+- すべてのファイルを**1つの.zipファイルに束ねる。**または、共有しやすくするために公開リンク :) 
+# ステップの構造 
+## How to title:  
+例"太陽電池式射出成形機"（どんなものなのかの名前だけ、シンプルに）。 
+![Names examples](assets/guides/machines-2.png) 
+*プレシャス・プラスチックのオフィシャル・マシン・モデル・ナンバリング・システムを使用しないでください。 
+# カバーする方法 
+### テキスト 
+- どんなマシンなのか説明してくれ。 
+*ヒント：以下の「ネーミングに関する情報」をチェックしてください。 
+- このマシンが何のためのものかを説明し、アップグレードなのか、それとも既存の設計に基づくものなのか、もしそうなら、どのマシンなのか、そして主な改良点は何なのかを明記してください。 
+- その他、製品・金型に関する重要な情報や興味深い情報を追加してください。 
+### 表紙の写真 
+![Cover image examples](assets/guides/machines-3.png) 
+レンダリングでも、きれいな背景（あるいはできるだけきれいな背景）の前に置かれたマシンの写真でもいい。 
+### ステップ#1 - タイトル：ダウンロード。 
+#### テキスト 
+提供するコンテンツを説明する 
+例えば、こうだ： 
+このフォルダには 
+- 3D CAD (.step と .f3d) 
+- レーザーカットファイル (.dxf) 
+- 設計図 (.pdf) 
+- 回路図 
+- BOM 
+... and more :) 
+#### 写真 
+![Picture example](assets/guides/machines-4.png) 
+写真はレンダリングでも設計図のサンプルでも構いません。 
+### ステップ2 - タイトル作ろう。 
+#### テキスト 
+では、このマシンを作るために必要なスキルを説明してください。以下は非網羅的なリストであり、該当する場合はそれを含めることができる： 
+- 一般金属加工（切断、穴あけ） 
+- 溶接 
+- 旋盤加工 
+- フライス加工 
+- 一般木工（切断、穴あけ） 
+- 電気工事全般（安全スイッチの配線、温度調節器など） 
+- モーター電気工事（モーター配線、接触器、過負荷保護...） 
+- プログラミング（arduino、VFD...） 
+- 高度な組み立て作業（位置合わせや組み立てには、特定の工具、測定機器、公差の知識が必要） 
+- 空気圧式 
+- 油圧式 
+- ... 
+⚙️（オプションですが、便利です）： 
+- グラインダー、チョップソー、MIG/MAG、TIG、ドリルプレス 
+- 旋盤、フライス盤（手動かCNCか正確なもの） 
+- テーブルソー、ルーター、カンナ 
+- ... 
+#### 写真 
+![Machine example](assets/guides/machines-5.png) 
+写真はレンダリングではなく、マシンを組み立てたものでなければならない。 
+### ステップ3：走り、創造し、売る）    
+#### テキスト 
+- 機械の操作方法を説明する。 
+- マシンでどのような製品が得られるかを説明する。 
+- 機械の関連入力／出力（プラスチックの種類、厚さ、生産性、消費電力...）を示す。 
+- 関連するハウツーをリンクする。 
+- バザールでの売買に招待する。 
+#### 写真 
+![Operation example](assets/guides/machines-6.png) 
+マシンの稼動写真および/または得られた製品の写真 
+### ステップ4：フィードバックを共有する 
+#### テキスト 
+マシンの設計や組み立てプロセスに関するフィードバックがあれば、コメントでコミュニティと共有してください。建設的なフィードバックは、プラットフォームで利用可能なマシンやツールの品質向上に役立ちます。 
+機械製造やプラスチックリサイクルの特定分野の専門知識をお持ちの方は、それをコミュニティで共有してください。チュートリアル、ガイド、ベストプラクティスなどの形でも構いません。あなたの知識を共有することで、他の人がプラスチックリサイクルの旅で学び、成長するのを助けることができます。 
+コミュニティ・プラットフォームの質問モジュールでディスカッションに参加し、機械製造やプラスチック・リサイクルに関するあなたの考えや意見を共有してください。これは、他のコミュニティメンバーとつながり、彼らの経験から学ぶ素晴らしい方法です。 
+意見を交換し、フィードバックを提供することで、プレシャス・プラスチックのコミュニティを強化し、プラスチック廃棄物の削減というミッションに貢献することができます。ですから、恐れずに発言し、コミュニティと考えを共有してください！ 
+# マシンに名前をつけるときのヒント： 
+- プレシャスプラスチックのコアチームによって直接開発された機械は、シュレッダー、エクストルーダーPRO、シートプレス...といった具体的な名前で文書化されています。そして、変更を追跡するために、私たちの機械には2桁の数字が付けられています。最初の数字は設計やコンセプトの重要な変更を象徴し、2番目の数字は小さな変更や最適化を象徴しています： 
+**V4シートプレス（SPR-1.0）をベースにシートプレス2.0（SPR-2.0）を設計しました。その変更点（機械の総寸法を1,2mから1,5mにしたこと、分解性を高めたこと）が大きいと考え、1桁目の数値を大きくしました。 
+そして、少しずつデザインを改良していった： 
+- SPR 2.1 サイドフレームに組み込まれたスペーサー。 
+- SPR 2.2 製造と組み立てのための統合されたリフティングポイント。 
+- そして最近、SPR2.3はCEに必要なガードを統合した。 
+私たちは、あなたの変化を追跡できるように、同様のシステムを使用することを強くお勧めしますが、これは必須ではありません。 
+ただし、マシンをリリースする際には、**私たちのナンバリングシステムの繰り返しではなく、**別の名前**を使用するようお願いします。これは混乱を避けるためで、複数の人が同時に独自のバージョンを開発する可能性が非常に高く、時には評価が難しい異なる利点を持つこともあるからです。 
+例えば、あなたのマシン名は次のようにすることができる： 
+- 設計の特殊性を含める（手回しシュレッダー、ソーラー射出機...）。 
+- 製造した国／地域を記入（シュレッダーはインド、エクストルーダーはテキサス...）。 
+- ワークスペース名（シュレッダーPRO LRF、Injection sustainable studio...）を含める。 
+- デザイン（シュレッダー2.1帝国...）の適応を含む 
+- 
+## 良いマシンのハウツーをチェックして、インスピレーションを得よう： 
+- [SPR - 2.3](https://community.preciousplastic.com/how-to/spr---23) 
+- [SHR - 2.3](https://community.preciousplastic.com/how-to/shr---33-) 
+- [INJ - 2.1](https://community.preciousplastic.com/how-to/inj---21-) 
+- [EXTPRO - 1.2 ](https://community.preciousplastic.com/how-to/extpro---12) 
