@@ -21,8 +21,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "academy",
-  organizationName: "onearmy",
+  projectName: "academy_JP",
+  organizationName: "JarvisSan22",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -46,7 +46,7 @@ const siteConfig = {
     secondaryColor: "#256e23",
     defaultFontColor: "#404040"
   },
-  editUrl: "https://github.com/ONEARMY/academy/blob/master/docs/",
+  editUrl: "https://github.com/JarvisSan22/academy_JP/blob/master/docs/",
 
   /* Custom fonts for website */
   /*
