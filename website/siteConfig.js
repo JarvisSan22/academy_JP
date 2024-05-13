@@ -11,8 +11,8 @@
 const siteConfig = {
   title: "Precious Plastic Toolbox", // Title for your website.
   tagline: "A website for testing",
-  url: "https://onearmy.github.io", // Your website URL
-  baseUrl: "/academy/",
+  url: "https://jarvissan22.github.io", // Your website URL
+  baseUrl: "/academy_JP/",
   onPageNav: 'separate',
   // remove /docs/ prefix
   docsUrl: "",
