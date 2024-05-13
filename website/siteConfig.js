@@ -12,7 +12,7 @@ const siteConfig = {
   title: "Precious Plastic Toolbox", // Title for your website.
   tagline: "A website for testing",
   url: "https://JarvisSan22.github.io", // Your website URL
-  baseUrl: "/academy_JP/",
+  baseUrl: "/academy_JP.github.io/",
   onPageNav: 'separate',
   // remove /docs/ prefix
   docsUrl: "",
