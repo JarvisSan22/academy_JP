@@ -1,10 +1,12 @@
---- 
+---
 id: businessplan 
 title: Business Plan Template 
 sidebar_label: Business Plan Template 
---- 
+---
+
 <div class="videocontainer">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/IXzcRQNe-hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/IXzcRQNe-hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
 </div> 
 <style> 
 :root { 
@@ -12,15 +14,21 @@ sidebar_label: Business Plan Template
   --hover: #f7b77b; 
 } 
 </style> 
+
 # ビジネスプランのテンプレート 
-<div class="videoChapters">（ビデオ・チャプターズ 
-<div class="videoChaptersMain">（ビデオ・チャプターズ・メイン）</div>
+
+<div class="videoChapters">
+  
+<div class="videoChaptersMain">
+  
  ### ビジネスやプロジェクトのストーリーを語る 
 ビジネスプラン・テンプレートには2つの目的がある：第一に、あなたとあなたのチームのアイデアを明確にすること、第二に、このアイデアを潜在的な資金提供者やパートナーに明確に伝えることです。これは、助成金の申請や銀行融資の準備、あるいは投資家への説明などに役立ちます。 
 このテンプレートは、ビジネスプランに必要なフレームワークで、さまざまなセクションで構成されています。概要は以下の通りだが、これらのセクションが何であるかわからなくても心配はいらない。 
 > ヒント：量より質 - 必要でない情報は書かないこと。人の注意を引くことができる時間は限られているので、無駄にしないこと！ 
 </div> 
-<div class="videoChaptersSidebar">（ビデオチャプターサイドバー 
+
+<div class="videoChaptersSidebar">
+  
  ### ビデオ・チャプター 
 - 00.08 イントロ 
 - 00.37 テンプレート構造 
@@ -37,10 +45,13 @@ sidebar_label: Business Plan Template
 - 09.05 付録 
 </div> 
 </div> 
+
  ### 👇ビジネスプラン・テンプレートへのリンク 
 下のリンクをクリックして文書を開き、「ファイル」＞「コピーを作成」をクリックすれば準備完了です！ 
+
 [ビジネスプランのテンプレートを開く](https://bit.ly/3g0sKUG) 
 ![Business Plan](assets/Business/businessplantemplate.jpg) 
+
  ## それで中身は？ 
 1.要旨 
 2.使命 
@@ -63,6 +74,7 @@ sidebar_label: Business Plan Template
 8.法的構造 
 9.付録 
 ![Business Plan](assets/Business/businessplan.jpg) 
+
 # 👌ヒント 
 - 長いビジネスプランにすべてを書き込む前に、まずアクションプランを完成させよう。ビジネスモデルはビジネスプランよりも重要です。 
 - 事業計画書は、あなたのビジネスやプロジェクトのストーリーを語る機会であり、説得力のある財務提案を行う理由であると考えてください。特に、顧客にどのような価値を提供しようとしているのかについて。 
