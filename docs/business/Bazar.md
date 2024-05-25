@@ -7,7 +7,7 @@ sidebar_label: Overview
 :root { 
   --highlight: #f7b77b; 
   --hover: #f7b77b; 
-} 
+}
 </style>
 
 ![Bazar Product](../assets/Business/bazar-header.png) 
