@@ -3,9 +3,10 @@ id: workspacecalculator
 title: Workspace calculator 
 sidebar_label: Workspace Calculator 
 ---
-<div class="videocontainer">（ビデオコンテナ）</div 
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/mcoN76xG9Is" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-</div> 
+<div class="videocontainer">
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/mcoN76xG9Is" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <style> 
 :root { 
   --highlight: #f7b77b; 
@@ -15,12 +16,15 @@ sidebar_label: Workspace Calculator
 
 # ワークスペース計算機 
 <div class="videoChapters">
+  
 <div class="videoChaptersMain">
 
 ### ワークスペースを始めることの可能性を理解する手助けをする。 
+
 この財務予測ツールは正確な科学ではないが、スタートするために必要な資金、利益を上げるために月に何個の商品やサービスを販売する必要があるか、初期投資を回収するのにかかる期間などの出発点を示してくれる。 
 このツールは、あなたがプレシャス・プラスチックの中で始めたいと考えているどのようなタイプのビジネスにも適用できます！このツールのアイデアは、あなたの収入源をリストアップし、コストを差し引き、その結果をまとめて見るというものです。 
 </div> 
+
 <div class="videoChaptersSidebar">
 
 ### ビデオ・チャプター 
@@ -43,8 +47,10 @@ sidebar_label: Workspace Calculator
 - 青い枠で囲まれたボックスのみに記入してください。 
 - 入力する数値は1より小さくてもかまいません - 単純に小数点以下の桁数を使用します (例 - 0.57) 
 - 同じようなことをやっている既存のワークスペースに連絡を取れば（マップやDiscordを使って）、必要な数字を教えてくれるかもしれない。 
-<p class="note">注意：この計算機には税金が含まれていません。 
+<p class="note">注意：この計算機には税金が含まれていません。
+  
 ### 🗝️ キーワード 
+  
 <b>収益：</b>製品やサービスを販売することによってもたらされるお金<br>。 
 <b>利益：</b>すべての費用（家賃、材料費、電気代など）を支払ってもなお手元に残るお金<br>。 
 <b>利益率：</b>総コストを上回る利益の割合<br>。 
@@ -89,6 +95,7 @@ Read Me シートには、ワークスペース計算機の使用について知
 ### ダッシュボード - サマリーボックス 
 
 <img style="margin-left: 0;" src="../assets/Business/workspace_3.jpg" width="700"/></img> 
+
 各商品やサービスの利益率を計算したら、今度は、サマリーボックスの結果の分析を始める： 
 <b>スタートに必要な資金：</b>は、すべての投資コストに加え、1ヶ月分の運営コスト（材料費、人件費、固定費）を加えたものです。運営費の1ヶ月分が含まれるのは、運営費の最初に月々の費用を支払うのに十分な資金があるためです。もし、「スタートするために必要な資金」が高いと思われるのであれば、スタートするために本当に必要な投資コストをさらに限定してみるのもいいかもしれない。そうすることで、顧客に提供し始めるために本当に重要な要素だけに集中することができるかもしれない。 
 <b>投資回収に必要な月数：</b>は、それがローンであれ、自己資金であれ、銀行から借りたお金であれ、始めるための投資を回収するのにかかる期間を示しています。これは、毎月得られる利益を、あなたが始めた初期投資の返済に充てることを想定しています。これは、銀行やその他の金融機関と取り決める支払いスケジュールや金利などの支払い条件を考慮するものではなく、単に、このビジネスを始めるために必要な初期投資に対するこのビジネスの収益性を考えるのに役立ちます。例えば、多額の投資をしなければならないように見えても、比較的短期間で回収できるかもしれない。一方、初期投資を回収するのに36ヶ月（3年）以上かかる場合は、セルに「長すぎる！」と表示され、初期投資を回収するのに妥当な期間ではないので、より収益性の高い変数に修正する必要があることを伝えます。 
