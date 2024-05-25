@@ -3,7 +3,7 @@ id: businessplan
 title: Business Plan Template 
 sidebar_label: Business Plan Template 
 --- 
-<div class="videocontainer">（ビデオコンテナ）</div 
+<div class="videocontainer">
   <iframe width="800" height="400" src="https://www.youtube.com/embed/IXzcRQNe-hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 </div> 
 <style> 
